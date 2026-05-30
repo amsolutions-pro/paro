@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import { Badge } from "@/src/components/ui/Badge";
 import { Card } from "@/src/components/ui/Card";
 
@@ -45,25 +45,29 @@ export function ManuelClient() {
     return () => clearTimeout(t);
   }, [search]);
 
-  const load = useCallback(async () => {
-    setLoading(true);
+  useEffect(() => {
+    let cancelled = false;
     const params = new URLSearchParams({ page: String(page), limit: "20" });
     if (activeLetter) params.set("letter", activeLetter);
     if (debouncedSearch) params.set("search", debouncedSearch);
-    const res = await fetch(`/api/manuel?${params}`);
-    const data = (await res.json()) as { groups: Group[]; total: number; pages: number };
-    setGroups(data.groups);
-    setTotal(data.total);
-    setPages(data.pages);
-    setLoading(false);
+    fetch(`/api/manuel?${params}`)
+      .then((r) => r.json())
+      .then((data: { groups: Group[]; total: number; pages: number }) => {
+        if (!cancelled) {
+          setGroups(data.groups);
+          setTotal(data.total);
+          setPages(data.pages);
+          setLoading(false);
+        }
+      })
+      .catch(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, [activeLetter, debouncedSearch, page]);
-
-  useEffect(() => { void load(); }, [load]);
 
   function toggleGroup(id: string) {
     setExpandedGroups((prev) => {
       const next = new Set(prev);
-      next.has(id) ? next.delete(id) : next.add(id);
+      if (next.has(id)) { next.delete(id); } else { next.add(id); }
       return next;
     });
   }

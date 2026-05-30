@@ -1,14 +1,11 @@
 "use client";
 
-import { useState } from "react";
 import Link from "next/link";
 import { EXERCISE_TYPE_META, EXERCISE_TYPES } from "@/src/lib/exercise-types";
 import { Card } from "@/src/components/ui/Card";
 import { Badge } from "@/src/components/ui/Badge";
 
 export function ExercicesClient() {
-  const [selected, setSelected] = useState<string | null>(null);
-
   return (
     <div className="flex flex-col gap-6">
       <h1 className="font-serif text-3xl font-bold">Exercices</h1>

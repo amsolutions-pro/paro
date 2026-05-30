@@ -8,7 +8,8 @@ interface Props {
   disabled: boolean;
 }
 
-export function VraiFauxRenderer({ payload, onSubmit, disabled }: Props) {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export function VraiFauxRenderer({ payload: _payload, onSubmit, disabled }: Props) {
   const [value, setValue] = useState<boolean | null>(null);
   const [justification, setJustification] = useState("");
 

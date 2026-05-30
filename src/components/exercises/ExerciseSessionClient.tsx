@@ -31,14 +31,14 @@ export function ExerciseSessionClient({
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    setLoading(true);
+    let cancelled = false;
     fetch(`/api/exercices?type=${type}&limit=10`)
       .then((r) => r.json())
       .then((d: { items: Item[] }) => {
-        setItems(d.items);
-        setLoading(false);
+        if (!cancelled) { setItems(d.items); setLoading(false); }
       })
-      .catch(() => setLoading(false));
+      .catch(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
   }, [type]);
 
   function handleResult(correct: boolean) {
