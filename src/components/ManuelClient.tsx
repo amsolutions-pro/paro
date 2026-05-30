@@ -28,26 +28,21 @@ interface Group {
 
 const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
 
-/** Sépare "[IPA] · étymologie" → { ipa, etymology } */
+/** Separe "[IPA] · etymologie" → { ipa, etymology } */
 function parseOrigin(origin: string): { ipa: string; etymology: string } {
   const m = origin.match(/^(\[.+?\])\s*·\s*(.+)$/);
   if (m) return { ipa: m[1], etymology: m[2] };
   return { ipa: "", etymology: origin };
 }
 
-/** Carte d'un mot — suit la structure du manuel fr-hy */
-function WordCard({ word, showExamples, onToggleExamples }: {
-  word: Word;
-  showExamples: boolean;
-  onToggleExamples: () => void;
-}) {
+/** Carte d'un mot — structure fr-hy ; les exemples sont controles par le groupe */
+function WordCard({ word, showExamples }: { word: Word; showExamples: boolean }) {
   const { ipa, etymology } = word.origin ? parseOrigin(word.origin) : { ipa: "", etymology: "" };
-  const hasExamples = word.examples.length > 0;
 
   return (
     <div className="border-grege-300 rounded-lg border p-3 flex flex-col gap-2">
 
-      {/* ① En-tête : mot + catégorie */}
+      {/* En-tete : mot + categorie */}
       <div className="flex items-baseline gap-2 flex-wrap">
         <span className="font-serif text-base font-semibold">{word.headword}</span>
         {word.category && (
@@ -55,7 +50,7 @@ function WordCard({ word, showExamples, onToggleExamples }: {
         )}
       </div>
 
-      {/* ② Prononciation IPA + étymologie */}
+      {/* Prononciation IPA + etymologie */}
       {word.origin && (
         <p className="text-encre-soft text-xs italic leading-snug">
           {ipa && <span className="font-mono not-italic text-lavande-600">{ipa}</span>}
@@ -64,10 +59,10 @@ function WordCard({ word, showExamples, onToggleExamples }: {
         </p>
       )}
 
-      {/* ③ Définition */}
+      {/* Definition */}
       <p className="text-encre text-sm leading-relaxed">{word.definition}</p>
 
-      {/* ④ Traduction arménienne — mise en valeur */}
+      {/* Traduction armenienne */}
       {word.translationHy && (
         <div className="border-l-2 border-armenien pl-2 mt-1">
           <p lang="hy" className="hy text-sm font-medium text-armenien leading-relaxed">
@@ -76,65 +71,55 @@ function WordCard({ word, showExamples, onToggleExamples }: {
         </div>
       )}
 
-      {/* ⑤ Synonymes */}
+      {/* Synonymes */}
       {word.synonyms && (
         <p className="text-encre-soft text-xs">
           <span className="font-medium">Syn. :</span> {word.synonyms}
         </p>
       )}
 
-      {/* ⑥ Accordéon exemples */}
-      {hasExamples && (
-        <div>
-          <button
-            type="button"
-            onClick={onToggleExamples}
-            className="text-lavande-500 hover:text-lavande-700 flex items-center gap-1 text-xs font-medium transition-colors"
-            aria-expanded={showExamples}
-          >
-            <span
-              className={`inline-block transition-transform duration-150 ${showExamples ? "rotate-90" : ""}`}
-              aria-hidden
+      {/* Exemples — affiches si le groupe a ouvert ses exemples */}
+      {showExamples && word.examples.length > 0 && (
+        <ul className="mt-1 space-y-1 pl-1 border-t border-grege-200 pt-2">
+          {word.examples.map((ex, i) => (
+            <li
+              key={i}
+              className="text-encre-soft text-xs font-serif italic before:content-['« '] after:content-[' »']"
             >
-              ▶
-            </span>
-            {showExamples ? "Masquer les exemples" : "Voir les exemples"}
-          </button>
-
-          {showExamples && (
-            <ul className="mt-2 space-y-1 pl-1">
-              {word.examples.map((ex, i) => (
-                <li key={i} className="text-encre-soft text-xs font-serif italic before:content-['« '] after:content-[' »']">
-                  {ex}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
+              {ex}
+            </li>
+          ))}
+        </ul>
       )}
     </div>
   );
 }
 
-/** Table « Mise en regard » — synthèse bilingue du groupe */
+/** Table "Mise en regard" — synthese bilingue du groupe */
 function MiseEnRegard({ words }: { words: Word[] }) {
-  const withAr = words.filter(w => w.translationHy);
+  const withAr = words.filter((w) => w.translationHy);
   if (withAr.length < 2) return null;
 
   return (
     <div className="mt-1">
       <p className="text-encre text-xs font-semibold uppercase tracking-wide mb-2 flex items-center gap-2">
-        <span lang="hy" className="hy text-armenien">Mise en regard</span>
-        <span className="text-encre-soft font-normal normal-case tracking-normal">· synthèse fr — hy</span>
+        <span>Mise en regard</span>
+        <span className="text-encre-soft font-normal normal-case tracking-normal">
+          · synthese fr — hy
+        </span>
       </p>
       <div className="overflow-x-auto rounded-lg border border-grege-300">
         <table className="w-full text-xs">
           <thead>
             <tr className="bg-grege-100 text-encre-soft">
               <th className="px-3 py-2 text-left font-medium">Français</th>
-              <th className="px-3 py-2 text-left font-medium hidden sm:table-cell">Définition</th>
+              <th className="px-3 py-2 text-left font-medium hidden sm:table-cell">
+                Définition
+              </th>
               <th className="px-3 py-2 text-left font-medium">
-                <span lang="hy" className="hy text-armenien">Հայերեն</span>
+                <span lang="hy" className="hy text-armenien">
+                  Հայerën
+                </span>
               </th>
             </tr>
           </thead>
@@ -144,7 +129,9 @@ function MiseEnRegard({ words }: { words: Word[] }) {
                 <td className="px-3 py-2 font-serif font-semibold align-top whitespace-nowrap">
                   {w.headword}
                   {w.category && (
-                    <span className="ml-1 font-sans font-normal text-encre-soft italic">{w.category}</span>
+                    <span className="ml-1 font-sans font-normal text-encre-soft italic">
+                      {w.category}
+                    </span>
                   )}
                 </td>
                 <td className="px-3 py-2 text-encre-soft align-top hidden sm:table-cell">
@@ -152,7 +139,9 @@ function MiseEnRegard({ words }: { words: Word[] }) {
                 </td>
                 <td className="px-3 py-2 align-top">
                   {w.translationHy ? (
-                    <span lang="hy" className="hy text-armenien font-medium">{w.translationHy}</span>
+                    <span lang="hy" className="hy text-armenien font-medium">
+                      {w.translationHy}
+                    </span>
                   ) : (
                     <span className="text-encre-soft italic">—</span>
                   )}
@@ -176,7 +165,8 @@ export function ManuelClient() {
   const [pages, setPages] = useState(1);
   const [loading, setLoading] = useState(false);
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set());
-  const [expandedExamples, setExpandedExamples] = useState<Set<string>>(new Set());
+  /** Groupes dont on affiche les exemples (toggle unique par groupe) */
+  const [groupsWithExamples, setGroupsWithExamples] = useState<Set<string>>(new Set());
 
   useEffect(() => {
     const t = setTimeout(() => setDebouncedSearch(search), 300);
@@ -198,22 +188,40 @@ export function ManuelClient() {
           setLoading(false);
         }
       })
-      .catch(() => { if (!cancelled) setLoading(false); });
-    return () => { cancelled = true; };
+      .catch(() => {
+        if (!cancelled) setLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
   }, [activeLetter, debouncedSearch, page]);
 
   function toggleGroup(id: string) {
     setExpandedGroups((prev) => {
       const next = new Set(prev);
-      if (next.has(id)) { next.delete(id); } else { next.add(id); }
+      if (next.has(id)) {
+        next.delete(id);
+        // Ferme aussi les exemples quand on replie le groupe
+        setGroupsWithExamples((prevEx) => {
+          const nextEx = new Set(prevEx);
+          nextEx.delete(id);
+          return nextEx;
+        });
+      } else {
+        next.add(id);
+      }
       return next;
     });
   }
 
-  function toggleExamples(wordId: string) {
-    setExpandedExamples((prev) => {
+  function toggleGroupExamples(groupId: string) {
+    setGroupsWithExamples((prev) => {
       const next = new Set(prev);
-      if (next.has(wordId)) { next.delete(wordId); } else { next.add(wordId); }
+      if (next.has(groupId)) {
+        next.delete(groupId);
+      } else {
+        next.add(groupId);
+      }
       return next;
     });
   }
@@ -225,6 +233,8 @@ export function ManuelClient() {
     setDebouncedSearch("");
   }
 
+  const hasExamplesInGroup = (g: Group) => g.words.some((w) => w.examples.length > 0);
+
   return (
     <div className="flex flex-col gap-6">
       <h1 className="font-serif text-3xl font-bold">Manuel des paronymes</h1>
@@ -235,18 +245,27 @@ export function ManuelClient() {
           type="search"
           placeholder="Rechercher un paronyme…"
           value={search}
-          onChange={(e) => { setSearch(e.target.value); setPage(1); }}
+          onChange={(e) => {
+            setSearch(e.target.value);
+            setPage(1);
+          }}
           className="border-grege-300 bg-grege-50 focus:border-lavande-500 w-full rounded-lg border px-3 py-2 text-sm outline-none sm:max-w-xs"
           aria-label="Rechercher dans le manuel"
         />
-        <span className="text-encre-soft text-sm">{total} groupe{total !== 1 ? "s" : ""}</span>
+        <span className="text-encre-soft text-sm">
+          {total} groupe{total !== 1 ? "s" : ""}
+        </span>
       </div>
 
-      {/* Intercalaires alphabétiques */}
-      <nav aria-label="Navigation alphabétique" className="flex flex-wrap gap-1">
+      {/* Intercalaires alphabetiques */}
+      <nav aria-label="Navigation alphabetique" className="flex flex-wrap gap-1">
         <button
           onClick={() => selectLetter(null)}
-          className={`rounded px-2 py-1 text-xs font-medium transition-colors ${activeLetter === null ? "bg-lavande-500 text-white" : "bg-grege-200 text-encre hover:bg-lavande-100"}`}
+          className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
+            activeLetter === null
+              ? "bg-lavande-500 text-white"
+              : "bg-grege-200 text-encre hover:bg-lavande-100"
+          }`}
         >
           Tout
         </button>
@@ -254,7 +273,11 @@ export function ManuelClient() {
           <button
             key={l}
             onClick={() => selectLetter(l)}
-            className={`rounded px-2 py-1 text-xs font-medium transition-colors ${activeLetter === l ? "bg-lavande-500 text-white" : "bg-grege-200 text-encre hover:bg-lavande-100"}`}
+            className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
+              activeLetter === l
+                ? "bg-lavande-500 text-white"
+                : "bg-grege-200 text-encre hover:bg-lavande-100"
+            }`}
             aria-current={activeLetter === l ? "true" : undefined}
           >
             {l}
@@ -271,9 +294,12 @@ export function ManuelClient() {
         <div className="flex flex-col gap-3">
           {groups.map((g) => {
             const expanded = expandedGroups.has(g.id);
+            const showExamples = groupsWithExamples.has(g.id);
+            const hasEx = hasExamplesInGroup(g);
+
             return (
               <Card key={g.id}>
-                {/* En-tête du groupe — accordéon principal */}
+                {/* En-tete du groupe — accordeon principal */}
                 <button
                   className="flex w-full items-start justify-between gap-3 text-left"
                   onClick={() => toggleGroup(g.id)}
@@ -283,14 +309,24 @@ export function ManuelClient() {
                     <span className="font-serif text-lg font-semibold">{g.title}</span>
                     <div className="flex flex-wrap gap-1.5">
                       {g.words.map((w) => (
-                        <Badge key={w.id} variant={w.translationHy ? "armenien" : "default"}>
+                        <Badge
+                          key={w.id}
+                          variant={w.translationHy ? "armenien" : "default"}
+                        >
                           {w.headword}
-                          {w.category && <span className="ml-1 opacity-60 text-[10px]">{w.category}</span>}
+                          {w.category && (
+                            <span className="ml-1 opacity-60 text-[10px]">
+                              {w.category}
+                            </span>
+                          )}
                         </Badge>
                       ))}
                     </div>
                   </div>
-                  <span className="text-lavande-500 mt-1 shrink-0 text-sm" aria-hidden>
+                  <span
+                    className="text-lavande-500 mt-1 shrink-0 text-sm"
+                    aria-hidden
+                  >
                     {expanded ? "▲" : "▼"}
                   </span>
                 </button>
@@ -305,23 +341,41 @@ export function ManuelClient() {
                         <WordCard
                           key={w.id}
                           word={w}
-                          showExamples={expandedExamples.has(w.id)}
-                          onToggleExamples={() => toggleExamples(w.id)}
+                          showExamples={showExamples}
                         />
                       ))}
                     </div>
 
+                    {/* Bouton unique "Afficher / masquer les exemples" pour le groupe entier */}
+                    {hasEx && (
+                      <button
+                        type="button"
+                        onClick={() => toggleGroupExamples(g.id)}
+                        className="self-start flex items-center gap-1.5 rounded-full border border-lavande-300 px-3 py-1 text-xs font-medium text-lavande-600 hover:bg-lavande-50 transition-colors"
+                        aria-expanded={showExamples}
+                      >
+                        <span
+                          className={`inline-block transition-transform duration-150 ${showExamples ? "rotate-90" : ""}`}
+                          aria-hidden
+                        >
+                          ▶
+                        </span>
+                        {showExamples ? "Masquer les exemples" : "Afficher les exemples"}
+                      </button>
+                    )}
+
                     {/* Table Mise en regard */}
                     <MiseEnRegard words={g.words} />
 
-                    {/* Encadré Le bon usage */}
+                    {/* Encadre Le bon usage */}
                     <div className="border-lavande-300 bg-lavande-50 rounded-lg border-l-4 p-3">
                       <p className="text-lavande-700 text-xs font-semibold uppercase tracking-wide">
                         Le bon usage
                       </p>
-                      <p className="text-encre mt-1 text-sm leading-relaxed">{g.summary}</p>
+                      <p className="text-encre mt-1 text-sm leading-relaxed">
+                        {g.summary}
+                      </p>
                     </div>
-
                   </div>
                 )}
               </Card>

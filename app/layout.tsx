@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Noto_Sans, Noto_Serif, Noto_Sans_Armenian } from "next/font/google";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
-import { SiteHeader } from "@/src/components/SiteHeader";
+import { SiteHeaderWithAuth } from "@/src/components/SiteHeaderWithAuth";
 import "./globals.css";
 
 const notoSans = Noto_Sans({
@@ -61,7 +61,7 @@ export default async function RootLayout({
     >
       <body className="bg-grege-100 text-encre flex min-h-full flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <SiteHeader />
+          <SiteHeaderWithAuth />
           <main className="mx-auto w-full max-w-5xl flex-1 px-4 py-8 sm:px-6">{children}</main>
         </NextIntlClientProvider>
       </body>
