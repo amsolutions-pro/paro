@@ -22,6 +22,7 @@ export const wordSchema = z.object({
   synonyms: z.string().nullish(),
   examples: z.array(z.string()).optional().default([]),
   reviewNeeded: z.boolean().optional().default(false),
+  autoFilled: z.boolean().optional().default(false),
 });
 export type WordContent = z.infer<typeof wordSchema>;
 

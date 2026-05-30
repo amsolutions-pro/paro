@@ -9,25 +9,27 @@
         "headword": "abjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "հրաժaravel (հայ․ kron kamel)",
         "definition": "Renoncer solennellement à une religion, une opinion.",
         "synonyms": "renier, abandonner",
         "examples": [
           "Pressé par sa famille, il a fini par abjurer ses anciennes convictions."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "adjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "agherset, van latsnel",
         "definition": "Supplier instamment, au nom de ce qu'il y a de sacré.",
         "synonyms": "supplier, implorer",
         "examples": [
           "Elle l'adjura de ne pas partir."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -129,25 +131,27 @@
         "headword": "affectif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "houzakan, zgatsakan",
         "definition": "Relatif aux affects, aux émotions et aux sentiments.",
         "synonyms": "émotionnel",
         "examples": [
           "Le développement affectif de l'enfant."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "affectueux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "siralir, karogh-siraharj",
         "definition": "Qui témoigne de la tendresse, de l'affection.",
         "synonyms": "tendre, aimant",
         "examples": [
           "Un message affectueux glissé sous la porte."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -279,25 +283,27 @@
         "headword": "anoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "aznvakan kargu sharkel, barchracnel",
         "definition": "Conférer un titre de noblesse à quelqu'un.",
         "synonyms": "élever (à la noblesse)",
         "examples": [
           "Au Moyen Âge, le roi pouvait anoblir un roturier méritant."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "ennoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "barchracnel, katoghel, aznivatstnel",
         "definition": "Élever moralement, donner de la dignité, de la grandeur.",
         "synonyms": "grandir, élever",
         "examples": [
           "Le travail ennoblit l'homme bien plus sûrement qu'un titre héréditaire."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -317,8 +323,12 @@
         "definition": "Le terme « apparier » signifie assortir ou accoupler deux choses pour qu’elles",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Le biologiste a apparie les specimens par paires pour l etude.",
+          "Elle a apparie les chaussettes proprement apres le lavage."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-apparier-appareiller-1",
@@ -329,8 +339,12 @@
         "definition": "Le mot « appareiller » a plusieurs significations selon le contexte :",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Le navire appareilla a l aube sous un beau soleil.",
+          "Ils ont appareille leurs pieces de mobilier pour harmoniser la deco."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -350,8 +364,12 @@
         "definition": "Le terme « apporter » signifie prendre quelque chose avec soi et le transporter",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Il a apporte du vin pour le diner.",
+          "Cette reformme a apporte de nombreux changements."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-apporter-emporter-1",
@@ -419,7 +437,11 @@
         "definition": "Arborer signifie dresser, élever quelque chose ou porter quelque chose de",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Lors de la cérémonie, chaque participant arborait le drapeau de son pays avec fierté.",
+          "Elle a décidé d’arborer son nouveau bijou en or à la fête, attirant l’attention de tous les invités.",
+          "Les manifestants ont arboré des pancartes et des banderoles pour exprimer leurs revendications."
+        ],
         "reviewNeeded": false
       },
       {
@@ -431,7 +453,11 @@
         "definition": "Abhorrer signifie avoir en horreur quelque chose ou quelqu’un. Ce terme est",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il abhorre les mensonges et ne supporte pas qu’on lui cache la vérité.",
+          "Elle abhorrait la violence sous toutes ses formes et militait activement pour la paix.",
+          "Les gens qui abhorrent la malhonnêteté préfèrent travailler dans un environnement transparent et éthique."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -670,8 +696,12 @@
         "definition": "Un carnassier est un être, généralement un animal, qui a un appétit féroce pour la chair et qui chasse d’autres animaux pour se nourrir. Ce terme est souvent utilisé pour décrire des comportements agressifs ou prédateurs.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Le lion, animal carnassier, chasse en groupe.",
+          "Les carnassiers possedent des crocs puissants pour dechirer la chair."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-carnassier-carnivore-1",
@@ -682,8 +712,12 @@
         "definition": "Un carnivore est un être, généralement un animal, qui se nourrit principalement de chair ou de viande. Ce terme est utilisé pour décrire le régime alimentaire d’un animal plutôt que son comportement prédateur.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Le chat est un animal strictement carnivore.",
+          "Les plantes carnivores capturent les insectes pour se nourrir."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -760,8 +794,12 @@
         "definition": "« Cligner » signifie fermer à demi l’œil de manière rapide et répétitive. C’est un",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Il a cligne de l oeil pour lui faire un signe complice.",
+          "Elle ne pouvait s empecher de cligner des yeux a cause du soleil."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-cligner-clignoter-1",
@@ -985,7 +1023,12 @@
         "definition": "La compatibilité désigne la capacité de s’accorder avec quelqu’un ou quelque chose, ou la capacité de coexister ou de fonctionner ensemble sans conflit.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il a vérifié la compatibilité des équipements informatiques.",
+          "(capacité de fonctionner ensemble)",
+          "La compatibilité de leurs horaires leur permettait de passer plus de temps",
+          "ensemble. (capacité de s’accorder)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -997,7 +1040,12 @@
         "definition": "La comptabilité désigne la pratique ou la discipline de tenir les comptes et les registres financiers d’une entreprise ou d’une organisation. Cela implique de suivre, d’enregistrer et de rapporter les transactions financières.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La comptabilité de son commerce doit être tenue par un expert.",
+          "(gestion des finances)",
+          "Elle étudie la comptabilité pour pouvoir gérer efficacement son propre entreprise. (pratique de tenir les comptes)",
+          "Le département de comptabilité est chargé de préparer les états financiers de l’entreprise. (suivi des transactions financières)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1018,7 +1066,12 @@
         "definition": "Le complétage est l’action de compléter quelque chose, généralement une carte,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le topographe réalise le complétage de la carte de la région.",
+          "(ajout d’informations manquantes sur la carte)",
+          "Après le complétage du formulaire, il l’a remis au bureau des admissions.",
+          "(remplissage des espaces vides sur le formulaire)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1030,7 +1083,12 @@
         "definition": "Un complément est un élément qui complète ou enrichit quelque chose d’autre,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il a reçu un complément de salaire. (ajout ou supplément)",
+          "Les légumes frais sont un bon complément à tout repas.",
+          "(ajout ou accompagnement)",
+          "Son témoignage a apporté un complément d’informations à l’enquête."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1042,7 +1100,11 @@
         "definition": "La complémentation est l’action de compléter ou de rendre complet quelque",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le grammairien étudie la complémentation des verbes.",
+          "(ajout des éléments nécessaires pour former une phrase grammaticalement",
+          "La complémentation des compétences est essentielle pour réussir dans ce domaine. (ajout de compétences supplémentaires)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1054,7 +1116,12 @@
         "definition": "La complétude se réfère à l’état de ce qui est complet, entier ou total. C’est le fait",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La complétude de ton travail est nécessaire pour progresser.",
+          "(état d’être complet ou exhaustif)",
+          "L’examen de fin d’année évaluera la complétude de tes connaissances.",
+          "(étendue et exhaustivité des connaissances)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1075,7 +1142,12 @@
         "definition": "Le complétage est l’action de compléter quelque chose, généralement une carte,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le topographe réalise le complétage de la carte de la région.",
+          "(ajout d’informations manquantes sur la carte)",
+          "Après le complétage du formulaire, il l’a remis au bureau des admissions.",
+          "(remplissage des espaces vides sur le formulaire)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1087,7 +1159,12 @@
         "definition": "Un complément est un élément qui complète ou enrichit quelque chose d’autre,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il a reçu un complément de salaire. (ajout ou supplément)",
+          "Les légumes frais sont un bon complément à tout repas.",
+          "(ajout ou accompagnement)",
+          "Son témoignage a apporté un complément d’informations à l’enquête."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1099,8 +1176,12 @@
         "definition": "Paronyme de Complétage, Complément.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": true
+        "examples": [
+          "La complémentation des verbes est étudiée en grammaire.",
+          "La complétude d’un dossier conditionne son traitement."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1136,7 +1217,12 @@
         "definition": "La complexité se réfère à l’état d’une chose complexe, compliquée ou difficile à",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il ne faut pas éluder la complexité du problème.",
+          "(difficulté à comprendre ou à résoudre)",
+          "La complexité de la tâche nécessitait une approche méthodique et réfléchie. (difficulté due à l’interconnexion des éléments)",
+          "La complexité des relations internationales rendait les négociations ardues. (difficulté due aux relations intricables խճճված / embrouillées)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1157,7 +1243,10 @@
         "definition": "« Concréter » signifie durcir ou épaissir une substance, généralement en la",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le froid a concrété l’eau de pluie, formant une couche de glace sur la surface de la route.",
+          "Le béton est un matériau largement utilisé dans la construction, résultant de la concrétion du ciment, de l’eau et des agrégats."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1169,7 +1258,12 @@
         "definition": "« Concrétiser » signifie rendre réelles ou tangibles des idées, des concepts ou des",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Ce projet mérite d’être concrétisé, car il a le potentiel de créer un impact significatif sur la communauté.",
+          "Il est temps de concrétiser nos idées pour voir des progrès tangibles.",
+          "Confirmer et Infirmer",
+          "« Confirmer » et « infirmer » sont des termes antonymes. Bien qu’ils soient opposés dans leur signification, ils sont utilisés pour décrire des actions spécifiques liées à l’affirmation ou à la négation de quelque chose."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1205,7 +1299,10 @@
         "definition": "Explosion accompagnée d’une forte détonation, causée par une combustion très rapide (mais sans onde de choc comme dans une détonation).",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "On a entendu une déflagration dans la rue.",
+          "Sens propre : explosion soudaine (gaz, poudre, etc.)."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1298,25 +1395,27 @@
         "headword": "consommer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "sovorel, tnoutnel",
         "definition": "User d'une ressource, l'utiliser ou la dépenser.",
         "synonyms": "dépenser, utiliser",
         "examples": [
           "Ce moteur consomme trop de carburant pour être rentable."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "consumer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "varel, makhel, katarvel",
         "definition": "Détruire par le feu ; user lentement.",
         "synonyms": "brûler, ronger",
         "examples": [
           "L'incendie a consumé la grange en moins d'une heure."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1352,7 +1451,12 @@
         "definition": "La continuité se réfère au caractère de ce qui est continu, sans interruption ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La continuité entre les régimes politiques est rare. (cohérence ou stabilité)",
+          "La continuité des services publics est essentielle pour le bien-être de la population. (régularité ou persistance)",
+          "Son engagement envers la continuité de l’entreprise est louable.",
+          "(maintien de l’activité sans interruption)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1405,8 +1509,12 @@
         "definition": "« Croire » signifie accorder foi ou confiance à quelque chose ou à quelqu’un. C’est",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Je crois fermement en ses capacites.",
+          "Il croit tout ce qu on lui dit sans verifier."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-croire-croitre-1",
@@ -1417,7 +1525,10 @@
         "definition": "« Croître » signifie augmenter en taille, en nombre ou en importance au fil du",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Ce chêne croît démesurément chaque année, devenant de plus en plus imposant.",
+          "L’économie de ce pays a continué à croître malgré les défis économiques."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1438,7 +1549,12 @@
         "definition": "La cruauté se réfère à un comportement ou une attitude qui cherche à infliger de la souffrance physique ou morale à autrui, souvent de manière délibérée.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le tyran est connu pour sa cruauté. (tendance à faire souffrir)",
+          "On a blâmé la cruauté de ses propos. (caractère offensant ou malveillant)",
+          "Les actes de cruauté envers les animaux sont condamnables.",
+          "(actes de violence ou de maltraitance)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1450,7 +1566,12 @@
         "definition": "La crudité se réfère à la qualité de ce qui est cru, non cuit, ou bien au sens figuré,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La crudité des aliments peut être dangereuse.",
+          "(état de ce qui n’est pas cuit)",
+          "Il a été critiqué pour la crudité de ses blagues.",
+          "(caractère osé ou grossier)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1511,7 +1632,11 @@
         "definition": "Une débiteuse est une personne, généralement une femme, qui débite des",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Ma tante était la plus débiteuse de la famille : toujours une nouvelle aventure à",
+          "Elle est célèbre pour être une débiteuse hors pair lors des soirées.",
+          "La débiteuse du village divertit toujours les enfants avec ses contes fantastiques."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1523,7 +1648,11 @@
         "definition": "Une débitrice est une personne, une femme, qui doit de l’argent ou quelque",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Avec ce prêt, je suis désormais votre débitrice.",
+          "Elle est devenue débitrice envers sa voisine après avoir emprunté son jardinier.",
+          "La société est débitrice envers ses employés pour les salaires du mois dernier."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1582,13 +1711,14 @@
         "headword": "desceller",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "knikqe katotel, tagesahrkel",
         "definition": "Détacher, arracher ce qui était scellé ou fixé.",
         "synonyms": "arracher, défaire",
         "examples": [
           "Les cambrioleurs ont descellé le coffre-fort de son socle."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1608,7 +1738,12 @@
         "definition": "Un déchirement est à la fois l’action de déchirer un tissu ou un matériau et une",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le déchirement des vêtements invendus est scandaleux.",
+          "Ils se sont séparés avec déchirement.  (douleur morale liée à la séparation)",
+          "La décision de partir a causé un grand déchirement dans sa famille.",
+          "(séparation ou division)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1620,7 +1755,12 @@
         "definition": "Une déchirure est la rupture d’un tissu ou d’un matériau, généralement causée",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il a tenté de masquer la déchirure de sa chemise. (rupture du tissu)",
+          "La déchirure du papier a été causée par un geste brusque. (rupture ou fissure)",
+          "Le joueur de rugby a subi une déchirure musculaire lors du match.",
+          "(rupture des fibres musculaires)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1641,7 +1781,10 @@
         "definition": "« Décocher » signifie lancer ou envoyer quelque chose, souvent en utilisant",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il décocha une flèche meurtrière, atteignant sa cible avec une précision mortelle.",
+          "Elle lui décocha un regard méprisant avant de s’éloigner."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1653,8 +1796,12 @@
         "definition": "« Décrocher » signifie détacher quelque chose qui était accroché ou suspendu,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Elle a decroche le tableau pour le nettoyer.",
+          "Il a enfin decroche un emploi apres des mois de recherche."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -1668,25 +1815,27 @@
         "headword": "décrépit",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "mshvats, tseramakh",
         "definition": "Affaibli, usé par la vieillesse (en parlant d'une personne).",
         "synonyms": "sénile, caduc",
         "examples": [
           "Le vieillard décrépit, courbé par l'âge, avançait à petits pas."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "décrépi",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "voroke kaghakel",
         "definition": "Dont le crépi, l'enduit se détache (en parlant d'un mur).",
         "synonyms": "délabré, écaillé",
         "examples": [
           "La façade décrépie de la maison réclamait un ravalement."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1706,7 +1855,10 @@
         "definition": "« Dédicacer » signifie signer concrètement quelque chose pour quelqu’un,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "L’auteur viendra dédicacer son livre samedi à la librairie du quartier.",
+          "Elle a rencontré son acteur préféré qui a gentiment dédicacé une photo pour elle."
+        ],
         "reviewNeeded": false
       },
       {
@@ -1718,7 +1870,12 @@
         "definition": "« Dédier » signifie offrir ou consacrer quelque chose à quelqu’un ou à une cause",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Ce poème est dédié à une dame de la cour, en signe d’admiration pour sa gentillesse et son soutien.",
+          "Il a dédié son premier roman à ses parents, qui l’ont soutenu tout au long de son parcours d’écrivain.",
+          "« Dédicacer » se rapporte à la signature personnalisée d’un objet pour quelqu’un, tandis que",
+          "« dédier » se réfère à l’offrande ou à la consécration de quelque chose à quelqu’un ou à une cause spécifique. Comprendre ces nuances est essentiel pour une communication précise en français."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1733,13 +1890,14 @@
         "headword": "défendeur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "ambastanyal (dativar)",
         "definition": "Personne contre laquelle une demande en justice est formée.",
         "synonyms": "partie défenderesse",
         "examples": [
           "La personne poursuivie en justice est appelée le défendeur."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "défenseur",
@@ -1765,25 +1923,27 @@
         "headword": "dénotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "ugghaki nshanakutyamb",
         "definition": "Qui relève du sens premier, neutre et littéral d'un mot.",
         "synonyms": "littéral, neutre",
         "examples": [
           "Un texte dénotatif vise la neutralité du propos."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "connotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "anugghaki nshanakutyamb",
         "definition": "Qui relève des sens implicites, affectifs ou culturels d'un mot.",
         "synonyms": "implicite, suggestif",
         "examples": [
           "Le texte connotatif privilégie les sens implicites et les connotations."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1838,25 +1998,27 @@
         "headword": "dénué",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "zurk, pakhavarel",
         "definition": "Dépourvu de, qui manque de.",
         "synonyms": "dépourvu, privé",
         "examples": [
           "Son réquisitoire était dénué du moindre fondement."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "dénudé",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "merk, batservats",
         "definition": "Mis à nu, dépouillé de ce qui couvre.",
         "synonyms": "nu, dépouillé",
         "examples": [
           "En hiver, les arbres dénudés bordaient l'allée."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -1876,7 +2038,12 @@
         "definition": "La dépréciation fait référence à une perte de valeur, en particulier en ce qui concerne la diminution de la valeur monétaire d’un bien ou d’une devise.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La dépréciation du dollar entraîna une crise boursière.",
+          "(perte de valeur d’une devise)",
+          "La dépréciation des actifs de l’entreprise a affecté ses profits.",
+          "(perte de valeur des biens ou des actifs)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1888,8 +2055,12 @@
         "definition": "La déprécation est une prière pour obtenir le pardon ou la miséricorde, souvent adressée à une divinité ou à une autorité supérieure.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "La deprecation rituelle implore la clemence divine.",
+          "Son discours n etait qu une deprecation adressée aux autorites."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-depreciation-deprecation-depredation-2",
@@ -1900,8 +2071,12 @@
         "definition": "La déprédation désigne une dégradation, une destruction ou un pillage, généralement commis par des individus ou des groupes.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Les troupes ont commis des déprédations dans les villages traversés.",
+          "Les déprédations causées par la tempête sont considérables."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -1921,7 +2096,12 @@
         "definition": "La désaffection fait référence à la perte d’affection ou d’intérêt pour quelque",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La désaffection du public a entraîné la fermeture du théâtre.",
+          "(perte d’intérêt ou de soutien)",
+          "Sa désaffection envers son ancien ami était évidente.",
+          "(perte d’affection)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1933,7 +2113,11 @@
         "definition": "La désaffectation est l’action de ne plus utiliser ou d’abandonner quelque chose,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Après sa désaffectation, l’usine fut laissée à l’abandon.",
+          "La désaffectation du bâtiment a été suivie d’une rénovation complète.",
+          "La désaffectation des terrains militaires a suscité des débats sur leur"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1954,7 +2138,12 @@
         "definition": "La désagrégation désigne l’action de séparer ce qui est uni, de briser ou de",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La désagrégation du parti a conduit à son échec électoral.",
+          "(action de séparer ou de diviser un groupe)",
+          "Le sol était sujet à une désagrégation rapide en raison de l’érosion.",
+          "(action de se briser ou de se disperser)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1966,7 +2155,12 @@
         "definition": "La désintégration est l’action de décomposer en particules ou en éléments",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La désintégration de la navette spatiale fut spectaculaire.",
+          "(action de se désagréger en particules ou en morceaux)",
+          "Les éléments radioactifs subissent une désintégration naturelle.",
+          "(action de se décomposer en éléments plus petits)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -1987,7 +2181,12 @@
         "definition": "Le désintérêt signifie l’indifférence ou le manque d’intérêt pour quelque chose",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Ce livre ne suscite que du désintérêt pour les personnages.",
+          "(manque d’intérêt ou d’enthousiasme)",
+          "Il a exprimé son désintérêt pour la politique en refusant de voter.",
+          "(manque d’intérêt pour un sujet)"
+        ],
         "reviewNeeded": false
       },
       {
@@ -1999,7 +2198,12 @@
         "definition": "Le désintéressement peut avoir deux significations :",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La plaignante s’est satisfaite du désintéressement proposé.",
+          "(action de dédommager ou de rembourser)",
+          "Sa conduite est pleine de noblesse et de désintéressement.",
+          "(absence d’intérêt personnel ou d’avantages personnels)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -2020,8 +2224,12 @@
         "definition": "« Détendre » signifie relâcher ce qui est tendu ou contracté, souvent en référence",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Une musique douce aide a se detendre apres une journee stressante.",
+          "Il a detend le ressort en le relachant doucement."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-detendre-distendre-1",
@@ -2032,8 +2240,12 @@
         "definition": "« Distendre » signifie soumettre quelque chose à une forte tension, étirement ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "La corde s est distendue sous le poids de la charge.",
+          "Un estomac distend par un repas trop copieux."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -2059,7 +2271,7 @@
         "headword": "différent",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "tarber",
         "definition": "Qui n'est pas identique, qui diffère.",
         "synonyms": "distinct, autre",
         "examples": [
@@ -2079,7 +2291,7 @@
         "headword": "différer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "tarbervel, hetadrkel",
         "definition": "Remettre à plus tard, retarder.",
         "synonyms": "ajourner, reporter",
         "examples": [
@@ -2091,7 +2303,7 @@
         "headword": "déférer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "entarkvam, hoghos lkanel",
         "definition": "Traduire, transmettre devant une autorité judiciaire.",
         "synonyms": "traduire (en justice)",
         "examples": [
@@ -2281,7 +2493,11 @@
         "definition": "L’effusion désigne une manifestation de tendresse, une expression chaleureuse",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "C’est avec effusion que les sœurs se sont retrouvées après des années de",
+          "L’effusion de joie dans la salle était palpable lorsque l’équipe a remporté le",
+          "Elle a remercié son ami avec effusion pour son soutien inconditionnel."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2293,7 +2509,11 @@
         "definition": "Une infusion est une boisson obtenue en faisant infuser des plantes dans de l’eau",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Je bois une infusion chaque soir pour me détendre avant de me coucher.",
+          "Les infusions de camomille sont réputées pour leurs effets apaisants sur l’estomac.",
+          "Elle prépare une infusion de menthe fraîche pour ses invités."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -2308,27 +2528,29 @@
         "headword": "émigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "arta-gaghtegh linel",
         "definition": "Quitter son pays pour s'établir ailleurs.",
         "origin": "du latin emigrare « partir de »",
         "synonyms": "s'expatrier, partir",
         "examples": [
           "Beaucoup ont émigré pour fuir la misère."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "immigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "nor erkir gaghtegh linel",
         "definition": "Entrer dans un pays étranger pour s'y établir.",
         "origin": "du latin immigrare « entrer dans »",
         "synonyms": "s'installer, arriver",
         "examples": [
           "Ses grands-parents ont immigré en France dans les années 1920."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -2342,25 +2564,27 @@
         "headword": "éminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "bardzrutyun, metsatsutyun",
         "definition": "Élévation de terrain ; par extension, dignité, haut rang.",
         "synonyms": "hauteur, dignité",
         "examples": [
           "Le château se dresse sur une éminence."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "imminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "motalutyun, anmijakan majerdzutyun",
         "definition": "Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
         "synonyms": "proximité, approche",
         "examples": [
           "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -2597,25 +2821,27 @@
         "headword": "express",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "arag, arjanavar",
         "definition": "Rapide ; qui se fait ou circule vite (café serré, train direct).",
         "synonyms": "rapide, direct",
         "examples": [
           "Au comptoir, il commanda un café express bien serré."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "exprès",
         "category": "adv.",
         "posClass": "AUTRE",
-        "translationHy": "",
+        "translationHy": "ditavorerek, hashes",
         "definition": "À dessein, intentionnellement.",
         "synonyms": "délibérément, volontairement",
         "examples": [
           "Il a laissé la porte ouverte exprès."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -2635,7 +2861,11 @@
         "definition": "Une écaille est une petite plaque ou une membrane qui recouvre la peau de",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il faut enlever les écailles du poisson avant de le cuire.",
+          "Les serpents muent régulièrement pour se débarrasser de leurs écailles usées.",
+          "L’écaille de ce poisson tropical est d’une beauté éblouissante."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2647,7 +2877,12 @@
         "definition": "Une écale est l’enveloppe ou la coquille recouvrant certains fruits, graines ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Les écales des noix et des noisettes sont riches en vitamines.",
+          "(coquille des fruits à coque)",
+          "Il a passé l’après-midi à casser des écales de pistaches.",
+          "(enveloppe des graines)"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -2668,7 +2903,11 @@
         "definition": "Une éclipse est l’occultation partielle ou totale d’un astre par un autre astre.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Nous avons assisté à une éclipse solaire. (occultation du soleil par la lune)",
+          "L’éclipse lunaire a plongé la ville dans l’obscurité. (occultation de la lune par la",
+          "Il existe plusieurs types d’éclipses : solaires, lunaires, partielles, totales, etc."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2705,7 +2944,11 @@
         "definition": "Une épigramme est un court poème satirique ou humoristique qui exprime",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le poète a écrit une épigramme cinglante sur les politiciens corrompus.",
+          "Son recueil de poésie comprend plusieurs épigrammes humoristiques sur la vie quotidienne.",
+          "Les épigrammes étaient populaires dans la littérature grecque et latine."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2717,8 +2960,12 @@
         "definition": "Une épigraphe est une citation, un texte ou une inscription placée au début d’un livre, d’un chapitre, d’un article ou d’un monument, servant souvent à introduire le thème ou le ton de l’œuvre.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "L auteur a choisi une epigraphe de Montaigne pour ouvrir son roman.",
+          "L epigraphe gravee sur le fronton rappelle la date de fondation."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -2779,8 +3026,12 @@
         "definition": "Flairer signifie sentir une odeur, généralement en utilisant le sens de l’odorat,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Le chien a flaire la piste pendant des heures.",
+          "Elle a flaire le danger bien avant que les autres s en apercoivent."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-flairer-fleurer-1",
@@ -2791,8 +3042,12 @@
         "definition": "Fleurer signifie répandre une odeur, généralement de manière agréable ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Ce jardin fleure bon la rose en ete.",
+          "La vieille maison fleurait la cire et le bois chauffe."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -2812,7 +3067,12 @@
         "definition": "Le terme « funèbre » est utilisé pour qualifier ce qui appartient aux funérailles",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le cortège funèbre s’élança vers le Père-Lachaise.",
+          "La musique funèbre jouée lors de la cérémonie était empreinte de tristesse et",
+          "L’ambiance dans la salle était empreinte d’une atmosphère funèbre, tout le",
+          "monde était silencieux et pensif."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2824,7 +3084,12 @@
         "definition": "Le mot « funéraire » est utilisé pour décrire ce qui concerne les funérailles",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Les rites funéraires égyptiens sont complexes et riches en symboles.",
+          "L’exposition présentait une collection d’artefacts funéraires datant de",
+          "Les fleurs funéraires étaient disposées autour du cercueil, créant un cadre",
+          "solennel pour la cérémonie."
+        ],
         "reviewNeeded": false
       },
       {
@@ -2918,7 +3183,11 @@
         "definition": "L’émigration est l’action de quitter son pays pour aller vivre de façon",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Au XIXe siècle, de nombreux Européens ont choisi l’émigration vers les États-Unis pour échapper à la pauvreté et chercher de nouvelles opportunités.",
+          "L’émigration massive peut avoir des effets importants sur le pays d’origine, notamment en termes de perte de main-d’œuvre qualifiée.",
+          "Les raisons de l’émigration peuvent être variées, incluant des motifs économiques, politiques ou climatiques."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -2974,27 +3243,29 @@
         "headword": "inculper",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "katarvakut, metshadatel",
         "definition": "Mettre en accusation, imputer une faute à quelqu'un.",
         "origin": "du latin culpa « faute »",
         "synonyms": "accuser, mettre en examen",
         "examples": [
           "Le procureur a décidé d'inculper le suspect dès la fin de la garde à vue."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "inculquer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ambetsnel, krtsutyun tanel",
         "definition": "Faire entrer durablement dans l'esprit par une instruction répétée.",
         "origin": "du latin inculcare « faire entrer en foulant »",
         "synonyms": "enseigner, transmettre",
         "examples": [
           "Ses parents lui ont inculqué le goût de l'effort."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -3339,7 +3610,11 @@
         "definition": "La législation désigne l’ensemble des lois et des règlements établis par un",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "J’ignore la législation relative à l’exportation des aliments, je devrais consulter un expert en droit commercial.",
+          "Le gouvernement a récemment adopté une nouvelle législation visant à renforcer la protection de l’environnement.",
+          "La législation sur la sécurité routière impose le port de la ceinture de sécurité pour tous les passagers d’un véhicule."
+        ],
         "reviewNeeded": false
       },
       {
@@ -3351,7 +3626,11 @@
         "definition": "La législature désigne la durée du mandat d’une assemblée législative, c’est-à-",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il mena de nombreuses réformes durant cette législature, contribuant ainsi à façonner l’avenir du pays.",
+          "La législature actuelle prendra fin l’année prochaine, et de nouvelles élections auront lieu pour choisir de nouveaux représentants.",
+          "La législature a voté à une large majorité en faveur de la réforme de la santé proposée par le gouvernement."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -3372,8 +3651,12 @@
         "definition": "La libération désigne le fait de délivrer ou de rendre libre une personne, une population ou un territoire d’une oppression, d’une contrainte ou d’une domination. C’est un terme utilisé pour décrire un acte de libération physique, politique ou psychologique.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "La liberation de la ville fut celebree avec une immense fete.",
+          "La liberation des otages a necessité des mois de negociation."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-liberation-liberalisation-1",
@@ -3384,7 +3667,11 @@
         "definition": "La libéralisation désigne le processus de rendre un État plus libéral économiquement ou politiquement, en réduisant les restrictions gouvernementales et en favorisant la concurrence sur les marchés. C’est un terme utilisé dans le contexte des politiques économiques pour promouvoir la liberté économique et l’ouverture des marchés.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il prône la libéralisation économique au détriment des acquis sociaux, affirmant que cela favorisera la croissance économique et la prospérité.",
+          "La libéralisation des échanges commerciaux a permis l’essor du commerce international et la croissance des économies émergentes.",
+          "La libéralisation des médias a conduit à une plus grande diversité de voix et d’opinions dans le paysage médiatique."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -3399,25 +3686,27 @@
         "headword": "littéral",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "bazakakan, azhkagir",
         "definition": "Qui suit le sens exact, propre des mots.",
         "synonyms": "textuel, exact",
         "examples": [
           "Il a proposé une traduction littérale du contrat."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "littéraire",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "grakanutyan, grakagrakan",
         "definition": "Relatif à la littérature.",
         "synonyms": "culturel",
         "examples": [
           "Un prix littéraire prestigieux."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -3551,7 +3840,11 @@
         "definition": "Maudire signifie jeter une malédiction sur quelqu’un ou quelque chose,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le pharaon a maudit les profanateurs de son tombeau, leur souhaitant une fin tragique pour avoir violé sa sépulture.",
+          "La vieille légende dit que quiconque ose maudire la sorcière subira une série de malheurs sans fin.",
+          "Dans sa colère, il a maudit le voleur qui lui a volé ses biens les plus précieux."
+        ],
         "reviewNeeded": false
       },
       {
@@ -3563,7 +3856,11 @@
         "definition": "Médire signifie dire du mal de quelqu’un, souvent de manière injuste ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "C’est un jaloux qui ne cesse de médire de ses amis, inventant des histoires pour semer la discorde entre eux.",
+          "Elle a été accusée de médire de ses collègues dans le but de les discréditer et de les évincer de leur poste.",
+          "Les ragots et les commérages sont souvent le résultat de personnes qui aiment médire des autres pour se sentir supérieures."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -3578,7 +3875,7 @@
         "headword": "médical",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "bzhshkakan",
         "definition": "Relatif à la médecine et à son exercice.",
         "synonyms": "thérapeutique, sanitaire",
         "examples": [
@@ -3616,7 +3913,11 @@
         "definition": "La natalité désigne le nombre de naissances enregistrées dans une population",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "La natalité des Japonais est en chute libre, ce qui soulève des préoccupations concernant le vieillissement de la population et la diminution de la main-d’œuvre.",
+          "Le gouvernement a mis en place des politiques visant à stimuler la natalité en offrant des incitations financières aux familles qui ont des enfants.",
+          "Le taux de natalité dans les pays en développement est souvent plus élevé en raison de facteurs tels que l’accès limité à la contraception et la tradition familiale."
+        ],
         "reviewNeeded": false
       },
       {
@@ -3628,7 +3929,11 @@
         "definition": "La Nativité se réfère à la naissance de Jésus-Christ dans la tradition chrétienne.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Cette fresque montre la Nativité, représentant la scène de la naissance de Jésus entourée des bergers et des Mages.",
+          "La crèche de Noël met en scène la Nativité avec des figurines représentant Jésus, Marie, Joseph, les anges, les bergers et les Mages.",
+          "Les chrétiens célèbrent la Nativité lors de la fête de Noël, commémorant la naissance de Jésus et son importance spirituelle pour la foi chrétienne."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -3643,7 +3948,7 @@
         "headword": "opportun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "hamaradzaynat, tesaneli",
         "definition": "Qui vient à propos, au moment favorable.",
         "synonyms": "favorable, propice",
         "examples": [
@@ -3655,7 +3960,7 @@
         "headword": "importun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "anjkali, anhamar",
         "definition": "Qui gêne, qui survient ou insiste mal à propos.",
         "synonyms": "gênant, indiscret",
         "examples": [
@@ -3754,7 +4059,7 @@
         "headword": "original",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "bnedrin, bnagir, anmrts",
         "definition": "Qui émane directement de l'auteur ; neuf, singulier.",
         "synonyms": "authentique, inédit",
         "examples": [
@@ -3766,7 +4071,7 @@
         "headword": "originel",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "skezbnayin, nakhnayin",
         "definition": "Qui remonte à l'origine, qui date du commencement.",
         "synonyms": "initial, premier",
         "examples": [
@@ -3807,8 +4112,12 @@
         "definition": "Un postiche est un accessoire, un élément de costume ou un ajout artificiel utilisé pour modifier l’apparence d’une personne, souvent dans un contexte théâtral ou de déguisement. Cela peut inclure des perruques, des barbes, des moustaches, des faux cils, etc.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Il portait une moustache postiche qui glissait sur son visage.",
+          "Ce decor de theatre n est que du carton postiche."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -3822,7 +4131,7 @@
         "headword": "percepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "harukabazhik, granutyun",
         "definition": "Fonctionnaire chargé de collecter les impôts.",
         "synonyms": "receveur",
         "examples": [
@@ -3834,7 +4143,7 @@
         "headword": "précepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "mankavarzh, ousoumnakar",
         "definition": "Personne chargée de l'éducation d'un enfant à domicile.",
         "synonyms": "tuteur, enseignant",
         "examples": [
@@ -3854,7 +4163,7 @@
         "headword": "périphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "sharunakar nshutyun",
         "definition": "Figure désignant une réalité par une expression plus longue qu'un seul mot.",
         "synonyms": "circonlocution",
         "examples": [
@@ -3866,7 +4175,7 @@
         "headword": "paraphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "vcheragrum, nuynatrop sharunakar",
         "definition": "Reformulation développée et explicative d'un texte.",
         "synonyms": "reformulation, glose",
         "examples": [
@@ -3886,7 +4195,7 @@
         "headword": "perpétrer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "karatarel (herguord)",
         "definition": "Commettre (un acte criminel).",
         "synonyms": "commettre, accomplir",
         "examples": [
@@ -3898,7 +4207,7 @@
         "headword": "perpétuer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "sharer, anndaskarel",
         "definition": "Faire durer, transmettre dans le temps.",
         "synonyms": "transmettre, prolonger",
         "examples": [
@@ -3994,7 +4303,10 @@
         "definition": "Une prédication désigne un discours religieux ou moral prononcé par un prédicateur, généralement dans le cadre d’une cérémonie religieuse ou d’un service religieux. C’est un sermon ou un enseignement destiné à édifier ou à enseigner une audience sur des sujets de foi ou de morale.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Bossuet était connu pour ses prédications virulentes qui captivaient l’attention de son auditoire par leur éloquence et leur puissance rhétorique.",
+          "Les prédications du pasteur ont inspiré les fidèles à vivre selon les principes de leur foi et à suivre la voie de la vertu et de la piété."
+        ],
         "reviewNeeded": false
       },
       {
@@ -4006,8 +4318,12 @@
         "definition": "Une prédiction est une déclaration anticipée sur un événement futur, souvent basée sur des informations, des observations ou des croyances. C’est une prophétie ou une prévision concernant ce qui pourrait se produire à un moment ultérieur.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "Sa prediction s est averee juste : il a gagne les elections.",
+          "Les predictions des experts economiques se sont revelees erronees."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       }
     ]
   },
@@ -4021,7 +4337,7 @@
         "headword": "prescription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "bazhakanutyun, nvirmunq",
         "definition": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé.",
         "origin": "du latin praescriptio « ce qui est écrit en tête »",
         "synonyms": "ordonnance, recommandation",
@@ -4034,7 +4350,7 @@
         "headword": "proscription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "ariavarutyun, argelq",
         "definition": "Bannissement, interdiction formelle.",
         "origin": "du latin proscriptio « affichage public d'une condamnation »",
         "synonyms": "bannissement, interdiction",
@@ -4152,7 +4468,12 @@
         "definition": "La rancœur est un sentiment d’amertume et de ressentiment résultant d’une déception ou d’une injustice. Ce terme est utilisé pour décrire une émotion négative plus diffuse et moins active que la rancune.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il ressentait une profonde rancœur après avoir été injustement licencié de son travail.",
+          "La rancœur accumulée au fil des ans a finalement éclaté en une dispute violente.",
+          "Elle cachait sa rancœur derrière un sourire, mais ses yeux trahissaient son ressentiment.",
+          "Ranimer et Réanimer"
+        ],
         "reviewNeeded": false
       }
     ]
@@ -4218,7 +4539,7 @@
         "headword": "repartir",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "krnov veradarnal, vert nayel",
         "definition": "Partir de nouveau, reprendre la route ou une activité.",
         "synonyms": "repartir, reprendre",
         "examples": [
@@ -4244,8 +4565,12 @@
         "definition": "Le terme « respectable » qualifie quelque chose qui peut être respecté, estimé ou",
         "origin": null,
         "synonyms": null,
-        "examples": [],
-        "reviewNeeded": false
+        "examples": [
+          "C est une dame tres respectable que tout le quartier apprecie.",
+          "Il a eu une carriere respectable mais sans eclat particulier."
+        ],
+        "reviewNeeded": false,
+        "autoFilled": true
       },
       {
         "id": "new-respectable-respectueux-1",
@@ -4256,7 +4581,11 @@
         "definition": "Le mot « respectueux » qualifie quelqu’un qui agit avec respect envers les autres,",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Son attitude respectueuse et discrète lui a valu des éloges de la part de ses collègues et de ses supérieurs, qui apprécient sa gentillesse et son empathie envers les autres.",
+          "Les enfants ont été éduqués dans un environnement respectueux, où le respect des aînés et des autorités est une valeur fondamentale.",
+          "Il est important d’être respectueux envers les cultures et les croyances des autres, même si elles diffèrent des nôtres, afin de favoriser la compréhension et la tolérance mutuelle."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -4343,7 +4672,7 @@
         "headword": "spécieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "yerkev-knats, klganots",
         "definition": "Qui n'a qu'une apparence de vérité ; trompeur.",
         "synonyms": "fallacieux, trompeur",
         "examples": [
@@ -4355,7 +4684,7 @@
         "headword": "spacieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "luynaket, lchatsutyan",
         "definition": "Qui est vaste, où l'on a de l'espace.",
         "synonyms": "vaste, ample",
         "examples": [
@@ -4463,7 +4792,10 @@
         "definition": "Le végétarisme est un régime alimentaire qui exclut la consommation de viande",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Il s’est converti au végétarisme, donc il mange du fromage et des œufs, mais il évite la viande et le poisson.",
+          "De plus en plus de restaurants proposent des options végétariennes pour répondre à la demande croissante de ce mode de vie."
+        ],
         "reviewNeeded": false
       },
       {
@@ -4475,7 +4807,10 @@
         "definition": "Le végétalisme est un régime alimentaire qui va au-delà du végétarisme en excluant non seulement la viande, mais aussi tous les produits d’origine animale, y compris les produits laitiers, les œufs, le miel et même les produits dérivés comme la gélatine. Les végétaliens adoptent souvent ce régime pour des raisons éthiques liées à la protection des animaux et de l’environnement.",
         "origin": null,
         "synonyms": null,
-        "examples": [],
+        "examples": [
+          "Le végétalisme prône le respect absolu de la vie animale, en évitant non seulement la consommation de viande, mais aussi tous les produits dérivés des animaux.",
+          "Elle a choisi de suivre un régime végétalien pour des raisons éthiques, évitant ainsi tous les produits d’origine animale dans son alimentation."
+        ],
         "reviewNeeded": false
       }
     ]
@@ -4490,7 +4825,7 @@
         "headword": "vénéneux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "bakhanavet (botanikal)",
         "definition": "Toxique par ingestion (plante, champignon).",
         "synonyms": "toxique, empoisonné",
         "examples": [
@@ -4502,7 +4837,7 @@
         "headword": "venimeux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "akhtavavet (kensabanakal)",
         "definition": "Qui inocule un venin (animal qui mord ou pique).",
         "synonyms": "venéneux (à tort), perfide (fig.)",
         "examples": [
@@ -4575,7 +4910,7 @@
         "headword": "renverser",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "kraketel, shtkel",
         "definition": "Faire tomber, répandre accidentellement.",
         "synonyms": "répandre, faire tomber",
         "examples": [

@@ -86,6 +86,7 @@ model Word {
   synonyms      String?
   examples      String // JSON: string[]
   reviewNeeded  Boolean      @default(false)
+  autoFilled    Boolean      @default(false)
 }
 
 model ExerciseItem {

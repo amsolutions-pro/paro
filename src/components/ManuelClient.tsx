@@ -15,6 +15,7 @@ interface Word {
   synonyms?: string | null;
   examples: string[];
   reviewNeeded: boolean;
+  autoFilled?: boolean;
 }
 
 interface Group {
@@ -47,6 +48,14 @@ function WordCard({ word, showExamples }: { word: Word; showExamples: boolean })
         <span className="font-serif text-base font-semibold">{word.headword}</span>
         {word.category && (
           <span className="text-encre-soft text-xs italic">{word.category}</span>
+        )}
+        {word.autoFilled && (
+          <span
+            title="Données complétées par recherche — à vérifier"
+            className="ml-auto text-[10px] font-medium text-red-500 border border-red-300 rounded px-1 py-0.5 shrink-0"
+          >
+            ✎ auto
+          </span>
         )}
       </div>
 
