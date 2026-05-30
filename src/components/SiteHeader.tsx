@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
+import { useState, useEffect } from "react";
 
 const LINKS = [
   { href: "/manuel", key: "manuel" as const },
@@ -11,25 +12,34 @@ const LINKS = [
   { href: "/tableau-de-bord", key: "tableauDeBord" as const },
 ];
 
-/**
- * Barre persistante permettant de basculer instantanément entre Manuel,
- * Exercices, Révision et Tableau de bord (cf. §7 « navigation fluide »).
- */
 export function SiteHeader() {
   const t = useTranslations("nav");
   const tApp = useTranslations("app");
   const pathname = usePathname();
+  const [open, setOpen] = useState(false);
+
+  // Ferme le menu au changement de page.
+  useEffect(() => { setOpen(false); }, [pathname]);
+
+  // Empêche le scroll du body quand le menu est ouvert.
+  useEffect(() => {
+    document.body.style.overflow = open ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [open]);
 
   return (
-    <header className="border-grege-300 bg-grege-50/80 sticky top-0 z-30 border-b backdrop-blur">
+    <header className="border-grege-300 bg-grege-50/90 sticky top-0 z-30 border-b backdrop-blur">
       <nav
         aria-label="Navigation principale"
-        className="mx-auto flex w-full max-w-5xl items-center gap-2 px-4 py-3 sm:gap-4 sm:px-6"
+        className="mx-auto flex w-full max-w-5xl items-center px-4 py-3 sm:px-6"
       >
-        <Link href="/" className="mr-auto flex items-baseline gap-2">
+        {/* Logo / titre */}
+        <Link href="/" className="mr-auto flex items-baseline gap-2" onClick={() => setOpen(false)}>
           <span className="font-serif text-lg font-semibold tracking-tight">{tApp("title")}</span>
         </Link>
-        <ul className="flex items-center gap-1 sm:gap-2">
+
+        {/* Liens desktop (sm+) */}
+        <ul className="hidden sm:flex items-center gap-1">
           {LINKS.map(({ href, key }) => {
             const active = pathname === href || pathname.startsWith(`${href}/`);
             return (
@@ -38,7 +48,7 @@ export function SiteHeader() {
                   href={href}
                   aria-current={active ? "page" : undefined}
                   className={[
-                    "rounded-md px-2.5 py-1.5 text-sm font-medium transition-colors sm:px-3",
+                    "rounded-md px-3 py-1.5 text-sm font-medium transition-colors",
                     active
                       ? "bg-lavande-500 text-white"
                       : "text-encre-soft hover:bg-lavande-100 hover:text-encre",
@@ -50,7 +60,46 @@ export function SiteHeader() {
             );
           })}
         </ul>
+
+        {/* Bouton hamburger (mobile) */}
+        <button
+          className="sm:hidden flex flex-col justify-center items-center w-10 h-10 gap-1.5 rounded-md"
+          aria-label={open ? "Fermer le menu" : "Ouvrir le menu"}
+          aria-expanded={open}
+          onClick={() => setOpen((v) => !v)}
+        >
+          <span className={`block h-0.5 w-6 bg-encre transition-transform duration-200 ${open ? "translate-y-2 rotate-45" : ""}`} />
+          <span className={`block h-0.5 w-6 bg-encre transition-opacity duration-200 ${open ? "opacity-0" : ""}`} />
+          <span className={`block h-0.5 w-6 bg-encre transition-transform duration-200 ${open ? "-translate-y-2 -rotate-45" : ""}`} />
+        </button>
       </nav>
+
+      {/* Menu mobile déroulant */}
+      {open && (
+        <div className="sm:hidden border-t border-grege-300 bg-grege-50 px-4 pb-4">
+          <ul className="flex flex-col gap-1 pt-2">
+            {LINKS.map(({ href, key }) => {
+              const active = pathname === href || pathname.startsWith(`${href}/`);
+              return (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    aria-current={active ? "page" : undefined}
+                    className={[
+                      "flex w-full rounded-lg px-4 py-3 text-base font-medium transition-colors",
+                      active
+                        ? "bg-lavande-500 text-white"
+                        : "text-encre hover:bg-lavande-100",
+                    ].join(" ")}
+                  >
+                    {t(key)}
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
     </header>
   );
 }
