@@ -37,12 +37,21 @@ export const metadata: Metadata = {
     siteName: "Paro",
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "/logo-partage.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Paronymes FR–HY · niveau B2",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Paronymes FR–HY · niveau B2",
     description:
       "Manuel raisonné et exercices bilingues français–arménien sur les paronymes. Niveau B2.",
+    images: ["/logo-partage.jpg"],
   },
 };
 
