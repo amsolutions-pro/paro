@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="pg" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ff5070"/>
+      <stop offset="100%" stop-color="#b8102c"/>
+    </radialGradient>
+    <radialGradient id="cg" cx="45%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#e02848"/>
+      <stop offset="100%" stop-color="#880016"/>
+    </radialGradient>
+    <radialGradient id="lg" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Stem -->
+  <path d="M50 92 Q48 80 50 68" stroke="#2e7d32" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Left leaf -->
+  <path d="M50 78 Q38 70 36 58 Q44 66 50 78" fill="url(#lg)"/>
+  <!-- Right leaf -->
+  <path d="M50 74 Q62 66 64 54 Q56 62 50 74" fill="url(#lg)"/>
+
+  <!-- Sepals (green base of flower) -->
+  <ellipse cx="50" cy="64" rx="12" ry="7" fill="#388e3c"/>
+  <path d="M42 63 Q38 54 44 52 Q44 60 42 63" fill="#2e7d32"/>
+  <path d="M58 63 Q62 54 56 52 Q56 60 58 63" fill="#2e7d32"/>
+
+  <!-- 5 outer petals -->
+  <ellipse cx="50" cy="36" rx="14" ry="20" fill="url(#pg)" transform="rotate(0,50,52)"/>
+  <ellipse cx="50" cy="36" rx="14" ry="20" fill="url(#pg)" transform="rotate(72,50,52)"/>
+  <ellipse cx="50" cy="36" rx="14" ry="20" fill="url(#pg)" transform="rotate(144,50,52)"/>
+  <ellipse cx="50" cy="36" rx="14" ry="20" fill="url(#pg)" transform="rotate(216,50,52)"/>
+  <ellipse cx="50" cy="36" rx="14" ry="20" fill="url(#pg)" transform="rotate(288,50,52)"/>
+
+  <!-- 5 inner petals (rotated 36°, tighter) -->
+  <ellipse cx="50" cy="40" rx="10" ry="14" fill="#d01838" transform="rotate(36,50,52)"/>
+  <ellipse cx="50" cy="40" rx="10" ry="14" fill="#d01838" transform="rotate(108,50,52)"/>
+  <ellipse cx="50" cy="40" rx="10" ry="14" fill="#d01838" transform="rotate(180,50,52)"/>
+  <ellipse cx="50" cy="40" rx="10" ry="14" fill="#d01838" transform="rotate(252,50,52)"/>
+  <ellipse cx="50" cy="40" rx="10" ry="14" fill="#d01838" transform="rotate(324,50,52)"/>
+
+  <!-- Center -->
+  <circle cx="50" cy="52" r="12" fill="url(#cg)"/>
+  <circle cx="50" cy="52" r="6" fill="#7a0016"/>
+  <!-- Centre highlight -->
+  <circle cx="47" cy="49" r="2.5" fill="#ff6080" opacity="0.5"/>
+</svg>
