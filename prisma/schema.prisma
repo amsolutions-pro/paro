@@ -1,0 +1,97 @@
+// Schéma Prisma — SQLite en développement (zéro configuration).
+// Passage ultérieur à PostgreSQL/Supabase : changer `provider` ci-dessous + DATABASE_URL.
+//
+// NB : SQLite ne supporte pas les `enum` Prisma. Les champs `type`, `gradingMode`,
+// `posClass`, `source` sont donc des `String`, contraints côté applicatif par Zod
+// (src/lib/exercise-types.ts). Voir DECISIONS.md (D6).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String        @id @default(cuid())
+  name      String?
+  email     String?       @unique
+  createdAt DateTime      @default(now())
+  attempts  Attempt[]
+  reviews   ReviewState[]
+}
+
+model ParonymGroup {
+  id      String         @id @default(cuid())
+  slug    String         @unique // identifiant stable issu du contenu (ex. "eminent-imminent")
+  title   String // ex. "Éminent & Imminent"
+  letter  String // lettre d'index (É -> "E")
+  summary String // texte « Le bon usage »
+  words   Word[]
+  items   ExerciseItem[]
+  reviews ReviewState[]
+}
+
+model Word {
+  id            String       @id @default(cuid())
+  groupId       String
+  group         ParonymGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+  headword      String
+  category      String // adj., v. tr., n. f., ...
+  posClass      String // "VERBE" | "NOM" | "ADJECTIF" | "AUTRE" (pour le dashboard)
+  translationHy String // traduction arménienne (UTF-8)
+  definition    String
+  origin        String?
+  synonyms      String?
+  examples      String // JSON: string[]
+  reviewNeeded  Boolean      @default(false)
+}
+
+model ExerciseItem {
+  id           String        @id @default(cuid())
+  slug         String        @unique // identifiant stable pour upsert idempotent
+  type         String // ExerciseType (cf. src/lib/exercise-types.ts)
+  gradingMode  String // "AUTO" | "OPEN"
+  prompt       String // énoncé
+  payload      String // JSON: options, trous, paires, banque de mots...
+  solution     String // JSON: réponse(s) attendue(s)
+  commentary   String // « corrigé commenté »
+  groupId      String? // paire de paronymes liée (pour le SRS)
+  group        ParonymGroup? @relation(fields: [groupId], references: [id], onDelete: SetNull)
+  posClass     String? // pour stats par catégorie grammaticale
+  source       String        @default("manuel") // "manuel" | "generated"
+  reviewNeeded Boolean       @default(false)
+  orderIndex   Int           @default(0) // ordre d'affichage au sein d'un type
+  attempts     Attempt[]
+}
+
+model Attempt {
+  id         String       @id @default(cuid())
+  userId     String
+  itemId     String
+  isCorrect  Boolean
+  userAnswer String // JSON
+  createdAt  DateTime     @default(now())
+  user       User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  item       ExerciseItem @relation(fields: [itemId], references: [id], onDelete: Cascade)
+
+  @@index([userId, createdAt])
+}
+
+model ReviewState {
+  id           String       @id @default(cuid())
+  userId       String
+  groupId      String
+  box          Int          @default(1) // Leitner 1..5
+  ease         Float        @default(2.5)
+  intervalDays Int          @default(0)
+  lapses       Int          @default(0)
+  nextReview   DateTime     @default(now())
+  user         User         @relation(fields: [userId], references: [id], onDelete: Cascade)
+  group        ParonymGroup @relation(fields: [groupId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, groupId])
+  @@index([userId, nextReview])
+}

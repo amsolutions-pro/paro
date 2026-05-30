@@ -1,0 +1,1512 @@
+[
+  {
+    "slug": "eminent-imminent",
+    "title": "Éminent & Imminent",
+    "letter": "E",
+    "summary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "words": [
+      {
+        "headword": "éminent",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "ականավոր",
+        "definition": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+        "origin": "du latin eminere « s'élever au-dessus »",
+        "synonyms": "remarquable, supérieur, illustre",
+        "examples": [
+          "Un éminent spécialiste de la langue française.",
+          "Le congrès a réuni d'éminents linguistes."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "imminent",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "մոտալուտ",
+        "definition": "Qui est sur le point de se produire ; tout proche dans le temps.",
+        "origin": "du latin imminere « menacer, surplomber »",
+        "synonyms": "proche, prochain, menaçant",
+        "examples": [
+          "Un orage imminent menaçait la vallée.",
+          "Devant l'orage imminent, les promeneurs pressèrent le pas."
+        ],
+        "reviewNeeded": false
+      }
+    ]
+  },
+  {
+    "slug": "eminence-imminence",
+    "title": "Éminence & Imminence",
+    "letter": "E",
+    "summary": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "words": [
+      {
+        "headword": "éminence",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Élévation de terrain ; par extension, dignité, haut rang.",
+        "synonyms": "hauteur, dignité",
+        "examples": [
+          "Le château se dresse sur une éminence."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "imminence",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
+        "synonyms": "proximité, approche",
+        "examples": [
+          "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "conjecture-conjoncture",
+    "title": "Conjecture & Conjoncture",
+    "letter": "C",
+    "summary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "words": [
+      {
+        "headword": "conjecture",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "ենթադրություն",
+        "definition": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+        "origin": "du latin conjectura « action de jeter ensemble, supposition »",
+        "synonyms": "supposition, hypothèse",
+        "examples": [
+          "Faute de preuves, l'enquêteur en était réduit à de simples conjectures."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "conjoncture",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "իրավիճակ",
+        "definition": "Situation présente résultant d'un ensemble de circonstances (souvent économiques).",
+        "origin": "du latin conjunctura « jonction, liaison »",
+        "synonyms": "situation, contexte",
+        "examples": [
+          "Dans la conjoncture actuelle, la plus grande prudence s'impose."
+        ],
+        "reviewNeeded": false
+      }
+    ]
+  },
+  {
+    "slug": "collision-collusion",
+    "title": "Collision & Collusion",
+    "letter": "C",
+    "summary": "La collision est un choc matériel ; la collusion, une entente secrète et frauduleuse.",
+    "words": [
+      {
+        "headword": "collision",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "բախում",
+        "definition": "Choc de deux corps en mouvement.",
+        "origin": "du latin collisio « action de heurter »",
+        "synonyms": "choc, heurt",
+        "examples": [
+          "La collision entre les deux véhicules a fait plusieurs blessés."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "collusion",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "գաղտնի դավ",
+        "definition": "Entente secrète au préjudice d'un tiers.",
+        "origin": "du latin collusio « entente frauduleuse »",
+        "synonyms": "complot, connivence",
+        "examples": [
+          "La collusion entre les deux entreprises, destinée à fausser le marché, fut sévèrement sanctionnée."
+        ],
+        "reviewNeeded": false
+      }
+    ]
+  },
+  {
+    "slug": "prodige-prodigue",
+    "title": "Prodige & Prodigue",
+    "letter": "P",
+    "summary": "Un prodige est un fait merveilleux ou un talent extraordinaire (nom) ; prodigue qualifie celui qui dépense sans compter (adjectif).",
+    "words": [
+      {
+        "headword": "prodige",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "հրաշք",
+        "definition": "Fait merveilleux ; personne aux dons extraordinaires.",
+        "origin": "du latin prodigium « présage, prodige »",
+        "synonyms": "miracle, merveille",
+        "examples": [
+          "Cet enfant prodige jouait du piano à quatre ans."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "prodigue",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "շռայլ",
+        "definition": "Qui dépense sans compter, avec excès.",
+        "origin": "du latin prodigus « qui dissipe »",
+        "synonyms": "dépensier, dilapidateur",
+        "examples": [
+          "L'héritier prodigue dilapida en quelques années la fortune familiale."
+        ],
+        "reviewNeeded": false
+      }
+    ]
+  },
+  {
+    "slug": "eruption-irruption",
+    "title": "Éruption & Irruption",
+    "letter": "E",
+    "summary": "L'éruption est une sortie violente (volcan, peau) ; l'irruption, une entrée soudaine et impétueuse dans un lieu.",
+    "words": [
+      {
+        "headword": "éruption",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Sortie soudaine et violente (lave, gaz) ; apparition rapide (boutons).",
+        "origin": "du latin eruptio « action de sortir »",
+        "synonyms": "explosion, jaillissement",
+        "examples": [
+          "Les vulcanologues redoutaient une éruption imminente du cratère."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "irruption",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Entrée soudaine, brusque et inattendue dans un lieu.",
+        "origin": "du latin irruptio « invasion »",
+        "synonyms": "intrusion, incursion",
+        "examples": [
+          "Une irruption de manifestants a soudain envahi le hall du ministère."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "inculper-inculquer",
+    "title": "Inculper & Inculquer",
+    "letter": "I",
+    "summary": "Inculper, c'est mettre en accusation ; inculquer, c'est faire entrer durablement dans l'esprit (enseigner).",
+    "words": [
+      {
+        "headword": "inculper",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Mettre en accusation, imputer une faute à quelqu'un.",
+        "origin": "du latin culpa « faute »",
+        "synonyms": "accuser, mettre en examen",
+        "examples": [
+          "Le procureur a décidé d'inculper le suspect dès la fin de la garde à vue."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "inculquer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Faire entrer durablement dans l'esprit par une instruction répétée.",
+        "origin": "du latin inculcare « faire entrer en foulant »",
+        "synonyms": "enseigner, transmettre",
+        "examples": [
+          "Ses parents lui ont inculqué le goût de l'effort."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "medical-medicinal",
+    "title": "Médical & Médicinal",
+    "letter": "M",
+    "summary": "Médical renvoie à la médecine et à son exercice ; médicinal qualifie ce qui a des vertus curatives.",
+    "words": [
+      {
+        "headword": "médical",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Relatif à la médecine et à son exercice.",
+        "synonyms": "thérapeutique, sanitaire",
+        "examples": [
+          "Un examen médical approfondi."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "médicinal",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "բուժիչ",
+        "definition": "Qui possède des vertus curatives, qui sert de remède.",
+        "synonyms": "curatif",
+        "examples": [
+          "Cette plante, aux vertus médicinales, entre dans la composition de nombreux remèdes."
+        ],
+        "reviewNeeded": false
+      }
+    ]
+  },
+  {
+    "slug": "prolixe-prolifique",
+    "title": "Prolixe & Prolifique",
+    "letter": "P",
+    "summary": "Prolixe = trop bavard, diffus dans son propos ; prolifique = fécond, qui produit en abondance.",
+    "words": [
+      {
+        "headword": "prolixe",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Trop long, trop bavard, qui se perd en développements.",
+        "synonyms": "bavard, verbeux, diffus",
+        "examples": [
+          "Cet orateur prolixe, incapable de concision, finit par lasser l'auditoire."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "prolifique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui se reproduit ou produit beaucoup ; très fécond.",
+        "synonyms": "fécond, productif",
+        "examples": [
+          "Un romancier prolifique publiant deux livres par an."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "opportun-importun",
+    "title": "Opportun & Importun",
+    "letter": "O",
+    "summary": "Opportun = qui vient à propos, au bon moment ; importun = qui dérange, qui survient mal à propos.",
+    "words": [
+      {
+        "headword": "opportun",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui vient à propos, au moment favorable.",
+        "synonyms": "favorable, propice",
+        "examples": [
+          "Devant l'ampleur du danger, il jugea opportun de battre en retraite."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "importun",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui gêne, qui survient ou insiste mal à propos.",
+        "synonyms": "gênant, indiscret",
+        "examples": [
+          "Une visite importune interrompit la réunion."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "infraction-effraction",
+    "title": "Infraction & Effraction",
+    "letter": "I",
+    "summary": "Une infraction est la violation d'une règle ; une effraction, le fait de forcer une fermeture pour entrer.",
+    "words": [
+      {
+        "headword": "infraction",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Violation d'une loi, d'un règlement.",
+        "synonyms": "manquement, délit",
+        "examples": [
+          "Les gendarmes ont relevé une infraction au code de la route."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "effraction",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Bris de clôture ou de serrure pour pénétrer dans un lieu.",
+        "synonyms": "cambriolage, bris",
+        "examples": [
+          "Les malfaiteurs sont entrés par effraction."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "absorber-adsorber",
+    "title": "Absorber & Adsorber",
+    "letter": "A",
+    "summary": "Absorber, c'est faire pénétrer à l'intérieur ; adsorber, c'est retenir à la surface (terme de physico-chimie).",
+    "words": [
+      {
+        "headword": "absorber",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Faire pénétrer et retenir un fluide à l'intérieur d'un corps.",
+        "origin": "du latin absorbere « avaler »",
+        "synonyms": "imbiber, engloutir",
+        "examples": [
+          "Une éponge sèche absorbe aussitôt l'eau renversée sur la table."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "adsorber",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Retenir des molécules à la surface d'un solide.",
+        "origin": "de ad- « vers » + (ab)sorber",
+        "synonyms": "fixer en surface",
+        "examples": [
+          "Le charbon actif adsorbe de nombreuses impuretés."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "anoblir-ennoblir",
+    "title": "Anoblir & Ennoblir",
+    "letter": "A",
+    "summary": "Anoblir, c'est conférer un titre de noblesse ; ennoblir, c'est élever moralement, rendre plus noble.",
+    "words": [
+      {
+        "headword": "anoblir",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Conférer un titre de noblesse à quelqu'un.",
+        "synonyms": "élever (à la noblesse)",
+        "examples": [
+          "Au Moyen Âge, le roi pouvait anoblir un roturier méritant."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "ennoblir",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Élever moralement, donner de la dignité, de la grandeur.",
+        "synonyms": "grandir, élever",
+        "examples": [
+          "Le travail ennoblit l'homme bien plus sûrement qu'un titre héréditaire."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "consommer-consumer",
+    "title": "Consommer & Consumer",
+    "letter": "C",
+    "summary": "Consommer, c'est user d'une ressource (la dépenser) ; consumer, c'est détruire (peu à peu) par le feu.",
+    "words": [
+      {
+        "headword": "consommer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "User d'une ressource, l'utiliser ou la dépenser.",
+        "synonyms": "dépenser, utiliser",
+        "examples": [
+          "Ce moteur consomme trop de carburant pour être rentable."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "consumer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Détruire par le feu ; user lentement.",
+        "synonyms": "brûler, ronger",
+        "examples": [
+          "L'incendie a consumé la grange en moins d'une heure."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "adduction-addiction-addition",
+    "title": "Adduction, Addiction & Addition",
+    "letter": "A",
+    "summary": "Addition « action d'ajouter », adduction « action d'amener vers » (eau), addiction « dépendance aliénante » (latin addictus « asservi »).",
+    "words": [
+      {
+        "headword": "addition",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Action d'ajouter ; opération arithmétique ; note à payer.",
+        "origin": "du latin additio « action d'ajouter »",
+        "synonyms": "ajout, somme",
+        "examples": [
+          "L'addition des dépenses dépasse le budget prévu."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "adduction",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Action d'amener un fluide vers un lieu (eau, gaz).",
+        "origin": "du latin adductio « action d'amener vers »",
+        "synonyms": "acheminement",
+        "examples": [
+          "La commune a enfin financé les travaux d'adduction d'eau potable."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "addiction",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Dépendance aliénante à une substance ou à une pratique.",
+        "origin": "du latin addictus « livré, asservi »",
+        "synonyms": "dépendance, accoutumance",
+        "examples": [
+          "Il souffre d'une addiction au jeu en ligne."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "deceler-desceller",
+    "title": "Déceler & Desceller",
+    "letter": "D",
+    "summary": "Déceler, c'est détecter ce qui était caché ; desceller, c'est ôter ce qui était scellé (fixé).",
+    "words": [
+      {
+        "headword": "déceler",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "հայտնաբերել",
+        "definition": "Découvrir, détecter ce qui était caché.",
+        "synonyms": "détecter, repérer",
+        "examples": [
+          "Le médecin a su déceler les premiers signes de la maladie."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "desceller",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Détacher, arracher ce qui était scellé ou fixé.",
+        "synonyms": "arracher, défaire",
+        "examples": [
+          "Les cambrioleurs ont descellé le coffre-fort de son socle."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "abjurer-adjurer",
+    "title": "Abjurer & Adjurer",
+    "letter": "A",
+    "summary": "Abjurer, c'est renier solennellement (une croyance) ; adjurer, c'est supplier instamment.",
+    "words": [
+      {
+        "headword": "abjurer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Renoncer solennellement à une religion, une opinion.",
+        "synonyms": "renier, abandonner",
+        "examples": [
+          "Pressé par sa famille, il a fini par abjurer ses anciennes convictions."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "adjurer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Supplier instamment, au nom de ce qu'il y a de sacré.",
+        "synonyms": "supplier, implorer",
+        "examples": [
+          "Elle l'adjura de ne pas partir."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "prescription-proscription",
+    "title": "Prescription & Proscription",
+    "letter": "P",
+    "summary": "Prescription (pré- « en tête ») : ordre, recommandation ou extinction d'un droit par le temps ; proscription (pro- « au-dehors ») : bannissement, interdiction.",
+    "words": [
+      {
+        "headword": "prescription",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé.",
+        "origin": "du latin praescriptio « ce qui est écrit en tête »",
+        "synonyms": "ordonnance, recommandation",
+        "examples": [
+          "Ce médicament n'est délivré que sur prescription médicale."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "proscription",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Bannissement, interdiction formelle.",
+        "origin": "du latin proscriptio « affichage public d'une condamnation »",
+        "synonyms": "bannissement, interdiction",
+        "examples": [
+          "La proscription de cet usage est désormais générale."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "specieux-spacieux",
+    "title": "Spécieux & Spacieux",
+    "letter": "S",
+    "summary": "Spécieux = trompeur sous une apparence de vérité ; spacieux = vaste, qui offre de l'espace.",
+    "words": [
+      {
+        "headword": "spécieux",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui n'a qu'une apparence de vérité ; trompeur.",
+        "synonyms": "fallacieux, trompeur",
+        "examples": [
+          "Sous des dehors rigoureux, son raisonnement n'est qu'un argument spécieux."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "spacieux",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui est vaste, où l'on a de l'espace.",
+        "synonyms": "vaste, ample",
+        "examples": [
+          "Un appartement spacieux et lumineux."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "percepteur-precepteur",
+    "title": "Percepteur & Précepteur",
+    "letter": "P",
+    "summary": "Le percepteur collecte les impôts ; le précepteur est un enseignant particulier.",
+    "words": [
+      {
+        "headword": "percepteur",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Fonctionnaire chargé de collecter les impôts.",
+        "synonyms": "receveur",
+        "examples": [
+          "Le percepteur a envoyé l'avis d'imposition."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "précepteur",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Personne chargée de l'éducation d'un enfant à domicile.",
+        "synonyms": "tuteur, enseignant",
+        "examples": [
+          "Le jeune prince recevait chaque matin la visite de son précepteur particulier."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "septique-sceptique",
+    "title": "Septique & Sceptique",
+    "letter": "S",
+    "summary": "Septique = contaminé, relatif à l'infection (fosse septique) ; sceptique = qui doute.",
+    "words": [
+      {
+        "headword": "septique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Relatif à l'infection, contaminé par des micro-organismes.",
+        "synonyms": "infecté, contaminé",
+        "examples": [
+          "Les eaux usées du quartier sont traitées dans une fosse septique."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "sceptique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui doute, qui met en question ce qu'on lui présente.",
+        "synonyms": "incrédule, dubitatif",
+        "examples": [
+          "Plusieurs élus, sceptiques quant au coût réel du projet, ont voté contre."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "emigrer-immigrer",
+    "title": "Émigrer & Immigrer",
+    "letter": "E",
+    "summary": "Émigrer (é- « hors de »), c'est quitter son pays ; immigrer (im- « dans, vers »), c'est entrer dans un pays étranger pour s'y établir. Même personne, point de vue inverse.",
+    "words": [
+      {
+        "headword": "émigrer",
+        "category": "v. intr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Quitter son pays pour s'établir ailleurs.",
+        "origin": "du latin emigrare « partir de »",
+        "synonyms": "s'expatrier, partir",
+        "examples": [
+          "Beaucoup ont émigré pour fuir la misère."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "immigrer",
+        "category": "v. intr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Entrer dans un pays étranger pour s'y établir.",
+        "origin": "du latin immigrare « entrer dans »",
+        "synonyms": "s'installer, arriver",
+        "examples": [
+          "Ses grands-parents ont immigré en France dans les années 1920."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "affectif-affectueux",
+    "title": "Affectif & Affectueux",
+    "letter": "A",
+    "summary": "Affectif = relatif aux émotions, aux sentiments ; affectueux = qui manifeste de la tendresse.",
+    "words": [
+      {
+        "headword": "affectif",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Relatif aux affects, aux émotions et aux sentiments.",
+        "synonyms": "émotionnel",
+        "examples": [
+          "Le développement affectif de l'enfant."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "affectueux",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui témoigne de la tendresse, de l'affection.",
+        "synonyms": "tendre, aimant",
+        "examples": [
+          "Un message affectueux glissé sous la porte."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "repartir-repartir-accent",
+    "title": "Répartir & Repartir",
+    "letter": "R",
+    "summary": "Répartir (avec accent), c'est partager entre plusieurs ; repartir (sans accent), c'est partir de nouveau.",
+    "words": [
+      {
+        "headword": "répartir",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Partager, distribuer entre plusieurs.",
+        "synonyms": "distribuer, partager",
+        "examples": [
+          "Le notaire a réparti les biens entre les héritiers."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "repartir",
+        "category": "v. intr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Partir de nouveau, reprendre la route ou une activité.",
+        "synonyms": "repartir, reprendre",
+        "examples": [
+          "Après une courte halte, les randonneurs sont repartis vers le sommet."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "allusion-illusion",
+    "title": "Allusion & Illusion",
+    "letter": "A",
+    "summary": "Une allusion est une référence indirecte et implicite ; une illusion, une perception fausse de la réalité.",
+    "words": [
+      {
+        "headword": "allusion",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Référence indirecte et implicite à quelque chose.",
+        "synonyms": "sous-entendu, insinuation",
+        "examples": [
+          "Elle a glissé une allusion à son passé."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "illusion",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Perception fausse de la réalité ; croyance trompeuse.",
+        "synonyms": "leurre, mirage",
+        "examples": [
+          "Le décor donne l'illusion de la profondeur."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "decade-decennie",
+    "title": "Décade & Décennie",
+    "letter": "D",
+    "summary": "Une décade est une période de dix jours ; une décennie, une période de dix ans.",
+    "words": [
+      {
+        "headword": "décade",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Période de dix jours.",
+        "synonyms": "dizaine de jours",
+        "examples": [
+          "Le calendrier révolutionnaire divisait le mois en décades."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "décennie",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Période de dix ans.",
+        "synonyms": "dizaine d'années",
+        "examples": [
+          "Après dix ans de mariage, ils ont fêté leur première décennie."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "credule-credible",
+    "title": "Crédule & Crédible",
+    "letter": "C",
+    "summary": "Crédule = naïf, prompt à croire sans examen ; crédible = digne de foi, vraisemblable.",
+    "words": [
+      {
+        "headword": "crédule",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui croit trop facilement, sans examen.",
+        "synonyms": "naïf, candide",
+        "examples": [
+          "Un public crédule gobait toutes ses promesses."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "crédible",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Que l'on peut croire ; vraisemblable, digne de foi.",
+        "synonyms": "vraisemblable, plausible",
+        "examples": [
+          "Son alibi n'était guère crédible."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "veneneux-venimeux",
+    "title": "Vénéneux & Venimeux",
+    "letter": "V",
+    "summary": "Vénéneux se dit de ce qui empoisonne par ingestion (plante, champignon) ; venimeux, de ce qui inocule un venin (animal qui mord ou pique).",
+    "words": [
+      {
+        "headword": "vénéneux",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Toxique par ingestion (plante, champignon).",
+        "synonyms": "toxique, empoisonné",
+        "examples": [
+          "Le champignon vénéneux a intoxiqué le promeneur."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "venimeux",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui inocule un venin (animal qui mord ou pique).",
+        "synonyms": "venéneux (à tort), perfide (fig.)",
+        "examples": [
+          "La vipère venimeuse a mordu le promeneur imprudent."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "litteral-litteraire",
+    "title": "Littéral & Littéraire",
+    "letter": "L",
+    "summary": "Littéral = pris au sens propre des mots ; littéraire = relatif à la littérature.",
+    "words": [
+      {
+        "headword": "littéral",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui suit le sens exact, propre des mots.",
+        "synonyms": "textuel, exact",
+        "examples": [
+          "Il a proposé une traduction littérale du contrat."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "littéraire",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Relatif à la littérature.",
+        "synonyms": "culturel",
+        "examples": [
+          "Un prix littéraire prestigieux."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "differend-different",
+    "title": "Différend & Différent",
+    "letter": "D",
+    "summary": "Un différend (nom) est un désaccord, un conflit ; différent (adjectif) signifie non identique.",
+    "words": [
+      {
+        "headword": "différend",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "տարաձայնություն",
+        "definition": "Désaccord, conflit entre deux parties.",
+        "synonyms": "désaccord, litige",
+        "examples": [
+          "Ils ont fini par régler leur différend à l'amiable."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "différent",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui n'est pas identique, qui diffère.",
+        "synonyms": "distinct, autre",
+        "examples": [
+          "Sur ce point précis, chacun avait un avis différent."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "session-cession",
+    "title": "Session & Cession",
+    "letter": "S",
+    "summary": "Une session est une période de travail d'une assemblée ; une cession, l'action de céder, un transfert.",
+    "words": [
+      {
+        "headword": "session",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Période pendant laquelle une assemblée siège ou travaille.",
+        "origin": "du latin sessio « action de s'asseoir »",
+        "synonyms": "séance, réunion",
+        "examples": [
+          "La nouvelle session parlementaire s'ouvre en octobre."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "cession",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Action de céder un bien, un droit ; transfert.",
+        "origin": "du latin cessio « action de céder »",
+        "synonyms": "transfert, vente",
+        "examples": [
+          "La cession de parts sociales a été enregistrée chez le notaire."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "oppresser-opprimer",
+    "title": "Oppresser & Opprimer",
+    "letter": "O",
+    "summary": "Oppresser, c'est gêner physiquement ou moralement (poids, angoisse) ; opprimer, c'est soumettre à une domination injuste.",
+    "words": [
+      {
+        "headword": "oppresser",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Gêner la respiration ; accabler moralement.",
+        "synonyms": "accabler, étouffer",
+        "examples": [
+          "La chaleur lourde de l'orage l'oppressait peu à peu."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "opprimer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Soumettre à une autorité injuste et tyrannique.",
+        "synonyms": "tyranniser, asservir",
+        "examples": [
+          "Pendant des décennies, le régime a opprimé les minorités."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "evoquer-invoquer",
+    "title": "Évoquer & Invoquer",
+    "letter": "E",
+    "summary": "Évoquer, c'est rappeler à la mémoire ; invoquer, c'est faire valoir (un argument) ou appeler à l'aide.",
+    "words": [
+      {
+        "headword": "évoquer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Rappeler à la mémoire ou à l'esprit.",
+        "synonyms": "rappeler, mentionner",
+        "examples": [
+          "Sa lettre évoque avec nostalgie les étés de l'enfance."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "invoquer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Faire valoir (un argument, un texte) ; appeler à son secours.",
+        "synonyms": "alléguer, en appeler à",
+        "examples": [
+          "Pour sa défense, l'accusé a invoqué la légitime défense."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "defendeur-defenseur",
+    "title": "Défendeur & Défenseur",
+    "letter": "D",
+    "summary": "Le défendeur est la personne contre qui une action en justice est engagée ; le défenseur est celui qui défend (avocat, protecteur).",
+    "words": [
+      {
+        "headword": "défendeur",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Personne contre laquelle une demande en justice est formée.",
+        "synonyms": "partie défenderesse",
+        "examples": [
+          "La personne poursuivie en justice est appelée le défendeur."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "défenseur",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Celui qui défend une personne, une cause ; avocat.",
+        "synonyms": "avocat, protecteur",
+        "examples": [
+          "Le défenseur a plaidé l'acquittement."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "perpetrer-perpetuer",
+    "title": "Perpétrer & Perpétuer",
+    "letter": "P",
+    "summary": "Perpétrer, c'est commettre (un crime) ; perpétuer, c'est faire durer, transmettre.",
+    "words": [
+      {
+        "headword": "perpétrer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Commettre (un acte criminel).",
+        "synonyms": "commettre, accomplir",
+        "examples": [
+          "Le malfaiteur a perpétré son forfait en pleine nuit."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "perpétuer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Faire durer, transmettre dans le temps.",
+        "synonyms": "transmettre, prolonger",
+        "examples": [
+          "Cette coutume perpétue une tradition ancestrale."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "denote-connote",
+    "title": "Dénotatif & Connotatif",
+    "letter": "D",
+    "summary": "Le sens dénotatif est neutre, littéral ; le sens connotatif renvoie aux sens implicites et aux connotations culturelles.",
+    "words": [
+      {
+        "headword": "dénotatif",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui relève du sens premier, neutre et littéral d'un mot.",
+        "synonyms": "littéral, neutre",
+        "examples": [
+          "Un texte dénotatif vise la neutralité du propos."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "connotatif",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui relève des sens implicites, affectifs ou culturels d'un mot.",
+        "synonyms": "implicite, suggestif",
+        "examples": [
+          "Le texte connotatif privilégie les sens implicites et les connotations."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "verser-renverser",
+    "title": "Verser & Renverser",
+    "letter": "V",
+    "summary": "Verser suppose la maîtrise du geste (action volontaire) ; renverser implique l'accident, le désordre.",
+    "words": [
+      {
+        "headword": "verser",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "լցնել",
+        "definition": "Faire couler un liquide de façon contrôlée.",
+        "synonyms": "déverser, servir",
+        "examples": [
+          "Il a versé l'eau bouillante dans la théière."
+        ],
+        "reviewNeeded": false
+      },
+      {
+        "headword": "renverser",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Faire tomber, répandre accidentellement.",
+        "synonyms": "répandre, faire tomber",
+        "examples": [
+          "Il a renversé son verre sur la nappe."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "apre-acre",
+    "title": "Âpre & Âcre",
+    "letter": "A",
+    "summary": "Âpre = rude, rugueux, et au figuré dur (lutte, négociation) ; âcre = irritant au goût ou à l'odorat.",
+    "words": [
+      {
+        "headword": "âpre",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Rude, rugueux ; au figuré, dur, acharné.",
+        "synonyms": "rude, acharné",
+        "examples": [
+          "Les négociations s'annoncent âpres et pourraient durer des semaines."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "âcre",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Irritant, piquant au goût ou à l'odorat.",
+        "synonyms": "irritant, piquant",
+        "examples": [
+          "Une fumée âcre prenait à la gorge."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "original-originel",
+    "title": "Original & Originel",
+    "letter": "O",
+    "summary": "Original = qui émane de l'auteur, premier en son genre, singulier ; originel = qui remonte à l'origine.",
+    "words": [
+      {
+        "headword": "original",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui émane directement de l'auteur ; neuf, singulier.",
+        "synonyms": "authentique, inédit",
+        "examples": [
+          "Le manuscrit original est conservé sous vitrine."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "originel",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Qui remonte à l'origine, qui date du commencement.",
+        "synonyms": "initial, premier",
+        "examples": [
+          "Le péché originel est au cœur de ce traité."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "conservation-conversation",
+    "title": "Conservation & Conversation",
+    "letter": "C",
+    "summary": "La conservation est l'action de garder en bon état ; la conversation, un échange de propos.",
+    "words": [
+      {
+        "headword": "conservation",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Action de maintenir en bon état, de préserver.",
+        "synonyms": "préservation, maintien",
+        "examples": [
+          "La conservation des denrées exige une chaîne du froid."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "conversation",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Échange de propos entre des personnes.",
+        "synonyms": "discussion, entretien",
+        "examples": [
+          "Leur conversation s'est prolongée tard dans la nuit."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "denue-denude",
+    "title": "Dénué & Dénudé",
+    "letter": "D",
+    "summary": "Dénué (de) = dépourvu de, qui manque de ; dénudé = mis à nu, dépouillé.",
+    "words": [
+      {
+        "headword": "dénué",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Dépourvu de, qui manque de.",
+        "synonyms": "dépourvu, privé",
+        "examples": [
+          "Son réquisitoire était dénué du moindre fondement."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "dénudé",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Mis à nu, dépouillé de ce qui couvre.",
+        "synonyms": "nu, dépouillé",
+        "examples": [
+          "En hiver, les arbres dénudés bordaient l'allée."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "differer-deferer",
+    "title": "Différer & Déférer",
+    "letter": "D",
+    "summary": "Différer, c'est remettre à plus tard ; déférer, c'est transmettre à une autorité (justice).",
+    "words": [
+      {
+        "headword": "différer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Remettre à plus tard, retarder.",
+        "synonyms": "ajourner, reporter",
+        "examples": [
+          "L'opposition a cherché à différer la décision à la séance suivante."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "déférer",
+        "category": "v. tr.",
+        "posClass": "VERBE",
+        "translationHy": "",
+        "definition": "Traduire, transmettre devant une autorité judiciaire.",
+        "synonyms": "traduire (en justice)",
+        "examples": [
+          "Le suspect a été déféré devant le procureur."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "decrepit-decrepi",
+    "title": "Décrépit & Décrépi",
+    "letter": "D",
+    "summary": "Décrépit (avec t) = affaibli par l'âge (personne) ; décrépi = dont l'enduit (le crépi) tombe (mur).",
+    "words": [
+      {
+        "headword": "décrépit",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Affaibli, usé par la vieillesse (en parlant d'une personne).",
+        "synonyms": "sénile, caduc",
+        "examples": [
+          "Le vieillard décrépit, courbé par l'âge, avançait à petits pas."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "décrépi",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Dont le crépi, l'enduit se détache (en parlant d'un mur).",
+        "synonyms": "délabré, écaillé",
+        "examples": [
+          "La façade décrépie de la maison réclamait un ravalement."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "express-expres",
+    "title": "Express & Exprès",
+    "letter": "E",
+    "summary": "Express = rapide, fait vite (café, train) ; exprès = à dessein, intentionnellement (ou un envoi urgent).",
+    "words": [
+      {
+        "headword": "express",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "",
+        "definition": "Rapide ; qui se fait ou circule vite (café serré, train direct).",
+        "synonyms": "rapide, direct",
+        "examples": [
+          "Au comptoir, il commanda un café express bien serré."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "exprès",
+        "category": "adv.",
+        "posClass": "AUTRE",
+        "translationHy": "",
+        "definition": "À dessein, intentionnellement.",
+        "synonyms": "délibérément, volontairement",
+        "examples": [
+          "Il a laissé la porte ouverte exprès."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "periphrase-paraphrase",
+    "title": "Périphrase & Paraphrase",
+    "letter": "P",
+    "summary": "Une périphrase désigne une chose par une expression au lieu d'un seul mot ; une paraphrase reformule un texte en le développant.",
+    "words": [
+      {
+        "headword": "périphrase",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Figure désignant une réalité par une expression plus longue qu'un seul mot.",
+        "synonyms": "circonlocution",
+        "examples": [
+          "On désigne souvent Paris par la périphrase « la Ville Lumière »."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "paraphrase",
+        "category": "n. f.",
+        "posClass": "NOM_F",
+        "translationHy": "",
+        "definition": "Reformulation développée et explicative d'un texte.",
+        "synonyms": "reformulation, glose",
+        "examples": [
+          "Sa dissertation n'était qu'une paraphrase du poème."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  },
+  {
+    "slug": "exces-acces",
+    "title": "Excès & Accès",
+    "letter": "E",
+    "summary": "Un excès est un dépassement de la mesure ; un accès est une entrée, une voie, ou une crise soudaine.",
+    "words": [
+      {
+        "headword": "excès",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Ce qui dépasse la mesure, la quantité permise.",
+        "synonyms": "dépassement, abus",
+        "examples": [
+          "Tout excès de vitesse est sévèrement réprimé sur cette portion d'autoroute."
+        ],
+        "reviewNeeded": true
+      },
+      {
+        "headword": "accès",
+        "category": "n. m.",
+        "posClass": "NOM_M",
+        "translationHy": "",
+        "definition": "Possibilité d'entrer, voie d'entrée ; crise soudaine (de fièvre, de colère).",
+        "synonyms": "entrée, crise",
+        "examples": [
+          "L'accès au site est réservé aux abonnés.",
+          "Un accès de fièvre l'a cloué au lit."
+        ],
+        "reviewNeeded": true
+      }
+    ]
+  }
+]

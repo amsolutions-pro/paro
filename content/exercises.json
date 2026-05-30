@@ -1,0 +1,6122 @@
+[
+  {
+    "slug": "qcm-1",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Les vulcanologues redoutaient une ……… imminente du cratère.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "irruption"
+        },
+        {
+          "key": "b",
+          "text": "éruption"
+        },
+        {
+          "key": "c",
+          "text": "interruption"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "éruption — l'éruption est le phénomène volcanique ; l'irruption est une entrée soudaine.",
+    "groupSlug": "eruption-irruption",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "qcm-2",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Le procureur a décidé d'……… le suspect dès la fin de la garde à vue.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "inculper"
+        },
+        {
+          "key": "b",
+          "text": "inculquer"
+        },
+        {
+          "key": "c",
+          "text": "disculper"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "a"
+    },
+    "commentary": "inculper — mettre en accusation ; inculquer, c'est enseigner ; disculper, innocenter.",
+    "groupSlug": "inculper-inculquer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "qcm-3",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Cette plante, aux vertus ………, entre dans la composition de nombreux remèdes.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "médicales"
+        },
+        {
+          "key": "b",
+          "text": "médicinales"
+        },
+        {
+          "key": "c",
+          "text": "médiévales"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "médicinales — relatif à un remède ; médical renvoie à la médecine en général.",
+    "groupSlug": "medical-medicinal",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "qcm-4",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Cet orateur ………, incapable de concision, finit par lasser l'auditoire.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "prolifique"
+        },
+        {
+          "key": "b",
+          "text": "prolixe"
+        },
+        {
+          "key": "c",
+          "text": "prolétaire"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "prolixe — trop bavard ; prolifique = fécond, productif.",
+    "groupSlug": "prolixe-prolifique",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "qcm-5",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "La ……… entre les deux entreprises, destinée à fausser le marché, fut sévèrement sanctionnée.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "collision"
+        },
+        {
+          "key": "b",
+          "text": "collusion"
+        },
+        {
+          "key": "c",
+          "text": "collation"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "collusion — entente secrète et frauduleuse ; collision = choc.",
+    "groupSlug": "collision-collusion",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "qcm-6",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Devant l'ampleur du danger, il jugea ……… de battre en retraite.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "importun"
+        },
+        {
+          "key": "b",
+          "text": "opportun"
+        },
+        {
+          "key": "c",
+          "text": "inopiné"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "opportun — qui vient à propos ; importun = qui dérange.",
+    "groupSlug": "opportun-importun",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "qcm-7",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "L'héritier ……… dilapida en quelques années la fortune familiale.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "prodige"
+        },
+        {
+          "key": "b",
+          "text": "prodigue"
+        },
+        {
+          "key": "c",
+          "text": "prodigieux"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "b"
+    },
+    "commentary": "prodigue — qui dépense à l'excès ; prodige = phénomène extraordinaire.",
+    "groupSlug": "prodige-prodigue",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "qcm-8",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Les gendarmes ont relevé une ……… au code de la route.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "infraction"
+        },
+        {
+          "key": "b",
+          "text": "effraction"
+        },
+        {
+          "key": "c",
+          "text": "réfraction"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "a"
+    },
+    "commentary": "infraction — violation d'une règle ; effraction = entrée par force.",
+    "groupSlug": "infraction-effraction",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 8
+  },
+  {
+    "slug": "trous-1",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Le médecin a su ……… les premiers signes de la maladie.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "déceler"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "déceler — détecter ce qui est caché (et non desceller : « ôter le sceau »).",
+    "groupSlug": "deceler-desceller",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "trous-2",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Les cambrioleurs ont ……… le coffre-fort de son socle.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "descellé"
+      ],
+      "accept": [
+        "descellé",
+        "desceller"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "descellé — ils ont arraché le coffre scellé.",
+    "groupSlug": "deceler-desceller",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "trous-3",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Le travail, disait-il, ……… l'homme bien plus sûrement qu'un titre héréditaire.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "ennoblit"
+      ],
+      "accept": [
+        "ennoblit",
+        "ennoblir"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "ennoblit — élève moralement ; anoblir = conférer un titre.",
+    "groupSlug": "anoblir-ennoblir",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "trous-4",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Au Moyen Âge, le roi pouvait ……… un roturier méritant.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "anoblir"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "anoblir — conférer la noblesse.",
+    "groupSlug": "anoblir-ennoblir",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "trous-5",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "L'incendie a ……… la grange en moins d'une heure.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "consumé"
+      ],
+      "accept": [
+        "consumé",
+        "consumer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "consumé — détruit par le feu ; consommer = utiliser, dépenser.",
+    "groupSlug": "consommer-consumer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "trous-6",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Ce moteur ……… trop de carburant pour être rentable.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "consomme"
+      ],
+      "accept": [
+        "consomme",
+        "consommer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "consomme — dépense une ressource.",
+    "groupSlug": "consommer-consumer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "trous-7",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Une éponge sèche ……… aussitôt l'eau renversée sur la table.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "absorbe"
+      ],
+      "accept": [
+        "absorbe",
+        "absorber"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "absorbe — s'imprègne du liquide.",
+    "groupSlug": "absorber-adsorber",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "trous-8",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "La commune a enfin financé les travaux d'……… d'eau potable.",
+    "payload": {
+      "bank": [
+        "absorber",
+        "adduction",
+        "anoblir",
+        "ennoblir",
+        "desceller",
+        "déceler",
+        "consumer",
+        "consommer"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "adduction"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "adduction — acheminement de l'eau.",
+    "groupSlug": "adduction-addiction-addition",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 8
+  },
+  {
+    "slug": "anomalie-1",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Pressé par sa famille, il a fini par adjurer ses anciennes convictions politiques.",
+    "payload": {
+      "sentence": "Pressé par sa famille, il a fini par adjurer ses anciennes convictions politiques."
+    },
+    "solution": {
+      "wrong": "adjurer",
+      "correct": "abjurer",
+      "accentSensitive": false
+    },
+    "commentary": "abjurer — renier solennellement ; adjurer = supplier.",
+    "groupSlug": "abjurer-adjurer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "anomalie-2",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Le témoin affirme que les malfaiteurs sont entrés par infraction.",
+    "payload": {
+      "sentence": "Le témoin affirme que les malfaiteurs sont entrés par infraction."
+    },
+    "solution": {
+      "wrong": "infraction",
+      "correct": "effraction",
+      "accentSensitive": false
+    },
+    "commentary": "effraction — entrée par force ; infraction = violation d'une règle.",
+    "groupSlug": "infraction-effraction",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "anomalie-3",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Le juge a constaté la proscription des faits et a classé l'affaire.",
+    "payload": {
+      "sentence": "Le juge a constaté la proscription des faits et a classé l'affaire."
+    },
+    "solution": {
+      "wrong": "proscription",
+      "correct": "prescription",
+      "accentSensitive": false
+    },
+    "commentary": "prescription — extinction d'un droit par le temps écoulé ; proscription = bannissement.",
+    "groupSlug": "prescription-proscription",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "anomalie-4",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Une éruption de manifestants a soudain envahi le hall du ministère.",
+    "payload": {
+      "sentence": "Une éruption de manifestants a soudain envahi le hall du ministère."
+    },
+    "solution": {
+      "wrong": "éruption",
+      "correct": "irruption",
+      "accentSensitive": false
+    },
+    "commentary": "irruption — entrée soudaine ; éruption = sortie violente (volcan, peau).",
+    "groupSlug": "eruption-irruption",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "anomalie-5",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "La conjecture économique actuelle décourage les investisseurs étrangers.",
+    "payload": {
+      "sentence": "La conjecture économique actuelle décourage les investisseurs étrangers."
+    },
+    "solution": {
+      "wrong": "conjecture",
+      "correct": "conjoncture",
+      "accentSensitive": false
+    },
+    "commentary": "conjoncture — situation présente ; conjecture = supposition.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "anomalie-6",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Ce raisonnement spacieux dissimule mal sa fausseté foncière.",
+    "payload": {
+      "sentence": "Ce raisonnement spacieux dissimule mal sa fausseté foncière."
+    },
+    "solution": {
+      "wrong": "spacieux",
+      "correct": "spécieux",
+      "accentSensitive": false
+    },
+    "commentary": "spécieux — trompeur sous une apparence de vérité ; spacieux = vaste.",
+    "groupSlug": "specieux-spacieux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "anomalie-7",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Le jeune prince recevait chaque matin la visite de son percepteur particulier.",
+    "payload": {
+      "sentence": "Le jeune prince recevait chaque matin la visite de son percepteur particulier."
+    },
+    "solution": {
+      "wrong": "percepteur",
+      "correct": "précepteur",
+      "accentSensitive": false
+    },
+    "commentary": "précepteur — enseignant particulier ; percepteur = collecteur d'impôts.",
+    "groupSlug": "percepteur-precepteur",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "anomalie-8",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Les eaux usées du quartier sont traitées dans une fosse sceptique.",
+    "payload": {
+      "sentence": "Les eaux usées du quartier sont traitées dans une fosse sceptique."
+    },
+    "solution": {
+      "wrong": "sceptique",
+      "correct": "septique",
+      "accentSensitive": false
+    },
+    "commentary": "septique — contaminé, fosse septique ; sceptique = qui doute.",
+    "groupSlug": "septique-sceptique",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 8
+  },
+  {
+    "slug": "reecriture-1",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « venimeux » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "La vipère venimeuse a mordu le promeneur imprudent.",
+      "target": "vénéneux"
+    },
+    "solution": {
+      "model": "Le champignon vénéneux a intoxiqué le promeneur.",
+      "note": "vénéneux = toxique par ingestion, et non par morsure."
+    },
+    "commentary": "vénéneux — « Le champignon vénéneux a intoxiqué le promeneur. » (toxique par ingestion).",
+    "groupSlug": "veneneux-venimeux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "reecriture-2",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « répartir » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "Le notaire a réparti les biens entre les héritiers.",
+      "target": "repartir"
+    },
+    "solution": {
+      "model": "Après une courte halte, les randonneurs sont repartis vers le sommet.",
+      "note": "repartir = partir de nouveau."
+    },
+    "commentary": "repartir — « Après une courte halte, les randonneurs sont repartis vers le sommet. »",
+    "groupSlug": "repartir-repartir-accent",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "reecriture-3",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « littéral » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "Il a proposé une traduction littérale du contrat.",
+      "target": "littéraire"
+    },
+    "solution": {
+      "model": "Elle se destine à des études littéraires.",
+      "note": "littéraire = relatif à la littérature."
+    },
+    "commentary": "littéraire — « Elle se destine à des études littéraires. »",
+    "groupSlug": "litteral-litteraire",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "reecriture-4",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « éminent » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "Un professeur éminent a présidé le jury de thèse.",
+      "target": "imminent"
+    },
+    "solution": {
+      "model": "Le départ imminent du train pressait les voyageurs.",
+      "note": "imminent = sur le point d'arriver."
+    },
+    "commentary": "imminent — « Le départ imminent du train pressait les voyageurs. »",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "reecriture-5",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « conservation » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "La conservation des denrées exige une chaîne du froid.",
+      "target": "conversation"
+    },
+    "solution": {
+      "model": "Leur conversation s'est prolongée tard dans la nuit.",
+      "note": "conversation = échange de propos."
+    },
+    "commentary": "conversation — « Leur conversation s'est prolongée tard dans la nuit. »",
+    "groupSlug": "conservation-conversation",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "reecriture-6",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « dénué » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "Son réquisitoire était dénué du moindre fondement.",
+      "target": "dénudé"
+    },
+    "solution": {
+      "model": "En hiver, les arbres dénudés bordaient l'allée.",
+      "note": "dénudé = mis à nu."
+    },
+    "commentary": "dénudé — « En hiver, les arbres dénudés bordaient l'allée. »",
+    "groupSlug": "denue-denude",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "reecriture-7",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « original » par son paronyme, en adaptant le contexte.",
+    "payload": {
+      "source": "Le manuscrit original est conservé sous vitrine.",
+      "target": "originel"
+    },
+    "solution": {
+      "model": "Le péché originel est au cœur de ce traité.",
+      "note": "originel = qui remonte à l'origine."
+    },
+    "commentary": "originel — « Le péché originel est au cœur de ce traité. »",
+    "groupSlug": "original-originel",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "appariement-1",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "Allusion"
+        },
+        {
+          "id": "2",
+          "text": "Illusion"
+        },
+        {
+          "id": "3",
+          "text": "Décade"
+        },
+        {
+          "id": "4",
+          "text": "Décennie"
+        },
+        {
+          "id": "5",
+          "text": "Conjecture"
+        },
+        {
+          "id": "6",
+          "text": "Conjoncture"
+        },
+        {
+          "id": "7",
+          "text": "Crédule"
+        },
+        {
+          "id": "8",
+          "text": "Crédible"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Période de dix ans"
+        },
+        {
+          "id": "b",
+          "text": "Référence indirecte et implicite"
+        },
+        {
+          "id": "c",
+          "text": "Perception fausse de la réalité"
+        },
+        {
+          "id": "d",
+          "text": "Période de dix jours"
+        },
+        {
+          "id": "e",
+          "text": "Situation présente née d'un ensemble de circonstances"
+        },
+        {
+          "id": "f",
+          "text": "Supposition fondée sur des indices"
+        },
+        {
+          "id": "g",
+          "text": "Digne de foi, vraisemblable"
+        },
+        {
+          "id": "h",
+          "text": "Naïf, prompt à croire sans examen"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "b",
+        "2": "c",
+        "3": "d",
+        "4": "a",
+        "5": "f",
+        "6": "e",
+        "7": "h",
+        "8": "g"
+      }
+    },
+    "commentary": "Pièges : décade (dix jours) / décennie (dix ans) ; conjecture (hypothèse) / conjoncture (situation) ; crédule (qui croit) / crédible (que l'on peut croire).",
+    "groupSlug": "decade-decennie",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "affixes-1",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le préfixe distingue-t-il : émigrant / immigrant ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "émigrant",
+        "immigrant"
+      ]
+    },
+    "solution": {
+      "model": "é- « hors de » (celui qui quitte son pays) ; im- « dans, vers » (celui qui y entre). Même personne, point de vue inverse."
+    },
+    "commentary": "émigrant / immigrant — é- « hors de » ; im- « dans, vers ». Même personne, point de vue inverse.",
+    "groupSlug": "emigrer-immigrer",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "affixes-2",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le préfixe distingue-t-il : anoblir / ennoblir ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "anoblir",
+        "ennoblir"
+      ]
+    },
+    "solution": {
+      "model": "a(d)- « conférer un titre » de noblesse ; en- « rendre noble » moralement."
+    },
+    "commentary": "anoblir / ennoblir — a(d)- « conférer un titre » ; en- « rendre noble » moralement.",
+    "groupSlug": "anoblir-ennoblir",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "affixes-3",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le préfixe distingue-t-il : amoral / immoral ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "amoral",
+        "immoral"
+      ]
+    },
+    "solution": {
+      "model": "a- privatif (sans rapport avec la morale) ; im- « contraire à » (qui transgresse la morale)."
+    },
+    "commentary": "amoral / immoral — a- privatif ; im- « contraire à ».",
+    "groupSlug": null,
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "affixes-4",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le préfixe distingue-t-il : prescription / proscription ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "prescription",
+        "proscription"
+      ]
+    },
+    "solution": {
+      "model": "pré- « avant, en tête » (ordre, recommandation, délai) ; pro- « en avant, au-dehors » (bannissement)."
+    },
+    "commentary": "prescription / proscription — pré- « avant, en tête » ; pro- « en avant, au-dehors ».",
+    "groupSlug": "prescription-proscription",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "affixes-5",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le préfixe distingue-t-il : absorber / adsorber ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "absorber",
+        "adsorber"
+      ]
+    },
+    "solution": {
+      "model": "ab- « faire pénétrer » à l'intérieur ; ad- « retenir à la surface »."
+    },
+    "commentary": "absorber / adsorber — ab- « faire pénétrer » ; ad- « retenir à la surface ».",
+    "groupSlug": "absorber-adsorber",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "affixes-6",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "En quoi le radical distingue-t-il : inculper / inculquer ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "inculper",
+        "inculquer"
+      ]
+    },
+    "solution": {
+      "model": "-culper (culpa, « faute ») : accuser ; -culquer (inculcare, « faire entrer en foulant ») : enseigner."
+    },
+    "commentary": "inculper / inculquer — culpa « faute » : accuser ; inculcare « faire entrer en foulant » : enseigner.",
+    "groupSlug": "inculper-inculquer",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "contexte-1",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase contenant « âpre » employé au sens figuré (lutte, négociation).",
+    "payload": {
+      "word": "âpre",
+      "constraint": "sens figuré (lutte, négociation)"
+    },
+    "solution": {
+      "model": "Les négociations s'annoncent âpres et pourraient durer des semaines."
+    },
+    "commentary": "âpre — « Les négociations s'annoncent âpres et pourraient durer des semaines. »",
+    "groupSlug": "apre-acre",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "contexte-2",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase contenant « excès » dans le domaine de la circulation routière.",
+    "payload": {
+      "word": "excès",
+      "constraint": "circulation routière"
+    },
+    "solution": {
+      "model": "Tout excès de vitesse est sévèrement réprimé sur cette portion d'autoroute."
+    },
+    "commentary": "excès — « Tout excès de vitesse est sévèrement réprimé… »",
+    "groupSlug": "exces-acces",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "contexte-3",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase contenant « inculquer » dans un contexte éducatif.",
+    "payload": {
+      "word": "inculquer",
+      "constraint": "contexte éducatif"
+    },
+    "solution": {
+      "model": "Ses parents lui ont inculqué le goût de l'effort."
+    },
+    "commentary": "inculquer — « Ses parents lui ont inculqué le goût de l'effort. »",
+    "groupSlug": "inculper-inculquer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "contexte-4",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase où « spécieux » qualifie un argument.",
+    "payload": {
+      "word": "spécieux",
+      "constraint": "qualifie un argument"
+    },
+    "solution": {
+      "model": "Sous des dehors rigoureux, son raisonnement n'est qu'un argument spécieux."
+    },
+    "commentary": "spécieux — « un argument spécieux ».",
+    "groupSlug": "specieux-spacieux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "contexte-5",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase contenant « conjoncture » dans un contexte économique.",
+    "payload": {
+      "word": "conjoncture",
+      "constraint": "contexte économique"
+    },
+    "solution": {
+      "model": "La conjoncture morose a freiné l'investissement des entreprises."
+    },
+    "commentary": "conjoncture — « La conjoncture morose a freiné l'investissement… »",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "contexte-6",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase illustrant ce qu'est une « périphrase ».",
+    "payload": {
+      "word": "périphrase",
+      "constraint": "illustrer une périphrase"
+    },
+    "solution": {
+      "model": "On désigne souvent Paris par la périphrase « la Ville Lumière »."
+    },
+    "commentary": "périphrase — « la Ville Lumière » pour Paris.",
+    "groupSlug": "periphrase-paraphrase",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "contexte-7",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase contenant « opprimer » dans un contexte politique.",
+    "payload": {
+      "word": "opprimer",
+      "constraint": "contexte politique"
+    },
+    "solution": {
+      "model": "Le régime opprimait toute voix dissidente."
+    },
+    "commentary": "opprimer — « Le régime opprimait toute voix dissidente. »",
+    "groupSlug": "oppresser-opprimer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "remplacement-1",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Il a [partagé entre plusieurs] équitablement les bénéfices.",
+    "payload": {
+      "sentence": "Il a [partagé entre plusieurs] équitablement les bénéfices.",
+      "periphrase": "partagé entre plusieurs"
+    },
+    "solution": {
+      "answer": "réparti",
+      "accept": [
+        "réparti",
+        "répartis",
+        "répartit"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "réparti — « partager entre plusieurs » = répartir.",
+    "groupSlug": "repartir-repartir-accent",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "remplacement-2",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Le détective a [découvert ce qui était caché] un indice capital.",
+    "payload": {
+      "sentence": "Le détective a [découvert ce qui était caché] un indice capital.",
+      "periphrase": "découvert ce qui était caché"
+    },
+    "solution": {
+      "answer": "décelé",
+      "accept": [
+        "décelé",
+        "déceler"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "décelé — « découvrir ce qui était caché » = déceler.",
+    "groupSlug": "deceler-desceller",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "remplacement-3",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "C'est un argument [trompeur sous une apparence de logique].",
+    "payload": {
+      "sentence": "C'est un argument [trompeur sous une apparence de logique].",
+      "periphrase": "trompeur sous une apparence de logique"
+    },
+    "solution": {
+      "answer": "spécieux",
+      "accentSensitive": false
+    },
+    "commentary": "spécieux — « trompeur sous une apparence de logique ».",
+    "groupSlug": "specieux-spacieux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "remplacement-4",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Il souffre d'une [dépendance aliénante] au jeu en ligne.",
+    "payload": {
+      "sentence": "Il souffre d'une [dépendance aliénante] au jeu en ligne.",
+      "periphrase": "dépendance aliénante"
+    },
+    "solution": {
+      "answer": "addiction",
+      "accentSensitive": false
+    },
+    "commentary": "addiction — « dépendance aliénante ».",
+    "groupSlug": "adduction-addiction-addition",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "remplacement-5",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Elle a glissé une [référence indirecte] à son passé.",
+    "payload": {
+      "sentence": "Elle a glissé une [référence indirecte] à son passé.",
+      "periphrase": "référence indirecte"
+    },
+    "solution": {
+      "answer": "allusion",
+      "accentSensitive": false
+    },
+    "commentary": "allusion — « référence indirecte ».",
+    "groupSlug": "allusion-illusion",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "remplacement-6",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "C'est un personnage [qui dépense sans compter].",
+    "payload": {
+      "sentence": "C'est un personnage [qui dépense sans compter].",
+      "periphrase": "qui dépense sans compter"
+    },
+    "solution": {
+      "answer": "prodigue",
+      "accentSensitive": false
+    },
+    "commentary": "prodigue — « qui dépense sans compter ».",
+    "groupSlug": "prodige-prodigue",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "remplacement-7",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Ils sont intervenus [au moment le plus favorable].",
+    "payload": {
+      "sentence": "Ils sont intervenus [au moment le plus favorable].",
+      "periphrase": "au moment le plus favorable"
+    },
+    "solution": {
+      "answer": "au moment opportun",
+      "accept": [
+        "opportun",
+        "au moment opportun"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "opportun / au moment opportun — « au moment le plus favorable ».",
+    "groupSlug": "opportun-importun",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "vraifaux-1",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "Un texte dénotatif privilégie les sens implicites et les connotations culturelles.",
+    "payload": {
+      "statement": "Un texte dénotatif privilégie les sens implicites et les connotations culturelles."
+    },
+    "solution": {
+      "value": false,
+      "justification": "Ce sont les sens implicites qui caractérisent le texte connotatif ; le texte dénotatif vise la neutralité."
+    },
+    "commentary": "Faux — le texte dénotatif vise la neutralité ; ce sont les connotations qui caractérisent le connotatif.",
+    "groupSlug": "denote-connote",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "vraifaux-2",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "Émigrer, c'est arriver dans un pays étranger pour s'y établir.",
+    "payload": {
+      "statement": "Émigrer, c'est arriver dans un pays étranger pour s'y établir."
+    },
+    "solution": {
+      "value": false,
+      "justification": "C'est immigrer ; émigrer, c'est quitter son pays."
+    },
+    "commentary": "Faux — c'est immigrer ; émigrer, c'est quitter son pays.",
+    "groupSlug": "emigrer-immigrer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "vraifaux-3",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "Une décade désigne une période de dix ans.",
+    "payload": {
+      "statement": "Une décade désigne une période de dix ans."
+    },
+    "solution": {
+      "value": false,
+      "justification": "La décade = dix jours ; dix ans = une décennie."
+    },
+    "commentary": "Faux — la décade = dix jours ; dix ans = une décennie.",
+    "groupSlug": "decade-decennie",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "vraifaux-4",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "Un champignon vénéneux est dangereux par ingestion.",
+    "payload": {
+      "statement": "Un champignon vénéneux est dangereux par ingestion."
+    },
+    "solution": {
+      "value": true,
+      "justification": "Le vénéneux empoisonne par ingestion (à distinguer du venimeux, qui inocule un venin)."
+    },
+    "commentary": "Vrai — le vénéneux empoisonne par ingestion ; le venimeux inocule un venin.",
+    "groupSlug": "veneneux-venimeux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "vraifaux-5",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "Inculper quelqu'un, c'est lui transmettre patiemment des valeurs.",
+    "payload": {
+      "statement": "Inculper quelqu'un, c'est lui transmettre patiemment des valeurs."
+    },
+    "solution": {
+      "value": false,
+      "justification": "C'est inculquer ; inculper, c'est mettre en accusation."
+    },
+    "commentary": "Faux — c'est inculquer ; inculper, c'est mettre en accusation.",
+    "groupSlug": "inculper-inculquer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "vraifaux-6",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "La conjoncture désigne une simple supposition dépourvue de preuve.",
+    "payload": {
+      "statement": "La conjoncture désigne une simple supposition dépourvue de preuve."
+    },
+    "solution": {
+      "value": false,
+      "justification": "La conjoncture = la situation présente ; la supposition = la conjecture."
+    },
+    "commentary": "Faux — la conjoncture = la situation présente ; la supposition = la conjecture.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "vraifaux-7",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "« Verser » suppose un geste volontaire et contrôlé.",
+    "payload": {
+      "statement": "« Verser » suppose un geste volontaire et contrôlé."
+    },
+    "solution": {
+      "value": true,
+      "justification": "Verser suppose la maîtrise du geste, à l'inverse de renverser (accidentel)."
+    },
+    "commentary": "Vrai — verser suppose la maîtrise du geste ; renverser est accidentel.",
+    "groupSlug": "verser-renverser",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "transformation-1",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « affecter » : l'adjectif signifiant « relatif aux émotions ».",
+    "payload": {
+      "from": "affecter"
+    },
+    "solution": {
+      "answer": "affectif",
+      "accentSensitive": false
+    },
+    "commentary": "affectif — relatif aux émotions.",
+    "groupSlug": "affectif-affectueux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "transformation-2",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « affecter » : l'adjectif signifiant « qui témoigne de la tendresse ».",
+    "payload": {
+      "from": "affecter"
+    },
+    "solution": {
+      "answer": "affectueux",
+      "accentSensitive": false
+    },
+    "commentary": "affectueux — qui manifeste de la tendresse.",
+    "groupSlug": "affectif-affectueux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "transformation-3",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « répartir » : le nom d'action correspondant.",
+    "payload": {
+      "from": "répartir"
+    },
+    "solution": {
+      "answer": "répartition",
+      "accentSensitive": false
+    },
+    "commentary": "répartition — action de répartir.",
+    "groupSlug": "repartir-repartir-accent",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "transformation-4",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « proscrire » : le nom d'action correspondant.",
+    "payload": {
+      "from": "proscrire"
+    },
+    "solution": {
+      "answer": "proscription",
+      "accentSensitive": false
+    },
+    "commentary": "proscription — action de proscrire.",
+    "groupSlug": "prescription-proscription",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "transformation-5",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « prescrire » : le nom d'action correspondant.",
+    "payload": {
+      "from": "prescrire"
+    },
+    "solution": {
+      "answer": "prescription",
+      "accentSensitive": false
+    },
+    "commentary": "prescription — action de prescrire.",
+    "groupSlug": "prescription-proscription",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "transformation-6",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « émigrer » : le nom désignant la personne.",
+    "payload": {
+      "from": "émigrer"
+    },
+    "solution": {
+      "answer": "émigrant",
+      "accept": [
+        "émigrant",
+        "émigré"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "émigrant (ou émigré) — celui qui émigre.",
+    "groupSlug": "emigrer-immigrer",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "transformation-7",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « immigrer » : le nom désignant la personne.",
+    "payload": {
+      "from": "immigrer"
+    },
+    "solution": {
+      "answer": "immigrant",
+      "accept": [
+        "immigrant",
+        "immigré"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "immigrant (ou immigré) — celui qui immigre.",
+    "groupSlug": "emigrer-immigrer",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "correction-1",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "La personne poursuivie en justice est appelée le défenseur.",
+    "payload": {
+      "sentence": "La personne poursuivie en justice est appelée le défenseur.",
+      "wrong": "défenseur"
+    },
+    "solution": {
+      "answer": "défendeur",
+      "accentSensitive": false
+    },
+    "commentary": "défendeur — la personne poursuivie est le défendeur ; le défenseur est l'avocat.",
+    "groupSlug": "defendeur-defenseur",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "correction-2",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Après dix ans de mariage, ils ont fêté leur décade.",
+    "payload": {
+      "sentence": "Après dix ans de mariage, ils ont fêté leur décade.",
+      "wrong": "décade"
+    },
+    "solution": {
+      "answer": "décennie",
+      "accentSensitive": false
+    },
+    "commentary": "décennie — dix ans de mariage = une décennie.",
+    "groupSlug": "decade-decennie",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "correction-3",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "L'enfant a été mordu au mollet par un serpent vénéneux.",
+    "payload": {
+      "sentence": "L'enfant a été mordu au mollet par un serpent vénéneux.",
+      "wrong": "vénéneux"
+    },
+    "solution": {
+      "answer": "venimeux",
+      "accentSensitive": false
+    },
+    "commentary": "venimeux — un serpent injecte un venin : il est venimeux.",
+    "groupSlug": "veneneux-venimeux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "correction-4",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Ce médicament n'est délivré que sur proscription médicale.",
+    "payload": {
+      "sentence": "Ce médicament n'est délivré que sur proscription médicale.",
+      "wrong": "proscription"
+    },
+    "solution": {
+      "answer": "prescription",
+      "accentSensitive": false
+    },
+    "commentary": "prescription — une ordonnance médicale est une prescription.",
+    "groupSlug": "prescription-proscription",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "correction-5",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Le malfaiteur a perpétué son forfait en pleine nuit.",
+    "payload": {
+      "sentence": "Le malfaiteur a perpétué son forfait en pleine nuit.",
+      "wrong": "perpétué"
+    },
+    "solution": {
+      "answer": "perpétré",
+      "accentSensitive": false
+    },
+    "commentary": "perpétré — commettre un forfait = perpétrer ; perpétuer = faire durer.",
+    "groupSlug": "perpetrer-perpetuer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "correction-6",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Les eaux usées se déversent dans une fosse sceptique.",
+    "payload": {
+      "sentence": "Les eaux usées se déversent dans une fosse sceptique.",
+      "wrong": "sceptique"
+    },
+    "solution": {
+      "answer": "septique",
+      "accentSensitive": false
+    },
+    "commentary": "septique — fosse septique (assainissement) ; sceptique = qui doute.",
+    "groupSlug": "septique-sceptique",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "etymologie-1",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon latin.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "Addition"
+        },
+        {
+          "id": "2",
+          "text": "Adduction"
+        },
+        {
+          "id": "3",
+          "text": "Addiction"
+        },
+        {
+          "id": "4",
+          "text": "Prescription"
+        },
+        {
+          "id": "5",
+          "text": "Proscription"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "additio « action d'ajouter »"
+        },
+        {
+          "id": "b",
+          "text": "adductio « action d'amener vers »"
+        },
+        {
+          "id": "c",
+          "text": "addictus « livré, asservi »"
+        },
+        {
+          "id": "d",
+          "text": "praescriptio « ce qui est écrit en tête »"
+        },
+        {
+          "id": "e",
+          "text": "proscriptio « affichage public d'une condamnation »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d",
+        "5": "e"
+      }
+    },
+    "commentary": "addictus (« asservi ») explique l'aliénation propre à l'addiction ; proscriptio renvoie à l'affichage public des bannis.",
+    "groupSlug": "adduction-addiction-addition",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "homophonie-1",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "Après des mois de procédure, ils ont enfin réglé leur diff……… [désaccord].",
+    "payload": {
+      "hint": "désaccord",
+      "stem": "diff"
+    },
+    "solution": {
+      "answer": "différend",
+      "accentSensitive": true
+    },
+    "commentary": "différend — nom : le désaccord.",
+    "groupSlug": "differend-different",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "homophonie-2",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "Sur ce point précis, chacun avait un avis diff……… [non identique].",
+    "payload": {
+      "hint": "non identique",
+      "stem": "diff"
+    },
+    "solution": {
+      "answer": "différent",
+      "accentSensitive": true
+    },
+    "commentary": "différent — adjectif : non identique.",
+    "groupSlug": "differend-different",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "homophonie-3",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "Le vieillard décr………, courbé par l'âge, avançait à petits pas.",
+    "payload": {
+      "hint": "affaibli par l'âge (personne)",
+      "stem": "décr"
+    },
+    "solution": {
+      "answer": "décrépit",
+      "accentSensitive": true
+    },
+    "commentary": "décrépit — adjectif : affaibli par l'âge (personne).",
+    "groupSlug": "decrepit-decrepi",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "homophonie-4",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "La façade décr……… de la maison réclamait un ravalement.",
+    "payload": {
+      "hint": "dont l'enduit tombe (mur)",
+      "stem": "décr"
+    },
+    "solution": {
+      "answer": "décrépie",
+      "accentSensitive": true
+    },
+    "commentary": "décrépie — participe/adjectif : dont l'enduit tombe (mur).",
+    "groupSlug": "decrepit-decrepi",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "homophonie-5",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "La nouvelle s……… parlementaire s'ouvre en octobre.",
+    "payload": {
+      "hint": "période de travail d'une assemblée",
+      "stem": "s"
+    },
+    "solution": {
+      "answer": "session",
+      "accentSensitive": true
+    },
+    "commentary": "session — période de travail d'une assemblée.",
+    "groupSlug": "session-cession",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "homophonie-6",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "La c……… de parts sociales a été enregistrée chez le notaire.",
+    "payload": {
+      "hint": "action de céder, transfert",
+      "stem": "c"
+    },
+    "solution": {
+      "answer": "cession",
+      "accentSensitive": true
+    },
+    "commentary": "cession — action de céder, transfert.",
+    "groupSlug": "session-cession",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "homophonie-7",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "Au comptoir, il commanda un café expr……… bien serré.",
+    "payload": {
+      "hint": "rapide, serré (le café)",
+      "stem": "expr"
+    },
+    "solution": {
+      "answer": "express",
+      "accentSensitive": true
+    },
+    "commentary": "express — rapide, serré (le café) ; à distinguer de exprès = à dessein.",
+    "groupSlug": "express-expres",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "paire-minimale-1",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Dans la ……… actuelle, la plus grande prudence s'impose.",
+    "payload": {
+      "pair": [
+        "conjecture",
+        "conjoncture"
+      ],
+      "sentence": "Dans la ……… actuelle, la plus grande prudence s'impose."
+    },
+    "solution": {
+      "answer": "conjoncture",
+      "accentSensitive": false
+    },
+    "commentary": "conjoncture — la situation présente.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "paire-minimale-2",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Faute de preuves, ce n'est encore qu'une ……….",
+    "payload": {
+      "pair": [
+        "conjecture",
+        "conjoncture"
+      ],
+      "sentence": "Faute de preuves, ce n'est encore qu'une ………."
+    },
+    "solution": {
+      "answer": "conjecture",
+      "accentSensitive": false
+    },
+    "commentary": "conjecture — l'hypothèse.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "paire-minimale-3",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "La chaleur lourde de l'orage l'……… peu à peu.",
+    "payload": {
+      "pair": [
+        "oppresser",
+        "opprimer"
+      ],
+      "sentence": "La chaleur lourde de l'orage l'……… peu à peu."
+    },
+    "solution": {
+      "answer": "oppressait",
+      "accept": [
+        "oppressait",
+        "oppresser"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "oppressait — gêne physique/morale.",
+    "groupSlug": "oppresser-opprimer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "paire-minimale-4",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Pendant des décennies, le régime a ……… les minorités.",
+    "payload": {
+      "pair": [
+        "oppresser",
+        "opprimer"
+      ],
+      "sentence": "Pendant des décennies, le régime a ……… les minorités."
+    },
+    "solution": {
+      "answer": "opprimé",
+      "accept": [
+        "opprimé",
+        "opprimer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "opprimé — domination injuste.",
+    "groupSlug": "oppresser-opprimer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "paire-minimale-5",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Sa lettre ……… avec nostalgie les étés de l'enfance.",
+    "payload": {
+      "pair": [
+        "évoquer",
+        "invoquer"
+      ],
+      "sentence": "Sa lettre ……… avec nostalgie les étés de l'enfance."
+    },
+    "solution": {
+      "answer": "évoque",
+      "accept": [
+        "évoque",
+        "évoquer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "évoque — rappelle à la mémoire.",
+    "groupSlug": "evoquer-invoquer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "paire-minimale-6",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Pour sa défense, l'accusé a ……… la légitime défense.",
+    "payload": {
+      "pair": [
+        "évoquer",
+        "invoquer"
+      ],
+      "sentence": "Pour sa défense, l'accusé a ……… la légitime défense."
+    },
+    "solution": {
+      "answer": "invoqué",
+      "accept": [
+        "invoqué",
+        "invoquer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "invoqué — fait valoir un argument.",
+    "groupSlug": "evoquer-invoquer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "paire-minimale-7",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Une flamme vive ……… lentement la charpente.",
+    "payload": {
+      "pair": [
+        "consommer",
+        "consumer"
+      ],
+      "sentence": "Une flamme vive ……… lentement la charpente."
+    },
+    "solution": {
+      "answer": "consume",
+      "accept": [
+        "consume",
+        "consumer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "consume — détruit par le feu.",
+    "groupSlug": "consommer-consumer",
+    "posClass": "VERBE",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "production-1",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un paragraphe de 5 à 6 phrases sur un fait divers, intégrant correctement : effraction, infraction, inculper.",
+    "payload": {
+      "theme": "Un fait divers",
+      "required": [
+        "effraction",
+        "infraction",
+        "inculper"
+      ]
+    },
+    "solution": {
+      "criteria": "Emploi exact de chaque paronyme imposé ; effraction (entrée par force) ≠ infraction (violation de la loi) ; inculper (accuser)."
+    },
+    "commentary": "Repères : effraction (entrée par force) ≠ infraction (violation de la loi) ; inculper (accuser).",
+    "groupSlug": "infraction-effraction",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "production-2",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un paragraphe de 5 à 6 phrases sur un débat universitaire, intégrant : prolixe, spécieux, sceptique, crédible.",
+    "payload": {
+      "theme": "Un débat universitaire",
+      "required": [
+        "prolixe",
+        "spécieux",
+        "sceptique",
+        "crédible"
+      ]
+    },
+    "solution": {
+      "criteria": "prolixe (bavard), spécieux (faux sous une belle apparence), sceptique (qui doute), crédible (vraisemblable)."
+    },
+    "commentary": "Repères : prolixe (bavard), spécieux (faux sous une belle apparence), sceptique (qui doute), crédible (vraisemblable).",
+    "groupSlug": "specieux-spacieux",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "production-3",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un paragraphe de 5 à 6 phrases sur une promenade en forêt, intégrant : vénéneux, venimeux, âcre.",
+    "payload": {
+      "theme": "Une promenade en forêt",
+      "required": [
+        "vénéneux",
+        "venimeux",
+        "âcre"
+      ]
+    },
+    "solution": {
+      "criteria": "vénéneux (toxique à l'ingestion), venimeux (qui inocule un venin), âcre (irritant au goût ou à l'odeur)."
+    },
+    "commentary": "Repères : vénéneux (toxique à l'ingestion), venimeux (qui inocule un venin), âcre (irritant).",
+    "groupSlug": "veneneux-venimeux",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "categorisation-1",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez les douze termes en quatre catégories : nom masculin, nom féminin, adjectif, verbe.",
+    "payload": {
+      "items": [
+        "addiction",
+        "anoblir",
+        "spécieux",
+        "différend",
+        "repartir",
+        "altitude",
+        "crédule",
+        "percepteur",
+        "adduction",
+        "vénéneux",
+        "déceler",
+        "excès"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "addiction": "NOM_F",
+        "altitude": "NOM_F",
+        "adduction": "NOM_F",
+        "différend": "NOM_M",
+        "percepteur": "NOM_M",
+        "excès": "NOM_M",
+        "spécieux": "ADJECTIF",
+        "crédule": "ADJECTIF",
+        "vénéneux": "ADJECTIF",
+        "anoblir": "VERBE",
+        "repartir": "VERBE",
+        "déceler": "VERBE"
+      }
+    },
+    "commentary": "Noms féminins : addiction, altitude, adduction. Noms masculins : différend, percepteur, excès. Adjectifs : spécieux, crédule, vénéneux. Verbes : anoblir, repartir, déceler.",
+    "groupSlug": null,
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "traduction-1",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « Le médecin a décelé une légère anomalie cardiaque. »",
+    "payload": {
+      "source": "Le médecin a décelé une légère anomalie cardiaque.",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "Բժիշկը հայտնաբերեց սրտի աննշան անոմալիա։",
+      "note": "déceler → հայտնաբերել, նկատել."
+    },
+    "commentary": "déceler → հայտնաբերել, նկատել.",
+    "groupSlug": "deceler-desceller",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "traduction-2",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « Ils ont fini par régler leur différend à l'amiable. »",
+    "payload": {
+      "source": "Ils ont fini par régler leur différend à l'amiable.",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "Նրանք վերջապես կարգավորեցին իրենց տարաձայնությունը հաշտությամբ։",
+      "note": "différend → տարաձայնություն, վեճ."
+    },
+    "commentary": "différend → տարաձայնություն, վեճ.",
+    "groupSlug": "differend-different",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "traduction-3",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « Dans la conjoncture actuelle, les prix demeurent instables. »",
+    "payload": {
+      "source": "Dans la conjoncture actuelle, les prix demeurent instables.",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "Ներկա իրավիճակում (կոնյունկտուրայում) գները մնում են անկայուն։",
+      "note": "conjoncture → իրավիճակ, կոնյունկտուրա."
+    },
+    "commentary": "conjoncture → իրավիճակ, կոնյունկտուրա.",
+    "groupSlug": "conjecture-conjoncture",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "traduction-4",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « Il a versé l'eau bouillante dans la théière. »",
+    "payload": {
+      "source": "Il a versé l'eau bouillante dans la théière.",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "Նա եռացրած ջուրը լցրեց թեյնիկի մեջ։",
+      "note": "verser → լցնել."
+    },
+    "commentary": "verser → լցնել.",
+    "groupSlug": "verser-renverser",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "traduction-5",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rendez en français : « Այս դեղաբույսն ունի բուժիչ հատկություններ։ »",
+    "payload": {
+      "source": "Այս դեղաբույսն ունի բուժիչ հատկություններ։",
+      "direction": "hy-fr"
+    },
+    "solution": {
+      "model": "Cette plante médicinale possède des propriétés curatives.",
+      "note": "բուժիչ → médicinal (et non médical)."
+    },
+    "commentary": "բուժիչ → médicinal (et non médical).",
+    "groupSlug": "medical-medicinal",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "collocation-1",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque paronyme au syntagme qui lui est propre.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "Médicinal"
+        },
+        {
+          "id": "2",
+          "text": "Médical"
+        },
+        {
+          "id": "3",
+          "text": "Littéral"
+        },
+        {
+          "id": "4",
+          "text": "Littéraire"
+        },
+        {
+          "id": "5",
+          "text": "Vénéneux"
+        },
+        {
+          "id": "6",
+          "text": "Venimeux"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "un examen ……… approfondi"
+        },
+        {
+          "id": "b",
+          "text": "une plante aux vertus ………"
+        },
+        {
+          "id": "c",
+          "text": "le sens ……… d'une expression"
+        },
+        {
+          "id": "d",
+          "text": "un prix ……… prestigieux"
+        },
+        {
+          "id": "e",
+          "text": "un serpent ………"
+        },
+        {
+          "id": "f",
+          "text": "un champignon ………"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "b",
+        "2": "a",
+        "3": "c",
+        "4": "d",
+        "5": "f",
+        "6": "e"
+      }
+    },
+    "commentary": "plante médicinale, examen médical, sens littéral, prix littéraire, champignon vénéneux, serpent venimeux.",
+    "groupSlug": "medical-medicinal",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "devinette-1",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Naïf, prompt à croire sans examen.",
+    "payload": {
+      "definition": "Naïf, prompt à croire sans examen."
+    },
+    "solution": {
+      "answer": "crédule",
+      "accentSensitive": false
+    },
+    "commentary": "crédule.",
+    "groupSlug": "credule-credible",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "devinette-2",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Période de dix jours.",
+    "payload": {
+      "definition": "Période de dix jours."
+    },
+    "solution": {
+      "answer": "décade",
+      "accentSensitive": false
+    },
+    "commentary": "décade.",
+    "groupSlug": "decade-decennie",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 2
+  },
+  {
+    "slug": "devinette-3",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Entrée soudaine et impétueuse dans un lieu.",
+    "payload": {
+      "definition": "Entrée soudaine et impétueuse dans un lieu."
+    },
+    "solution": {
+      "answer": "irruption",
+      "accentSensitive": false
+    },
+    "commentary": "irruption.",
+    "groupSlug": "eruption-irruption",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 3
+  },
+  {
+    "slug": "devinette-4",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Fonctionnaire chargé de collecter les impôts.",
+    "payload": {
+      "definition": "Fonctionnaire chargé de collecter les impôts."
+    },
+    "solution": {
+      "answer": "percepteur",
+      "accentSensitive": false
+    },
+    "commentary": "percepteur.",
+    "groupSlug": "percepteur-precepteur",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 4
+  },
+  {
+    "slug": "devinette-5",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Argument qui n'a qu'une apparence de vérité.",
+    "payload": {
+      "definition": "Argument qui n'a qu'une apparence de vérité."
+    },
+    "solution": {
+      "answer": "spécieux",
+      "accentSensitive": false
+    },
+    "commentary": "spécieux.",
+    "groupSlug": "specieux-spacieux",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 5
+  },
+  {
+    "slug": "devinette-6",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Auteur ou artiste qui produit en abondance.",
+    "payload": {
+      "definition": "Auteur ou artiste qui produit en abondance."
+    },
+    "solution": {
+      "answer": "prolifique",
+      "accentSensitive": false
+    },
+    "commentary": "prolifique.",
+    "groupSlug": "prolixe-prolifique",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 6
+  },
+  {
+    "slug": "devinette-7",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Désaccord, conflit entre deux parties.",
+    "payload": {
+      "definition": "Désaccord, conflit entre deux parties."
+    },
+    "solution": {
+      "answer": "différend",
+      "accentSensitive": false
+    },
+    "commentary": "différend.",
+    "groupSlug": "differend-different",
+    "posClass": "NOM_M",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 7
+  },
+  {
+    "slug": "texte-lacunaire-1",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez le texte par le paronyme qui convient parmi les deux proposés, en accordant si nécessaire.",
+    "payload": {
+      "text": "Lors de la dernière (1) du conseil municipal, un vif (2) a éclaté au sujet des travaux d'(3) d'eau. Plusieurs élus, (4) quant au coût réel du projet, ont jugé l'argumentaire du maire (5). Devant l'(6) du vote, l'opposition a (7) un vice de procédure afin de (8) la décision à la séance suivante.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "session",
+            "cession"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "différend",
+            "différent"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "adduction",
+            "addiction"
+          ]
+        },
+        {
+          "n": 4,
+          "options": [
+            "sceptiques",
+            "septiques"
+          ]
+        },
+        {
+          "n": 5,
+          "options": [
+            "spécieux",
+            "spacieux"
+          ]
+        },
+        {
+          "n": 6,
+          "options": [
+            "imminence",
+            "éminence"
+          ]
+        },
+        {
+          "n": 7,
+          "options": [
+            "invoqué",
+            "évoqué"
+          ]
+        },
+        {
+          "n": 8,
+          "options": [
+            "différer",
+            "déférer"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "session",
+        "différend",
+        "adduction",
+        "sceptiques",
+        "spécieux",
+        "imminence",
+        "invoqué",
+        "différer"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "session (réunion) / cession (transfert) ; sceptique (qui doute) / septique (contaminé) ; imminence (proximité d'un événement) / éminence (haut rang) ; différer (remettre à plus tard) / déférer (transmettre à une autorité).",
+    "groupSlug": "session-cession",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 1
+  },
+  {
+    "slug": "qcm-gen-1",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Un ……… spécialiste de la langue française.",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "éminent"
+        },
+        {
+          "key": "b",
+          "text": "imminent"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "a"
+    },
+    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "qcm-gen-2",
+    "type": "QCM",
+    "gradingMode": "AUTO",
+    "prompt": "Le château se dresse sur une ……….",
+    "payload": {
+      "options": [
+        {
+          "key": "a",
+          "text": "éminence"
+        },
+        {
+          "key": "b",
+          "text": "imminence"
+        }
+      ]
+    },
+    "solution": {
+      "correctKey": "a"
+    },
+    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "trous-gen-1",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Un ……… spécialiste de la langue française.",
+    "payload": {
+      "bank": [
+        "éminent",
+        "imminent"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "éminent"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "trous-gen-2",
+    "type": "TROUS",
+    "gradingMode": "AUTO",
+    "prompt": "Le château se dresse sur une ……….",
+    "payload": {
+      "bank": [
+        "éminence",
+        "imminence"
+      ],
+      "blanksCount": 1
+    },
+    "solution": {
+      "answers": [
+        "éminence"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "anomalie-gen-1",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Un imminent spécialiste de la langue française.",
+    "payload": {
+      "sentence": "Un imminent spécialiste de la langue française."
+    },
+    "solution": {
+      "wrong": "imminent",
+      "correct": "éminent",
+      "accentSensitive": false
+    },
+    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur. (à ne pas confondre avec imminent).",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "anomalie-gen-2",
+    "type": "ANOMALIE",
+    "gradingMode": "AUTO",
+    "prompt": "Le château se dresse sur une imminence.",
+    "payload": {
+      "sentence": "Le château se dresse sur une imminence."
+    },
+    "solution": {
+      "wrong": "imminence",
+      "correct": "éminence",
+      "accentSensitive": false
+    },
+    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang. (à ne pas confondre avec imminence).",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "reecriture-gen-1",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « éminent » par « imminent », en adaptant le contexte.",
+    "payload": {
+      "source": "Un éminent spécialiste de la langue française.",
+      "target": "imminent"
+    },
+    "solution": {
+      "model": "Un orage imminent menaçait la vallée.",
+      "note": "imminent : Qui est sur le point de se produire ; tout proche dans le temps."
+    },
+    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "reecriture-gen-2",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « éminence » par « imminence », en adaptant le contexte.",
+    "payload": {
+      "source": "Le château se dresse sur une éminence.",
+      "target": "imminence"
+    },
+    "solution": {
+      "model": "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure.",
+      "note": "imminence : Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+    },
+    "commentary": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "reecriture-gen-3",
+    "type": "REECRITURE",
+    "gradingMode": "OPEN",
+    "prompt": "Réécrivez en remplaçant « conjecture » par « conjoncture », en adaptant le contexte.",
+    "payload": {
+      "source": "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
+      "target": "conjoncture"
+    },
+    "solution": {
+      "model": "Dans la conjoncture actuelle, la plus grande prudence s'impose.",
+      "note": "conjoncture : Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+    },
+    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "appariement-gen-1",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "éminent"
+        },
+        {
+          "id": "2",
+          "text": "imminent"
+        },
+        {
+          "id": "3",
+          "text": "éminence"
+        },
+        {
+          "id": "4",
+          "text": "imminence"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+        },
+        {
+          "id": "b",
+          "text": "Qui est sur le point de se produire ; tout proche dans le temps."
+        },
+        {
+          "id": "c",
+          "text": "Élévation de terrain ; par extension, dignité, haut rang."
+        },
+        {
+          "id": "d",
+          "text": "Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 2
+  },
+  {
+    "slug": "appariement-gen-2",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "conjecture"
+        },
+        {
+          "id": "2",
+          "text": "conjoncture"
+        },
+        {
+          "id": "3",
+          "text": "collision"
+        },
+        {
+          "id": "4",
+          "text": "collusion"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Supposition fondée sur des indices, hypothèse non vérifiée."
+        },
+        {
+          "id": "b",
+          "text": "Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+        },
+        {
+          "id": "c",
+          "text": "Choc de deux corps en mouvement."
+        },
+        {
+          "id": "d",
+          "text": "Entente secrète au préjudice d'un tiers."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 3
+  },
+  {
+    "slug": "appariement-gen-3",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prodige"
+        },
+        {
+          "id": "2",
+          "text": "prodigue"
+        },
+        {
+          "id": "3",
+          "text": "éruption"
+        },
+        {
+          "id": "4",
+          "text": "irruption"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Fait merveilleux ; personne aux dons extraordinaires."
+        },
+        {
+          "id": "b",
+          "text": "Qui dépense sans compter, avec excès."
+        },
+        {
+          "id": "c",
+          "text": "Sortie soudaine et violente (lave, gaz) ; apparition rapide (boutons)."
+        },
+        {
+          "id": "d",
+          "text": "Entrée soudaine, brusque et inattendue dans un lieu."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "prodige-prodigue",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "appariement-gen-4",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "inculper"
+        },
+        {
+          "id": "2",
+          "text": "inculquer"
+        },
+        {
+          "id": "3",
+          "text": "médical"
+        },
+        {
+          "id": "4",
+          "text": "médicinal"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Mettre en accusation, imputer une faute à quelqu'un."
+        },
+        {
+          "id": "b",
+          "text": "Faire entrer durablement dans l'esprit par une instruction répétée."
+        },
+        {
+          "id": "c",
+          "text": "Relatif à la médecine et à son exercice."
+        },
+        {
+          "id": "d",
+          "text": "Qui possède des vertus curatives, qui sert de remède."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "inculper-inculquer",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "appariement-gen-5",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prolixe"
+        },
+        {
+          "id": "2",
+          "text": "prolifique"
+        },
+        {
+          "id": "3",
+          "text": "opportun"
+        },
+        {
+          "id": "4",
+          "text": "importun"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Trop long, trop bavard, qui se perd en développements."
+        },
+        {
+          "id": "b",
+          "text": "Qui se reproduit ou produit beaucoup ; très fécond."
+        },
+        {
+          "id": "c",
+          "text": "Qui vient à propos, au moment favorable."
+        },
+        {
+          "id": "d",
+          "text": "Qui gêne, qui survient ou insiste mal à propos."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "prolixe-prolifique",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "appariement-gen-6",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "infraction"
+        },
+        {
+          "id": "2",
+          "text": "effraction"
+        },
+        {
+          "id": "3",
+          "text": "absorber"
+        },
+        {
+          "id": "4",
+          "text": "adsorber"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Violation d'une loi, d'un règlement."
+        },
+        {
+          "id": "b",
+          "text": "Bris de clôture ou de serrure pour pénétrer dans un lieu."
+        },
+        {
+          "id": "c",
+          "text": "Faire pénétrer et retenir un fluide à l'intérieur d'un corps."
+        },
+        {
+          "id": "d",
+          "text": "Retenir des molécules à la surface d'un solide."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "infraction-effraction",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "appariement-gen-7",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "anoblir"
+        },
+        {
+          "id": "2",
+          "text": "ennoblir"
+        },
+        {
+          "id": "3",
+          "text": "consommer"
+        },
+        {
+          "id": "4",
+          "text": "consumer"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Conférer un titre de noblesse à quelqu'un."
+        },
+        {
+          "id": "b",
+          "text": "Élever moralement, donner de la dignité, de la grandeur."
+        },
+        {
+          "id": "c",
+          "text": "User d'une ressource, l'utiliser ou la dépenser."
+        },
+        {
+          "id": "d",
+          "text": "Détruire par le feu ; user lentement."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "anoblir-ennoblir",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "appariement-gen-8",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "addition"
+        },
+        {
+          "id": "2",
+          "text": "adduction"
+        },
+        {
+          "id": "3",
+          "text": "addiction"
+        },
+        {
+          "id": "4",
+          "text": "déceler"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Action d'ajouter ; opération arithmétique ; note à payer."
+        },
+        {
+          "id": "b",
+          "text": "Action d'amener un fluide vers un lieu (eau, gaz)."
+        },
+        {
+          "id": "c",
+          "text": "Dépendance aliénante à une substance ou à une pratique."
+        },
+        {
+          "id": "d",
+          "text": "Découvrir, détecter ce qui était caché."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "adduction-addiction-addition",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "appariement-gen-9",
+    "type": "APPARIEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Associez chaque terme à sa définition exacte.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "desceller"
+        },
+        {
+          "id": "2",
+          "text": "abjurer"
+        },
+        {
+          "id": "3",
+          "text": "adjurer"
+        },
+        {
+          "id": "4",
+          "text": "prescription"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "Détacher, arracher ce qui était scellé ou fixé."
+        },
+        {
+          "id": "b",
+          "text": "Renoncer solennellement à une religion, une opinion."
+        },
+        {
+          "id": "c",
+          "text": "Supplier instamment, au nom de ce qu'il y a de sacré."
+        },
+        {
+          "id": "d",
+          "text": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Appariement terme ↔ définition (items générés depuis le manuel).",
+    "groupSlug": "deceler-desceller",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "affixes-gen-1",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "Qu'est-ce qui distingue : éminent / imminent ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "éminent",
+        "imminent"
+      ]
+    },
+    "solution": {
+      "model": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+    },
+    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "affixes-gen-2",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "Qu'est-ce qui distingue : éminence / imminence ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "éminence",
+        "imminence"
+      ]
+    },
+    "solution": {
+      "model": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement."
+    },
+    "commentary": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "affixes-gen-3",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "Qu'est-ce qui distingue : conjecture / conjoncture ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "conjecture",
+        "conjoncture"
+      ]
+    },
+    "solution": {
+      "model": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+    },
+    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "affixes-gen-4",
+    "type": "AFFIXES",
+    "gradingMode": "OPEN",
+    "prompt": "Qu'est-ce qui distingue : collision / collusion ? Précisez le sens de chacun.",
+    "payload": {
+      "pair": [
+        "collision",
+        "collusion"
+      ]
+    },
+    "solution": {
+      "model": "La collision est un choc matériel ; la collusion, une entente secrète et frauduleuse."
+    },
+    "commentary": "La collision est un choc matériel ; la collusion, une entente secrète et frauduleuse.",
+    "groupSlug": "collision-collusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "contexte-gen-1",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase correcte employant « éminent » à bon escient.",
+    "payload": {
+      "word": "éminent",
+      "constraint": "phrase de niveau B2"
+    },
+    "solution": {
+      "model": "Un éminent spécialiste de la langue française.",
+      "note": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+    },
+    "commentary": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "contexte-gen-2",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase correcte employant « éminence » à bon escient.",
+    "payload": {
+      "word": "éminence",
+      "constraint": "phrase de niveau B2"
+    },
+    "solution": {
+      "model": "Le château se dresse sur une éminence.",
+      "note": "Élévation de terrain ; par extension, dignité, haut rang."
+    },
+    "commentary": "Élévation de terrain ; par extension, dignité, haut rang.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "contexte-gen-3",
+    "type": "CONTEXTE",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez une phrase correcte employant « conjecture » à bon escient.",
+    "payload": {
+      "word": "conjecture",
+      "constraint": "phrase de niveau B2"
+    },
+    "solution": {
+      "model": "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
+      "note": "Supposition fondée sur des indices, hypothèse non vérifiée."
+    },
+    "commentary": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "remplacement-gen-1",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Un [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.] spécialiste de la langue française.",
+    "payload": {
+      "sentence": "Un [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.] spécialiste de la langue française.",
+      "periphrase": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+    },
+    "solution": {
+      "answer": "éminent",
+      "accentSensitive": false
+    },
+    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "remplacement-gen-2",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Le château se dresse sur une [Élévation de terrain ; par extension, dignité, haut rang.].",
+    "payload": {
+      "sentence": "Le château se dresse sur une [Élévation de terrain ; par extension, dignité, haut rang.].",
+      "periphrase": "Élévation de terrain ; par extension, dignité, haut rang."
+    },
+    "solution": {
+      "answer": "éminence",
+      "accentSensitive": false
+    },
+    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "remplacement-gen-3",
+    "type": "REMPLACEMENT",
+    "gradingMode": "AUTO",
+    "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples [Supposition fondée sur des indices, hypothèse non vérifiée.]s.",
+    "payload": {
+      "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples [Supposition fondée sur des indices, hypothèse non vérifiée.]s.",
+      "periphrase": "Supposition fondée sur des indices, hypothèse non vérifiée."
+    },
+    "solution": {
+      "answer": "conjecture",
+      "accentSensitive": false
+    },
+    "commentary": "conjecture — Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "vraifaux-gen-1",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "« éminent » signifie : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "payload": {
+      "statement": "« éminent » signifie : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+    },
+    "solution": {
+      "value": true,
+      "justification": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+    },
+    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "vraifaux-gen-2",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "« éminence » signifie : Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
+    "payload": {
+      "statement": "« éminence » signifie : Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+    },
+    "solution": {
+      "value": false,
+      "justification": "Non : c'est « imminence ». L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement."
+    },
+    "commentary": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "vraifaux-gen-3",
+    "type": "VRAIFAUX",
+    "gradingMode": "AUTO",
+    "prompt": "« conjecture » signifie : Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "payload": {
+      "statement": "« conjecture » signifie : Supposition fondée sur des indices, hypothèse non vérifiée."
+    },
+    "solution": {
+      "value": true,
+      "justification": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+    },
+    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "transformation-gen-1",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "Donnez le paronyme de « éminent » (Qui est sur le point de se produire ; tout proche dans le temps.).",
+    "payload": {
+      "from": "éminent"
+    },
+    "solution": {
+      "answer": "imminent",
+      "accentSensitive": false
+    },
+    "commentary": "imminent — Qui est sur le point de se produire ; tout proche dans le temps.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "transformation-gen-2",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "Donnez le paronyme de « éminence » (Caractère de ce qui est imminent ; proximité immédiate d'un événement.).",
+    "payload": {
+      "from": "éminence"
+    },
+    "solution": {
+      "answer": "imminence",
+      "accentSensitive": false
+    },
+    "commentary": "imminence — Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "transformation-gen-3",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "Donnez le paronyme de « conjecture » (Situation présente résultant d'un ensemble de circonstances (souvent économiques).).",
+    "payload": {
+      "from": "conjecture"
+    },
+    "solution": {
+      "answer": "conjoncture",
+      "accentSensitive": false
+    },
+    "commentary": "conjoncture — Situation présente résultant d'un ensemble de circonstances (souvent économiques).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "correction-gen-1",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Un orage éminent menaçait la vallée.",
+    "payload": {
+      "sentence": "Un orage éminent menaçait la vallée.",
+      "wrong": "éminent"
+    },
+    "solution": {
+      "answer": "imminent",
+      "accentSensitive": false
+    },
+    "commentary": "imminent — Qui est sur le point de se produire ; tout proche dans le temps.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "correction-gen-2",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Devant l'éminence du vote, l'opposition a invoqué un vice de procédure.",
+    "payload": {
+      "sentence": "Devant l'éminence du vote, l'opposition a invoqué un vice de procédure.",
+      "wrong": "éminence"
+    },
+    "solution": {
+      "answer": "imminence",
+      "accentSensitive": false
+    },
+    "commentary": "imminence — Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "correction-gen-3",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "Dans la conjecture actuelle, la plus grande prudence s'impose.",
+    "payload": {
+      "sentence": "Dans la conjecture actuelle, la plus grande prudence s'impose.",
+      "wrong": "conjecture"
+    },
+    "solution": {
+      "answer": "conjoncture",
+      "accentSensitive": false
+    },
+    "commentary": "conjoncture — Situation présente résultant d'un ensemble de circonstances (souvent économiques).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "correction-gen-4",
+    "type": "CORRECTION",
+    "gradingMode": "AUTO",
+    "prompt": "La collision entre les deux entreprises, destinée à fausser le marché, fut sévèrement sanctionnée.",
+    "payload": {
+      "sentence": "La collision entre les deux entreprises, destinée à fausser le marché, fut sévèrement sanctionnée.",
+      "wrong": "collision"
+    },
+    "solution": {
+      "answer": "collusion",
+      "accentSensitive": false
+    },
+    "commentary": "collusion — Entente secrète au préjudice d'un tiers.",
+    "groupSlug": "collision-collusion",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "etymologie-gen-1",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "éminent"
+        },
+        {
+          "id": "2",
+          "text": "imminent"
+        },
+        {
+          "id": "3",
+          "text": "conjecture"
+        },
+        {
+          "id": "4",
+          "text": "conjoncture"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin eminere « s'élever au-dessus »"
+        },
+        {
+          "id": "b",
+          "text": "du latin imminere « menacer, surplomber »"
+        },
+        {
+          "id": "c",
+          "text": "du latin conjectura « action de jeter ensemble, supposition »"
+        },
+        {
+          "id": "d",
+          "text": "du latin conjunctura « jonction, liaison »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 2
+  },
+  {
+    "slug": "etymologie-gen-2",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "imminent"
+        },
+        {
+          "id": "2",
+          "text": "conjecture"
+        },
+        {
+          "id": "3",
+          "text": "conjoncture"
+        },
+        {
+          "id": "4",
+          "text": "collision"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin imminere « menacer, surplomber »"
+        },
+        {
+          "id": "b",
+          "text": "du latin conjectura « action de jeter ensemble, supposition »"
+        },
+        {
+          "id": "c",
+          "text": "du latin conjunctura « jonction, liaison »"
+        },
+        {
+          "id": "d",
+          "text": "du latin collisio « action de heurter »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 3
+  },
+  {
+    "slug": "etymologie-gen-3",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "conjecture"
+        },
+        {
+          "id": "2",
+          "text": "conjoncture"
+        },
+        {
+          "id": "3",
+          "text": "collision"
+        },
+        {
+          "id": "4",
+          "text": "collusion"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin conjectura « action de jeter ensemble, supposition »"
+        },
+        {
+          "id": "b",
+          "text": "du latin conjunctura « jonction, liaison »"
+        },
+        {
+          "id": "c",
+          "text": "du latin collisio « action de heurter »"
+        },
+        {
+          "id": "d",
+          "text": "du latin collusio « entente frauduleuse »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "etymologie-gen-4",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "conjoncture"
+        },
+        {
+          "id": "2",
+          "text": "collision"
+        },
+        {
+          "id": "3",
+          "text": "collusion"
+        },
+        {
+          "id": "4",
+          "text": "prodige"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin conjunctura « jonction, liaison »"
+        },
+        {
+          "id": "b",
+          "text": "du latin collisio « action de heurter »"
+        },
+        {
+          "id": "c",
+          "text": "du latin collusio « entente frauduleuse »"
+        },
+        {
+          "id": "d",
+          "text": "du latin prodigium « présage, prodige »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "etymologie-gen-5",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "collision"
+        },
+        {
+          "id": "2",
+          "text": "collusion"
+        },
+        {
+          "id": "3",
+          "text": "prodige"
+        },
+        {
+          "id": "4",
+          "text": "prodigue"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin collisio « action de heurter »"
+        },
+        {
+          "id": "b",
+          "text": "du latin collusio « entente frauduleuse »"
+        },
+        {
+          "id": "c",
+          "text": "du latin prodigium « présage, prodige »"
+        },
+        {
+          "id": "d",
+          "text": "du latin prodigus « qui dissipe »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "collision-collusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "etymologie-gen-6",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "collusion"
+        },
+        {
+          "id": "2",
+          "text": "prodige"
+        },
+        {
+          "id": "3",
+          "text": "prodigue"
+        },
+        {
+          "id": "4",
+          "text": "éruption"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin collusio « entente frauduleuse »"
+        },
+        {
+          "id": "b",
+          "text": "du latin prodigium « présage, prodige »"
+        },
+        {
+          "id": "c",
+          "text": "du latin prodigus « qui dissipe »"
+        },
+        {
+          "id": "d",
+          "text": "du latin eruptio « action de sortir »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "collision-collusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "etymologie-gen-7",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prodige"
+        },
+        {
+          "id": "2",
+          "text": "prodigue"
+        },
+        {
+          "id": "3",
+          "text": "éruption"
+        },
+        {
+          "id": "4",
+          "text": "irruption"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin prodigium « présage, prodige »"
+        },
+        {
+          "id": "b",
+          "text": "du latin prodigus « qui dissipe »"
+        },
+        {
+          "id": "c",
+          "text": "du latin eruptio « action de sortir »"
+        },
+        {
+          "id": "d",
+          "text": "du latin irruptio « invasion »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "prodige-prodigue",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "etymologie-gen-8",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prodigue"
+        },
+        {
+          "id": "2",
+          "text": "éruption"
+        },
+        {
+          "id": "3",
+          "text": "irruption"
+        },
+        {
+          "id": "4",
+          "text": "inculper"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin prodigus « qui dissipe »"
+        },
+        {
+          "id": "b",
+          "text": "du latin eruptio « action de sortir »"
+        },
+        {
+          "id": "c",
+          "text": "du latin irruptio « invasion »"
+        },
+        {
+          "id": "d",
+          "text": "du latin culpa « faute »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "prodige-prodigue",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "etymologie-gen-9",
+    "type": "ETYMOLOGIE",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque mot à son étymon.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "éruption"
+        },
+        {
+          "id": "2",
+          "text": "irruption"
+        },
+        {
+          "id": "3",
+          "text": "inculper"
+        },
+        {
+          "id": "4",
+          "text": "inculquer"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "du latin eruptio « action de sortir »"
+        },
+        {
+          "id": "b",
+          "text": "du latin irruptio « invasion »"
+        },
+        {
+          "id": "c",
+          "text": "du latin culpa « faute »"
+        },
+        {
+          "id": "d",
+          "text": "du latin inculcare « faire entrer en foulant »"
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Étymologie (items générés depuis les origines du manuel).",
+    "groupSlug": "eruption-irruption",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "homophonie-gen-1",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "émin……… [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.]",
+    "payload": {
+      "hint": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+      "stem": "émin"
+    },
+    "solution": {
+      "answer": "éminent",
+      "accentSensitive": true
+    },
+    "commentary": "éminent — orthographe exacte.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "homophonie-gen-2",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "émin……… [Élévation de terrain ; par extension, dignité, haut rang.]",
+    "payload": {
+      "hint": "Élévation de terrain ; par extension, dignité, haut rang.",
+      "stem": "émin"
+    },
+    "solution": {
+      "answer": "éminence",
+      "accentSensitive": true
+    },
+    "commentary": "éminence — orthographe exacte.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "homophonie-gen-3",
+    "type": "HOMOPHONIE",
+    "gradingMode": "AUTO",
+    "prompt": "conj……… [Supposition fondée sur des indices, hypothèse non vérifiée.]",
+    "payload": {
+      "hint": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+      "stem": "conj"
+    },
+    "solution": {
+      "answer": "conjecture",
+      "accentSensitive": true
+    },
+    "commentary": "conjecture — orthographe exacte.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "paire_minimale-gen-1",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Un ……… spécialiste de la langue française.",
+    "payload": {
+      "pair": [
+        "éminent",
+        "imminent"
+      ],
+      "sentence": "Un ……… spécialiste de la langue française."
+    },
+    "solution": {
+      "answer": "éminent",
+      "accentSensitive": false
+    },
+    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "paire_minimale-gen-2",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Le château se dresse sur une ……….",
+    "payload": {
+      "pair": [
+        "éminence",
+        "imminence"
+      ],
+      "sentence": "Le château se dresse sur une ………."
+    },
+    "solution": {
+      "answer": "éminence",
+      "accentSensitive": false
+    },
+    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang.",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "paire_minimale-gen-3",
+    "type": "PAIRE_MINIMALE",
+    "gradingMode": "AUTO",
+    "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
+    "payload": {
+      "pair": [
+        "conjecture",
+        "conjoncture"
+      ],
+      "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples ………s."
+    },
+    "solution": {
+      "answer": "conjecture",
+      "accentSensitive": false
+    },
+    "commentary": "conjecture — Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "production-gen-1",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : éminent, imminent.",
+    "payload": {
+      "theme": "Éminent & Imminent",
+      "required": [
+        "éminent",
+        "imminent"
+      ]
+    },
+    "solution": {
+      "criteria": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+    },
+    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "production-gen-2",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : éminence, imminence.",
+    "payload": {
+      "theme": "Éminence & Imminence",
+      "required": [
+        "éminence",
+        "imminence"
+      ]
+    },
+    "solution": {
+      "criteria": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement."
+    },
+    "commentary": "L'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "production-gen-3",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : conjecture, conjoncture.",
+    "payload": {
+      "theme": "Conjecture & Conjoncture",
+      "required": [
+        "conjecture",
+        "conjoncture"
+      ]
+    },
+    "solution": {
+      "criteria": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+    },
+    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "production-gen-4",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : collision, collusion.",
+    "payload": {
+      "theme": "Collision & Collusion",
+      "required": [
+        "collision",
+        "collusion"
+      ]
+    },
+    "solution": {
+      "criteria": "La collision est un choc matériel ; la collusion, une entente secrète et frauduleuse."
+    },
+    "commentary": "La collision est un choc matériel ; la collusion, une entente secrète et frauduleuse.",
+    "groupSlug": "collision-collusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "production-gen-5",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : prodige, prodigue.",
+    "payload": {
+      "theme": "Prodige & Prodigue",
+      "required": [
+        "prodige",
+        "prodigue"
+      ]
+    },
+    "solution": {
+      "criteria": "Un prodige est un fait merveilleux ou un talent extraordinaire (nom) ; prodigue qualifie celui qui dépense sans compter (adjectif)."
+    },
+    "commentary": "Un prodige est un fait merveilleux ou un talent extraordinaire (nom) ; prodigue qualifie celui qui dépense sans compter (adjectif).",
+    "groupSlug": "prodige-prodigue",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "production-gen-6",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : éruption, irruption.",
+    "payload": {
+      "theme": "Éruption & Irruption",
+      "required": [
+        "éruption",
+        "irruption"
+      ]
+    },
+    "solution": {
+      "criteria": "L'éruption est une sortie violente (volcan, peau) ; l'irruption, une entrée soudaine et impétueuse dans un lieu."
+    },
+    "commentary": "L'éruption est une sortie violente (volcan, peau) ; l'irruption, une entrée soudaine et impétueuse dans un lieu.",
+    "groupSlug": "eruption-irruption",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "production-gen-7",
+    "type": "PRODUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Rédigez un court paragraphe employant correctement : inculper, inculquer.",
+    "payload": {
+      "theme": "Inculper & Inculquer",
+      "required": [
+        "inculper",
+        "inculquer"
+      ]
+    },
+    "solution": {
+      "criteria": "Inculper, c'est mettre en accusation ; inculquer, c'est faire entrer durablement dans l'esprit (enseigner)."
+    },
+    "commentary": "Inculper, c'est mettre en accusation ; inculquer, c'est faire entrer durablement dans l'esprit (enseigner).",
+    "groupSlug": "inculper-inculquer",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "categorisation-gen-1",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "éminent",
+        "imminent",
+        "éminence",
+        "imminence",
+        "conjecture",
+        "conjoncture",
+        "collision",
+        "collusion"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "éminent": "ADJECTIF",
+        "imminent": "ADJECTIF",
+        "éminence": "NOM_F",
+        "imminence": "NOM_F",
+        "conjecture": "NOM_F",
+        "conjoncture": "NOM_F",
+        "collision": "NOM_F",
+        "collusion": "NOM_F"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 2
+  },
+  {
+    "slug": "categorisation-gen-2",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "prodige",
+        "prodigue",
+        "éruption",
+        "irruption",
+        "inculper",
+        "inculquer",
+        "médical",
+        "médicinal"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "prodige": "NOM_M",
+        "prodigue": "ADJECTIF",
+        "éruption": "NOM_F",
+        "irruption": "NOM_F",
+        "inculper": "VERBE",
+        "inculquer": "VERBE",
+        "médical": "ADJECTIF",
+        "médicinal": "ADJECTIF"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 3
+  },
+  {
+    "slug": "categorisation-gen-3",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "prolixe",
+        "prolifique",
+        "opportun",
+        "importun",
+        "infraction",
+        "effraction",
+        "absorber",
+        "adsorber"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "prolixe": "ADJECTIF",
+        "prolifique": "ADJECTIF",
+        "opportun": "ADJECTIF",
+        "importun": "ADJECTIF",
+        "infraction": "NOM_F",
+        "effraction": "NOM_F",
+        "absorber": "VERBE",
+        "adsorber": "VERBE"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "categorisation-gen-4",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "anoblir",
+        "ennoblir",
+        "consommer",
+        "consumer",
+        "addition",
+        "adduction",
+        "addiction",
+        "déceler"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "anoblir": "VERBE",
+        "ennoblir": "VERBE",
+        "consommer": "VERBE",
+        "consumer": "VERBE",
+        "addition": "NOM_F",
+        "adduction": "NOM_F",
+        "addiction": "NOM_F",
+        "déceler": "VERBE"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "categorisation-gen-5",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "desceller",
+        "abjurer",
+        "adjurer",
+        "prescription",
+        "proscription",
+        "spécieux",
+        "spacieux",
+        "percepteur"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "desceller": "VERBE",
+        "abjurer": "VERBE",
+        "adjurer": "VERBE",
+        "prescription": "NOM_F",
+        "proscription": "NOM_F",
+        "spécieux": "ADJECTIF",
+        "spacieux": "ADJECTIF",
+        "percepteur": "NOM_M"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "categorisation-gen-6",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "précepteur",
+        "septique",
+        "sceptique",
+        "émigrer",
+        "immigrer",
+        "affectif",
+        "affectueux",
+        "répartir"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "précepteur": "NOM_M",
+        "septique": "ADJECTIF",
+        "sceptique": "ADJECTIF",
+        "émigrer": "VERBE",
+        "immigrer": "VERBE",
+        "affectif": "ADJECTIF",
+        "affectueux": "ADJECTIF",
+        "répartir": "VERBE"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "categorisation-gen-7",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "repartir",
+        "allusion",
+        "illusion",
+        "décade",
+        "décennie",
+        "crédule",
+        "crédible",
+        "vénéneux"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "repartir": "VERBE",
+        "allusion": "NOM_F",
+        "illusion": "NOM_F",
+        "décade": "NOM_F",
+        "décennie": "NOM_F",
+        "crédule": "ADJECTIF",
+        "crédible": "ADJECTIF",
+        "vénéneux": "ADJECTIF"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "categorisation-gen-8",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "venimeux",
+        "littéral",
+        "littéraire",
+        "différend",
+        "différent",
+        "session",
+        "cession",
+        "oppresser"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "venimeux": "ADJECTIF",
+        "littéral": "ADJECTIF",
+        "littéraire": "ADJECTIF",
+        "différend": "NOM_M",
+        "différent": "ADJECTIF",
+        "session": "NOM_F",
+        "cession": "NOM_F",
+        "oppresser": "VERBE"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "categorisation-gen-9",
+    "type": "CATEGORISATION",
+    "gradingMode": "AUTO",
+    "prompt": "Classez chaque terme dans sa catégorie grammaticale.",
+    "payload": {
+      "items": [
+        "opprimer",
+        "évoquer",
+        "invoquer",
+        "défendeur",
+        "défenseur",
+        "perpétrer",
+        "perpétuer",
+        "dénotatif"
+      ],
+      "bins": [
+        {
+          "id": "NOM_M",
+          "label": "Nom masculin"
+        },
+        {
+          "id": "NOM_F",
+          "label": "Nom féminin"
+        },
+        {
+          "id": "ADJECTIF",
+          "label": "Adjectif"
+        },
+        {
+          "id": "VERBE",
+          "label": "Verbe"
+        }
+      ]
+    },
+    "solution": {
+      "assign": {
+        "opprimer": "VERBE",
+        "évoquer": "VERBE",
+        "invoquer": "VERBE",
+        "défendeur": "NOM_M",
+        "défenseur": "NOM_M",
+        "perpétrer": "VERBE",
+        "perpétuer": "VERBE",
+        "dénotatif": "ADJECTIF"
+      }
+    },
+    "commentary": "Catégorisation (items générés depuis le manuel).",
+    "groupSlug": null,
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "traduction-gen-1",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « éminent ».",
+    "payload": {
+      "source": "éminent",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "ականավոր",
+      "note": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+    },
+    "commentary": "éminent → ականավոր",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "traduction-gen-2",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « imminent ».",
+    "payload": {
+      "source": "imminent",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "մոտալուտ",
+      "note": "Qui est sur le point de se produire ; tout proche dans le temps."
+    },
+    "commentary": "imminent → մոտալուտ",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "traduction-gen-3",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « conjecture ».",
+    "payload": {
+      "source": "conjecture",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "ենթադրություն",
+      "note": "Supposition fondée sur des indices, hypothèse non vérifiée."
+    },
+    "commentary": "conjecture → ենթադրություն",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "traduction-gen-4",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « conjoncture ».",
+    "payload": {
+      "source": "conjoncture",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "իրավիճակ",
+      "note": "Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+    },
+    "commentary": "conjoncture → իրավիճակ",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "traduction-gen-5",
+    "type": "TRADUCTION",
+    "gradingMode": "OPEN",
+    "prompt": "Traduisez en arménien : « collision ».",
+    "payload": {
+      "source": "collision",
+      "direction": "fr-hy"
+    },
+    "solution": {
+      "model": "բախում",
+      "note": "Choc de deux corps en mouvement."
+    },
+    "commentary": "collision → բախում",
+    "groupSlug": "collision-collusion",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "collocation-gen-1",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "éminent"
+        },
+        {
+          "id": "2",
+          "text": "imminent"
+        },
+        {
+          "id": "3",
+          "text": "éminence"
+        },
+        {
+          "id": "4",
+          "text": "imminence"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Qui est sur le point de se produire ; tout proche dans le temps."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Élévation de terrain ; par extension, dignité, haut rang."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 2
+  },
+  {
+    "slug": "collocation-gen-2",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "conjecture"
+        },
+        {
+          "id": "2",
+          "text": "conjoncture"
+        },
+        {
+          "id": "3",
+          "text": "collision"
+        },
+        {
+          "id": "4",
+          "text": "collusion"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Supposition fondée sur des indices, hypothèse non vérifiée."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Choc de deux corps en mouvement."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Entente secrète au préjudice d'un tiers."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 3
+  },
+  {
+    "slug": "collocation-gen-3",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prodige"
+        },
+        {
+          "id": "2",
+          "text": "prodigue"
+        },
+        {
+          "id": "3",
+          "text": "éruption"
+        },
+        {
+          "id": "4",
+          "text": "irruption"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Fait merveilleux ; personne aux dons extraordinaires."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Qui dépense sans compter, avec excès."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Sortie soudaine et violente (lave, gaz) ; apparition rapide (boutons)."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Entrée soudaine, brusque et inattendue dans un lieu."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "prodige-prodigue",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "collocation-gen-4",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "inculper"
+        },
+        {
+          "id": "2",
+          "text": "inculquer"
+        },
+        {
+          "id": "3",
+          "text": "médical"
+        },
+        {
+          "id": "4",
+          "text": "médicinal"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Mettre en accusation, imputer une faute à quelqu'un."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Faire entrer durablement dans l'esprit par une instruction répétée."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Relatif à la médecine et à son exercice."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Qui possède des vertus curatives, qui sert de remède."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "inculper-inculquer",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "collocation-gen-5",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "prolixe"
+        },
+        {
+          "id": "2",
+          "text": "prolifique"
+        },
+        {
+          "id": "3",
+          "text": "opportun"
+        },
+        {
+          "id": "4",
+          "text": "importun"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Trop long, trop bavard, qui se perd en développements."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Qui se reproduit ou produit beaucoup ; très fécond."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Qui vient à propos, au moment favorable."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Qui gêne, qui survient ou insiste mal à propos."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "prolixe-prolifique",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "collocation-gen-6",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "infraction"
+        },
+        {
+          "id": "2",
+          "text": "effraction"
+        },
+        {
+          "id": "3",
+          "text": "absorber"
+        },
+        {
+          "id": "4",
+          "text": "adsorber"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Violation d'une loi, d'un règlement."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Bris de clôture ou de serrure pour pénétrer dans un lieu."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Faire pénétrer et retenir un fluide à l'intérieur d'un corps."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Retenir des molécules à la surface d'un solide."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "infraction-effraction",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "collocation-gen-7",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "anoblir"
+        },
+        {
+          "id": "2",
+          "text": "ennoblir"
+        },
+        {
+          "id": "3",
+          "text": "consommer"
+        },
+        {
+          "id": "4",
+          "text": "consumer"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Conférer un titre de noblesse à quelqu'un."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Élever moralement, donner de la dignité, de la grandeur."
+        },
+        {
+          "id": "c",
+          "text": "emploi : User d'une ressource, l'utiliser ou la dépenser."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Détruire par le feu ; user lentement."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "anoblir-ennoblir",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "collocation-gen-8",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "addition"
+        },
+        {
+          "id": "2",
+          "text": "adduction"
+        },
+        {
+          "id": "3",
+          "text": "addiction"
+        },
+        {
+          "id": "4",
+          "text": "déceler"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Action d'ajouter ; opération arithmétique ; note à payer."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Action d'amener un fluide vers un lieu (eau, gaz)."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Dépendance aliénante à une substance ou à une pratique."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Découvrir, détecter ce qui était caché."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "adduction-addiction-addition",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "collocation-gen-9",
+    "type": "COLLOCATION",
+    "gradingMode": "AUTO",
+    "prompt": "Reliez chaque terme à son emploi caractéristique.",
+    "payload": {
+      "left": [
+        {
+          "id": "1",
+          "text": "desceller"
+        },
+        {
+          "id": "2",
+          "text": "abjurer"
+        },
+        {
+          "id": "3",
+          "text": "adjurer"
+        },
+        {
+          "id": "4",
+          "text": "prescription"
+        }
+      ],
+      "right": [
+        {
+          "id": "a",
+          "text": "emploi : Détacher, arracher ce qui était scellé ou fixé."
+        },
+        {
+          "id": "b",
+          "text": "emploi : Renoncer solennellement à une religion, une opinion."
+        },
+        {
+          "id": "c",
+          "text": "emploi : Supplier instamment, au nom de ce qu'il y a de sacré."
+        },
+        {
+          "id": "d",
+          "text": "emploi : Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé."
+        }
+      ]
+    },
+    "solution": {
+      "pairs": {
+        "1": "a",
+        "2": "b",
+        "3": "c",
+        "4": "d"
+      }
+    },
+    "commentary": "Collocations (items générés depuis le manuel).",
+    "groupSlug": "deceler-desceller",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "devinette-gen-1",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "payload": {
+      "definition": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+    },
+    "solution": {
+      "answer": "éminent",
+      "accentSensitive": false
+    },
+    "commentary": "éminent",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "devinette-gen-2",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Élévation de terrain ; par extension, dignité, haut rang.",
+    "payload": {
+      "definition": "Élévation de terrain ; par extension, dignité, haut rang."
+    },
+    "solution": {
+      "answer": "éminence",
+      "accentSensitive": false
+    },
+    "commentary": "éminence",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "devinette-gen-3",
+    "type": "DEVINETTE",
+    "gradingMode": "AUTO",
+    "prompt": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "payload": {
+      "definition": "Supposition fondée sur des indices, hypothèse non vérifiée."
+    },
+    "solution": {
+      "answer": "conjecture",
+      "accentSensitive": false
+    },
+    "commentary": "conjecture",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "texte_lacunaire-gen-1",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Un ……… spécialiste de la langue française. (2) Le château se dresse sur une ………. (3) Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "éminent",
+            "imminent"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "éminence",
+            "imminence"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "conjecture",
+            "conjoncture"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "éminent",
+        "éminence",
+        "conjecture"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "eminent-imminent",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 2
+  },
+  {
+    "slug": "texte_lacunaire-gen-2",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) La ……… entre les deux véhicules a fait plusieurs blessés. (2) Cet enfant ……… jouait du piano à quatre ans. (3) Les vulcanologues redoutaient une ……… imminente du cratère.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "collision",
+            "collusion"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "prodige",
+            "prodigue"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "éruption",
+            "irruption"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "collision",
+        "prodige",
+        "éruption"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "collision-collusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 3
+  },
+  {
+    "slug": "texte_lacunaire-gen-3",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Le procureur a décidé d'……… le suspect dès la fin de la garde à vue. (2) Un examen ……… approfondi. (3) Cet orateur ………, incapable de concision, finit par lasser l'auditoire.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "inculper",
+            "inculquer"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "médical",
+            "médicinal"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "prolixe",
+            "prolifique"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "inculper",
+        "médical",
+        "prolixe"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "inculper-inculquer",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 4
+  },
+  {
+    "slug": "texte_lacunaire-gen-4",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Devant l'ampleur du danger, il jugea ……… de battre en retraite. (2) Les gendarmes ont relevé une ……… au code de la route. (3) Une éponge sèche absorbe aussitôt l'eau renversée sur la table. (……… = absorber)",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "opportun",
+            "importun"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "infraction",
+            "effraction"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "absorber",
+            "adsorber"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "opportun",
+        "infraction",
+        "absorber"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "opportun-importun",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 5
+  },
+  {
+    "slug": "texte_lacunaire-gen-5",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Au Moyen Âge, le roi pouvait ……… un roturier méritant. (2) Ce moteur consomme trop de carburant pour être rentable. (……… = consommer) (3) L'……… des dépenses dépasse le budget prévu.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "anoblir",
+            "ennoblir"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "consommer",
+            "consumer"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "addition",
+            "adduction"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "anoblir",
+        "consommer",
+        "addition"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "anoblir-ennoblir",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 6
+  },
+  {
+    "slug": "texte_lacunaire-gen-6",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Le médecin a su ……… les premiers signes de la maladie. (2) Pressé par sa famille, il a fini par ……… ses anciennes convictions. (3) Ce médicament n'est délivré que sur ……… médicale.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "déceler",
+            "desceller"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "abjurer",
+            "adjurer"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "prescription",
+            "proscription"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "déceler",
+        "abjurer",
+        "prescription"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "deceler-desceller",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 7
+  },
+  {
+    "slug": "texte_lacunaire-gen-7",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Sous des dehors rigoureux, son raisonnement n'est qu'un argument ………. (2) Le ……… a envoyé l'avis d'imposition. (3) Les eaux usées du quartier sont traitées dans une fosse ……….",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "spécieux",
+            "spacieux"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "percepteur",
+            "précepteur"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "septique",
+            "sceptique"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "spécieux",
+        "percepteur",
+        "septique"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "specieux-spacieux",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 8
+  },
+  {
+    "slug": "texte_lacunaire-gen-8",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Beaucoup ont émigré pour fuir la misère. (……… = émigrer) (2) Le développement ……… de l'enfant. (3) Le notaire a réparti les biens entre les héritiers. (……… = répartir)",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "émigrer",
+            "immigrer"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "affectif",
+            "affectueux"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "répartir",
+            "repartir"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "émigrer",
+        "affectif",
+        "répartir"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "emigrer-immigrer",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 9
+  },
+  {
+    "slug": "texte_lacunaire-gen-9",
+    "type": "TEXTE_LACUNAIRE",
+    "gradingMode": "AUTO",
+    "prompt": "Complétez chaque passage par le paronyme qui convient.",
+    "payload": {
+      "text": "(1) Elle a glissé une ……… à son passé. (2) Le calendrier révolutionnaire divisait le mois en ………s. (3) Un public ……… gobait toutes ses promesses.",
+      "blanks": [
+        {
+          "n": 1,
+          "options": [
+            "allusion",
+            "illusion"
+          ]
+        },
+        {
+          "n": 2,
+          "options": [
+            "décade",
+            "décennie"
+          ]
+        },
+        {
+          "n": 3,
+          "options": [
+            "crédule",
+            "crédible"
+          ]
+        }
+      ]
+    },
+    "solution": {
+      "answers": [
+        "allusion",
+        "décade",
+        "crédule"
+      ],
+      "accentSensitive": false
+    },
+    "commentary": "Texte lacunaire (items générés depuis le manuel).",
+    "groupSlug": "allusion-illusion",
+    "posClass": null,
+    "source": "generated",
+    "reviewNeeded": true,
+    "orderIndex": 10
+  }
+]

@@ -12,7 +12,7 @@
 - [x] Tokens Tailwind grège/lavande + vert arménien
 - [x] Polices Noto (latin + arménien) via next/font
 - [x] Page d'accueil + barre de navigation persistante + pages-stub
-- [ ] `npm run dev` OK, aucun warning TS, premier push `origin main`
+- [x] Build + lint + typecheck OK, aucun warning TS, premier push `origin main` ✅
 
 ## Étape 2 — Données & seeding
 
