@@ -75,17 +75,26 @@ export function RevisionClient() {
 
   return (
     <div className="flex flex-col gap-6">
-      <div>
+      <div className="flex flex-col gap-3">
         <h1 className="font-serif text-3xl font-bold">Mes points faibles</h1>
         {totalDue > 0 ? (
-          <p className="text-encre-soft mt-1 text-sm">
-            <strong>{totalDue}</strong> paire{totalDue > 1 ? "s" : ""} à réviser.
+          <p className="text-encre-soft text-sm">
+            <strong>{totalDue}</strong> paire{totalDue > 1 ? "s" : ""} à réviser aujourd&apos;hui.
           </p>
         ) : (
-          <p className="text-encre-soft mt-1 text-sm">
-            Aucune révision due pour l&apos;instant. Continuez à pratiquer !
+          <p className="text-encre-soft text-sm">
+            Aucune révision due pour l&apos;instant. Revenez demain !
           </p>
         )}
+        <div className="border-lavande-300 bg-lavande-50 rounded-lg border-l-4 p-3 text-sm">
+          <p className="font-semibold text-encre">Comment fonctionne la révision espacée ?</p>
+          <p className="text-encre-soft mt-1">
+            Chaque paire que vous travaillez est planifiée pour révision selon l&apos;algorithme de Leitner :
+            bonne réponse → intervalle doublé (1 j → 3 j → 7 j → 14 j → 30 j) ;
+            mauvaise réponse → retour en boîte 1, révision dès le lendemain.
+            Revenez chaque jour pour consolider votre mémoire à long terme.
+          </p>
+        </div>
       </div>
 
       {queue.length === 0 && (

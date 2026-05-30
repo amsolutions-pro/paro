@@ -58,7 +58,7 @@ export function initialSrsState(now: Date = new Date()): ReviewState {
     ease: 2.5,
     intervalDays: LEITNER_INTERVALS[1],
     lapses: 0,
-    nextReview: addDays(now, LEITNER_INTERVALS[1]),
+    nextReview: now, // due immédiatement pour la première rencontre
   };
 }
 
