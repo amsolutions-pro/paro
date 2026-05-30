@@ -1,23 +1,27 @@
 -- CreateTable
 CREATE TABLE "User" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "name" TEXT,
     "email" TEXT,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "User_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "ParonymGroup" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
     "title" TEXT NOT NULL,
     "letter" TEXT NOT NULL,
-    "summary" TEXT NOT NULL
+    "summary" TEXT NOT NULL,
+
+    CONSTRAINT "ParonymGroup_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Word" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "groupId" TEXT NOT NULL,
     "headword" TEXT NOT NULL,
     "category" TEXT NOT NULL,
@@ -28,12 +32,13 @@ CREATE TABLE "Word" (
     "synonyms" TEXT,
     "examples" TEXT NOT NULL,
     "reviewNeeded" BOOLEAN NOT NULL DEFAULT false,
-    CONSTRAINT "Word_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+
+    CONSTRAINT "Word_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "ExerciseItem" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "slug" TEXT NOT NULL,
     "type" TEXT NOT NULL,
     "gradingMode" TEXT NOT NULL,
@@ -46,33 +51,34 @@ CREATE TABLE "ExerciseItem" (
     "source" TEXT NOT NULL DEFAULT 'manuel',
     "reviewNeeded" BOOLEAN NOT NULL DEFAULT false,
     "orderIndex" INTEGER NOT NULL DEFAULT 0,
-    CONSTRAINT "ExerciseItem_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup" ("id") ON DELETE SET NULL ON UPDATE CASCADE
+
+    CONSTRAINT "ExerciseItem_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "Attempt" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "itemId" TEXT NOT NULL,
     "isCorrect" BOOLEAN NOT NULL,
     "userAnswer" TEXT NOT NULL,
-    "createdAt" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "Attempt_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT "Attempt_itemId_fkey" FOREIGN KEY ("itemId") REFERENCES "ExerciseItem" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+    "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "Attempt_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateTable
 CREATE TABLE "ReviewState" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" TEXT NOT NULL,
     "userId" TEXT NOT NULL,
     "groupId" TEXT NOT NULL,
     "box" INTEGER NOT NULL DEFAULT 1,
-    "ease" REAL NOT NULL DEFAULT 2.5,
+    "ease" DOUBLE PRECISION NOT NULL DEFAULT 2.5,
     "intervalDays" INTEGER NOT NULL DEFAULT 0,
     "lapses" INTEGER NOT NULL DEFAULT 0,
-    "nextReview" DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
-    CONSTRAINT "ReviewState_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User" ("id") ON DELETE CASCADE ON UPDATE CASCADE,
-    CONSTRAINT "ReviewState_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup" ("id") ON DELETE CASCADE ON UPDATE CASCADE
+    "nextReview" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+
+    CONSTRAINT "ReviewState_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
@@ -92,3 +98,21 @@ CREATE INDEX "ReviewState_userId_nextReview_idx" ON "ReviewState"("userId", "nex
 
 -- CreateIndex
 CREATE UNIQUE INDEX "ReviewState_userId_groupId_key" ON "ReviewState"("userId", "groupId");
+
+-- AddForeignKey
+ALTER TABLE "Word" ADD CONSTRAINT "Word_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "ExerciseItem" ADD CONSTRAINT "ExerciseItem_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup"("id") ON DELETE SET NULL ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Attempt" ADD CONSTRAINT "Attempt_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "Attempt" ADD CONSTRAINT "Attempt_itemId_fkey" FOREIGN KEY ("itemId") REFERENCES "ExerciseItem"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "ReviewState" ADD CONSTRAINT "ReviewState_userId_fkey" FOREIGN KEY ("userId") REFERENCES "User"("id") ON DELETE CASCADE ON UPDATE CASCADE;
+
+-- AddForeignKey
+ALTER TABLE "ReviewState" ADD CONSTRAINT "ReviewState_groupId_fkey" FOREIGN KEY ("groupId") REFERENCES "ParonymGroup"("id") ON DELETE CASCADE ON UPDATE CASCADE;
