@@ -1,0 +1,32 @@
+{
+  "app": {
+    "title": "Paronymes FR–HY",
+    "tagline": "Manuel raisonné et exercices bilingues français — հայերեն · niveau B2"
+  },
+  "nav": {
+    "accueil": "Accueil",
+    "manuel": "Manuel",
+    "exercices": "Exercices",
+    "revision": "Mes points faibles",
+    "tableauDeBord": "Tableau de bord"
+  },
+  "home": {
+    "heroTitle": "Maîtriser les paronymes du français",
+    "heroSubtitle": "Un dictionnaire raisonné et vingt typologies d'exercices, pensés pour les apprenants arménophones.",
+    "ctaManuel": "Explorer le manuel",
+    "ctaExercices": "Commencer les exercices",
+    "feature1Title": "Manuel bilingue",
+    "feature1Body": "Chaque paire de paronymes avec sa traduction arménienne, sa définition, son origine et le bon usage.",
+    "feature2Title": "Vingt typologies d'exercices",
+    "feature2Body": "QCM, textes à trous, appariements glisser-déposer, étymologie, traduction… avec corrigé commenté.",
+    "feature3Title": "Révision espacée",
+    "feature3Body": "Un algorithme de répétition espacée repère vos points faibles et vous les repropose au bon moment."
+  },
+  "common": {
+    "langueCible": "հայերեն · arménien",
+    "chargement": "Chargement…",
+    "valider": "Valider",
+    "suivant": "Suivant",
+    "reessayer": "Réessayer"
+  }
+}

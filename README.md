@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Paronymes FR–HY — plateforme d'apprentissage (niveau B2)
 
-## Getting Started
+Application web bilingue **français — հայերեն** pour apprendre les **paronymes du français**.
+Elle réunit un **manuel raisonné** (dictionnaire de paires/triades de paronymes avec traduction
+arménienne) et **20 typologies d'exercices** à correction immédiate et corrigé commenté, plus un
+**tableau de bord** et une **révision espacée (SRS)**.
 
-First, run the development server:
+## Pile technique
+
+- **Next.js 16** (App Router) · **React 19** · **TypeScript** (mode `strict`)
+- **Tailwind CSS v4** (tokens grège/lavande via `@theme` dans `app/globals.css`)
+- **Prisma + SQLite** en dev (`dev.db`) — migrable vers PostgreSQL/Supabase
+- **Zod** (validation partagée), **Zustand** (état léger), **Recharts** (graphiques)
+- **next-intl** (UI en français ; l'arménien est traité comme contenu)
+- **Vitest** + Testing Library (unitaire/intégration), **Playwright** (e2e)
+
+## Démarrage rapide
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env      # DATABASE_URL="file:./dev.db"
+npm run db:seed           # peuple dev.db depuis content/*.json   (dispo dès l'étape 2)
+npm run dev               # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Sur un environnement neuf (y compris la session mobile dans le cloud), `npm install &&
+npm run db:seed && npm run dev` suffit : `content/*.json` est versionné, `dev.db` est régénéré.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Script              | Rôle                                                       |
+| ------------------- | ---------------------------------------------------------- |
+| `npm run dev`       | Serveur de développement                                   |
+| `npm run build`     | Build de production                                        |
+| `npm run start`     | Serveur de production                                      |
+| `npm run lint`      | ESLint                                                     |
+| `npm run typecheck` | `tsc --noEmit`                                             |
+| `npm run db:seed`   | Seeding de la base depuis `content/*.json` _(étape 2)_     |
+| `npm run ingest`    | Réextraction des `.docx` vers `content/*.json` _(étape 2)_ |
+| `npm test`          | Tests Vitest _(étape 3)_                                   |
+| `npm run test:e2e`  | Tests Playwright _(étape 5)_                               |
 
-## Learn More
+## Architecture
 
-To learn more about Next.js, take a look at the following resources:
+```
+/app                  # Routes App Router (accueil, /manuel, /exercices, /revision, /tableau-de-bord, /api)
+/src
+  /domain             # Logique pure testable (grade, srs) — sans I/O
+  /server             # Accès données (Prisma), services
+  /components         # UI réutilisable (+ /exercises : un rendu par typologie)
+  /lib                # utils, schémas Zod, i18n, constantes
+/content              # Sources .docx + manual.json + exercises.json (VERSIONNÉS)
+/prisma               # schema.prisma + migrations + seed.ts
+/scripts              # ingest.ts (docx -> json)
+/tests                # unit + e2e
+/messages             # Traductions UI (fr.json)
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Synchronisation PC ↔ iPhone
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+GitHub (`amsolutions-pro/paro`, branche `main`) est la **source de vérité unique**. Au début de
+chaque session : `git pull --rebase origin main`. À la fin : `git add -A && git commit && git
+push origin main`. **Un seul appareil à la fois.** `dev.db` n'est pas versionné mais régénérable
+(`npm run db:seed`) car `content/*.json` l'est.
 
-## Deploy on Vercel
+## Contenu source — note importante
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Voir **DECISIONS.md (D3)** : le livret d'exercices fourni est complet (20 typologies + corrigé),
+mais le « manuel » fourni n'est qu'un **gabarit** (1 chapitre + ~4 paires). Le manuel de 225
+paires n'existe pas dans la source. Le manuel est donc reconstruit à partir des paires réellement
+attestées dans les sources ; les entrées complétées sont marquées `reviewNeeded` pour relecture.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## État d'avancement
+
+Voir **TODO.md**. Décisions d'architecture : **DECISIONS.md**.

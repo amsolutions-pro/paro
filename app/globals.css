@@ -1,26 +1,53 @@
 @import "tailwindcss";
 
+/*
+ * Palette « grège & lavande » (cf. §7 du cahier des charges).
+ * Tokens centralisés ici : ne jamais coder les couleurs en dur dans les composants.
+ * Le vert « arménien » (repris du gabarit Word) signale la langue cible հայերեն.
+ */
+@theme {
+  --color-grege-50: #fafaf7;
+  --color-grege-100: #f4f1ea;
+  --color-grege-200: #e9e3d6;
+  --color-grege-300: #d9cdb3;
+  --color-grege-400: #c4b896;
+
+  --color-lavande-100: #efecf8;
+  --color-lavande-300: #b7aee0;
+  --color-lavande-500: #8e7cc3;
+  --color-lavande-700: #6b5ba0;
+
+  --color-encre: #2a2733;
+  --color-encre-soft: #4a4658;
+
+  --color-armenien: #1f6b5c;
+  --color-armenien-soft: #d5e5df;
+
+  --font-serif: var(--font-noto-serif), "Noto Serif Armenian", Georgia, "Times New Roman", serif;
+  --font-sans: var(--font-noto-sans), "Noto Sans Armenian", system-ui, -apple-system, sans-serif;
+  --font-armenian: var(--font-noto-armenian), "Noto Sans Armenian", sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --background: var(--color-grege-100);
+  --foreground: var(--color-encre);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+}
+
+/* Traitement visuel distinctif de l'arménien (langue cible). */
+[lang="hy"],
+.hy {
+  font-family: var(--font-armenian);
+  color: var(--color-armenien);
+}
+
+/* Accessibilité : focus toujours visible. */
+:focus-visible {
+  outline: 2px solid var(--color-lavande-500);
+  outline-offset: 2px;
 }
