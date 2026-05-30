@@ -32,14 +32,14 @@ export const metadata = {
     description: 'Manuel raisonné et exercices bilingues français – arménien sur les...',
     url: 'https://paro-xi.vercel.app',
     siteName: 'Paro',
-    images: [
-      {
-        url: 'https://paro-xi.vercel.app/opengraph-image.png', // <-- On force le chemin ici
-        width: 1200,
-        height: 630,
-        alt: 'Paronymes FR-HY',
-      },
-    ],
+	images: [
+	  {
+		url: 'https://paro-xi.vercel.app/logo-partage.png', // <-- Le dossier /public/ correspond à la racine du site après publication
+		width: 1200,
+		height: 630,
+		alt: 'Paronymes FR-HY',
+	  },
+	],
     locale: 'fr_FR',
     type: 'website',
   },

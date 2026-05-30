@@ -1,0 +1,408 @@
+{
+  "affectif (ve)": {
+    "headword": "Affectif (ve)",
+    "category": "adj.",
+    "translationHy": "հուզական, զգայական, զգացմունքային",
+    "definition": "Affectif qualifie ce qui concerne les émotions, les sentiments ou les états affectifs",
+    "examples": []
+  },
+  "infirmer": {
+    "headword": "Infirmer",
+    "category": "v.tr.",
+    "translationHy": "իրավբ․ չեղյալ հայտարարել // փխբ․ հերքել, կասկածի տակ առնել",
+    "definition": "Le mot « infirmer » signifie contredire ou réfuter une affirmation ou une",
+    "examples": []
+  },
+  "infliger": {
+    "headword": "Infliger",
+    "category": "v.tr. :",
+    "translationHy": "հասցնել, պատճառել․ նշանակել, պարտադրել // փխբ․պարտադրել",
+    "definition": "Le mot « infliger » signifie imposer ou faire subir quelque chose à quelqu’un, généralement une punition, une peine ou un dommage. Il est utilisé pour décrire l’action de causer délibérément une douleur, une sanction ou une conséquence négative à une personne ou à un groupe.",
+    "examples": []
+  },
+  "allusion": {
+    "headword": "Allusion",
+    "category": "f. :",
+    "translationHy": "ակնարկ",
+    "definition": "Une allusion est une référence indirecte à quelque chose, souvent faite de manière subtile ou implicite, sans la mention explicite de ce dont il est question.",
+    "examples": []
+  },
+  "illusion": {
+    "headword": "Illusion",
+    "category": "f. :",
+    "translationHy": "պատրանք, ցնորք, մոլորություն, խաբկանք",
+    "definition": "Une illusion est une perception fausse ou trompeuse de la réalité, une erreur d’interprétation des sens qui peut conduire à croire en quelque chose qui n’existe pas réellement.",
+    "examples": []
+  },
+  "amener": {
+    "headword": "Amener",
+    "category": "v.tr.",
+    "translationHy": "բերել // անցկացնել // փխբ․ բերել հասցնել, հանգեցնել",
+    "definition": "Le terme « amener » signifie faire venir une personne ou un objet vers le lieu où l’on se trouve. Il implique un déplacement vers le locuteur ou vers un lieu spécifique où il se trouve.",
+    "examples": []
+  },
+  "captation": {
+    "headword": "Captation",
+    "category": "f.",
+    "translationHy": "իրավբ․ յուրացում, սեփականացում, զավթում",
+    "definition": "La captation désigne l’action de s’emparer de quelque chose, souvent de manière",
+    "examples": []
+  },
+  "compréhensible": {
+    "headword": "Compréhensible",
+    "category": "adj.",
+    "translationHy": "հասկանալի, ըմբռնելի, պարզորոշ",
+    "definition": "Compréhensible qualifie ce qui peut être compris, ce qui est intelligible ou",
+    "examples": []
+  },
+  "conflagration": {
+    "headword": "Conflagration",
+    "category": "f.",
+    "translationHy": "մեծ ընդհարում, միջազգային բախում",
+    "definition": "Incendie étendu, souvent utilisé au sens figuré pour désigner une guerre de",
+    "examples": []
+  },
+  "coussin": {
+    "headword": "Coussin",
+    "category": "m.",
+    "translationHy": "բարձ բազմոցի, բազկաթոռի",
+    "definition": "Un coussin est un accessoire rembourré, souvent utilisé pour soutenir le dos, la",
+    "examples": []
+  },
+  "cryptogame": {
+    "headword": "Cryptogame",
+    "category": "adj. :",
+    "translationHy": "կենս. գաղտնաբեղուն",
+    "definition": "Un cryptogame est une plante dont les organes reproducteurs sont peu apparents, souvent des plantes sans fleurs comme les mousses, les fougères, ou les champignons.",
+    "examples": []
+  },
+  "décade": {
+    "headword": "Décade",
+    "category": "f.",
+    "translationHy": "տասնօրյակ (դեկադա)",
+    "definition": "Une décade est une période de dix jours, souvent utilisée dans certains systèmes",
+    "examples": []
+  },
+  "déchirure": {
+    "headword": "Déchirure",
+    "category": "f.",
+    "translationHy": "անցք, պատռվածք // բժշկ․ պատռվածք",
+    "definition": "Une déchirure est la rupture d’un tissu ou d’un matériau, généralement causée",
+    "examples": []
+  },
+  "décrocher": {
+    "headword": "Décrocher",
+    "category": "v.tr.",
+    "translationHy": "քանդել․կախած տեղից հանել․ձեռք բերել․ լսափողը վերցնել",
+    "definition": "« Décrocher » signifie détacher quelque chose qui était accroché ou suspendu,",
+    "examples": []
+  },
+  "découpe": {
+    "headword": "Découpe",
+    "category": "n.f.",
+    "translationHy": "կտրում, կտրատում",
+    "definition": "Une découpe est l’incrustation d’un tissu sur un autre, souvent utilisée dans la confection de vêtements pour créer des motifs ou des détails.",
+    "examples": []
+  },
+  "dépeçage": {
+    "headword": "Dépeçage",
+    "category": "m.",
+    "translationHy": "անդամահատում, մորթազերծում  (d’un animal) // խսկց․ կտրատում",
+    "definition": "Le dépeçage se réfère à l’action de découper un être vivant, généralement dans",
+    "examples": []
+  },
+  "dépècement": {
+    "headword": "Dépècement",
+    "category": "m.",
+    "translationHy": "մասնատում",
+    "definition": "Le dépècement se réfère à l’action de morceler ou de diviser un territoire ou une",
+    "examples": []
+  },
+  "déprécation": {
+    "headword": "Déprécation",
+    "category": "f. :",
+    "translationHy": "աղաչանք, աղերսանք, աղաչանքի աղոթք",
+    "definition": "La déprécation est une prière pour obtenir le pardon ou la miséricorde, souvent adressée à une divinité ou à une autorité supérieure.",
+    "examples": []
+  },
+  "déprédation": {
+    "headword": "Déprédation",
+    "category": "f. :",
+    "translationHy": "կողոպուտ, թալան, վնաս, ֆին. յուրացում, հափշտակում",
+    "definition": "La déprédation désigne une dégradation, une destruction ou un pillage, généralement commis par des individus ou des groupes.",
+    "examples": []
+  },
+  "diptyque": {
+    "headword": "Diptyque",
+    "category": "m.",
+    "translationHy": "երկթև սրբանկար, երկփեղկ պատկեր",
+    "definition": "Un diptyque est un objet artistique ou religieux composé de deux panneaux",
+    "examples": []
+  },
+  "donation": {
+    "headword": "Donation",
+    "category": "f.",
+    "translationHy": "իրավ.  Նվեր, նվիրատվություն, նվիրաբերություն",
+    "definition": "Une donation désigne l’acte de donner quelque chose de manière définitive,",
+    "examples": []
+  },
+  "effraction": {
+    "headword": "Effraction",
+    "category": "f.",
+    "translationHy": "իրավբ․կոտրանք, կոտրելով բաց անելը",
+    "definition": "Une effraction est l’action de forcer l’entrée dans un lieu en brisant une clôture,",
+    "examples": []
+  },
+  "aménager": {
+    "headword": "Aménager",
+    "category": "v.tr.",
+    "translationHy": "հարմարեցնել, կարգավորել, պլանավորել",
+    "definition": "« Aménager » signifie disposer ou organiser un espace avec ordre, souvent en le",
+    "examples": []
+  },
+  "emprunt": {
+    "headword": "Emprunt",
+    "category": "m.",
+    "translationHy": "փոխառություն, պարտքով վերցնելը // քրկն․ փոխառություն",
+    "definition": "Le terme « emprunt » désigne le fait d’emprunter une somme d’argent, un objet ou un bien matériel à quelqu’un d’autre, généralement avec l’intention de le restituer à une date ultérieure. Il est également utilisé dans le contexte de l’emprunt de livres ou de documents dans une bibliothèque.",
+    "examples": []
+  },
+  "épigraphe": {
+    "headword": "Épigraphe",
+    "category": "f.",
+    "translationHy": "բնաբան, էպիգրաֆ // մակագրություն",
+    "definition": "Une épigraphe est une citation, un texte ou une inscription placée au début d’un livre, d’un chapitre, d’un article ou d’un monument, servant souvent à introduire le thème ou le ton de l’œuvre.",
+    "examples": []
+  },
+  "éruption": {
+    "headword": "Éruption",
+    "category": "f.",
+    "translationHy": "բժշկ․ցան, ցանավորում․ արտաժայթքում",
+    "definition": "Une éruption désigne un jaillissement, souvent violent et spectaculaire, comme celui d’un volcan.",
+    "examples": []
+  },
+  "scatologie": {
+    "headword": "Scatologie",
+    "category": "f.",
+    "translationHy": "կղանքաբանություն\t // կոպիտ կատակ, անպարկեշտ ստեղծագործություն, կեղտոտ պոռնոգրաֆիա",
+    "definition": "La scatologie est l’étude ou la représentation des excréments, mais également un",
+    "examples": []
+  },
+  "ethnologie": {
+    "headword": "Ethnologie",
+    "category": "f.",
+    "translationHy": "ազգաբանություն, ազգախոսություն",
+    "definition": "L’ethnologie est une discipline qui étudie les cultures humaines, les sociétés et les modes de vie des différents peuples à travers le monde. Elle s’intéresse aux coutumes, aux croyances, aux pratiques sociales, à l’organisation sociale, ainsi qu’aux manifestations culturelles et artistiques des différentes sociétés.",
+    "examples": []
+  },
+  "évoquer": {
+    "headword": "Évoquer",
+    "category": "v.tr.",
+    "translationHy": "ոգեկոչել, կանչել // փխբ․ վկայակոչել, հիշատակել",
+    "definition": "« Évoquer » signifie rappeler à la mémoire quelque chose ou quelqu’un, souvent",
+    "examples": []
+  },
+  "expansion": {
+    "headword": "Expansion",
+    "category": "f.",
+    "translationHy": "ընդարձակում, տարածում, ընդլայնում // փխբ․ սրտազեղում",
+    "definition": "L’expansion se réfère à un processus de développement ou de croissance, souvent caractérisé par une augmentation ou une extension significative dans divers domaines tels que le commerce, l’économie, la population, etc. Cela implique généralement une expansion ou une dilatation dans le temps, l’espace ou l’influence.",
+    "examples": []
+  },
+  "extension": {
+    "headword": "Extension",
+    "category": "f.",
+    "translationHy": "ընդարձակում, ընդլայնում // երկարացնելը",
+    "definition": "L’extension se réfère à l’action d’étendre ou de prolonger quelque chose, souvent dans le sens de l’allongement ou de l’élargissement. Cela peut concerner des objets physiques, des concepts abstraits ou des périodes de temps.",
+    "examples": []
+  },
+  "flagrance": {
+    "headword": "Flagrance",
+    "category": "f.",
+    "translationHy": "ակնհայտություն",
+    "definition": "La flagrance est ce qui est évident, manifeste ou saillant. Ce terme est souvent associé à quelque chose de choquant, de criant ou de scandaleux.",
+    "examples": []
+  },
+  "fragrance": {
+    "headword": "Fragrance",
+    "category": "f.",
+    "translationHy": "բույր, բուրմունք, անուշաբույր հոտ",
+    "definition": "Une fragrance désigne un parfum, une odeur agréable. Ce terme est généralement associé à des arômes plaisants ou des senteurs délicates.",
+    "examples": []
+  },
+  "gradué é": {
+    "headword": "Gradué é",
+    "category": "adj.",
+    "translationHy": "աստիճանավորված, աստիճանանշված // աստիճանաբար",
+    "definition": "Le mot « gradué » est un adjectif qui qualifie quelque chose qui est divisé en degrés.",
+    "examples": []
+  },
+  "idiotisme": {
+    "headword": "Idiotisme",
+    "category": "m.",
+    "translationHy": "քրկն․ իդիոմ, հատկաբանություն",
+    "definition": "Un idiotisme est une expression ou une tournure propre à une langue donnée",
+    "examples": []
+  },
+  "incendie": {
+    "headword": "Incendie",
+    "category": "m.",
+    "translationHy": "հրդեհ, հրկիզում, հրդեհում // փխբ․ հրդեհ, պատերազմի վիճակ",
+    "definition": "Un incendie est un feu non maîtrisé, une combustion incontrôlée pouvant causer des dégâts matériels, des blessures ou des pertes de vie.",
+    "examples": []
+  },
+  "incident": {
+    "headword": "Incident",
+    "category": "m.",
+    "translationHy": "դեպք, միջադեպ, պատահար // արգելք, խոչընդոտ",
+    "definition": "Un incident est un événement qui survient de manière imprévue ou peu importante. Il peut s’agir d’une situation perturbatrice ou d’une circonstance inhabituelle, mais qui ne provoque généralement pas de dommages importants.",
+    "examples": []
+  },
+  "inclinaison": {
+    "headword": "Inclinaison",
+    "category": "f.",
+    "translationHy": "թեքություն, թեքվածք․ թեքվելը // ծով․կողաթեքում (d'un navire) //",
+    "definition": "L’inclinaison se réfère à la pente ou à la direction d’une surface par rapport à",
+    "examples": []
+  },
+  "inclination": {
+    "headword": "Inclination",
+    "category": "f.",
+    "translationHy": "թեքում, թեքելը, ծռում, ծռելը, խոնարհում, խոնարհելը, հակում, հակելը",
+    "definition": "L’inclination désigne un penchant, un attrait ou un goût pour quelque chose ou",
+    "examples": []
+  },
+  "irréconciliable": {
+    "headword": "Irréconciliable",
+    "category": "adj.",
+    "translationHy": "անհաշտ, անհաշտելի",
+    "definition": "Le mot « irréconciliable » qualifie des personnes réelles ou morales qui sont",
+    "examples": []
+  },
+  "inculper": {
+    "headword": "Inculper",
+    "category": "v.tr.",
+    "translationHy": "մեղադրանք հարուցել",
+    "definition": "Imputer à quelqu'un, par des voies judiciaires, la responsabilité d'un délit ou",
+    "examples": []
+  },
+  "inculquer": {
+    "headword": "Inculquer",
+    "category": "v.tr.",
+    "translationHy": "գլուխը մտցնել, ներշնչել",
+    "definition": "Faire entrer dans l'esprit de quelqu'un, de manière durable et répétée, des idées,",
+    "examples": []
+  },
+  "injection": {
+    "headword": "Injection",
+    "category": "f.",
+    "translationHy": "բժշկ․ սրսկում, ներարկում",
+    "definition": "Une injection désigne l’action de faire pénétrer un liquide sous pression dans le corps ou dans un objet. C’est un terme souvent associé aux soins médicaux, où une substance est introduite dans le corps par le biais d’une piqûre.",
+    "examples": []
+  },
+  "injonction": {
+    "headword": "Injonction",
+    "category": "f.",
+    "translationHy": "իրավբ․ հրաման, կարգադրություն, հրահանգ",
+    "definition": "Une injonction est un ordre formel ou une sommation émanant d’une autorité ou d’une personne en position de pouvoir. C’est un terme utilisé pour exprimer une exigence impérative à laquelle il est attendu que quelqu’un obéisse.",
+    "examples": []
+  },
+  "libération": {
+    "headword": "Libération",
+    "category": "f.",
+    "translationHy": "ազատագրում, ազատում",
+    "definition": "La libération désigne le fait de délivrer ou de rendre libre une personne, une population ou un territoire d’une oppression, d’une contrainte ou d’une domination. C’est un terme utilisé pour décrire un acte de libération physique, politique ou psychologique.",
+    "examples": []
+  },
+  "littéraire": {
+    "headword": "Littéraire",
+    "category": "adj.",
+    "translationHy": "գրական",
+    "definition": "Le mot « littéraire » qualifie ce qui est propre à la littérature ou en rapport avec",
+    "examples": []
+  },
+  "maniaque": {
+    "headword": "Maniaque",
+    "category": "adj.",
+    "translationHy": "տարօրինակ․ քմահաճ․ մոլագարային, մտագարային,",
+    "definition": "Maniaque est un nom et adjectif souvent utilisé en français pour désigner une personne qui est extrêmement obsédée par quelque chose ou qui présente un comportement compulsif.",
+    "examples": []
+  },
+  "pastiche": {
+    "headword": "Pastiche",
+    "category": "m.",
+    "translationHy": "նմանակում, ծարանմանակում, պարոդիա",
+    "definition": "Un pastiche est une œuvre qui imite le style ou la manière d’un artiste, d’un",
+    "examples": []
+  },
+  "postiche": {
+    "headword": "Postiche",
+    "category": "adj.",
+    "translationHy": "դնովի, կեղծ, արհեստական // կեղծ, շինծու, թվացյալ",
+    "definition": "Un postiche est un accessoire, un élément de costume ou un ajout artificiel utilisé pour modifier l’apparence d’une personne, souvent dans un contexte théâtral ou de déguisement. Cela peut inclure des perruques, des barbes, des moustaches, des faux cils, etc.",
+    "examples": []
+  },
+  "populiste": {
+    "headword": "Populiste",
+    "category": "m.",
+    "translationHy": "կեղծ ժողովրդական գրող",
+    "definition": "Le terme « populiste » qualifie quelqu’un qui flatte le peuple, qui adopte des",
+    "examples": []
+  },
+  "prédiction": {
+    "headword": "Prédiction",
+    "category": "f.",
+    "translationHy": "գուշակում, նախագուշակում, կանխագուշակում, մարգարեություն",
+    "definition": "Une prédiction est une déclaration anticipée sur un événement futur, souvent basée sur des informations, des observations ou des croyances. C’est une prophétie ou une prévision concernant ce qui pourrait se produire à un moment ultérieur.",
+    "examples": []
+  },
+  "renversable": {
+    "headword": "Renversable",
+    "category": "adj.",
+    "translationHy": "շրջելի, գլորելի, տապալելի",
+    "definition": "Le terme « renversable » qualifie quelque chose qui peut être renversé. Il est souvent utilisé pour décrire des situations où un changement de direction ou de régime est possible, notamment en politique où l’on parle de renverser un gouvernement ou un régime autoritaire.",
+    "examples": []
+  },
+  "septique": {
+    "headword": "Septique",
+    "category": "adj.",
+    "translationHy": "բժշկ․ սեպտիկ, նեխային",
+    "definition": "Le mot « septique » qualifie quelque chose qui est contaminé par des agents",
+    "examples": []
+  },
+  "sociable": {
+    "headword": "Sociable",
+    "category": "adj.",
+    "translationHy": "հաղորդասեր, մարդամոտ",
+    "definition": "Le mot « sociable », quant à lui, qualifie une personne qui aime la compagnie des",
+    "examples": []
+  },
+  "sujétion": {
+    "headword": "Sujétion",
+    "category": "f.",
+    "translationHy": "հպատակություն, ենթակայություն, ստորադասություն, կախյալ վիճակ",
+    "definition": "La sujétion fait référence à l’état de soumission, de dépendance ou de",
+    "examples": []
+  },
+  "teindre": {
+    "headword": "Teindre",
+    "category": "v.tr.",
+    "translationHy": "ներկել",
+    "definition": "Teindre signifie changer la couleur d’un objet en appliquant un colorant ou une substance colorante. Ce terme est utilisé pour décrire une action qui consiste à transformer la couleur d’un matériau ou d’une surface de manière permanente.",
+    "examples": []
+  },
+  "teinter": {
+    "headword": "Teinter",
+    "category": "v.tr.",
+    "translationHy": "երանգ տալ",
+    "definition": "Teinter signifie poser une teinte légère sur quelque chose, généralement pour",
+    "examples": []
+  },
+  "vivable": {
+    "headword": "Vivable",
+    "category": "adj.",
+    "translationHy": "կյանքի՝ ապրելու համարնշ պիտանի // տանելի, հանդուրժելի",
+    "definition": "Le mot « vivable », quant à lui, qualifie quelque chose qui est apte à être vécu ou",
+    "examples": []
+  }
+}
