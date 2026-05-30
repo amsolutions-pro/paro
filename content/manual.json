@@ -48,7 +48,6 @@
         "origin": "du latin absorbere « avaler »",
         "synonyms": "imbiber, engloutir",
         "examples": [
-          "Une éponge sèche absorbe aussitôt l'eau renversée sur la table.",
           "Ce linge peut absorber une grande quantité d’eau.",
           "Les racines des plantes absorbent les nutriments du sol.",
           "Les éponges sont utilisées pour absorber les déversements de liquide sur les surfaces."
@@ -64,7 +63,6 @@
         "origin": "de ad- « vers » + (ab)sorber",
         "synonyms": "fixer en surface",
         "examples": [
-          "Le charbon actif adsorbe de nombreuses impuretés.",
           "Le verre adsorbe l’hydrogène.",
           "Le charbon actif est utilisé pour adsorber les impuretés de l’eau.",
           "Les molécules de gaz peuvent être adsorbées par les surfaces poreuses des matériaux."
@@ -88,7 +86,7 @@
         "origin": "du latin additio « action d'ajouter »",
         "synonyms": "ajout, somme",
         "examples": [
-          "L'addition des dépenses dépasse le budget prévu.",
+          "L'addition de 2 et 2 donne 4.",
           "Garçon, l'addition s'il vous plaît !"
         ],
         "reviewNeeded": false
@@ -172,9 +170,18 @@
         "origin": null,
         "synonyms": null,
         "examples": [
+          "On peut affirmer que la paix est revenue dans la région.",
+          "Il affirma son innocence devant le tribunal.",
+          "Elle affirma haut et fort son soutien au projet.",
           "Il affirma qu’il était prêt.",
           "Elle affirma son soutien inébranlable à la cause.",
-          "Le rapport affirme que le produit est sûr et efficace."
+          "Le rapport affirme que le produit est sûr et efficace.",
+          "Infirmer v.tr.   իրավբ․ չեղյալ հայտարարել // փխբ․ հերքել, կասկածի տակ առնել",
+          "Définition :\tLe mot « infirmer » signifie contredire ou réfuter une affirmation ou une",
+          "déclaration, souvent en apportant des preuves ou des arguments contraires. Il est utilisé pour nier ou invalider une affirmation précédente.",
+          "Ton témoignage infirme le sien.",
+          "Les nouvelles preuves infirment la théorie précédente.",
+          "Son comportement infirme ses prétentions d’innocence."
         ],
         "reviewNeeded": false
       },
@@ -189,7 +196,9 @@
         "synonyms": null,
         "examples": [
           "Ces découvertes infirment toutes les théories précédentes sur l’origine de l’univers.",
-          "Les avocats de la défense ont réussi à infirmer les preuves présentées par l’accusation."
+          "Les avocats de la défense ont réussi à infirmer les preuves présentées par l’accusation.",
+          "Conflagration & Déflagration",
+          "Les paronymes « conflagration » et « déflagration » se ressemblent par leur forme mais ont des sens différents :"
         ],
         "reviewNeeded": false
       }
@@ -209,7 +218,7 @@
         "definition": "Référence indirecte et implicite à quelque chose.",
         "synonyms": "sous-entendu, insinuation",
         "examples": [
-          "Elle a glissé une allusion à son passé.",
+          "Son discours politique contenait une allusion à une réforme à venir.",
           "Elle a fait une allusion à leur enfance commune lors de son discours de mariage.",
           "Les paroles de la chanson font allusion à des événements historiques."
         ],
@@ -223,10 +232,9 @@
         "definition": "Perception fausse de la réalité ; croyance trompeuse.",
         "synonyms": "leurre, mirage",
         "examples": [
-          "Le décor donne l'illusion de la profondeur.",
+          "Les miroirs déformants créent des illusions d’optique amusantes dans les",
           "Il était sous l’illusion que tout irait bien malgré les avertissements de ses amis.",
-          "La promesse d’une vie parfaite était une illusion qu’elle a fini par découvrir.",
-          "Altérer et Alterner"
+          "La promesse d’une vie parfaite était une illusion qu’elle a fini par découvrir."
         ],
         "reviewNeeded": false
       }
@@ -266,8 +274,8 @@
         "synonyms": null,
         "examples": [
           "Son attitude positive face aux défis a inspiré tous ses collègues.",
-          "Il est important de garder une attitude respectueuse envers les autres, même en cas de désaccord.",
-          "Les danseurs ont adopté une attitude gracieuse et élégante pour leur performance."
+          "Les danseurs ont adopté une attitude gracieuse et élégante pour leur performance.",
+          "Amener et Emmener"
         ],
         "reviewNeeded": false
       }
@@ -287,10 +295,11 @@
         "definition": "Conférer un titre de noblesse à quelqu'un.",
         "synonyms": "élever (à la noblesse)",
         "examples": [
-          "Au Moyen Âge, le roi pouvait anoblir un roturier méritant."
+          "La reine d’Angleterre anoblit certains artistes.",
+          "Le roi anoblissait ses fidèles serviteurs pour leurs services exceptionnels."
         ],
         "reviewNeeded": true,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "headword": "ennoblir",
@@ -300,10 +309,12 @@
         "definition": "Élever moralement, donner de la dignité, de la grandeur.",
         "synonyms": "grandir, élever",
         "examples": [
-          "Le travail ennoblit l'homme bien plus sûrement qu'un titre héréditaire."
+          "Son dévouement l’a ennobli aux yeux de tous.",
+          "Sa générosité et son altruisme l’ont ennobli.",
+          "Ses actions courageuses ont ennobli son héritage."
         ],
         "reviewNeeded": true,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -324,11 +335,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le biologiste a apparie les specimens par paires pour l etude.",
-          "Elle a apparie les chaussettes proprement apres le lavage."
+          "Elle apparie les couleurs de sa toilette avec soin.",
+          "Il a apparié les paires de chaussettes avant de les ranger."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-apparier-appareiller-1",
@@ -340,11 +351,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le navire appareilla a l aube sous un beau soleil.",
-          "Ils ont appareille leurs pieces de mobilier pour harmoniser la deco."
+          "Le navire appareillera à l’aube.",
+          "L’équipe se prépare à appareiller pour sa prochaine mission."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -365,11 +376,13 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a apporte du vin pour le diner.",
-          "Cette reformme a apporte de nombreux changements."
+          "J’apporterai un dessert.",
+          "Elle a apporté des fleurs à la fête.",
+          "N’oublie pas d’apporter tes affaires.",
+          "Je vais apporter des fleurs à la fête."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-apporter-emporter-1",
@@ -382,7 +395,6 @@
         "synonyms": null,
         "examples": [
           "Il a emporté tous ses bijoux en fuyant.",
-          "Cette maladie a fini par l’emporter.",
           "Voici le candidat qui l’emportera sur ses adversaires."
         ],
         "reviewNeeded": false
@@ -403,7 +415,7 @@
         "definition": "Rude, rugueux ; au figuré, dur, acharné.",
         "synonyms": "rude, acharné",
         "examples": [
-          "Les négociations s'annoncent âpres et pourraient durer des semaines."
+          "La peau de l’orange était âpre et désagréable à manger, alors je l’ai jetée."
         ],
         "reviewNeeded": false
       },
@@ -415,7 +427,8 @@
         "definition": "Irritant, piquant au goût ou à l'odorat.",
         "synonyms": "irritant, piquant",
         "examples": [
-          "Une fumée âcre prenait à la gorge."
+          "Une fumée âcre se dégageait de l’usine, irritant les yeux et la gorge des",
+          "La saveur âcre du piment laisse une sensation de brûlure dans la bouche après ennobli avoir été consommée."
         ],
         "reviewNeeded": false
       }
@@ -481,6 +494,7 @@
         "examples": [
           "Malgré ses assertions, le mensonge a été découvert.",
           "Ses assertions sur le changement climatique sont étayées par des preuves",
+          "scientifiques solides.",
           "L’écrivain a fait plusieurs assertions sur la nature humaine dans son dernier"
         ],
         "reviewNeeded": false
@@ -497,6 +511,7 @@
         "examples": [
           "L’insertion de cette pièce dans la machine est compliquée.",
           "L’insertion de nouvelles idées dans le programme éducatif a été bien",
+          "accueillie par les enseignants.",
           "L’insertion d’une publicité au milieu du film a interrompu l’expérience de"
         ],
         "reviewNeeded": false
@@ -603,7 +618,7 @@
         "synonyms": null,
         "examples": [
           "Il s’agit d’une captation d’héritage évidente.",
-          "La captation du spectacle a été réalisée par une équipe de professionnels. (enregistrement d’un événement)",
+          "La captation du spectacle a été réalisée par une équipe de professionnels.",
           "La captation des ressources naturelles par certaines entreprises est un problème environnemental majeur."
         ],
         "reviewNeeded": false
@@ -673,7 +688,6 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Cette pièce ne manquera pas de captiver le public avec ses performances émouvantes.",
           "Le conférencier a captivé l’auditoire avec son discours passionné sur l’écologie."
         ],
         "reviewNeeded": false
@@ -697,11 +711,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le lion, animal carnassier, chasse en groupe.",
-          "Les carnassiers possedent des crocs puissants pour dechirer la chair."
+          "Son sourire carnassier en a effrayé plus d’un.",
+          "Les lions sont des prédateurs carnassiers qui chassent en groupe.",
+          "Les oiseaux de proie sont des rapaces carnassiers redoutables."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-carnassier-carnivore-1",
@@ -713,11 +728,13 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le chat est un animal strictement carnivore.",
-          "Les plantes carnivores capturent les insectes pour se nourrir."
+          "Le chat est un animal carnivore.",
+          "Les loups sont des carnivores qui chassent principalement des proies",
+          "Les reptiles carnivores se nourrissent d’insectes, de petits mammifères",
+          "ou d’autres reptiles."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -770,7 +787,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "La scission entre l’Église et l’État fut prononcée. (séparation formelle)",
+          "La scission entre l’Église et l’État fut prononcée.",
           "La scission du parti politique a conduit à la création de deux factions rivales.",
           "La scission de l’entreprise en deux divisions distinctes a été annoncée lors de la"
         ],
@@ -795,11 +812,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a cligne de l oeil pour lui faire un signe complice.",
-          "Elle ne pouvait s empecher de cligner des yeux a cause du soleil."
+          "Cligner de l’œil peut signifier la complicité dans une conversation secrète.",
+          "Il a cligné des yeux pour indiquer à son ami qu’il devait se taire."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-cligner-clignoter-1",
@@ -835,7 +852,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Les coassements se font entendre autour de la mare. (cri des grenouilles)",
+          "Les coassements se font entendre autour de la mare.",
           "En été, le coassement des grenouilles accompagne les nuits chaudes.",
           "J’aime m’endormir avec le doux coassement des rainettes dans le jardin."
         ],
@@ -851,7 +868,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Les croassements des corbeaux devinrent insupportables. (cri des corbeaux)",
+          "Les croassements des corbeaux devinrent insupportables.",
           "Le croassement des corbeaux résonnait dans la forêt sombre.",
           "Le silence de la nuit fut interrompu par le croassement des corneilles sur les"
         ],
@@ -876,7 +893,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le faucheur est muni de sa pierre et de son coffin. (étui pour la pierre à aiguiser)",
+          "Le faucheur est muni de sa pierre et de son coffin.",
           "La vieille pierre à aiguiser était rangée dans son coffin en bois.",
           "Il ouvrit son coffin pour vérifier l’état de sa pierre à aiguiser."
         ],
@@ -892,9 +909,14 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le nouveau-né est endormi dans son couffin. (berceau pour bébé)",
+          "Le nouveau-né est endormi dans son couffin.",
           "Le couffin était garni de doux coussins pour le confort du bébé.",
-          "Elle déposa délicatement le bébé endormi dans son couffin près du lit."
+          "Elle déposa délicatement le bébé endormi dans son couffin près du lit.",
+          "Définition : \tUn coussin est un objet rembourré utilisé comme oreiller ou support confortable",
+          "pour s’asseoir ou s’allonger. Il peut être utilisé à des fins décoratives ou fonctionnelles.",
+          "Il reposait mollement sur des coussins brodés.",
+          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
+          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins."
         ],
         "reviewNeeded": false
       },
@@ -908,9 +930,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le coussin recouvre l’assise de la chaise. (accessoire rembourré)",
-          "Je dors toujours avec trois coussins sous ma tête. (support pour le sommeil)",
-          "Les coussins du canapé sont assortis aux rideaux. (élément de décoration)"
+          "Il reposait mollement sur des coussins brodés.",
+          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
+          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins.",
+          "Le coussin recouvre l’assise de la chaise.",
+          "Je dors toujours avec trois coussins sous ma tête.",
+          "Les coussins du canapé sont assortis aux rideaux."
         ],
         "reviewNeeded": false
       }
@@ -933,7 +958,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le faucheur est muni de sa pierre et de son coffin. (étui pour la pierre à aiguiser)",
+          "Le faucheur est muni de sa pierre et de son coffin.",
           "La vieille pierre à aiguiser était rangée dans son coffin en bois.",
           "Il ouvrit son coffin pour vérifier l’état de sa pierre à aiguiser."
         ],
@@ -949,9 +974,14 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le nouveau-né est endormi dans son couffin. (berceau pour bébé)",
+          "Le nouveau-né est endormi dans son couffin.",
           "Le couffin était garni de doux coussins pour le confort du bébé.",
-          "Elle déposa délicatement le bébé endormi dans son couffin près du lit."
+          "Elle déposa délicatement le bébé endormi dans son couffin près du lit.",
+          "Définition : \tUn coussin est un objet rembourré utilisé comme oreiller ou support confortable",
+          "pour s’asseoir ou s’allonger. Il peut être utilisé à des fins décoratives ou fonctionnelles.",
+          "Il reposait mollement sur des coussins brodés.",
+          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
+          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins."
         ],
         "reviewNeeded": false
       },
@@ -965,9 +995,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le coussin recouvre l’assise de la chaise. (accessoire rembourré)",
-          "Je dors toujours avec trois coussins sous ma tête. (support pour le sommeil)",
-          "Les coussins du canapé sont assortis aux rideaux. (élément de décoration)"
+          "Il reposait mollement sur des coussins brodés.",
+          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
+          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins.",
+          "Le coussin recouvre l’assise de la chaise.",
+          "Je dors toujours avec trois coussins sous ma tête.",
+          "Les coussins du canapé sont assortis aux rideaux."
         ],
         "reviewNeeded": false
       }
@@ -1025,9 +1058,11 @@
         "synonyms": null,
         "examples": [
           "Il a vérifié la compatibilité des équipements informatiques.",
-          "(capacité de fonctionner ensemble)",
+          "La compatibilité de leurs horaires leur permettait de passer plus de",
+          "La compatibilité de leurs valeurs et de leurs objectifs les a aidés à construire une relation solide.",
           "La compatibilité de leurs horaires leur permettait de passer plus de temps",
-          "ensemble. (capacité de s’accorder)"
+          "La compatibilité de leurs valeurs et de leurs objectifs les a aidés à construire",
+          "une relation solide."
         ],
         "reviewNeeded": false
       },
@@ -1042,9 +1077,11 @@
         "synonyms": null,
         "examples": [
           "La comptabilité de son commerce doit être tenue par un expert.",
-          "(gestion des finances)",
-          "Elle étudie la comptabilité pour pouvoir gérer efficacement son propre entreprise. (pratique de tenir les comptes)",
-          "Le département de comptabilité est chargé de préparer les états financiers de l’entreprise. (suivi des transactions financières)"
+          "Elle étudie la comptabilité pour pouvoir gérer efficacement son propre",
+          "Le département de comptabilité est chargé de préparer les états",
+          "financiers de l’entreprise.",
+          "Elle étudie la comptabilité pour pouvoir gérer efficacement son propre entreprise.",
+          "Le département de comptabilité est chargé de préparer les états financiers de l’entreprise."
         ],
         "reviewNeeded": false
       }
@@ -1068,9 +1105,7 @@
         "synonyms": null,
         "examples": [
           "Le topographe réalise le complétage de la carte de la région.",
-          "(ajout d’informations manquantes sur la carte)",
-          "Après le complétage du formulaire, il l’a remis au bureau des admissions.",
-          "(remplissage des espaces vides sur le formulaire)"
+          "Après le complétage du formulaire, il l’a remis au bureau des admissions."
         ],
         "reviewNeeded": false
       },
@@ -1084,9 +1119,8 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a reçu un complément de salaire. (ajout ou supplément)",
+          "Il a reçu un complément de salaire.",
           "Les légumes frais sont un bon complément à tout repas.",
-          "(ajout ou accompagnement)",
           "Son témoignage a apporté un complément d’informations à l’enquête."
         ],
         "reviewNeeded": false
@@ -1102,8 +1136,7 @@
         "synonyms": null,
         "examples": [
           "Le grammairien étudie la complémentation des verbes.",
-          "(ajout des éléments nécessaires pour former une phrase grammaticalement",
-          "La complémentation des compétences est essentielle pour réussir dans ce domaine. (ajout de compétences supplémentaires)"
+          "La complémentation des compétences est essentielle pour réussir dans ce domaine."
         ],
         "reviewNeeded": false
       },
@@ -1118,9 +1151,7 @@
         "synonyms": null,
         "examples": [
           "La complétude de ton travail est nécessaire pour progresser.",
-          "(état d’être complet ou exhaustif)",
-          "L’examen de fin d’année évaluera la complétude de tes connaissances.",
-          "(étendue et exhaustivité des connaissances)"
+          "L’examen de fin d’année évaluera la complétude de tes connaissances."
         ],
         "reviewNeeded": false
       }
@@ -1144,9 +1175,7 @@
         "synonyms": null,
         "examples": [
           "Le topographe réalise le complétage de la carte de la région.",
-          "(ajout d’informations manquantes sur la carte)",
-          "Après le complétage du formulaire, il l’a remis au bureau des admissions.",
-          "(remplissage des espaces vides sur le formulaire)"
+          "Après le complétage du formulaire, il l’a remis au bureau des admissions."
         ],
         "reviewNeeded": false
       },
@@ -1160,9 +1189,8 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a reçu un complément de salaire. (ajout ou supplément)",
+          "Il a reçu un complément de salaire.",
           "Les légumes frais sont un bon complément à tout repas.",
-          "(ajout ou accompagnement)",
           "Son témoignage a apporté un complément d’informations à l’enquête."
         ],
         "reviewNeeded": false
@@ -1202,8 +1230,8 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Elle a toujours été d’une complexion maladive. (constitution physique délicate)",
-          "Sa complexion pâle et ses cernes sous les yeux témoignaient de sa fatigue. (caractéristiques physiques)",
+          "Elle a toujours été d’une complexion maladive.",
+          "Sa complexion pâle et ses cernes sous les yeux témoignaient de sa fatigue.",
           "Le médecin a examiné sa complexion pour évaluer son état de santé général."
         ],
         "reviewNeeded": false
@@ -1219,9 +1247,8 @@
         "synonyms": null,
         "examples": [
           "Il ne faut pas éluder la complexité du problème.",
-          "(difficulté à comprendre ou à résoudre)",
-          "La complexité de la tâche nécessitait une approche méthodique et réfléchie. (difficulté due à l’interconnexion des éléments)",
-          "La complexité des relations internationales rendait les négociations ardues. (difficulté due aux relations intricables խճճված / embrouillées)"
+          "La complexité de la tâche nécessitait une approche méthodique et réfléchie.",
+          "La complexité des relations internationales rendait les négociations ardues."
         ],
         "reviewNeeded": false
       }
@@ -1259,10 +1286,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Ce projet mérite d’être concrétisé, car il a le potentiel de créer un impact significatif sur la communauté.",
-          "Il est temps de concrétiser nos idées pour voir des progrès tangibles.",
-          "Confirmer et Infirmer",
-          "« Confirmer » et « infirmer » sont des termes antonymes. Bien qu’ils soient opposés dans leur signification, ils sont utilisés pour décrire des actions spécifiques liées à l’affirmation ou à la négation de quelque chose."
+          "Ce projet mérite d’être concrétisé, car il a le potentiel de créer un impact significatif sur la communauté."
         ],
         "reviewNeeded": false
       }
@@ -1285,6 +1309,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
+          "La Seconde Guerre mondiale fut une conflagration mondiale.",
           "La région est menacée par une nouvelle conflagration armée.",
           "Sens figuré : guerre, conflit généralisé."
         ],
@@ -1300,8 +1325,10 @@
         "origin": null,
         "synonyms": null,
         "examples": [
+          "La fuite de gaz a provoqué une violente déflagration.",
           "On a entendu une déflagration dans la rue.",
-          "Sens propre : explosion soudaine (gaz, poudre, etc.)."
+          "Sens propre : explosion soudaine (gaz, poudre, etc.).",
+          "Conjecture & Conjoncture"
         ],
         "reviewNeeded": false
       }
@@ -1322,9 +1349,8 @@
         "origin": "du latin conjectura « action de jeter ensemble, supposition »",
         "synonyms": "supposition, hypothèse",
         "examples": [
-          "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
-          "Face à ce mystère, il s’est perdu en conjectures. (suppositions ou hypothèses)",
-          "Les chercheurs ont émis plusieurs conjectures sur l’origine de cette étrange maladie. (hypothèses ou spéculations)",
+          "Face à ce mystère, il s’est perdu en conjectures.",
+          "Les chercheurs ont émis plusieurs conjectures sur l’origine de cette étrange maladie.",
           "Les conjectures des journalistes ont alimenté les rumeurs autour de l’affaire."
         ],
         "reviewNeeded": false
@@ -1338,9 +1364,8 @@
         "origin": "du latin conjunctura « jonction, liaison »",
         "synonyms": "situation, contexte",
         "examples": [
-          "Dans la conjoncture actuelle, la plus grande prudence s'impose.",
-          "La conjoncture actuelle est propice à la croissance. (situation actuelle)",
-          "Les experts économiques analysent la conjoncture pour anticiper les tendances futures. (ensemble de circonstances)",
+          "La conjoncture actuelle est propice à la croissance.",
+          "Les experts économiques analysent la conjoncture pour anticiper les tendances futures.",
           "La conjoncture politique rend difficile la prise de décision."
         ],
         "reviewNeeded": false
@@ -1361,10 +1386,8 @@
         "definition": "Action de maintenir en bon état, de préserver.",
         "synonyms": "préservation, maintien",
         "examples": [
-          "La conservation des denrées exige une chaîne du froid.",
-          "Il est chargé de la conservation des antiquités.",
           "La conservation des aliments est essentielle pour éviter le gaspillage.",
-          "La conservation des ressources naturelles est une préoccupation majeure pour l’avenir de notre planète. (maintien de l’environnement naturel)"
+          "La conservation des ressources naturelles est une préoccupation majeure pour l’avenir de notre planète."
         ],
         "reviewNeeded": false
       },
@@ -1376,10 +1399,8 @@
         "definition": "Échange de propos entre des personnes.",
         "synonyms": "discussion, entretien",
         "examples": [
-          "Leur conversation s'est prolongée tard dans la nuit.",
-          "La conversation entre les invités était très animée. (discussion entre personnes)",
-          "Nous avons eu une conversation intéressante sur la politique hier soir. (discussion sur un sujet spécifique)",
-          "Il est doué pour animer une conversation et mettre les gens à l’aise."
+          "La conversation entre les invités était très animée.",
+          "Nous avons eu une conversation intéressante sur la politique hier soir."
         ],
         "reviewNeeded": false
       }
@@ -1399,10 +1420,11 @@
         "definition": "User d'une ressource, l'utiliser ou la dépenser.",
         "synonyms": "dépenser, utiliser",
         "examples": [
-          "Ce moteur consomme trop de carburant pour être rentable."
+          "Il faut consommer toutes les heures dans ce café pour maintenir son niveau",
+          "Les industries doivent trouver des moyens de consommer moins d’énergie pour réduire leur empreinte carbone."
         ],
         "reviewNeeded": true,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "headword": "consumer",
@@ -1412,10 +1434,11 @@
         "definition": "Détruire par le feu ; user lentement.",
         "synonyms": "brûler, ronger",
         "examples": [
-          "L'incendie a consumé la grange en moins d'une heure."
+          "Sa passion l’a consumé de nombreuses années, au détriment de sa santé et de ses relations.",
+          "Le feu a rapidement consumé la forêt, laissant derrière lui des cendres et une dévastation totale."
         ],
         "reviewNeeded": true,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -1436,7 +1459,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Elle m’a souhaité bonne continuation dans mes études. (poursuite d’une activité)",
+          "Elle m’a souhaité bonne continuation dans mes études.",
           "Après une courte pause, ils ont repris la continuation du voyage.",
           "La continuation de ce projet nécessitera des fonds supplémentaires."
         ],
@@ -1452,10 +1475,9 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "La continuité entre les régimes politiques est rare. (cohérence ou stabilité)",
-          "La continuité des services publics est essentielle pour le bien-être de la population. (régularité ou persistance)",
-          "Son engagement envers la continuité de l’entreprise est louable.",
-          "(maintien de l’activité sans interruption)"
+          "La continuité entre les régimes politiques est rare.",
+          "La continuité des services publics est essentielle pour le bien-être de la population.",
+          "Son engagement envers la continuité de l’entreprise est louable."
         ],
         "reviewNeeded": false
       }
@@ -1475,7 +1497,9 @@
         "definition": "Qui croit trop facilement, sans examen.",
         "synonyms": "naïf, candide",
         "examples": [
-          "Un public crédule gobait toutes ses promesses."
+          "Son esprit crédule l’a conduit à croire aux promesses extravagantes du",
+          "Son regard, trop ouvert au monde, trahissait une âme crédule, vulnérable aux",
+          "illusions les plus grossières."
         ],
         "reviewNeeded": false
       },
@@ -1487,7 +1511,8 @@
         "definition": "Que l'on peut croire ; vraisemblable, digne de foi.",
         "synonyms": "vraisemblable, plausible",
         "examples": [
-          "Son alibi n'était guère crédible."
+          "Son excuse n’est pas du tout crédible car elle manque de cohérence et de",
+          "Le témoignage des témoins oculaires était crédible et a été pris en compte lors"
         ],
         "reviewNeeded": false
       }
@@ -1510,11 +1535,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Je crois fermement en ses capacites.",
-          "Il croit tout ce qu on lui dit sans verifier."
+          "Je ne sais pas qui croire dans cette affaire, les témoignages sont contradictoires.",
+          "Elle croit en la bonté intrinsèque de chaque être humain."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-croire-croitre-1",
@@ -1550,10 +1575,9 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le tyran est connu pour sa cruauté. (tendance à faire souffrir)",
-          "On a blâmé la cruauté de ses propos. (caractère offensant ou malveillant)",
-          "Les actes de cruauté envers les animaux sont condamnables.",
-          "(actes de violence ou de maltraitance)"
+          "Le tyran est connu pour sa cruauté.",
+          "On a blâmé la cruauté de ses propos.",
+          "Les actes de cruauté envers les animaux sont condamnables."
         ],
         "reviewNeeded": false
       },
@@ -1568,9 +1592,8 @@
         "synonyms": null,
         "examples": [
           "La crudité des aliments peut être dangereuse.",
-          "(état de ce qui n’est pas cuit)",
           "Il a été critiqué pour la crudité de ses blagues.",
-          "(caractère osé ou grossier)"
+          "Dans son discours, il a exposé la crudité de la réalité sociale."
         ],
         "reviewNeeded": false
       }
@@ -1593,6 +1616,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
+          "Le batteur du groupe est excellent aux cymbales.",
           "Il a ajouté un effet sonore en frappant les cymbales avec des",
           "Les cymbales ajoutent une texture sonore unique à la musique."
         ],
@@ -1671,7 +1695,9 @@
         "definition": "Période de dix jours.",
         "synonyms": "dizaine de jours",
         "examples": [
-          "Le calendrier révolutionnaire divisait le mois en décades."
+          "Il faut régler la facture avant la fin de la décade.",
+          "Le festival se déroulera sur une décade entière.",
+          "Les rendez-vous sont planifiés par décade pour assurer une répartition équitable du temps."
         ],
         "reviewNeeded": false
       },
@@ -1683,7 +1709,9 @@
         "definition": "Période de dix ans.",
         "synonyms": "dizaine d'années",
         "examples": [
-          "Après dix ans de mariage, ils ont fêté leur première décennie."
+          "Il y a quelques décennies, les transports étaient très lents.",
+          "La décennie 1980 a été marquée par de nombreux changements politiques.",
+          "L’entreprise a connu une croissance régulière au cours de la dernière décennie."
         ],
         "reviewNeeded": false
       }
@@ -1703,7 +1731,8 @@
         "definition": "Découvrir, détecter ce qui était caché.",
         "synonyms": "détecter, repérer",
         "examples": [
-          "Le médecin a su déceler les premiers signes de la maladie."
+          "Je n’ai décelé aucun mensonge dans son récit ; tout semblait sincère.",
+          "Le détective a décelé des indices importants qui ont permis de résoudre l’affaire."
         ],
         "reviewNeeded": false
       },
@@ -1715,10 +1744,11 @@
         "definition": "Détacher, arracher ce qui était scellé ou fixé.",
         "synonyms": "arracher, défaire",
         "examples": [
-          "Les cambrioleurs ont descellé le coffre-fort de son socle."
+          "L’archéologue n’aurait pas dû desceller le tombeau, car cela risquait d’endommager les artefacts à l’intérieur.",
+          "Le notaire a dû desceller le testament en présence de témoins pour qu’il soit valide."
         ],
         "reviewNeeded": true,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -1740,9 +1770,8 @@
         "synonyms": null,
         "examples": [
           "Le déchirement des vêtements invendus est scandaleux.",
-          "Ils se sont séparés avec déchirement.  (douleur morale liée à la séparation)",
-          "La décision de partir a causé un grand déchirement dans sa famille.",
-          "(séparation ou division)"
+          "Ils se sont séparés avec déchirement.",
+          "La décision de partir a causé un grand déchirement dans sa famille."
         ],
         "reviewNeeded": false
       },
@@ -1756,10 +1785,9 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a tenté de masquer la déchirure de sa chemise. (rupture du tissu)",
-          "La déchirure du papier a été causée par un geste brusque. (rupture ou fissure)",
-          "Le joueur de rugby a subi une déchirure musculaire lors du match.",
-          "(rupture des fibres musculaires)"
+          "Il a tenté de masquer la déchirure de sa chemise.",
+          "La déchirure du papier a été causée par un geste brusque.",
+          "Le joueur de rugby a subi une déchirure musculaire lors du match."
         ],
         "reviewNeeded": false
       }
@@ -1797,11 +1825,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Elle a decroche le tableau pour le nettoyer.",
-          "Il a enfin decroche un emploi apres des mois de recherche."
+          "Ils ont décroché leur diplôme à grand-peine, après des années d’études et d’efforts.",
+          "Elle décrocha le tableau du mur et le posa soigneusement sur le sol."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -1872,9 +1900,7 @@
         "synonyms": null,
         "examples": [
           "Ce poème est dédié à une dame de la cour, en signe d’admiration pour sa gentillesse et son soutien.",
-          "Il a dédié son premier roman à ses parents, qui l’ont soutenu tout au long de son parcours d’écrivain.",
-          "« Dédicacer » se rapporte à la signature personnalisée d’un objet pour quelqu’un, tandis que",
-          "« dédier » se réfère à l’offrande ou à la consécration de quelque chose à quelqu’un ou à une cause spécifique. Comprendre ces nuances est essentiel pour une communication précise en français."
+          "Il a dédié son premier roman à ses parents, qui l’ont soutenu tout au long de son parcours d’écrivain."
         ],
         "reviewNeeded": false
       }
@@ -1907,7 +1933,8 @@
         "definition": "Celui qui défend une personne, une cause ; avocat.",
         "synonyms": "avocat, protecteur",
         "examples": [
-          "Le défenseur a plaidé l'acquittement."
+          "Il se pose en défenseur de la forêt amazonienne.",
+          "Les défenseurs des droits de l’homme manifestent pacifiquement devant le parlement."
         ],
         "reviewNeeded": false
       }
@@ -1966,7 +1993,7 @@
         "examples": [
           "Il faut surveiller la dentition des enfants et des adolescents.",
           "Le dentiste examinera la dentition du patient lors de sa consultation.",
-          "La dentition des carnivores est souvent différente de celle des herbivores. (formation des dents selon le régime alimentaire)"
+          "La dentition des carnivores est souvent différente de celle des herbivores."
         ],
         "reviewNeeded": false
       },
@@ -2040,9 +2067,8 @@
         "synonyms": null,
         "examples": [
           "La dépréciation du dollar entraîna une crise boursière.",
-          "(perte de valeur d’une devise)",
           "La dépréciation des actifs de l’entreprise a affecté ses profits.",
-          "(perte de valeur des biens ou des actifs)"
+          "L’expert financier a analysé les facteurs de dépréciation de l’immobilier."
         ],
         "reviewNeeded": false
       },
@@ -2056,11 +2082,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "La deprecation rituelle implore la clemence divine.",
-          "Son discours n etait qu une deprecation adressée aux autorites."
+          "Les coupables formulèrent de déchirantes déprécations.",
+          "Sa déprécation sincère émut les membres de la communauté.",
+          "Les fidèles se tournèrent vers la déprécation pour demander la clémence divine."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-depreciation-deprecation-depredation-2",
@@ -2072,11 +2099,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Les troupes ont commis des déprédations dans les villages traversés.",
-          "Les déprédations causées par la tempête sont considérables."
+          "Soumise aux déprédations des barbares, Rome s’effondra.",
+          "Les agriculteurs subissent les déprédations des sangliers dans leurs champs.",
+          "La déprédation des ressources naturelles menace l’équilibre écologique de la région."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -2098,9 +2126,8 @@
         "synonyms": null,
         "examples": [
           "La désaffection du public a entraîné la fermeture du théâtre.",
-          "(perte d’intérêt ou de soutien)",
           "Sa désaffection envers son ancien ami était évidente.",
-          "(perte d’affection)"
+          "La désaffection envers la politique est devenue courante parmi les jeunes générations."
         ],
         "reviewNeeded": false
       },
@@ -2140,9 +2167,8 @@
         "synonyms": null,
         "examples": [
           "La désagrégation du parti a conduit à son échec électoral.",
-          "(action de séparer ou de diviser un groupe)",
           "Le sol était sujet à une désagrégation rapide en raison de l’érosion.",
-          "(action de se briser ou de se disperser)"
+          "La désagrégation des relations entre les pays a conduit à une situation de crise."
         ],
         "reviewNeeded": false
       },
@@ -2157,9 +2183,8 @@
         "synonyms": null,
         "examples": [
           "La désintégration de la navette spatiale fut spectaculaire.",
-          "(action de se désagréger en particules ou en morceaux)",
           "Les éléments radioactifs subissent une désintégration naturelle.",
-          "(action de se décomposer en éléments plus petits)"
+          "La désintégration des roches sous l’effet de la chaleur a formé de nouveaux minéraux."
         ],
         "reviewNeeded": false
       }
@@ -2183,9 +2208,8 @@
         "synonyms": null,
         "examples": [
           "Ce livre ne suscite que du désintérêt pour les personnages.",
-          "(manque d’intérêt ou d’enthousiasme)",
           "Il a exprimé son désintérêt pour la politique en refusant de voter.",
-          "(manque d’intérêt pour un sujet)"
+          "Le désintérêt général pour le sport a conduit à une baisse des audiences télévisées."
         ],
         "reviewNeeded": false
       },
@@ -2200,9 +2224,7 @@
         "synonyms": null,
         "examples": [
           "La plaignante s’est satisfaite du désintéressement proposé.",
-          "(action de dédommager ou de rembourser)",
-          "Sa conduite est pleine de noblesse et de désintéressement.",
-          "(absence d’intérêt personnel ou d’avantages personnels)"
+          "Sa conduite est pleine de noblesse et de désintéressement."
         ],
         "reviewNeeded": false
       }
@@ -2225,11 +2247,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Une musique douce aide a se detendre apres une journee stressante.",
-          "Il a detend le ressort en le relachant doucement."
+          "Une douche chaude permettra de détendre les muscles endoloris après l’exercice.",
+          "Il écoute de la musique relaxante pour se détendre après une journée stressante au travail."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-detendre-distendre-1",
@@ -2241,11 +2263,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "La corde s est distendue sous le poids de la charge.",
-          "Un estomac distend par un repas trop copieux."
+          "Le ballon se distendit lorsqu’il a été gonflé au maximum.",
+          "Leur amitié n’a cessé de se distendre au fil des années, jusqu’à ce qu’ils ne se parlent plus du tout."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -2263,7 +2285,9 @@
         "definition": "Désaccord, conflit entre deux parties.",
         "synonyms": "désaccord, litige",
         "examples": [
-          "Ils ont fini par régler leur différend à l'amiable."
+          "Le différend entre les deux entreprises a été résolu par un arbitrage.",
+          "Ils ont eu un différend concernant la répartition des tâches, ce qui a entraîné des",
+          "Le différend territorial entre les deux pays a nécessité des négociations"
         ],
         "reviewNeeded": false
       },
@@ -2332,7 +2356,9 @@
         "examples": [
           "Ce retable (խորանապատկեր) en diptyque date du XIVe siècle.",
           "Les deux tableaux, conçus comme un diptyque, opposant la clarté du matin à la",
-          "Le musée expose un diptyque médiéval exceptionnellement bien préservé."
+          "gravité du crépuscule.",
+          "Le musée expose un diptyque médiéval exceptionnellement bien préservé.",
+          "La chapelle abrite un diptyque représentant la Crucifixion et la Résurrection du"
         ],
         "reviewNeeded": false
       },
@@ -2387,7 +2413,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Un dissentiment moral nous oppose. (désaccord sur des questions morales)",
+          "Un dissentiment moral nous oppose.",
           "Les deux parties ont exprimé leur dissentiment lors de la réunion.",
           "Malgré leurs dissentiments, ils ont réussi à trouver un compromis."
         ],
@@ -2412,9 +2438,9 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il a fait diversion pour s’emparer de la lettre. (action de détourner l’attention)",
-          "Les forces ennemies ont utilisé une diversion pour attaquer par surprise. (stratégie militaire de détourner l’attention)",
-          "La diversion médiatique a occulté les véritables enjeux de la situation. (manipulation de l’attention du public)"
+          "Il a fait diversion pour s’emparer de la lettre.",
+          "Les forces ennemies ont utilisé une diversion pour attaquer par surprise.",
+          "La diversion médiatique a occulté les véritables enjeux de la situation."
         ],
         "reviewNeeded": false
       },
@@ -2430,7 +2456,7 @@
         "examples": [
           "Les émissions de divertissement sont coûteuses et de piètre qualité.",
           "Nous avons assisté à un divertissement musical au théâtre hier soir.",
-          "Les parcs d’attractions offrent une grande variété de divertissements pour toute la famille. (activités récréatives)"
+          "Les parcs d’attractions offrent une grande variété de divertissements pour toute la famille."
         ],
         "reviewNeeded": false
       }
@@ -2470,8 +2496,7 @@
         "synonyms": null,
         "examples": [
           "Les dotations sont insuffisantes pour couvrir les dépenses.",
-          "Cette université bénéficie d’une dotation importante pour soutenir ses activités de recherche. (financement alloué)",
-          "La dotation de l’hôpital a été augmentée pour améliorer les services de santé. (allocation de ressources financières)"
+          "La dotation de l’hôpital a été augmentée pour améliorer les services de santé."
         ],
         "reviewNeeded": false
       }
@@ -2639,7 +2664,9 @@
         "origin": "du latin eruptio « action de sortir »",
         "synonyms": "explosion, jaillissement",
         "examples": [
-          "Les vulcanologues redoutaient une éruption imminente du cratère."
+          "L’éruption du Vésuve en l’an 79 a enseveli les villes romaines de Pompéi et d’Herculanum.",
+          "Les scientifiques surveillent de près l’activité sismique pour détecter toute éruption imminente.",
+          "Une éruption solaire peut perturber les communications radio sur Terre."
         ],
         "reviewNeeded": false
       },
@@ -2652,7 +2679,6 @@
         "origin": "du latin irruptio « invasion »",
         "synonyms": "intrusion, incursion",
         "examples": [
-          "Une irruption de manifestants a soudain envahi le hall du ministère.",
           "Il a fait irruption dans la salle de réunion avec une nouvelle importante à annoncer.",
           "L’irruption des forces de police a mis fin à la manifestation.",
           "L’irruption des touristes a bouleversé la tranquillité du village."
@@ -2675,7 +2701,9 @@
         "definition": "Rappeler à la mémoire ou à l'esprit.",
         "synonyms": "rappeler, mentionner",
         "examples": [
-          "Sa lettre évoque avec nostalgie les étés de l'enfance."
+          "Lors de la réunion, il a pris la parole pour évoquer les problèmes rencontrés par l’équipe dans le projet.",
+          "Le film cherche à évoquer les émotions profondes liées à la perte et au deuil.",
+          "En lisant ce passage, elle n’a pu s’empêcher d’évoquer des souvenirs d’enfance oubliés."
         ],
         "reviewNeeded": false
       },
@@ -2687,7 +2715,6 @@
         "definition": "Faire valoir (un argument, un texte) ; appeler à son secours.",
         "synonyms": "alléguer, en appeler à",
         "examples": [
-          "Pour sa défense, l'accusé a invoqué la légitime défense.",
           "L’avocat a décidé d’invoquer une nouvelle preuve pour défendre son client.",
           "Face à la difficulté, il a tenté d’invoquer l’aide divine par une prière fervente.",
           "Les manifestants ont choisi d’invoquer leurs droits fondamentaux pour justifier leur rassemblement."
@@ -2710,7 +2737,20 @@
         "definition": "Ce qui dépasse la mesure, la quantité permise.",
         "synonyms": "dépassement, abus",
         "examples": [
-          "Tout excès de vitesse est sévèrement réprimé sur cette portion d'autoroute."
+          "Les excès de vitesse sont sévèrement punis par la loi.",
+          "L’excès de sucre dans l’alimentation peut entraîner des problèmes de santé.",
+          "Son excès de zèle l’a conduit à commettre des erreurs dans son travail.",
+          "Elle a pu finalement se débarrasser de son excès de poids.",
+          "Durant la période des vacances, les policiers et gendarmes surveillent de près les excès de vitesse.",
+          "Ce chauffard est connu pour ses excès de vitesse.",
+          "Ce joueur était bien connu pour ses excès de zèle.",
+          "La confiance des joueurs, poussée à l’excès, leur a valu une défaite.",
+          "Même si le repas est copieux, j’ai mangé sans faire d’excès.",
+          "Tel un enfant, il a toujours du mal à contenir ses excès d’enthousiasme.",
+          "Ses excès de boisson répétés lui ont coûté une fortune.",
+          "Son excès violence ces derniers jours a surpris tout le monde.",
+          "Après sa disparition, tout le monde reconnaît ses grandes qualités et ses excès de générosité.",
+          "Dans ce rôle, cette grande artiste incarne une femme mélancolique, portée par des EXCÈS de sensibilité et secouée par des ACCÈS de jalousie."
         ],
         "reviewNeeded": false
       },
@@ -2722,8 +2762,14 @@
         "definition": "Possibilité d'entrer, voie d'entrée ; crise soudaine (de fièvre, de colère).",
         "synonyms": "entrée, crise",
         "examples": [
-          "L'accès au site est réservé aux abonnés.",
-          "Un accès de fièvre l'a cloué au lit."
+          "L’accès à la salle de concert se fait par l’entrée principale.",
+          "Les personnes handicapées doivent avoir un accès facile aux bâtiments publics.",
+          "Ce site web nécessite un accès par un nom d’utilisateur et un mot de passe.",
+          "L’accès à ce refuge d’altitude est compliqué en hiver.",
+          "L’accès à ces bureaux est réservé au personnel de l’entreprise.",
+          "La police a bloqué tous les accès au lieu de l’accident.",
+          "L’accès aux malades est interdit.",
+          "En dehors des heures de tournage, personne n'a accès à la grande actrice sans autorisation préalable."
         ],
         "reviewNeeded": false
       }
@@ -2879,9 +2925,8 @@
         "synonyms": null,
         "examples": [
           "Les écales des noix et des noisettes sont riches en vitamines.",
-          "(coquille des fruits à coque)",
           "Il a passé l’après-midi à casser des écales de pistaches.",
-          "(enveloppe des graines)"
+          "Les agriculteurs récoltent les écales des noix pour les utiliser comme"
         ],
         "reviewNeeded": false
       }
@@ -2904,7 +2949,7 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Nous avons assisté à une éclipse solaire. (occultation du soleil par la lune)",
+          "Nous avons assisté à une éclipse solaire.",
           "L’éclipse lunaire a plongé la ville dans l’obscurité. (occultation de la lune par la",
           "Il existe plusieurs types d’éclipses : solaires, lunaires, partielles, totales, etc."
         ],
@@ -2920,9 +2965,9 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Tracer des ellipses. (figure géométrique)",
-          "Son récit plein d’ellipses nous a déroutés. (omission dans le discours)",
-          "L’ellipse de l’orbite terrestre est légèrement excentrique. (figure géométrique)"
+          "Tracer des ellipses.",
+          "Son récit plein d’ellipses nous a déroutés.",
+          "L’ellipse de l’orbite terrestre est légèrement excentrique."
         ],
         "reviewNeeded": false
       }
@@ -2961,11 +3006,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "L auteur a choisi une epigraphe de Montaigne pour ouvrir son roman.",
-          "L epigraphe gravee sur le fronton rappelle la date de fondation."
+          "L’épigraphe du roman de l’auteur évoque la solitude humaine de manière poignante.",
+          "Le monument commémoratif porte une épigraphe en hommage aux soldats tombés au combat.",
+          "L’épigraphe de cet essai philosophique est une citation de Nietzsche."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -2988,7 +3034,8 @@
         "examples": [
           "Les factions rivales au sein du parti politique ont du mal à s’entendre sur les",
           "Les différentes factions de l’armée ont mené à des luttes de pouvoir internes.",
-          "Les écrivains sont divisés en différentes factions, chacune défendant ses propres"
+          "Les écrivains sont divisés en différentes factions, chacune défendant ses propres",
+          "idées et styles."
         ],
         "reviewNeeded": false
       },
@@ -3027,11 +3074,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Le chien a flaire la piste pendant des heures.",
-          "Elle a flaire le danger bien avant que les autres s en apercoivent."
+          "Les chiens ont flairé la piste du prisonnier évadé, les menant ainsi à sa cachette.",
+          "En marchant dans la forêt, j’ai flairé l’odeur des fleurs sauvages en fleur.",
+          "Le sommelier a flairé le vin pour déterminer son bouquet et son caractère."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-flairer-fleurer-1",
@@ -3043,11 +3091,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Ce jardin fleure bon la rose en ete.",
-          "La vieille maison fleurait la cire et le bois chauffe."
+          "Le jardin fleure bon les roses après la pluie, laissant une fragrance délicate dans l’air.",
+          "L’encens utilisé lors de la cérémonie religieuse fleurissait dans le temple, créant une atmosphère sacrée."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -3103,6 +3151,7 @@
         "synonyms": null,
         "examples": [
           "Les Atrides ont connu un destin funeste, marqué par la tragédie et la",
+          "malédiction familiale.",
           "L’annonce de la guerre a eu des conséquences funestes pour la population",
           "Le navire a rencontré un sort funeste lorsqu’il a sombré au large des côtes."
         ],
@@ -3324,10 +3373,9 @@
         "definition": "Violation d'une loi, d'un règlement.",
         "synonyms": "manquement, délit",
         "examples": [
-          "Les gendarmes ont relevé une infraction au code de la route.",
           "Après de multiples infractions, on lui a retiré son permis.",
           "Le conducteur a été arrêté pour infraction au code de la route.",
-          "L’entreprise a été condamnée pour infraction aux normes environnementales. (non-respect des règles écologiques)"
+          "L’entreprise a été condamnée pour infraction aux normes environnementales."
         ],
         "reviewNeeded": false
       },
@@ -3339,8 +3387,7 @@
         "definition": "Bris de clôture ou de serrure pour pénétrer dans un lieu.",
         "synonyms": "cambriolage, bris",
         "examples": [
-          "Les malfaiteurs sont entrés par effraction.",
-          "Ils sont entrés sans effraction dans le musée. (sans forcer l’entrée)",
+          "Ils sont entrés sans effraction dans le musée.",
           "La police a découvert des traces d’effraction à la porte d’entrée.",
           "L’effraction du coffre-fort a été minutieusement planifiée."
         ],
@@ -3449,7 +3496,8 @@
         "examples": [
           "La cérémonie d’investiture du président fut grandiose et solennelle.",
           "L’archevêque a présidé l’investiture du nouveau monarque.",
-          "L’investiture du maire a eu lieu devant une foule enthousiaste."
+          "L’investiture du maire a eu lieu devant une foule enthousiaste.",
+          "La cérémonie d’investiture du président aura lieu demain."
         ],
         "reviewNeeded": false
       },
@@ -3465,7 +3513,9 @@
         "examples": [
           "Il a réalisé des investissements colossaux en Asie dans le secteur de la technologie.",
           "Son portefeuille d’investissement est diversifié pour minimiser les risques.",
-          "L’investissement dans l’éducation est crucial pour le développement économique à long terme d’un pays."
+          "L’investissement dans l’éducation est crucial pour le développement économique à long terme d’un pays.",
+          "Il a fait un investissement immobilier à Paris.",
+          "Son investissement personnel dans ce projet est remarquable."
         ],
         "reviewNeeded": false
       }
@@ -3652,11 +3702,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "La liberation de la ville fut celebree avec une immense fete.",
-          "La liberation des otages a necessité des mois de negociation."
+          "La libération de Paris eut lieu en 1944, marquant la fin de l’occupation nazie pendant la Seconde Guerre mondiale.",
+          "Après des années de lutte, les militants ont finalement obtenu la libération des prisonniers politiques.",
+          "La libération des femmes a permis l’émergence de mouvements féministes dans le monde entier."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-liberation-liberalisation-1",
@@ -3930,7 +3981,6 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Cette fresque montre la Nativité, représentant la scène de la naissance de Jésus entourée des bergers et des Mages.",
           "La crèche de Noël met en scène la Nativité avec des figurines représentant Jésus, Marie, Joseph, les anges, les bergers et les Mages.",
           "Les chrétiens célèbrent la Nativité lors de la fête de Noël, commémorant la naissance de Jésus et son importance spirituelle pour la foi chrétienne."
         ],
@@ -3984,7 +4034,6 @@
         "definition": "Gêner la respiration ; accabler moralement.",
         "synonyms": "accabler, étouffer",
         "examples": [
-          "La chaleur lourde de l'orage l'oppressait peu à peu.",
           "Un corset oppressait sa poitrine haletante, lui causant une sensation",
           "Les manifestants étaient oppressés par la chaleur écrasante alors qu’ils marchaient sous le soleil brûlant.",
           "La culpabilité l’oppressait et l’empêchait de dormir la nuit."
@@ -3999,8 +4048,8 @@
         "definition": "Soumettre à une autorité injuste et tyrannique.",
         "synonyms": "tyranniser, asservir",
         "examples": [
-          "Pendant des décennies, le régime a opprimé les minorités.",
           "La junte militaire opprimait férocement son peuple, réprimant toute forme de",
+          "dissidence avec une violence brutale.",
           "Les travailleurs étaient opprimés par des conditions de travail inhumaines et des salaires dérisoires.",
           "Les minorités ethniques étaient opprimées par le gouvernement dominant, qui leur refusait l’accès à l’éducation et à d’autres droits fondamentaux."
         ],
@@ -4025,8 +4074,6 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "L’orfraie est un rapace majestueux, reconnaissable à sa silhouette élégante et à sa capacité à planer dans les airs à la recherche de proies.",
-          "Elle a poussé des cris d’orfraie en voyant le désordre dans la pièce, exprimant son irritation face à la situation chaotique.",
           "Elle a poussé des cris d’orfraie en voyant le désordre dans la pièce, exprimant son irritation face à la situation chaotique.",
           "L’orfraie est un rapace majestueux, reconnaissable à sa silhouette élégante et à sa capacité à planer dans les airs à la recherche de proies."
         ],
@@ -4113,11 +4160,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Il portait une moustache postiche qui glissait sur son visage.",
-          "Ce decor de theatre n est que du carton postiche."
+          "Il porte une barbe et des sourcils postiches pour son rôle dans la pièce de théâtre, afin de mieux correspondre au personnage qu’il incarne.",
+          "Les acteurs de cinéma et de théâtre utilisent souvent des postiches pour transformer leur apparence physique et mieux correspondre aux exigences de leur rôle."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -4199,7 +4246,9 @@
         "definition": "Commettre (un acte criminel).",
         "synonyms": "commettre, accomplir",
         "examples": [
-          "Le malfaiteur a perpétré son forfait en pleine nuit."
+          "Il a perpétré ses forfaits puis s’est enfui à l’étranger, échappant ainsi à la justice pendant des années.",
+          "Les terroristes ont perpétré un attentat à la bombe dans le centre-ville, causant la panique et la destruction.",
+          "Les enquêteurs ont identifié le criminel qui a perpétré le vol à main armée grâce à des preuves ADN trouvées sur les lieux du crime."
         ],
         "reviewNeeded": true
       },
@@ -4211,7 +4260,9 @@
         "definition": "Faire durer, transmettre dans le temps.",
         "synonyms": "transmettre, prolonger",
         "examples": [
-          "Cette coutume perpétue une tradition ancestrale."
+          "Tout être pense à perpétuer son espèce en donnant naissance à une nouvelle génération.",
+          "La famille a perpétué la tradition de célébrer Noël avec un grand repas familial chaque année.",
+          "Les historiens s’efforcent de perpétuer la mémoire des événements passés pour les générations futures."
         ],
         "reviewNeeded": true
       }
@@ -4267,7 +4318,11 @@
         "examples": [
           "Les candidats populistes se livrent à toutes les bassesses pour gagner les votes de la population, en promettant des solutions simples à des problèmes complexes.",
           "Le discours populiste du leader politique a réussi à rallier un grand nombre de partisans en exploitant les frustrations et les peurs de la population.",
-          "Les politiques populistes peuvent parfois conduire à des décisions irresponsables ou à des divisions sociales en exploitant les tensions existantes."
+          "Les politiques populistes peuvent parfois conduire à des décisions irresponsables ou à des divisions sociales en exploitant les tensions existantes.",
+          "Populacier, ière adj. խսկց․ գռեհիկ, ռամկական",
+          "Son rire populacier dérangea la comtesse, qui était habituée à un comportement plus raffiné dans son cercle social.",
+          "Les émissions de télévision populacières sont souvent critiquées pour leur manque de qualité artistique et leur recours à des stéréotypes pour attirer un public large.",
+          "Certains politiciens utilisent un langage populacier pour se connecter avec les électeurs, mais cela peut parfois être perçu comme dégradant ou offensant."
         ],
         "reviewNeeded": false
       },
@@ -4319,11 +4374,11 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "Sa prediction s est averee juste : il a gagne les elections.",
-          "Les predictions des experts economiques se sont revelees erronees."
+          "Cassandre avait le don de prédiction, mais malheureusement, elle n’était pas souvent crue par ceux qui l’entouraient.",
+          "Les météorologues utilisent des modèles informatiques sophistiqués pour faire des prédictions précises sur le temps à venir, mais il y a toujours une part d’incertitude."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       }
     ]
   },
@@ -4389,8 +4444,6 @@
         "origin": "du latin prodigus « qui dissipe »",
         "synonyms": "dépensier, dilapidateur",
         "examples": [
-          "L'héritier prodigue dilapida en quelques années la fortune familiale.",
-          "Il est prodigue de ses richesses, dépensant sans compter pour satisfaire ses désirs de luxe et de confort.",
           "Son père lui reproche d’être trop prodigue avec son argent, gaspillant ses économies dans des achats impulsifs et inutiles.",
           "La société moderne encourage souvent un mode de vie prodigue, où la consommation excessive est valorisée au détriment de l’épargne et de la frugalité."
         ],
@@ -4412,7 +4465,6 @@
         "definition": "Trop long, trop bavard, qui se perd en développements.",
         "synonyms": "bavard, verbeux, diffus",
         "examples": [
-          "Cet orateur prolixe, incapable de concision, finit par lasser l'auditoire.",
           "Pierre s’est montré prolixe dans ses explications, racontant en détail chaque aspect de son voyage sans que personne ne lui demande.",
           "Le discours du politicien était prolixe et ennuyeux, perdant l’attention de son auditoire en s’égarant dans des détails sans importance.",
           "La réunion a duré plus longtemps que prévu en raison des interventions prolixes de certains participants, qui ont monopolisé la parole avec des digressions inutiles."
@@ -4427,7 +4479,6 @@
         "definition": "Qui se reproduit ou produit beaucoup ; très fécond.",
         "synonyms": "fécond, productif",
         "examples": [
-          "Un romancier prolifique publiant deux livres par an.",
           "C’est l’auteur prolifique d’une centaine de nouvelles, démontrant sa capacité à écrire de manière constante et à produire un vaste corpus littéraire.",
           "Le peintre est connu pour être prolifique, produisant des dizaines de toiles chaque année, chacune avec son propre style et sa propre vision artistique.",
           "Le musicien est prolifique dans sa composition, produisant régulièrement de nouvelles chansons qui sont acclamées par ses fans."
@@ -4455,7 +4506,8 @@
         "examples": [
           "Malgré les années qui passent, il garde une profonde rancune contre ceux qui l’ont trahi.",
           "Elle ne pouvait pas surmonter sa rancune envers son collègue qui lui avait volé son idée.",
-          "La rancune entre les deux familles a perduré pendant des générations, alimentée par de"
+          "La rancune entre les deux familles a perduré pendant des générations, alimentée par de",
+          "vieilles querelles."
         ],
         "reviewNeeded": false
       },
@@ -4471,8 +4523,7 @@
         "examples": [
           "Il ressentait une profonde rancœur après avoir été injustement licencié de son travail.",
           "La rancœur accumulée au fil des ans a finalement éclaté en une dispute violente.",
-          "Elle cachait sa rancœur derrière un sourire, mais ses yeux trahissaient son ressentiment.",
-          "Ranimer et Réanimer"
+          "Elle cachait sa rancœur derrière un sourire, mais ses yeux trahissaient son ressentiment."
         ],
         "reviewNeeded": false
       }
@@ -4531,7 +4582,9 @@
         "definition": "Partager, distribuer entre plusieurs.",
         "synonyms": "distribuer, partager",
         "examples": [
-          "Le notaire a réparti les biens entre les héritiers."
+          "Il a réparti très justement ses biens entre ses enfants, en tenant compte des besoins et des préférences de chacun.",
+          "Le professeur a réparti les tâches entre les élèves pour réaliser le projet de groupe de manière efficace.",
+          "Les responsables ont réparti les bénéfices de l’entreprise entre les actionnaires selon le nombre d’actions détenues par chacun."
         ],
         "reviewNeeded": false
       },
@@ -4543,7 +4596,7 @@
         "definition": "Partir de nouveau, reprendre la route ou une activité.",
         "synonyms": "repartir, reprendre",
         "examples": [
-          "Après une courte halte, les randonneurs sont repartis vers le sommet."
+          "Il a reparti avec colère lorsque ses suggestions ont été rejetées lors de la réunion."
         ],
         "reviewNeeded": true
       }
@@ -4566,11 +4619,12 @@
         "origin": null,
         "synonyms": null,
         "examples": [
-          "C est une dame tres respectable que tout le quartier apprecie.",
-          "Il a eu une carriere respectable mais sans eclat particulier."
+          "Des femmes respectables ont été diffamées, ce qui a choqué la communauté et",
+          "suscité une vague de soutien en leur faveur.",
+          "Les anciens sont souvent considérés comme des membres respectables de la société en raison de leur sagesse, de leur expérience et de leur contribution à la communauté."
         ],
         "reviewNeeded": false,
-        "autoFilled": true
+        "autoFilled": false
       },
       {
         "id": "new-respectable-respectueux-1",
@@ -4583,8 +4637,7 @@
         "synonyms": null,
         "examples": [
           "Son attitude respectueuse et discrète lui a valu des éloges de la part de ses collègues et de ses supérieurs, qui apprécient sa gentillesse et son empathie envers les autres.",
-          "Les enfants ont été éduqués dans un environnement respectueux, où le respect des aînés et des autorités est une valeur fondamentale.",
-          "Il est important d’être respectueux envers les cultures et les croyances des autres, même si elles diffèrent des nôtres, afin de favoriser la compréhension et la tolérance mutuelle."
+          "Les enfants ont été éduqués dans un environnement respectueux, où le respect des aînés et des autorités est une valeur fondamentale."
         ],
         "reviewNeeded": false
       }
@@ -4616,7 +4669,7 @@
         "definition": "Qui doute, qui met en question ce qu'on lui présente.",
         "synonyms": "incrédule, dubitatif",
         "examples": [
-          "Plusieurs élus, sceptiques quant au coût réel du projet, ont voté contre."
+          "Montaigne était un philosophe sceptique."
         ],
         "reviewNeeded": false
       }
@@ -4637,7 +4690,6 @@
         "origin": "du latin sessio « action de s'asseoir »",
         "synonyms": "séance, réunion",
         "examples": [
-          "La nouvelle session parlementaire s'ouvre en octobre.",
           "Il y aura deux sessions d’examens cette année.",
           "La session parlementaire a été prolongée pour examiner la nouvelle législation.",
           "La session de formation a été très instructive pour les nouveaux employés."
@@ -4653,7 +4705,6 @@
         "origin": "du latin cessio « action de céder »",
         "synonyms": "transfert, vente",
         "examples": [
-          "La cession de parts sociales a été enregistrée chez le notaire.",
           "Il a précipité la cession de son entreprise.",
           "La cession de ses droits d’auteur a été négociée avec succès.",
           "La cession de territoires était un sujet de débat lors des négociations de paix."
@@ -4713,7 +4764,8 @@
         "examples": [
           "Elle ne cesse de teindre ses cheveux de diverses couleurs pour exprimer sa créativité et son style personnel.",
           "Les artisans teignent le tissu avec des pigments naturels pour obtenir des nuances vibrantes.",
-          "Il a décidé de teindre les murs de sa chambre en bleu pour créer une"
+          "Il a décidé de teindre les murs de sa chambre en bleu pour créer une",
+          "ambiance apaisante."
         ],
         "reviewNeeded": false
       },
@@ -4769,8 +4821,7 @@
         "synonyms": null,
         "examples": [
           "Je vais tremper le linge dans l’eau tiède avant de le laver.",
-          "Il aime tremper ses biscuits dans son café.",
-          "Cette expérience difficile l’a bien trempé pour affronter les défis à venir."
+          "Il aime tremper ses biscuits dans son café."
         ],
         "reviewNeeded": false
       }
@@ -4938,8 +4989,7 @@
         "synonyms": null,
         "examples": [
           "Je ne crois pas ce projet viable, il est trop complexe.",
-          "La start-up a développé un modèle d’affaires viable qui lui permettra de croître rapidement.",
-          "Il est important d’avoir un plan financier viable pour assurer la stabilité de l’entreprise."
+          "La start-up a développé un modèle d’affaires viable qui lui permettra de croître rapidement."
         ],
         "reviewNeeded": false
       },
