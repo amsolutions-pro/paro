@@ -9,7 +9,7 @@
         "headword": "abjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "հրաժaravel (հայ․ kron kamel)",
+        "translationHy": "",
         "definition": "Renoncer solennellement à une religion, une opinion.",
         "synonyms": "renier, abandonner",
         "examples": [
@@ -22,7 +22,7 @@
         "headword": "adjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "agherset, van latsnel",
+        "translationHy": "",
         "definition": "Supplier instamment, au nom de ce qu'il y a de sacré.",
         "synonyms": "supplier, implorer",
         "examples": [
@@ -129,7 +129,7 @@
         "headword": "affectif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "houzakan, zgatsakan",
+        "translationHy": "",
         "definition": "Relatif aux affects, aux émotions et aux sentiments.",
         "synonyms": "émotionnel",
         "examples": [
@@ -142,7 +142,7 @@
         "headword": "affectueux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "siralir, karogh-siraharj",
+        "translationHy": "",
         "definition": "Qui témoigne de la tendresse, de l'affection.",
         "synonyms": "tendre, aimant",
         "examples": [
@@ -291,30 +291,26 @@
         "headword": "anoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "aznvakan kargu sharkel, barchracnel",
+        "translationHy": "ազնվական դարձնել",
         "definition": "Conférer un titre de noblesse à quelqu'un.",
         "synonyms": "élever (à la noblesse)",
         "examples": [
           "La reine d’Angleterre anoblit certains artistes.",
           "Le roi anoblissait ses fidèles serviteurs pour leurs services exceptionnels."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": false
+        ]
       },
       {
         "headword": "ennoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "barchracnel, katoghel, aznivatstnel",
+        "translationHy": "ազնվացնել, վեհացնել",
         "definition": "Élever moralement, donner de la dignité, de la grandeur.",
         "synonyms": "grandir, élever",
         "examples": [
           "Son dévouement l’a ennobli aux yeux de tous.",
           "Sa générosité et son altruisme l’ont ennobli.",
           "Ses actions courageuses ont ennobli son héritage."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": false
+        ]
       }
     ]
   },
@@ -1416,29 +1412,25 @@
         "headword": "consommer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "sovorel, tnoutnel",
+        "translationHy": "ավարտել, ավարտին հասցնել, վերջացնել, լրացնել",
         "definition": "User d'une ressource, l'utiliser ou la dépenser.",
         "synonyms": "dépenser, utiliser",
         "examples": [
           "Il faut consommer toutes les heures dans ce café pour maintenir son niveau",
           "Les industries doivent trouver des moyens de consommer moins d’énergie pour réduire leur empreinte carbone."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": false
+        ]
       },
       {
         "headword": "consumer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "varel, makhel, katarvel",
+        "translationHy": "կլանել, ոչնչացնել, այրել // փխբ․ հյուծել, հալումաշ անել,",
         "definition": "Détruire par le feu ; user lentement.",
         "synonyms": "brûler, ronger",
         "examples": [
           "Sa passion l’a consumé de nombreuses années, au détriment de sa santé et de ses relations.",
           "Le feu a rapidement consumé la forêt, laissant derrière lui des cendres et une dévastation totale."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": false
+        ]
       }
     ]
   },
@@ -1740,15 +1732,13 @@
         "headword": "desceller",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "knikqe katotel, tagesahrkel",
+        "translationHy": "կնիքը բացել, քանդել",
         "definition": "Détacher, arracher ce qui était scellé ou fixé.",
         "synonyms": "arracher, défaire",
         "examples": [
           "L’archéologue n’aurait pas dû desceller le tombeau, car cela risquait d’endommager les artefacts à l’intérieur.",
           "Le notaire a dû desceller le testament en présence de témoins pour qu’il soit valide."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": false
+        ]
       }
     ]
   },
@@ -1843,7 +1833,7 @@
         "headword": "décrépit",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "mshvats, tseramakh",
+        "translationHy": "",
         "definition": "Affaibli, usé par la vieillesse (en parlant d'une personne).",
         "synonyms": "sénile, caduc",
         "examples": [
@@ -1856,7 +1846,7 @@
         "headword": "décrépi",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "voroke kaghakel",
+        "translationHy": "",
         "definition": "Dont le crépi, l'enduit se détache (en parlant d'un mur).",
         "synonyms": "délabré, écaillé",
         "examples": [
@@ -1916,7 +1906,7 @@
         "headword": "défendeur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "ambastanyal (dativar)",
+        "translationHy": "",
         "definition": "Personne contre laquelle une demande en justice est formée.",
         "synonyms": "partie défenderesse",
         "examples": [
@@ -1950,7 +1940,7 @@
         "headword": "dénotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "ugghaki nshanakutyamb",
+        "translationHy": "",
         "definition": "Qui relève du sens premier, neutre et littéral d'un mot.",
         "synonyms": "littéral, neutre",
         "examples": [
@@ -1963,7 +1953,7 @@
         "headword": "connotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "anugghaki nshanakutyamb",
+        "translationHy": "",
         "definition": "Qui relève des sens implicites, affectifs ou culturels d'un mot.",
         "synonyms": "implicite, suggestif",
         "examples": [
@@ -2025,7 +2015,7 @@
         "headword": "dénué",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "zurk, pakhavarel",
+        "translationHy": "",
         "definition": "Dépourvu de, qui manque de.",
         "synonyms": "dépourvu, privé",
         "examples": [
@@ -2038,7 +2028,7 @@
         "headword": "dénudé",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "merk, batservats",
+        "translationHy": "",
         "definition": "Mis à nu, dépouillé de ce qui couvre.",
         "synonyms": "nu, dépouillé",
         "examples": [
@@ -2295,13 +2285,14 @@
         "headword": "différent",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "tarber",
+        "translationHy": "",
         "definition": "Qui n'est pas identique, qui diffère.",
         "synonyms": "distinct, autre",
         "examples": [
           "Sur ce point précis, chacun avait un avis différent."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -2315,25 +2306,27 @@
         "headword": "différer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "tarbervel, hetadrkel",
+        "translationHy": "",
         "definition": "Remettre à plus tard, retarder.",
         "synonyms": "ajourner, reporter",
         "examples": [
           "L'opposition a cherché à différer la décision à la séance suivante."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "déférer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "entarkvam, hoghos lkanel",
+        "translationHy": "",
         "definition": "Traduire, transmettre devant une autorité judiciaire.",
         "synonyms": "traduire (en justice)",
         "examples": [
           "Le suspect a été déféré devant le procureur."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -2553,7 +2546,7 @@
         "headword": "émigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "arta-gaghtegh linel",
+        "translationHy": "",
         "definition": "Quitter son pays pour s'établir ailleurs.",
         "origin": "du latin emigrare « partir de »",
         "synonyms": "s'expatrier, partir",
@@ -2567,7 +2560,7 @@
         "headword": "immigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "nor erkir gaghtegh linel",
+        "translationHy": "",
         "definition": "Entrer dans un pays étranger pour s'y établir.",
         "origin": "du latin immigrare « entrer dans »",
         "synonyms": "s'installer, arriver",
@@ -2589,7 +2582,7 @@
         "headword": "éminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "bardzrutyun, metsatsutyun",
+        "translationHy": "",
         "definition": "Élévation de terrain ; par extension, dignité, haut rang.",
         "synonyms": "hauteur, dignité",
         "examples": [
@@ -2602,7 +2595,7 @@
         "headword": "imminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "motalutyun, anmijakan majerdzutyun",
+        "translationHy": "",
         "definition": "Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
         "synonyms": "proximité, approche",
         "examples": [
@@ -2867,7 +2860,7 @@
         "headword": "express",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "arag, arjanavar",
+        "translationHy": "",
         "definition": "Rapide ; qui se fait ou circule vite (café serré, train direct).",
         "synonyms": "rapide, direct",
         "examples": [
@@ -2880,7 +2873,7 @@
         "headword": "exprès",
         "category": "adv.",
         "posClass": "AUTRE",
-        "translationHy": "ditavorerek, hashes",
+        "translationHy": "",
         "definition": "À dessein, intentionnellement.",
         "synonyms": "délibérément, volontairement",
         "examples": [
@@ -2919,7 +2912,7 @@
         "headword": "Écale",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "կեղև, կճեպ (de châtaigne, de noix) պատիճ (des pois)",
+        "translationHy": "",
         "definition": "Une écale est l’enveloppe ou la coquille recouvrant certains fruits, graines ou",
         "origin": null,
         "synonyms": null,
@@ -2928,7 +2921,8 @@
           "Il a passé l’après-midi à casser des écales de pistaches.",
           "Les agriculteurs récoltent les écales des noix pour les utiliser comme"
         ],
-        "reviewNeeded": false
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -3292,7 +3286,7 @@
         "headword": "inculper",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "katarvakut, metshadatel",
+        "translationHy": "",
         "definition": "Mettre en accusation, imputer une faute à quelqu'un.",
         "origin": "du latin culpa « faute »",
         "synonyms": "accuser, mettre en examen",
@@ -3306,7 +3300,7 @@
         "headword": "inculquer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "ambetsnel, krtsutyun tanel",
+        "translationHy": "",
         "definition": "Faire entrer durablement dans l'esprit par une instruction répétée.",
         "origin": "du latin inculcare « faire entrer en foulant »",
         "synonyms": "enseigner, transmettre",
@@ -3330,7 +3324,7 @@
         "headword": "Influx",
         "category": "m.",
         "posClass": "NOM_M",
-        "translationHy": "բժշկ․ influx nerveux, նյարդային ալիք",
+        "translationHy": "",
         "definition": "Un influx désigne la transmission d’une force ou d’une excitation nerveuse à",
         "origin": null,
         "synonyms": null,
@@ -3339,7 +3333,8 @@
           "L’influx électrique traverse les synapses pour permettre la communication entre les neurones.",
           "Le médecin a étudié les différents types d’influx nerveux dans le système nerveux central."
         ],
-        "reviewNeeded": false
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "id": "new-influx-reflux-1",
@@ -3737,7 +3732,7 @@
         "headword": "littéral",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "bazakakan, azhkagir",
+        "translationHy": "",
         "definition": "Qui suit le sens exact, propre des mots.",
         "synonyms": "textuel, exact",
         "examples": [
@@ -3750,7 +3745,7 @@
         "headword": "littéraire",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "grakanutyan, grakagrakan",
+        "translationHy": "",
         "definition": "Relatif à la littérature.",
         "synonyms": "culturel",
         "examples": [
@@ -3926,13 +3921,14 @@
         "headword": "médical",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "bzhshkakan",
+        "translationHy": "",
         "definition": "Relatif à la médecine et à son exercice.",
         "synonyms": "thérapeutique, sanitaire",
         "examples": [
           "Un examen médical approfondi."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "médicinal",
@@ -3998,25 +3994,27 @@
         "headword": "opportun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "hamaradzaynat, tesaneli",
+        "translationHy": "",
         "definition": "Qui vient à propos, au moment favorable.",
         "synonyms": "favorable, propice",
         "examples": [
           "Devant l'ampleur du danger, il jugea opportun de battre en retraite."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "importun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "anjkali, anhamar",
+        "translationHy": "",
         "definition": "Qui gêne, qui survient ou insiste mal à propos.",
         "synonyms": "gênant, indiscret",
         "examples": [
           "Une visite importune interrompit la réunion."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4106,25 +4104,27 @@
         "headword": "original",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "bnedrin, bnagir, anmrts",
+        "translationHy": "",
         "definition": "Qui émane directement de l'auteur ; neuf, singulier.",
         "synonyms": "authentique, inédit",
         "examples": [
           "Le manuscrit original est conservé sous vitrine."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "originel",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "skezbnayin, nakhnayin",
+        "translationHy": "",
         "definition": "Qui remonte à l'origine, qui date du commencement.",
         "synonyms": "initial, premier",
         "examples": [
           "Le péché originel est au cœur de ce traité."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4178,25 +4178,27 @@
         "headword": "percepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "harukabazhik, granutyun",
+        "translationHy": "",
         "definition": "Fonctionnaire chargé de collecter les impôts.",
         "synonyms": "receveur",
         "examples": [
           "Le percepteur a envoyé l'avis d'imposition."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "précepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "mankavarzh, ousoumnakar",
+        "translationHy": "",
         "definition": "Personne chargée de l'éducation d'un enfant à domicile.",
         "synonyms": "tuteur, enseignant",
         "examples": [
           "Le jeune prince recevait chaque matin la visite de son précepteur particulier."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4210,25 +4212,27 @@
         "headword": "périphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "sharunakar nshutyun",
+        "translationHy": "",
         "definition": "Figure désignant une réalité par une expression plus longue qu'un seul mot.",
         "synonyms": "circonlocution",
         "examples": [
           "On désigne souvent Paris par la périphrase « la Ville Lumière »."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "paraphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "vcheragrum, nuynatrop sharunakar",
+        "translationHy": "",
         "definition": "Reformulation développée et explicative d'un texte.",
         "synonyms": "reformulation, glose",
         "examples": [
           "Sa dissertation n'était qu'une paraphrase du poème."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4242,29 +4246,27 @@
         "headword": "perpétrer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "karatarel (herguord)",
+        "translationHy": "կատարել, գործել",
         "definition": "Commettre (un acte criminel).",
         "synonyms": "commettre, accomplir",
         "examples": [
           "Il a perpétré ses forfaits puis s’est enfui à l’étranger, échappant ainsi à la justice pendant des années.",
           "Les terroristes ont perpétré un attentat à la bombe dans le centre-ville, causant la panique et la destruction.",
           "Les enquêteurs ont identifié le criminel qui a perpétré le vol à main armée grâce à des preuves ADN trouvées sur les lieux du crime."
-        ],
-        "reviewNeeded": true
+        ]
       },
       {
         "headword": "perpétuer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "sharer, anndaskarel",
+        "translationHy": "հավերժացնել, հավիտենականացնել, անմահացնել,",
         "definition": "Faire durer, transmettre dans le temps.",
         "synonyms": "transmettre, prolonger",
         "examples": [
           "Tout être pense à perpétuer son espèce en donnant naissance à une nouvelle génération.",
           "La famille a perpétué la tradition de célébrer Noël avec un grand repas familial chaque année.",
           "Les historiens s’efforcent de perpétuer la mémoire des événements passés pour les générations futures."
-        ],
-        "reviewNeeded": true
+        ]
       }
     ]
   },
@@ -4280,7 +4282,7 @@
         "headword": "Populeux",
         "category": "—",
         "posClass": "AUTRE",
-        "translationHy": "խիտ բնакeсвad, բazmaмard",
+        "translationHy": "",
         "definition": "Qui est très peuplé, densément habité, où il y a une grande concentration de personnes.",
         "origin": null,
         "synonyms": null,
@@ -4288,7 +4290,8 @@
           "J'aime ce quartier populeux et vivant.",
           "Les centres-villes des grandes métropoles sont souvent populeux."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "id": "new-populeux-populaire-populiste-populacier-1",
@@ -4331,14 +4334,15 @@
         "headword": "Populacier",
         "category": "—",
         "posClass": "AUTRE",
-        "translationHy": "գռehelik, ռaмkakan",
+        "translationHy": "",
         "definition": "Qui est propre à la populace ; qualifie des comportements ou discours vulgaires ou de mauvais goût.",
         "origin": null,
         "synonyms": null,
         "examples": [
           "Son langage populacier choquait ses interlocuteurs."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4392,27 +4396,29 @@
         "headword": "prescription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "bazhakanutyun, nvirmunq",
+        "translationHy": "",
         "definition": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé.",
         "origin": "du latin praescriptio « ce qui est écrit en tête »",
         "synonyms": "ordonnance, recommandation",
         "examples": [
           "Ce médicament n'est délivré que sur prescription médicale."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "proscription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "ariavarutyun, argelq",
+        "translationHy": "",
         "definition": "Bannissement, interdiction formelle.",
         "origin": "du latin proscriptio « affichage public d'une condamnation »",
         "synonyms": "bannissement, interdiction",
         "examples": [
           "La proscription de cet usage est désormais générale."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4541,7 +4547,7 @@
         "headword": "Renoncement",
         "category": "m.",
         "posClass": "NOM_M",
-        "translationHy": "հրաժարում, մերժում (aux plaisir de la vie). Renoncement à soi-",
+        "translationHy": "",
         "definition": "Le renoncement est l’abandon volontaire ou l’abstention de quelque chose,",
         "origin": null,
         "synonyms": null,
@@ -4549,14 +4555,15 @@
           "Il a fait preuve de renoncement en quittant ce poste avantageux pour poursuivre une carrière qui correspondait mieux à ses valeurs personnelles.",
           "Le renoncement aux honneurs et aux récompenses était la marque de son caractère humble et désintéressé."
         ],
-        "reviewNeeded": false
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "id": "new-renoncement-renonciation-1",
         "headword": "Renonciation",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "հրաժարվելը, հրաժարում (à un droit, à une charge, à une opinion, au",
+        "translationHy": "",
         "definition": "La renonciation est l’acte formel d’abandonner un droit, une réclamation ou",
         "origin": null,
         "synonyms": null,
@@ -4564,7 +4571,8 @@
           "Les héritiers espèrent la renonciation de la plaignante à sa part de l’héritage afin de régler rapidement la succession.",
           "La renonciation à ses droits parentaux a été faite devant un tribunal pour permettre à l’enfant d’être adopté par une autre famille."
         ],
-        "reviewNeeded": false
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4592,13 +4600,12 @@
         "headword": "repartir",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "krnov veradarnal, vert nayel",
+        "translationHy": "նորից ճանապարհ ընկնել, նորից շարժվել",
         "definition": "Partir de nouveau, reprendre la route ou une activité.",
         "synonyms": "repartir, reprendre",
         "examples": [
           "Il a reparti avec colère lorsque ses suggestions ont été rejetées lors de la réunion."
-        ],
-        "reviewNeeded": true
+        ]
       }
     ]
   },
@@ -4723,25 +4730,27 @@
         "headword": "spécieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "yerkev-knats, klganots",
+        "translationHy": "",
         "definition": "Qui n'a qu'une apparence de vérité ; trompeur.",
         "synonyms": "fallacieux, trompeur",
         "examples": [
           "Sous des dehors rigoureux, son raisonnement n'est qu'un argument spécieux."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "spacieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "luynaket, lchatsutyan",
+        "translationHy": "",
         "definition": "Qui est vaste, où l'on a de l'espace.",
         "synonyms": "vaste, ample",
         "examples": [
           "Un appartement spacieux et lumineux."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4876,25 +4885,27 @@
         "headword": "vénéneux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "bakhanavet (botanikal)",
+        "translationHy": "",
         "definition": "Toxique par ingestion (plante, champignon).",
         "synonyms": "toxique, empoisonné",
         "examples": [
           "Le champignon vénéneux a intoxiqué le promeneur."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       },
       {
         "headword": "venimeux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "akhtavavet (kensabanakal)",
+        "translationHy": "",
         "definition": "Qui inocule un venin (animal qui mord ou pique).",
         "synonyms": "venéneux (à tort), perfide (fig.)",
         "examples": [
           "La vipère venimeuse a mordu le promeneur imprudent."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },
@@ -4961,13 +4972,14 @@
         "headword": "renverser",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "kraketel, shtkel",
+        "translationHy": "",
         "definition": "Faire tomber, répandre accidentellement.",
         "synonyms": "répandre, faire tomber",
         "examples": [
           "Il a renversé son verre sur la nappe."
         ],
-        "reviewNeeded": true
+        "reviewNeeded": true,
+        "autoFilled": true
       }
     ]
   },

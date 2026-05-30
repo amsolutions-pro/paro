@@ -14,7 +14,7 @@ interface Word {
   origin?: string | null;
   synonyms?: string | null;
   examples: string[];
-  reviewNeeded: boolean;
+  reviewNeeded?: boolean;
   autoFilled?: boolean;
 }
 
@@ -40,8 +40,10 @@ function parseOrigin(origin: string): { ipa: string; etymology: string } {
 function WordCard({ word, showExamples }: { word: Word; showExamples: boolean }) {
   const { ipa, etymology } = word.origin ? parseOrigin(word.origin) : { ipa: "", etymology: "" };
 
+  const needsReview = word.autoFilled || word.reviewNeeded;
+
   return (
-    <div className="border-grege-300 rounded-lg border p-3 flex flex-col gap-2">
+    <div className={`rounded-lg border p-3 flex flex-col gap-2 ${needsReview ? "border-red-300 bg-red-50/40" : "border-grege-300"}`}>
 
       {/* En-tete : mot + categorie */}
       <div className="flex items-baseline gap-2 flex-wrap">
@@ -49,12 +51,12 @@ function WordCard({ word, showExamples }: { word: Word; showExamples: boolean })
         {word.category && (
           <span className="text-encre-soft text-xs italic">{word.category}</span>
         )}
-        {word.autoFilled && (
+        {needsReview && (
           <span
-            title="Données complétées par recherche — à vérifier"
-            className="ml-auto text-[10px] font-medium text-red-500 border border-red-300 rounded px-1 py-0.5 shrink-0"
+            title="Traduction arménienne manquante ou à vérifier par un locuteur natif"
+            className="ml-auto flex items-center gap-1 text-[10px] font-medium text-red-600 bg-red-100 border border-red-300 rounded px-1.5 py-0.5 shrink-0"
           >
-            ✎ auto
+            <span aria-hidden>⚑</span> à vérifier
           </span>
         )}
       </div>
