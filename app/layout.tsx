@@ -24,24 +24,29 @@ const notoArmenian = Noto_Sans_Armenian({
   display: "swap",
 });
 
-export const metadata = {
-  title: 'Paronymes FR–HY · niveau B2',
-  description: 'Manuel raisonné et exercices bilingues français – arménien sur les...',
+const OG_IMAGE = "https://paro-xi.vercel.app/logo-partage.png";
+
+export const metadata: Metadata = {
+  title: "Paronymes FR–HY · niveau B2",
+  description:
+    "Manuel raisonné et exercices bilingues français–arménien sur les paronymes. Niveau B2.",
+  metadataBase: new URL("https://paro-xi.vercel.app"),
   openGraph: {
-    title: 'Paronymes FR–HY · niveau B2',
-    description: 'Manuel raisonné et exercices bilingues français – arménien sur les...',
-    url: 'https://paro-xi.vercel.app',
-    siteName: 'Paro',
-	images: [
-	  {
-		url: 'https://paro-xi.vercel.app/logo-partage.png', // <-- Le dossier /public/ correspond à la racine du site après publication
-		width: 1200,
-		height: 630,
-		alt: 'Paronymes FR-HY',
-	  },
-	],
-    locale: 'fr_FR',
-    type: 'website',
+    title: "Paronymes FR–HY · niveau B2",
+    description:
+      "Manuel raisonné et exercices bilingues français–arménien sur les paronymes. Niveau B2.",
+    url: "https://paro-xi.vercel.app",
+    siteName: "Paro",
+    images: [{ url: OG_IMAGE, width: 1200, height: 630, alt: "Paronymes FR–HY" }],
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Paronymes FR–HY · niveau B2",
+    description:
+      "Manuel raisonné et exercices bilingues français–arménien sur les paronymes. Niveau B2.",
+    images: [OG_IMAGE],
   },
 };
 
