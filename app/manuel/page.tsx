@@ -1,10 +1,7 @@
-import { Placeholder } from "@/src/components/Placeholder";
+import { ManuelClient } from "@/src/components/ManuelClient";
+
+export const dynamic = "force-dynamic";
 
 export default function ManuelPage() {
-  return (
-    <Placeholder
-      title="Manuel"
-      note="Le dictionnaire raisonné des paronymes, navigable par intercalaires alphabétiques avec recherche plein texte."
-    />
-  );
+  return <ManuelClient />;
 }

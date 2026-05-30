@@ -1,10 +1,7 @@
-import { Placeholder } from "@/src/components/Placeholder";
+import { RevisionClient } from "@/src/components/RevisionClient";
+
+export const dynamic = "force-dynamic";
 
 export default function RevisionPage() {
-  return (
-    <Placeholder
-      title="Mes points faibles"
-      note="La révision espacée (SRS) vous repropose en priorité les paires de paronymes que vous échouez le plus souvent."
-    />
-  );
+  return <RevisionClient />;
 }
