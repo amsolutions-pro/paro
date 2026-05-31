@@ -56,27 +56,6 @@ export default async function SignInPage({
           </button>
         </form>
 
-        {/* Bouton Facebook — affiché uniquement si le provider est configuré */}
-        {process.env.FACEBOOK_CLIENT_ID && (
-          <form
-            action={async () => {
-              "use server";
-              await signIn("facebook", { redirectTo: callbackUrl ?? "/" });
-            }}
-            className="w-full"
-          >
-            <button
-              type="submit"
-              className="w-full flex items-center justify-center gap-3 rounded-lg border border-grege-300 bg-[#1877F2] px-4 py-2.5 text-sm font-medium text-white shadow-sm hover:bg-[#166fe5] transition-colors"
-            >
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="white" aria-hidden>
-                <path d="M24 12.073C24 5.405 18.627 0 12 0S0 5.405 0 12.073C0 18.1 4.388 23.094 10.125 24v-8.437H7.078v-3.49h3.047V9.41c0-3.025 1.792-4.697 4.533-4.697 1.313 0 2.686.236 2.686.236v2.97h-1.514c-1.491 0-1.956.93-1.956 1.886v2.267h3.328l-.532 3.49h-2.796V24C19.612 23.094 24 18.1 24 12.073z"/>
-              </svg>
-              Continuer avec Facebook
-            </button>
-          </form>
-        )}
-
         <p className="text-center text-xs text-encre-soft">
           Sans inscription, votre progression est sauvegardée localement sur cet appareil.
         </p>
