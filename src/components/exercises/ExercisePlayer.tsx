@@ -96,8 +96,11 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
     setCountdown(null);
     setResult(null);
+    setAccordionOpen(false);
     onNext();
   }
+
+  const [accordionOpen, setAccordionOpen] = useState(false);
 
   const type = item.type;
   const isOpen = item.gradingMode === "OPEN";
@@ -109,6 +112,11 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   return (
     <div className="flex flex-col gap-4">
       <Card>
+        {isOpen && (
+          <span className="inline-block mb-3 rounded-full border border-lavande-300 bg-lavande-50 px-2.5 py-0.5 text-xs font-medium text-lavande-700">
+            Exercice libre
+          </span>
+        )}
         <p className="text-encre font-medium leading-relaxed">{item.prompt}</p>
         <div className="mt-4">
           {type === "QCM" && <QcmRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
@@ -125,8 +133,40 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
         </div>
       </Card>
 
-      {/* Corrige commente */}
-      {result && (
+      {/* Résultat — exercice libre : accordéon neutre sans verdict */}
+      {result && isOpen && (
+        <div className="rounded-xl border border-grege-300 bg-grege-50" role="region" aria-live="polite">
+          <button
+            type="button"
+            onClick={() => setAccordionOpen((v) => !v)}
+            className="flex w-full items-center justify-between px-4 py-3 text-sm font-medium text-encre"
+          >
+            <span>Voir la réponse attendue</span>
+            <span
+              className={`inline-block transition-transform duration-200 ${accordionOpen ? "rotate-90" : ""}`}
+              aria-hidden
+            >
+              ▶
+            </span>
+          </button>
+          {accordionOpen && (
+            <div className="border-t border-grege-200 px-4 py-3">
+              <p className="text-sm text-encre-soft leading-relaxed whitespace-pre-line">{result.commentary}</p>
+            </div>
+          )}
+          <div className="flex gap-2 px-4 pb-3">
+            {canGoBack && (
+              <Button size="sm" variant="outline" onClick={() => { if (timerRef.current) clearInterval(timerRef.current); setCountdown(null); setResult(null); onBack?.(); }}>
+                ← Retour
+              </Button>
+            )}
+            <Button size="sm" onClick={handleNext}>Suivant →</Button>
+          </div>
+        </div>
+      )}
+
+      {/* Résultat — exercice noté : bandeau vert / rouge */}
+      {result && !isOpen && (
         <div
           className={`rounded-xl border-l-4 p-4 ${result.correct ? "border-green-500 bg-green-50" : "border-red-400 bg-red-50"}`}
           role="alert"
