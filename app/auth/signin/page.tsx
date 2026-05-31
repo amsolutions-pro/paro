@@ -5,19 +5,20 @@ import { auth } from "@/auth";
 export default async function SignInPage({
   searchParams,
 }: {
-  searchParams: Promise<{ callbackUrl?: string }>;
+  searchParams: Promise<{ callbackUrl?: string; error?: string; verify?: string }>;
 }) {
   const session = await auth();
-  const { callbackUrl } = await searchParams;
+  const { callbackUrl, error, verify } = await searchParams;
 
-  // Deja connecte — rediriger
   if (session) redirect(callbackUrl ?? "/");
+
+  const hasEmailProvider = !!process.env.RESEND_API_KEY;
 
   return (
     <div className="mx-auto mt-16 max-w-sm px-4">
       <div className="bg-grege-50 border border-grege-300 rounded-2xl p-8 shadow-sm flex flex-col gap-6 items-center">
 
-        {/* Rose icon */}
+        {/* Logo */}
         <div className="flex flex-col items-center gap-2">
           <svg width="48" height="48" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden>
             <path d="M50 92 Q48 80 50 68" stroke="#2e7d32" strokeWidth="3.5" strokeLinecap="round" fill="none"/>
@@ -34,7 +35,64 @@ export default async function SignInPage({
           <p className="text-sm text-encre-soft text-center">Connectez-vous pour sauvegarder votre progression</p>
         </div>
 
-        {/* Bouton Google */}
+        {/* Message après envoi du lien */}
+        {verify && (
+          <div className="w-full rounded-lg border border-green-300 bg-green-50 px-4 py-3 text-sm text-green-800">
+            Vérifiez votre boîte mail — un lien de connexion vous a été envoyé.
+          </div>
+        )}
+
+        {/* Erreur */}
+        {error && (
+          <div className="w-full rounded-lg border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-700">
+            {error === "EmailSignin"
+              ? "Impossible d'envoyer l'email. Vérifiez l'adresse saisie."
+              : "Une erreur est survenue. Veuillez réessayer."}
+          </div>
+        )}
+
+        {/* Connexion par email (lien magique) */}
+        {hasEmailProvider && !verify && (
+          <>
+            <form
+              action={async (formData: FormData) => {
+                "use server";
+                const email = formData.get("email") as string;
+                await signIn("resend", {
+                  email,
+                  redirectTo: callbackUrl ?? "/",
+                });
+              }}
+              className="w-full flex flex-col gap-3"
+            >
+              <label htmlFor="email" className="text-xs font-medium text-encre">
+                Adresse e-mail
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                required
+                placeholder="vous@exemple.com"
+                className="w-full rounded-lg border border-grege-300 bg-white px-3 py-2 text-sm outline-none focus:border-lavande-500"
+              />
+              <button
+                type="submit"
+                className="w-full rounded-lg bg-lavande-500 px-4 py-2.5 text-sm font-medium text-white hover:bg-lavande-600 transition-colors"
+              >
+                Recevoir un lien de connexion
+              </button>
+            </form>
+
+            <div className="flex w-full items-center gap-3">
+              <span className="flex-1 border-t border-grege-200" />
+              <span className="text-xs text-encre-soft">ou</span>
+              <span className="flex-1 border-t border-grege-200" />
+            </div>
+          </>
+        )}
+
+        {/* Connexion Google */}
         <form
           action={async () => {
             "use server";
