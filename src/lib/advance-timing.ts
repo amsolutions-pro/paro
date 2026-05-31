@@ -1,16 +1,41 @@
 /**
- * Mesure le temps que l'utilisateur laisse passer avant de cliquer « Suivant »
- * après une bonne réponse, et en déduit un délai d'avancement automatique personnalisé.
+ * Délai d'avancement automatique personnalisé.
+ * Mesure le temps entre l'affichage d'une bonne réponse et le clic "Suivant",
+ * calcule une moyenne glissante, et déduit un délai adapté.
  *
- * Stockage : localStorage uniquement (UX locale, pas besoin de sync cross-device).
- * Ne s'active que pour les utilisateurs connectés (non-anonymes).
+ * Fonctions pures exportées séparément pour être testables sans localStorage.
  */
 
-const MAX_SAMPLES = 20;
-const MIN_SAMPLES_TO_ADAPT = 3;
+export const MAX_SAMPLES = 20;
+export const MIN_SAMPLES_TO_ADAPT = 3;
+
+// ── Fonctions pures (testables) ───────────────────────────────────────────────
+
+/**
+ * Ajoute un échantillon au buffer et retourne le nouveau tableau
+ * (max MAX_SAMPLES entrées, les plus récentes).
+ */
+export function addSample(samples: number[], ms: number): number[] {
+  return [...samples, ms].slice(-MAX_SAMPLES);
+}
+
+/**
+ * Calcule le délai recommandé (en secondes) à partir d'un buffer d'échantillons.
+ * Retourne 3 s tant que le buffer est insuffisant.
+ */
+export function computeDelayFromSamples(samples: number[]): number {
+  if (samples.length < MIN_SAMPLES_TO_ADAPT) return 3;
+  const avgMs = samples.reduce((a, b) => a + b, 0) / samples.length;
+  const avgS = avgMs / 1000;
+  if (avgS < 1.5) return 1;
+  if (avgS < 2.5) return 2;
+  return 3;
+}
+
+// ── Couche localStorage ───────────────────────────────────────────────────────
 
 interface TimingData {
-  samples: number[]; // durées en millisecondes
+  samples: number[];
 }
 
 function storageKey(userId: string): string {
@@ -29,30 +54,21 @@ function load(userId: string): TimingData {
 function save(userId: string, data: TimingData): void {
   try {
     localStorage.setItem(storageKey(userId), JSON.stringify(data));
-  } catch { /* quota dépassé — silencieux */ }
+  } catch { /* quota dépassé */ }
 }
 
-/** Ajoute un échantillon (en ms) au buffer glissant. */
+/** Ajoute un échantillon (en ms) au buffer persisté. */
 export function addTimingSample(userId: string, ms: number): void {
   const data = load(userId);
-  const samples = [...data.samples, ms].slice(-MAX_SAMPLES);
-  save(userId, { samples });
+  save(userId, { samples: addSample(data.samples, ms) });
 }
 
-/**
- * Retourne le délai d'avancement automatique (en secondes) personnalisé.
- * Revient à 3 s tant que l'historique est insuffisant.
- */
+/** Délai personnalisé (en secondes) pour cet utilisateur. */
 export function computeAutoDelay(userId: string): number {
-  const { samples } = load(userId);
-  if (samples.length < MIN_SAMPLES_TO_ADAPT) return 3;
-  const avgSeconds = samples.reduce((a, b) => a + b, 0) / samples.length / 1000;
-  if (avgSeconds < 1.5) return 1;
-  if (avgSeconds < 2.5) return 2;
-  return 3;
+  return computeDelayFromSamples(load(userId).samples);
 }
 
-/** Nombre d'échantillons collectés (utile pour debug/stats). */
+/** Nombre d'échantillons collectés. */
 export function sampleCount(userId: string): number {
   return load(userId).samples.length;
 }
