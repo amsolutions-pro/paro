@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Badge } from "@/src/components/ui/Badge";
 import { Card } from "@/src/components/ui/Card";
 import { SuggestionForm } from "@/src/components/SuggestionForm";
+import { BuildInfo } from "@/src/components/ui/BuildInfo";
 
 interface Word {
   id: string;
@@ -299,7 +300,10 @@ export function ManuelClient() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-serif text-3xl font-bold">Manuel des paronymes</h1>
+      <div className="flex items-baseline gap-3">
+        <h1 className="font-serif text-3xl font-bold">Manuel des paronymes</h1>
+        <BuildInfo />
+      </div>
 
       {/* Barre de recherche */}
       <div className="flex flex-col gap-3 sm:flex-row sm:items-center">

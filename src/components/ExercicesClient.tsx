@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { EXERCISE_TYPE_META, EXERCISE_TYPES } from "@/src/lib/exercise-types";
 import { Card } from "@/src/components/ui/Card";
+import { BuildInfo } from "@/src/components/ui/BuildInfo";
 
 const AUTO_TYPES = EXERCISE_TYPES.filter(
   (t) => EXERCISE_TYPE_META[t].defaultGrading === "AUTO",
@@ -11,7 +12,10 @@ const AUTO_TYPES = EXERCISE_TYPES.filter(
 export function ExercicesClient() {
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-serif text-3xl font-bold">Exercices</h1>
+      <div className="flex items-baseline gap-3">
+        <h1 className="font-serif text-3xl font-bold">Exercices</h1>
+        <BuildInfo />
+      </div>
       <p className="text-encre-soft max-w-2xl text-sm">
         Quinze typologies d&apos;activités, du QCM à l&apos;appariement. Choisissez un type pour
         commencer une session.
