@@ -36,8 +36,6 @@ export async function GET(req: NextRequest) {
       WHERE (
           unaccent(lower(g.title))         LIKE '%' || unaccent(lower(${search})) || '%'
           OR unaccent(lower(w."headword")) LIKE '%' || unaccent(lower(${search})) || '%'
-          OR unaccent(lower(w.definition)) LIKE '%' || unaccent(lower(${search})) || '%'
-          OR (w.synonyms IS NOT NULL AND unaccent(lower(w.synonyms)) LIKE '%' || unaccent(lower(${search})) || '%')
         )
     `;
 
