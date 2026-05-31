@@ -19,6 +19,16 @@ function firstExample(w: WordContent): string {
   return w.examples[0] ?? `Exemple à compléter avec « ${w.headword} ».`;
 }
 
+/** Mélange de Fisher-Yates (copie). Évite le biais de position des leurres. */
+function shuffle<T>(arr: T[]): T[] {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
 /** Groupes binaires (exactement deux mots) — les plus simples à exploiter. */
 function binaryGroups(groups: ManualGroupContent[]) {
   return groups.filter((g) => g.words.length >= 2);
@@ -53,12 +63,17 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
     for (const g of binaryGroups(groups)) {
       if (out.length >= need) break;
       const [a, b] = g.words;
+      // Mélange la position de la bonne réponse pour éviter le biais "toujours a".
+      const ordered = shuffle([a, b]);
+      const keys = ["a", "b"];
+      const options = ordered.map((w, k) => ({ key: keys[k], text: w.headword }));
+      const correctKey = keys[ordered.findIndex((w) => w.headword === a.headword)];
       out.push(
         base(mk(out.length + 1), "QCM", "AUTO", {
           prompt: blank(firstExample(a), a.headword),
-          payload: { options: [{ key: "a", text: a.headword }, { key: "b", text: b.headword }] },
-          solution: { correctKey: "a" },
-          commentary: `${a.headword} — ${a.definition}`,
+          payload: { options },
+          solution: { correctKey },
+          commentary: `✅ ${a.headword} — ${a.definition}\n❌ ${b.headword} — ${b.definition}`,
           groupSlug: g.slug,
           posClass: a.posClass,
         }),
@@ -74,7 +89,7 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
       out.push(
         base(mk(out.length + 1), "TROUS", "AUTO", {
           prompt: blank(firstExample(a), a.headword),
-          payload: { bank: [a.headword, b.headword], blanksCount: 1 },
+          payload: { bank: shuffle([a.headword, b.headword]), blanksCount: 1 },
           solution: { answers: [a.headword], accentSensitive: false },
           commentary: `${a.headword} — ${a.definition}`,
           groupSlug: g.slug,
@@ -116,12 +131,14 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
         if (out.length >= need) break;
         const ex = firstExample(src);
         out.push(
-          base(mk(out.length + 1), "REECRITURE", "AUTO", {
+          base(mk(out.length + 1), "REECRITURE", "OPEN", {
             prompt: "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
             payload: {
               phrase_depart: ex,
               mot_souligne: src.headword,
-              indice: tgt.definition,
+              // Indice = définition du mot SOULIGNÉ (source), jamais du mot cible,
+              // pour ne pas révéler la réponse attendue.
+              indice: src.definition,
             },
             solution: {
               paronyme_attendu: tgt.headword,
@@ -345,7 +362,7 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
       out.push(
         base(mk(out.length + 1), "PAIRE_MINIMALE", "AUTO", {
           prompt: blank(firstExample(a), a.headword),
-          payload: { pair: [a.headword, b.headword], sentence: blank(firstExample(a), a.headword) },
+          payload: { pair: shuffle([a.headword, b.headword]), sentence: blank(firstExample(a), a.headword) },
           solution: { answer: a.headword, accentSensitive: false },
           commentary: `${a.headword} — ${a.definition}`,
           groupSlug: g.slug,
@@ -470,7 +487,7 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
       window.forEach((g, k) => {
         const [a, b] = g.words;
         sentences.push(`(${k + 1}) ${blank(firstExample(a), a.headword)}`);
-        blanks.push({ n: k + 1, options: [a.headword, b.headword] });
+        blanks.push({ n: k + 1, options: shuffle([a.headword, b.headword]) });
         answers.push(a.headword);
       });
       out.push(

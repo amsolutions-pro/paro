@@ -51,3 +51,15 @@ body {
   outline: 2px solid var(--color-lavande-500);
   outline-offset: 2px;
 }
+
+/* Accessibilité : respect de la préférence "réduire les animations". */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

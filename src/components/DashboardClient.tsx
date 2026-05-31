@@ -1,20 +1,16 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import {
-  BarChart,
-  Bar,
-  XAxis,
-  YAxis,
-  Tooltip,
-  ResponsiveContainer,
-  LineChart,
-  Line,
-  CartesianGrid,
-} from "recharts";
+import dynamic from "next/dynamic";
 import { getUserId } from "@/src/lib/user-store";
 import { Card } from "@/src/components/ui/Card";
 import { BuildInfo } from "@/src/components/ui/BuildInfo";
+
+// recharts chargé à la demande, hors bundle initial et hors SSR.
+const DashboardCharts = dynamic(() => import("@/src/components/DashboardCharts"), {
+  ssr: false,
+  loading: () => <p className="text-encre-soft animate-pulse text-sm">Chargement des graphiques…</p>,
+});
 
 interface Stats {
   total: number;
@@ -80,35 +76,8 @@ export function DashboardClient() {
         </p>
       )}
 
-      {/* Progression par catégorie */}
-      {posData.length > 0 && (
-        <Card>
-          <h2 className="font-serif text-lg font-semibold mb-4">Taux de réussite par catégorie</h2>
-          <ResponsiveContainer width="100%" height={200}>
-            <BarChart data={posData}>
-              <XAxis dataKey="name" tick={{ fontSize: 12 }} />
-              <YAxis domain={[0, 100]} unit="%" tick={{ fontSize: 12 }} />
-              <Tooltip formatter={(v) => (typeof v === "number" ? `${v} %` : v)} />
-              <Bar dataKey="taux" fill="#8e7cc3" radius={[4, 4, 0, 0]} />
-            </BarChart>
-          </ResponsiveContainer>
-        </Card>
-      )}
-
-      {/* Activité sur 7 jours */}
-      {activityData.length > 0 && (
-        <Card>
-          <h2 className="font-serif text-lg font-semibold mb-4">Activité (7 derniers jours)</h2>
-          <ResponsiveContainer width="100%" height={180}>
-            <LineChart data={activityData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="#e9e3d6" />
-              <XAxis dataKey="jour" tick={{ fontSize: 11 }} />
-              <YAxis tick={{ fontSize: 11 }} />
-              <Tooltip />
-              <Line type="monotone" dataKey="exercices" stroke="#8e7cc3" strokeWidth={2} dot={{ r: 3 }} />
-            </LineChart>
-          </ResponsiveContainer>
-        </Card>
+      {(posData.length > 0 || activityData.length > 0) && (
+        <DashboardCharts posData={posData} activityData={activityData} />
       )}
     </div>
   );
