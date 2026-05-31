@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { getUserId } from "@/src/lib/user-store";
+import { addTimingSample, computeAutoDelay } from "@/src/lib/advance-timing";
 import { Button } from "@/src/components/ui/Button";
 import { Card } from "@/src/components/ui/Card";
 
@@ -45,11 +46,21 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   const [submitting, setSubmitting] = useState(false);
   const [countdown, setCountdown] = useState<number | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
+  const resultShownAt = useRef<number | null>(null);
+
+  const userId = getUserId();
+  const isAuth = !userId.startsWith("anon_");
 
   // Demarre le compte a rebours apres une reponse (sauf en mode revision)
   useEffect(() => {
     if (!result || noAutoAdvance) return;
-    const delay = result.correct ? 3 : 7;
+    let delay: number;
+    if (result.correct) {
+      delay = isAuth ? computeAutoDelay(userId) : 3;
+      if (isAuth) resultShownAt.current = Date.now();
+    } else {
+      delay = 7;
+    }
     setCountdown(delay);
     timerRef.current = setInterval(() => {
       setCountdown((c) => {
@@ -97,7 +108,16 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     setCountdown(null);
     setResult(null);
     setAccordionOpen(false);
+    resultShownAt.current = null;
     onNext();
+  }
+
+  // Appel explicite par le bouton (jamais par le timer) — enregistre le timing.
+  function handleManualNext() {
+    if (isAuth && result?.correct && !noAutoAdvance && resultShownAt.current !== null) {
+      addTimingSample(userId, Date.now() - resultShownAt.current);
+    }
+    handleNext();
   }
 
   const [accordionOpen, setAccordionOpen] = useState(false);
@@ -160,7 +180,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
                 ← Retour
               </Button>
             )}
-            <Button size="sm" onClick={handleNext}>Suivant →</Button>
+            <Button size="sm" onClick={handleManualNext}>Suivant →</Button>
           </div>
         </div>
       )}
@@ -188,7 +208,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
                 ← Retour
               </Button>
             )}
-            <Button size="sm" onClick={handleNext}>
+            <Button size="sm" onClick={handleManualNext}>
               {nextLabel}
             </Button>
           </div>
