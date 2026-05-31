@@ -678,22 +678,22 @@
   {
     "slug": "reecriture-1",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "La vipère venimeuse a mordu le promeneur imprudent.",
       "mot_souligne": "venimeux",
-      "indice": "Toxique par ingestion (plante, champignon)."
+      "indice": "Se dit d'un animal qui injecte du venin par morsure ou piqûre."
     },
     "solution": {
       "paronyme_attendu": "vénéneux",
       "reponses_acceptees": [
         "vénéneux"
       ],
-      "corrige": "Le champignon vénéneux a intoxiqué le promeneur.",
-      "explication": "« venimeux » — Qui inocule un venin (animal qui mord ou pique). · « vénéneux » — Toxique par ingestion (plante, champignon)."
+      "corrige": "Le champignon vénéneux a intoxiqué le promeneur imprudent.",
+      "explication": "*Venimeux* se dit d'un organisme qui injecte du venin (serpent, araignée) ; *vénéneux*, de ce qui empoisonne par ingestion (plante, champignon)."
     },
-    "commentary": "Corrigé : Le champignon vénéneux a intoxiqué le promeneur.\n\nVénéneux se dit de ce qui empoisonne par ingestion (plante, champignon) ; venimeux, de ce qui inocule un venin (animal qui mord ou pique).",
+    "commentary": "Corrigé : Le champignon vénéneux a intoxiqué le promeneur imprudent.\n\n*Venimeux* se dit d'un organisme qui injecte du venin (serpent, araignée) ; *vénéneux*, de ce qui empoisonne par ingestion (plante, champignon).",
     "groupSlug": "veneneux-venimeux",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -703,22 +703,22 @@
   {
     "slug": "reecriture-2",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Le notaire a réparti les biens entre les héritiers.",
       "mot_souligne": "répartir",
-      "indice": "Partir de nouveau, reprendre la route ou une activité."
+      "indice": "Distribuer, partager entre plusieurs personnes."
     },
     "solution": {
       "paronyme_attendu": "repartir",
       "reponses_acceptees": [
         "repartir"
       ],
-      "corrige": "Il a reparti avec colère lorsque ses suggestions ont été rejetées lors de la réunion.",
-      "explication": "« répartir » — Partager, distribuer entre plusieurs. · « repartir » — Partir de nouveau, reprendre la route ou une activité."
+      "corrige": "Les héritiers ont reparti aussitôt après la lecture du testament.",
+      "explication": "*Répartir* (accent) = distribuer, partager ; *repartir* (sans accent) = partir de nouveau."
     },
-    "commentary": "Corrigé : Il a reparti avec colère lorsque ses suggestions ont été rejetées lors de la réunion.\n\nRépartir (avec accent), c'est partager entre plusieurs ; repartir (sans accent), c'est partir de nouveau.",
+    "commentary": "Corrigé : Les héritiers ont reparti aussitôt après la lecture du testament.\n\n*Répartir* (accent) = distribuer, partager ; *repartir* (sans accent) = partir de nouveau.",
     "groupSlug": "repartir-repartir-accent",
     "posClass": "VERBE",
     "source": "manuel",
@@ -728,22 +728,22 @@
   {
     "slug": "reecriture-3",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Il a proposé une traduction littérale du contrat.",
       "mot_souligne": "littéral",
-      "indice": "Relatif à la littérature."
+      "indice": "Qui correspond exactement au sens premier des mots, sans interprétation."
     },
     "solution": {
       "paronyme_attendu": "littéraire",
       "reponses_acceptees": [
         "littéraire"
       ],
-      "corrige": "Un prix littéraire prestigieux.",
-      "explication": "« littéral » — Qui suit le sens exact, propre des mots. · « littéraire » — Relatif à la littérature."
+      "corrige": "Il a proposé une analyse littéraire du roman.",
+      "explication": "*Littéral* = pris au sens propre des mots ; *littéraire* = relatif à la littérature."
     },
-    "commentary": "Corrigé : Un prix littéraire prestigieux.\n\nLittéral = pris au sens propre des mots ; littéraire = relatif à la littérature.",
+    "commentary": "Corrigé : Il a proposé une analyse littéraire du roman.\n\n*Littéral* = pris au sens propre des mots ; *littéraire* = relatif à la littérature.",
     "groupSlug": "litteral-litteraire",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -753,22 +753,22 @@
   {
     "slug": "reecriture-4",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Un professeur éminent a présidé le jury de thèse.",
       "mot_souligne": "éminent",
-      "indice": "Qui est sur le point de se produire ; tout proche dans le temps."
+      "indice": "Qui se distingue par son mérite, sa valeur ou son rang."
     },
     "solution": {
       "paronyme_attendu": "imminent",
       "reponses_acceptees": [
         "imminent"
       ],
-      "corrige": "Un orage imminent menaçait la vallée.",
-      "explication": "« éminent » — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur. · « imminent » — Qui est sur le point de se produire ; tout proche dans le temps."
+      "corrige": "Un danger imminent a contraint les équipes à interrompre la séance.",
+      "explication": "*Éminent* qualifie une personne qui se distingue par ses qualités ; *imminent* qualifie un événement sur le point de se produire."
     },
-    "commentary": "Corrigé : Un orage imminent menaçait la vallée.\n\nL'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "commentary": "Corrigé : Un danger imminent a contraint les équipes à interrompre la séance.\n\n*Éminent* qualifie une personne qui se distingue par ses qualités ; *imminent* qualifie un événement sur le point de se produire.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -778,22 +778,22 @@
   {
     "slug": "reecriture-5",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "La conservation des denrées exige une chaîne du froid.",
       "mot_souligne": "conservation",
-      "indice": "Échange de propos entre des personnes."
+      "indice": "Action de maintenir en bon état, de préserver quelque chose."
     },
     "solution": {
       "paronyme_attendu": "conversation",
       "reponses_acceptees": [
         "conversation"
       ],
-      "corrige": "La conversation entre les invités était très animée.",
-      "explication": "« conservation » — Action de maintenir en bon état, de préserver. · « conversation » — Échange de propos entre des personnes."
+      "corrige": "La conversation des convives s'est animée autour du repas.",
+      "explication": "*Conservation* = action de garder, préserver ; *conversation* = échange oral entre des personnes."
     },
-    "commentary": "Corrigé : La conversation entre les invités était très animée.\n\nLa conservation est l'action de garder en bon état ; la conversation, un échange de propos.",
+    "commentary": "Corrigé : La conversation des convives s'est animée autour du repas.\n\n*Conservation* = action de garder, préserver ; *conversation* = échange oral entre des personnes.",
     "groupSlug": "conservation-conversation",
     "posClass": "NOM_F",
     "source": "manuel",
@@ -803,22 +803,22 @@
   {
     "slug": "reecriture-6",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Son réquisitoire était dénué du moindre fondement.",
       "mot_souligne": "dénué",
-      "indice": "Mis à nu, dépouillé de ce qui couvre."
+      "indice": "Totalement dépourvu de quelque chose, qui en manque absolument."
     },
     "solution": {
       "paronyme_attendu": "dénudé",
       "reponses_acceptees": [
         "dénudé"
       ],
-      "corrige": "En hiver, les arbres dénudés bordaient l'allée.",
-      "explication": "« dénué » — Dépourvu de, qui manque de. · « dénudé » — Mis à nu, dépouillé de ce qui couvre."
+      "corrige": "Son bras dénudé portait les traces d'une ancienne blessure.",
+      "explication": "*Dénué (de)* = dépourvu de, qui manque de ; *dénudé* = mis à nu, dont on a ôté ce qui couvrait."
     },
-    "commentary": "Corrigé : En hiver, les arbres dénudés bordaient l'allée.\n\nDénué (de) = dépourvu de, qui manque de ; dénudé = mis à nu, dépouillé.",
+    "commentary": "Corrigé : Son bras dénudé portait les traces d'une ancienne blessure.\n\n*Dénué (de)* = dépourvu de, qui manque de ; *dénudé* = mis à nu, dont on a ôté ce qui couvrait.",
     "groupSlug": "denue-denude",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -828,22 +828,22 @@
   {
     "slug": "reecriture-7",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Le manuscrit original est conservé sous vitrine.",
       "mot_souligne": "original",
-      "indice": "Qui remonte à l'origine, qui date du commencement."
+      "indice": "Qui provient directement de l'auteur ou de la source première, sans copie."
     },
     "solution": {
       "paronyme_attendu": "originel",
       "reponses_acceptees": [
         "originel"
       ],
-      "corrige": "Le péché originel est au cœur de ce traité.",
-      "explication": "« original » — Qui émane directement de l'auteur ; neuf, singulier. · « originel » — Qui remonte à l'origine, qui date du commencement."
+      "corrige": "Le texte originel de la charte a été conservé sous vitrine.",
+      "explication": "*Original* = qui émane de l'auteur, non reproduit, singulier ; *originel* = qui remonte à l'origine, primitif."
     },
-    "commentary": "Corrigé : Le péché originel est au cœur de ce traité.\n\nOriginal = qui émane de l'auteur, premier en son genre, singulier ; originel = qui remonte à l'origine.",
+    "commentary": "Corrigé : Le texte originel de la charte a été conservé sous vitrine.\n\n*Original* = qui émane de l'auteur, non reproduit, singulier ; *originel* = qui remonte à l'origine, primitif.",
     "groupSlug": "original-originel",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -2793,22 +2793,22 @@
   {
     "slug": "reecriture-gen-1",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
-      "phrase_depart": "Un éminent spécialiste de la langue française.",
-      "mot_souligne": "éminent",
-      "indice": "Qui est sur le point de se produire ; tout proche dans le temps."
+      "phrase_depart": "Le directeur a versé une allocation exceptionnelle à ses employés.",
+      "mot_souligne": "allocation",
+      "indice": "Somme d'argent versée régulièrement à titre d'aide ou de prestation sociale."
     },
     "solution": {
-      "paronyme_attendu": "imminent",
+      "paronyme_attendu": "allocution",
       "reponses_acceptees": [
-        "imminent"
+        "allocution"
       ],
-      "corrige": "Un orage imminent menaçait la vallée.",
-      "explication": "« éminent » — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur. · « imminent » — Qui est sur le point de se produire ; tout proche dans le temps."
+      "corrige": "Le directeur a prononcé une allocution de bienvenue lors de la cérémonie.",
+      "explication": "*Allocation* = versement d'argent (allocation chômage, familiale) ; *allocution* = court discours prononcé en public."
     },
-    "commentary": "Corrigé : Un orage imminent menaçait la vallée.\n\nL'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "commentary": "Corrigé : Le directeur a prononcé une allocution de bienvenue lors de la cérémonie.\n\n*Allocation* = versement d'argent (allocation chômage, familiale) ; *allocution* = court discours prononcé en public.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -2818,22 +2818,22 @@
   {
     "slug": "reecriture-gen-2",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Le château se dresse sur une éminence.",
       "mot_souligne": "éminence",
-      "indice": "Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+      "indice": "Élévation de terrain ; haut rang ou distinction dans une hiérarchie."
     },
     "solution": {
       "paronyme_attendu": "imminence",
       "reponses_acceptees": [
         "imminence"
       ],
-      "corrige": "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure.",
-      "explication": "« éminence » — Élévation de terrain ; par extension, dignité, haut rang. · « imminence » — Caractère de ce qui est imminent ; proximité immédiate d'un événement."
+      "corrige": "Devant l'imminence du vote, l'opposition a exigé un report.",
+      "explication": "*Éminence* = élévation de terrain ou haut rang (Son Éminence) ; *imminence* = caractère de ce qui est sur le point de se produire."
     },
-    "commentary": "Corrigé : Devant l'imminence du vote, l'opposition a invoqué un vice de procédure.\n\nL'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "commentary": "Corrigé : Devant l'imminence du vote, l'opposition a exigé un report.\n\n*Éminence* = élévation de terrain ou haut rang (Son Éminence) ; *imminence* = caractère de ce qui est sur le point de se produire.",
     "groupSlug": "eminence-imminence",
     "posClass": "NOM_F",
     "source": "generated",
@@ -2843,22 +2843,22 @@
   {
     "slug": "reecriture-gen-3",
     "type": "REECRITURE",
-    "gradingMode": "AUTO",
+    "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
       "phrase_depart": "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
       "mot_souligne": "conjecture",
-      "indice": "Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+      "indice": "Supposition, hypothèse fondée sur des apparences sans preuve certaine."
     },
     "solution": {
       "paronyme_attendu": "conjoncture",
       "reponses_acceptees": [
         "conjoncture"
       ],
-      "corrige": "La conjoncture actuelle est propice à la croissance.",
-      "explication": "« conjecture » — Supposition fondée sur des indices, hypothèse non vérifiée. · « conjoncture » — Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+      "corrige": "Face à une conjoncture difficile, le gouvernement a annoncé des mesures d'urgence.",
+      "explication": "*Conjecture* = supposition de l'esprit, hypothèse sans certitude ; *conjoncture* = situation présente résultant d'un ensemble de circonstances."
     },
-    "commentary": "Corrigé : La conjoncture actuelle est propice à la croissance.\n\nLa conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "commentary": "Corrigé : Face à une conjoncture difficile, le gouvernement a annoncé des mesures d'urgence.\n\n*Conjecture* = supposition de l'esprit, hypothèse sans certitude ; *conjoncture* = situation présente résultant d'un ensemble de circonstances.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
