@@ -20,10 +20,10 @@ export const useUserStore = create<UserStore>()(
     () => ({ userId: "" }),
     {
       name: "paro-user",
-      version: 1,
+      // NB : pas de bump de `version` — un changement de version sans `migrate`
+      // ferait abandonner l'id anonyme déjà persisté (perte de progression).
       // Génère l'id seulement si le storage n'en contenait pas — évite que
-      // la valeur par défaut écrase une identité déjà persistée (course de
-      // réhydratation SSR/CSR).
+      // la valeur par défaut écrase une identité existante (course SSR/CSR).
       onRehydrateStorage: () => (state) => {
         if (state && !state.userId) state.userId = generateId();
       },
