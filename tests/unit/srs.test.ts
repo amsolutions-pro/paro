@@ -5,10 +5,12 @@ import {
   isDue,
   sortByPriority,
   LEITNER_INTERVALS,
+  SRS_UNIT,
 } from "@/src/domain/srs";
 
 const NOW = new Date("2026-01-01T12:00:00Z");
-const tomorrow = (n = 1) => new Date(NOW.getTime() + n * 86_400_000);
+const MS_PER_UNIT = SRS_UNIT === "hours" ? 3_600_000 : 86_400_000;
+const tomorrow = (n = 1) => new Date(NOW.getTime() + n * MS_PER_UNIT);
 
 describe("initialSrsState", () => {
   it("box = 1, ease = 2.5", () => {

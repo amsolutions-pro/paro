@@ -135,9 +135,13 @@ export function RevisionClient() {
             )}
           </p>
         ) : null}
-        <div className="border-grege-300 bg-grege-50 rounded-lg border p-3 text-sm text-encre-soft">
-          Algorithme de Leitner (5 boîtes) — bonne réponse : intervalle allongé
-          (1 j → 3 j → 7 j → 14 j → 30 j) ; mauvaise réponse : retour en boîte 1.
+        <div className="border-amber-300 bg-amber-50 rounded-lg border-l-4 p-3 text-sm">
+          <p className="font-semibold text-encre">⚠️ Mode test — intervalles en heures</p>
+          <p className="text-encre-soft mt-1">
+            Chaque paire travaillée est planifiée selon l&apos;algorithme de Leitner :
+            bonne réponse → intervalle allongé (1 h → 3 h → 7 h → 14 h → 30 h) ;
+            mauvaise réponse → retour en boîte 1, révision dans 1 heure.
+          </p>
         </div>
       </div>
 
