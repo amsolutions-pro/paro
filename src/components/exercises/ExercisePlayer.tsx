@@ -37,11 +37,13 @@ interface Props {
   canGoBack: boolean;
   /** Quand true, le compte a rebours automatique est desactive (mode revision). */
   noAutoAdvance?: boolean;
+  /** True si l'utilisateur est connecté (résolu côté serveur). */
+  isAuthed?: boolean;
 }
 
 type AttemptResult = { correct: boolean; commentary: string; expected?: unknown };
 
-export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAutoAdvance }: Props) {
+export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAutoAdvance, isAuthed = false }: Props) {
   const [result, setResult] = useState<AttemptResult | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [countdown, setCountdown] = useState<number | null>(null);
@@ -49,15 +51,14 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   const resultShownAt = useRef<number | null>(null);
 
   const userId = getUserId();
-  const isAuth = !userId.startsWith("anon_");
 
   // Demarre le compte a rebours apres une reponse (sauf en mode revision)
   useEffect(() => {
     if (!result || noAutoAdvance) return;
     let delay: number;
     if (result.correct) {
-      delay = isAuth ? computeAutoDelay(userId) : 3;
-      if (isAuth) {
+      delay = isAuthed ? computeAutoDelay(userId) : 3;
+      if (isAuthed) {
         resultShownAt.current = Date.now();
         setActiveDelay(delay);
       }
@@ -118,7 +119,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
 
   // Appel explicite par le bouton (jamais par le timer) — enregistre le timing.
   function handleManualNext() {
-    if (isAuth && result?.correct && !noAutoAdvance && resultShownAt.current !== null) {
+    if (isAuthed && result?.correct && !noAutoAdvance && resultShownAt.current !== null) {
       addTimingSample(userId, Date.now() - resultShownAt.current);
     }
     handleNext();
@@ -207,7 +208,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           )}
           <p className="text-sm mt-2 text-encre-soft leading-relaxed">{result.commentary}</p>
 
-          {isAuth && activeDelay !== null && activeDelay < 3 && (
+          {isAuthed && activeDelay !== null && activeDelay < 3 && (
             <p className="mt-2 text-xs text-green-600">
               ⚡ Délai réduit à {activeDelay} s (adapté à votre rythme)
             </p>

@@ -65,9 +65,11 @@ function isAuthenticated(userId: string): boolean {
 export function ExerciseSessionClient({
   type,
   meta,
+  isAuthed = false,
 }: {
   type: ExerciseType;
   meta: ExerciseTypeMeta;
+  isAuthed?: boolean;
 }) {
   const [items, setItems] = useState<Item[]>([]);
   const [currentIdx, setCurrentIdx] = useState(0);
@@ -317,6 +319,7 @@ export function ExerciseSessionClient({
         onBack={handleBack}
         canGoBack={currentIdx > 0}
         noAutoAdvance={isReviewing}
+        isAuthed={isAuthed}
       />
     </div>
   );
