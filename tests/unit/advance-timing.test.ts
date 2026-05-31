@@ -18,7 +18,7 @@ describe("addSample", () => {
   });
 
   it("tronque au-delà de MAX_SAMPLES (garde les plus récents)", () => {
-    const full = Array.from({ length: MAX_SAMPLES }, (_, i) => i * 100); // [0, 100, ..., 1900]
+    const full = Array.from({ length: MAX_SAMPLES }, (_, i) => i * 100); // [0, 100, 200, 300, 400]
     const result = addSample(full, 9999);
     expect(result).toHaveLength(MAX_SAMPLES);
     expect(result[result.length - 1]).toBe(9999); // dernier = le nouveau

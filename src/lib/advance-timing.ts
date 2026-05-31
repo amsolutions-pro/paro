@@ -6,7 +6,7 @@
  * Fonctions pures exportées séparément pour être testables sans localStorage.
  */
 
-export const MAX_SAMPLES = 20;
+export const MAX_SAMPLES = 5;
 export const MIN_SAMPLES_TO_ADAPT = 3;
 
 // ── Fonctions pures (testables) ───────────────────────────────────────────────
@@ -66,6 +66,11 @@ export function addTimingSample(userId: string, ms: number): void {
 /** Délai personnalisé (en secondes) pour cet utilisateur. */
 export function computeAutoDelay(userId: string): number {
   return computeDelayFromSamples(load(userId).samples);
+}
+
+/** Vide le buffer — signal que l'utilisateur a besoin de plus de temps. */
+export function clearTimingSamples(userId: string): void {
+  save(userId, { samples: [] });
 }
 
 /** Nombre d'échantillons collectés. */

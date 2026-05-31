@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import { getUserId } from "@/src/lib/user-store";
-import { addTimingSample, computeAutoDelay } from "@/src/lib/advance-timing";
+import { addTimingSample, computeAutoDelay, clearTimingSamples } from "@/src/lib/advance-timing";
 import { Button } from "@/src/components/ui/Button";
 import { Card } from "@/src/components/ui/Card";
 
@@ -192,6 +192,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
       )}
 
       {/* Résultat — exercice noté : bandeau vert / rouge */}
+
       {result && !isOpen && (
         <div
           className={`rounded-xl border-l-4 p-4 ${result.correct ? "border-green-500 bg-green-50" : "border-red-400 bg-red-50"}`}
@@ -215,7 +216,13 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           )}
           <div className="mt-3 flex gap-2">
             {canGoBack && (
-              <Button size="sm" variant="outline" onClick={() => { if (timerRef.current) clearInterval(timerRef.current); setCountdown(null); setResult(null); onBack?.(); }}>
+              <Button size="sm" variant="outline" onClick={() => {
+                if (timerRef.current) clearInterval(timerRef.current);
+                setCountdown(null);
+                setResult(null);
+                if (isAuthed && result?.correct) clearTimingSamples(userId);
+                onBack?.();
+              }}>
                 ← Retour
               </Button>
             )}
