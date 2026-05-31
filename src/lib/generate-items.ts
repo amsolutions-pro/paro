@@ -111,16 +111,30 @@ const generators: Partial<Record<ExerciseType, Gen>> = {
     for (const g of binaryGroups(groups)) {
       if (out.length >= need) break;
       const [a, b] = g.words;
-      out.push(
-        base(mk(out.length + 1), "REECRITURE", "OPEN", {
-          prompt: `Réécrivez en remplaçant « ${a.headword} » par « ${b.headword} », en adaptant le contexte.`,
-          payload: { source: firstExample(a), target: b.headword },
-          solution: { model: firstExample(b), note: `${b.headword} : ${b.definition}` },
-          commentary: g.summary,
-          groupSlug: g.slug,
-          posClass: b.posClass,
-        }),
-      );
+      // Génère les deux sens (a→b et b→a) pour plus de variété
+      for (const [src, tgt] of [[a, b], [b, a]] as const) {
+        if (out.length >= need) break;
+        const ex = firstExample(src);
+        out.push(
+          base(mk(out.length + 1), "REECRITURE", "AUTO", {
+            prompt: "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+            payload: {
+              phrase_depart: ex,
+              mot_souligne: src.headword,
+              indice: tgt.definition,
+            },
+            solution: {
+              paronyme_attendu: tgt.headword,
+              reponses_acceptees: [tgt.headword],
+              corrige: firstExample(tgt),
+              explication: `« ${src.headword} » — ${src.definition} · « ${tgt.headword} » — ${tgt.definition}`,
+            },
+            commentary: `Corrigé : ${firstExample(tgt)}\n\n${g.summary}`,
+            groupSlug: g.slug,
+            posClass: tgt.posClass,
+          }),
+        );
+      }
     }
     return out;
   },

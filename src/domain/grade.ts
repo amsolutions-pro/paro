@@ -38,6 +38,12 @@ function matches(
 // ── Formes des payloads et solutions attendues par le grade ─────────────────
 
 interface QcmSol { correctKey: string }
+interface ReecrirtureSol {
+  paronyme_attendu: string;
+  reponses_acceptees: string[];
+  corrige: string;
+  explication: string;
+}
 interface AnswersSol { answers: string[]; accept?: string[]; accentSensitive?: boolean }
 interface SingleSol { answer: string; accept?: string[]; accentSensitive?: boolean }
 interface AnomalieSol { wrong: string; correct: string; accentSensitive?: boolean }
@@ -90,7 +96,9 @@ export function grade(
       );
     case "TEXTE_LACUNAIRE":
       return gradeAnswers(userAnswer as { answers: string[] }, solution as AnswersSol);
-    // OPEN : reecriture, affixes, contexte, production, traduction → never graded AUTO
+    case "REECRITURE":
+      return gradeReecriture(userAnswer as { text: string }, solution as ReecrirtureSol);
+    // OPEN : affixes, contexte, production, traduction → never graded AUTO
     default:
       return { correct: false, expected: "type inconnu ou mode OPEN" };
   }
@@ -169,6 +177,16 @@ function gradeVraiFaux(
   return user.value === sol.value
     ? { correct: true }
     : { correct: false, expected: String(sol.value) };
+}
+
+function gradeReecriture(
+  user: { text?: string },
+  sol: ReecrirtureSol,
+): GradeResult {
+  const text = normNoAccent(user.text ?? "");
+  const found = sol.reponses_acceptees.some((r) => text.includes(normNoAccent(r)));
+  if (found) return { correct: true };
+  return { correct: false, expected: sol.paronyme_attendu };
 }
 
 function gradeCategorisation(

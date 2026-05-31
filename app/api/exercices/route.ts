@@ -75,10 +75,9 @@ export async function GET(req: NextRequest) {
     .filter((it): it is NonNullable<typeof it> => !!it);
 
   return NextResponse.json({
-    items: ordered.map((it) => ({
+    items: ordered.map(({ solution: _sol, ...it }) => ({
       ...it,
       payload: JSON.parse(it.payload) as unknown,
-      solution: JSON.parse(it.solution) as unknown,
     })),
     exhausted,
   });
