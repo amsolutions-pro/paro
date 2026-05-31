@@ -10,7 +10,7 @@ export const submitAttemptSchema = z.object({
 export type SubmitAttemptInput = z.infer<typeof submitAttemptSchema>;
 
 export const manuelQuerySchema = z.object({
-  letter: z.string().optional(),
+  letter: z.union([z.string(), z.array(z.string())]).optional(),
   search: z.string().optional(),
   page: z.coerce.number().int().min(1).default(1),
   limit: z.coerce.number().int().min(1).max(100).default(20),
@@ -18,8 +18,8 @@ export const manuelQuerySchema = z.object({
 
 export const exercisesQuerySchema = z.object({
   type: z.string().optional(),
-  page: z.coerce.number().int().min(1).default(1),
   limit: z.coerce.number().int().min(1).max(50).default(10),
+  userId: z.string().optional(),
 });
 
 export const statsQuerySchema = z.object({

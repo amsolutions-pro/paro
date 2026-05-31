@@ -21,7 +21,10 @@ async function readJson(file: string): Promise<unknown> {
 async function main() {
   console.log("── Seeding ──");
   const manual = manualFileSchema.parse(await readJson("manual.json"));
-  const exercises = exercisesFileSchema.parse(await readJson("exercises.json"));
+  const exercises = [
+    ...exercisesFileSchema.parse(await readJson("exercises.json")),
+    ...exercisesFileSchema.parse(await readJson("exercises-quiz.json")),
+  ];
 
   // 1. Groupes + mots vedettes.
   const slugToId = new Map<string, string>();
@@ -50,7 +53,7 @@ async function main() {
       })),
     });
   }
-  console.log(`✅ ${manual.length} groupes, ${manual.reduce((n, g) => n + g.words.length, 0)} mots.`);
+  console.log(`✅ ${manual.length} fiches, ${manual.reduce((n, g) => n + g.words.length, 0)} mots.`);
 
   // 2. Items d'exercices.
   let count = 0;

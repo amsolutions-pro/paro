@@ -9,27 +9,23 @@
         "headword": "abjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ուրանալ, (հանդիսավորապես) հրաժարվել // կրոնափոխ լինել, հավատը ուրանալ",
         "definition": "Renoncer solennellement à une religion, une opinion.",
         "synonyms": "renier, abandonner",
         "examples": [
           "Pressé par sa famille, il a fini par abjurer ses anciennes convictions."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "adjurer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "սրբությամբ աղաչել, պաղատել, աղերսել // երդվեցնել",
         "definition": "Supplier instamment, au nom de ce qu'il y a de sacré.",
         "synonyms": "supplier, implorer",
         "examples": [
           "Elle l'adjura de ne pas partir."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -129,27 +125,23 @@
         "headword": "affectif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "հուզական, զգացմունքային, աֆեկտիվ",
         "definition": "Relatif aux affects, aux émotions et aux sentiments.",
         "synonyms": "émotionnel",
         "examples": [
           "Le développement affectif de l'enfant."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "affectueux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "գորովալից, քնքուշ, սիրալիր, գուրգուրող",
         "definition": "Qui témoigne de la tendresse, de l'affection.",
         "synonyms": "tendre, aimant",
         "examples": [
           "Un message affectueux glissé sous la porte."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -938,71 +930,6 @@
     ]
   },
   {
-    "id": "new-coffin-couffin-coussin",
-    "slug": "coffin-couffin-coussin",
-    "title": "Coffin, Couffin & Coussin",
-    "letter": "C",
-    "summary": "Bien que les mots « coffin », « couffin » et « coussin » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Coffin » est un étui pour la pierre à aiguiser, « couffin » est un berceau pour bébé et « coussin » est un support rembourré pour s’asseoir ou s’allonger. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à la maison, à la famille et au confort.",
-    "words": [
-      {
-        "id": "new-coffin-couffin-coussin-0",
-        "headword": "Coffin",
-        "category": "m.",
-        "posClass": "NOM_M",
-        "translationHy": "զամբյուղ, կողով․տուփ, արկղիկ",
-        "definition": "Un coffin est un étui ou une boîte utilisée pour ranger ou transporter une pierre à aiguiser. Il est souvent utilisé dans le domaine de l’artisanat ou de la cuisine.",
-        "origin": null,
-        "synonyms": null,
-        "examples": [
-          "Le faucheur est muni de sa pierre et de son coffin.",
-          "La vieille pierre à aiguiser était rangée dans son coffin en bois.",
-          "Il ouvrit son coffin pour vérifier l’état de sa pierre à aiguiser."
-        ],
-        "reviewNeeded": false
-      },
-      {
-        "id": "new-coffin-couffin-coussin-1",
-        "headword": "Couffin",
-        "category": "m.",
-        "posClass": "NOM_M",
-        "translationHy": "մեծ կողով՝ զամբյուղ, զամբյուղ-մահճակալ (մանկիկի)",
-        "definition": "Un couffin est une corbeille souvent munie d’anses, utilisée comme berceau pour un nouveau-né. Il offre un espace doux et sécurisé pour le repos et le sommeil du bébé.",
-        "origin": null,
-        "synonyms": null,
-        "examples": [
-          "Le nouveau-né est endormi dans son couffin.",
-          "Le couffin était garni de doux coussins pour le confort du bébé.",
-          "Elle déposa délicatement le bébé endormi dans son couffin près du lit.",
-          "Définition : \tUn coussin est un objet rembourré utilisé comme oreiller ou support confortable",
-          "pour s’asseoir ou s’allonger. Il peut être utilisé à des fins décoratives ou fonctionnelles.",
-          "Il reposait mollement sur des coussins brodés.",
-          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
-          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins."
-        ],
-        "reviewNeeded": false
-      },
-      {
-        "id": "new-coffin-couffin-coussin-2",
-        "headword": "Coussin",
-        "category": "m.",
-        "posClass": "NOM_M",
-        "translationHy": "բարձ (բազմոցի, բազկաթոռի) // ավտ․ բարձ, թափարգել, թափամղիչ",
-        "definition": "Un coussin est un objet rembourré utilisé comme oreiller ou support confortable pour s’asseoir ou s’allonger. Il peut être utilisé à des fins décoratives ou fonctionnelles.",
-        "origin": null,
-        "synonyms": null,
-        "examples": [
-          "Il reposait mollement sur des coussins brodés.",
-          "Les coussins du canapé ajoutaient une touche de couleur à la pièce.",
-          "Elle s’enfonça dans le canapé, appuyée contre les doux coussins.",
-          "Le coussin recouvre l’assise de la chaise.",
-          "Je dors toujours avec trois coussins sous ma tête.",
-          "Les coussins du canapé sont assortis aux rideaux."
-        ],
-        "reviewNeeded": false
-      }
-    ]
-  },
-  {
     "slug": "collision-collusion",
     "title": "Collision & Collusion",
     "letter": "C",
@@ -1126,30 +1053,28 @@
         "headword": "Complémentation",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "լրացման գործընթաց",
+        "translationHy": "լեզվբ. լրացում, խնդրառություն",
         "definition": "La complémentation est l’action de compléter ou de rendre complet quelque",
         "origin": null,
         "synonyms": null,
         "examples": [
           "Le grammairien étudie la complémentation des verbes.",
           "La complémentation des compétences est essentielle pour réussir dans ce domaine."
-        ],
-        "reviewNeeded": false
+        ]
       },
       {
         "id": "new-completage-complement-complementation-completude-3",
         "headword": "Complétude",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "ամբողջականություն",
+        "translationHy": "ամբողջականություն, լիարժեքություն // տրամաբ. լրիվություն",
         "definition": "La complétude se réfère à l’état de ce qui est complet, entier ou total. C’est le fait",
         "origin": null,
         "synonyms": null,
         "examples": [
           "La complétude de ton travail est nécessaire pour progresser.",
           "L’examen de fin d’année évaluera la complétude de tes connaissances."
-        ],
-        "reviewNeeded": false
+        ]
       }
     ]
   },
@@ -1196,16 +1121,14 @@
         "headword": "Complémentation et Complétude",
         "category": "—",
         "posClass": "AUTRE",
-        "translationHy": "",
+        "translationHy": "լեզվբ. լրացում, խնդրառություն // ամբողջականություն, լիարժեքություն",
         "definition": "Paronyme de Complétage, Complément.",
         "origin": null,
         "synonyms": null,
         "examples": [
           "La complémentation des verbes est étudiée en grammaire.",
           "La complétude d’un dossier conditionne son traitement."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -1833,27 +1756,23 @@
         "headword": "décrépit",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "(ծերությունից) քայքայված, մաշված, անկար, դողդոջուն",
         "definition": "Affaibli, usé par la vieillesse (en parlant d'une personne).",
         "synonyms": "sénile, caduc",
         "examples": [
           "Le vieillard décrépit, courbé par l'âge, avançait à petits pas."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "décrépi",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "ծեփաթափ, սվաղը թափված (պատի մասին)",
         "definition": "Dont le crépi, l'enduit se détache (en parlant d'un mur).",
         "synonyms": "délabré, écaillé",
         "examples": [
           "La façade décrépie de la maison réclamait un ravalement."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -1906,14 +1825,12 @@
         "headword": "défendeur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "իրավ. պատասխանող (դատավարության պատասխանող կողմ)",
         "definition": "Personne contre laquelle une demande en justice est formée.",
         "synonyms": "partie défenderesse",
         "examples": [
           "La personne poursuivie en justice est appelée le défendeur."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "défenseur",
@@ -1940,27 +1857,23 @@
         "headword": "dénotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "լեզվբ. դենոտատիվ, բուն/ուղղակի իմաստ արտահայտող, առարկայանիշ",
         "definition": "Qui relève du sens premier, neutre et littéral d'un mot.",
         "synonyms": "littéral, neutre",
         "examples": [
           "Un texte dénotatif vise la neutralité du propos."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "connotatif",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "լեզվբ. կոննոտատիվ, ենթաիմաստային, հարակից/զգացական իմաստ արտահայտող",
         "definition": "Qui relève des sens implicites, affectifs ou culturels d'un mot.",
         "synonyms": "implicite, suggestif",
         "examples": [
           "Le texte connotatif privilégie les sens implicites et les connotations."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2015,27 +1928,23 @@
         "headword": "dénué",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "զուրկ, (ինչ-որ բանից) զրկված, չքավոր",
         "definition": "Dépourvu de, qui manque de.",
         "synonyms": "dépourvu, privé",
         "examples": [
           "Son réquisitoire était dénué du moindre fondement."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "dénudé",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "մերկ, մերկացված, կեղևազրկ // էլեկտր. մերկ (լար)",
         "definition": "Mis à nu, dépouillé de ce qui couvre.",
         "synonyms": "nu, dépouillé",
         "examples": [
           "En hiver, les arbres dénudés bordaient l'allée."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2285,14 +2194,12 @@
         "headword": "différent",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "տարբեր, այլ, ուրիշ, ոչ նույնական",
         "definition": "Qui n'est pas identique, qui diffère.",
         "synonyms": "distinct, autre",
         "examples": [
           "Sur ce point précis, chacun avait un avis différent."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2306,27 +2213,23 @@
         "headword": "différer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "հետաձգել, ձգձգել, ետ գցել",
         "definition": "Remettre à plus tard, retarder.",
         "synonyms": "ajourner, reporter",
         "examples": [
           "L'opposition a cherché à différer la décision à la séance suivante."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "déférer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "իրավ. (դատարան) հանձնել, դատի տալ, ներկայացնել (իշխանությանը)",
         "definition": "Traduire, transmettre devant une autorité judiciaire.",
         "synonyms": "traduire (en justice)",
         "examples": [
           "Le suspect a été déféré devant le procureur."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2546,29 +2449,25 @@
         "headword": "émigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "արտագաղթել (հայրենիքից հեռանալ)",
         "definition": "Quitter son pays pour s'établir ailleurs.",
         "origin": "du latin emigrare « partir de »",
         "synonyms": "s'expatrier, partir",
         "examples": [
           "Beaucoup ont émigré pour fuir la misère."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "immigrer",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ներգաղթել (օտար երկիր մտնել)",
         "definition": "Entrer dans un pays étranger pour s'y établir.",
         "origin": "du latin immigrare « entrer dans »",
         "synonyms": "s'installer, arriver",
         "examples": [
           "Ses grands-parents ont immigré en France dans les années 1920."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2582,27 +2481,23 @@
         "headword": "éminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "բարձունք, բլրակ // փխբ. վեհություն, բարձր դիրք/աստիճան (Son Éminence՝ Նորին վեհափառություն)",
         "definition": "Élévation de terrain ; par extension, dignité, haut rang.",
         "synonyms": "hauteur, dignité",
         "examples": [
           "Le château se dresse sur une éminence."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "imminence",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "մոտալուտ լինելը, վերահասություն, անխուսափելի մերձություն",
         "definition": "Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
         "synonyms": "proximité, approche",
         "examples": [
           "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2860,27 +2755,23 @@
         "headword": "express",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "արագ, սրընթաց, ուղիղ (գնացք) // թունդ (սուրճ), էքսպրես",
         "definition": "Rapide ; qui se fait ou circule vite (café serré, train direct).",
         "synonyms": "rapide, direct",
         "examples": [
           "Au comptoir, il commanda un café express bien serré."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "exprès",
         "category": "adv.",
         "posClass": "AUTRE",
-        "translationHy": "",
+        "translationHy": "դիտմամբ, դիտավորյալ, միտումնավոր, հատկապես",
         "definition": "À dessein, intentionnellement.",
         "synonyms": "délibérément, volontairement",
         "examples": [
           "Il a laissé la porte ouverte exprès."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -2912,7 +2803,7 @@
         "headword": "Écale",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "կճեպ, կեղև (ընկույզի, ընդեղենի, սերմի)",
         "definition": "Une écale est l’enveloppe ou la coquille recouvrant certains fruits, graines ou",
         "origin": null,
         "synonyms": null,
@@ -2920,9 +2811,7 @@
           "Les écales des noix et des noisettes sont riches en vitamines.",
           "Il a passé l’après-midi à casser des écales de pistaches.",
           "Les agriculteurs récoltent les écales des noix pour les utiliser comme"
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -3286,29 +3175,25 @@
         "headword": "inculper",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "իրավ. մեղադրել, ամբաստանել, մեղադրանք առաջադրել",
         "definition": "Mettre en accusation, imputer une faute à quelqu'un.",
         "origin": "du latin culpa « faute »",
         "synonyms": "accuser, mettre en examen",
         "examples": [
           "Le procureur a décidé d'inculper le suspect dès la fin de la garde à vue."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "inculquer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "սերմանել, ներշնչել, ներարկել (կրկնությամբ՝ գիտելիք, սկզբունք)",
         "definition": "Faire entrer durablement dans l'esprit par une instruction répétée.",
         "origin": "du latin inculcare « faire entrer en foulant »",
         "synonyms": "enseigner, transmettre",
         "examples": [
           "Ses parents lui ont inculqué le goût de l'effort."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -3324,7 +3209,7 @@
         "headword": "Influx",
         "category": "m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "ֆիզիոլ. (նյարդային) ազդակ, գրգիռ, գրգռության հաղորդում",
         "definition": "Un influx désigne la transmission d’une force ou d’une excitation nerveuse à",
         "origin": null,
         "synonyms": null,
@@ -3332,9 +3217,7 @@
           "Cet appareil mesure les influx nerveux destinés au cerveau pour évaluer la santé neurologique du patient.",
           "L’influx électrique traverse les synapses pour permettre la communication entre les neurones.",
           "Le médecin a étudié les différents types d’influx nerveux dans le système nerveux central."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "id": "new-influx-reflux-1",
@@ -3732,27 +3615,23 @@
         "headword": "littéral",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "տառացի, բառացի, ուղիղ (իմաստ)",
         "definition": "Qui suit le sens exact, propre des mots.",
         "synonyms": "textuel, exact",
         "examples": [
           "Il a proposé une traduction littérale du contrat."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "littéraire",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "գրական, գրականության վերաբերող",
         "definition": "Relatif à la littérature.",
         "synonyms": "culturel",
         "examples": [
           "Un prix littéraire prestigieux."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -3921,14 +3800,12 @@
         "headword": "médical",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "բժշկական, բժշկության վերաբերող",
         "definition": "Relatif à la médecine et à son exercice.",
         "synonyms": "thérapeutique, sanitaire",
         "examples": [
           "Un examen médical approfondi."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "médicinal",
@@ -3994,27 +3871,23 @@
         "headword": "opportun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "տեղին, պատեհ, հարմար (պահ), ժամանակին",
         "definition": "Qui vient à propos, au moment favorable.",
         "synonyms": "favorable, propice",
         "examples": [
           "Devant l'ampleur du danger, il jugea opportun de battre en retraite."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "importun",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "ձանձրացնող, անտեղի, ապահարմար, ընդհատող, անպատեհ",
         "definition": "Qui gêne, qui survient ou insiste mal à propos.",
         "synonyms": "gênant, indiscret",
         "examples": [
           "Une visite importune interrompit la réunion."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4104,27 +3977,23 @@
         "headword": "original",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "ինքնատիպ, յուրօրինակ, նոր // բնագիր (հեղինակի)",
         "definition": "Qui émane directement de l'auteur ; neuf, singulier.",
         "synonyms": "authentique, inédit",
         "examples": [
           "Le manuscrit original est conservé sous vitrine."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "originel",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "սկզբնական, նախասկզբնական, սկզբից եղած (péché originel՝ սկզբնական մեղք)",
         "definition": "Qui remonte à l'origine, qui date du commencement.",
         "synonyms": "initial, premier",
         "examples": [
           "Le péché originel est au cœur de ce traité."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4178,27 +4047,23 @@
         "headword": "percepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "հարկահան, հարկահավաք, հարկ գանձող պաշտոնյա",
         "definition": "Fonctionnaire chargé de collecter les impôts.",
         "synonyms": "receveur",
         "examples": [
           "Le percepteur a envoyé l'avis d'imposition."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "précepteur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "տնային ուսուցիչ, դաստիարակ, մանկավարժ",
         "definition": "Personne chargée de l'éducation d'un enfant à domicile.",
         "synonyms": "tuteur, enseignant",
         "examples": [
           "Le jeune prince recevait chaque matin la visite de son précepteur particulier."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4212,27 +4077,23 @@
         "headword": "périphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "ճարտ. շրջասություն (առարկան մեկ բառի փոխարեն ընդարձակ արտահայտությամբ նշելը)",
         "definition": "Figure désignant une réalité par une expression plus longue qu'un seul mot.",
         "synonyms": "circonlocution",
         "examples": [
           "On désigne souvent Paris par la périphrase « la Ville Lumière »."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "paraphrase",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "վերաշարադրում, բացատրական վերապատում/վերաշարադրանք",
         "definition": "Reformulation développée et explicative d'un texte.",
         "synonyms": "reformulation, glose",
         "examples": [
           "Sa dissertation n'était qu'une paraphrase du poème."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4282,16 +4143,14 @@
         "headword": "Populeux",
         "category": "—",
         "posClass": "AUTRE",
-        "translationHy": "",
+        "translationHy": "մարդաշատ, բազմամարդ, խիտ բնակեցված",
         "definition": "Qui est très peuplé, densément habité, où il y a une grande concentration de personnes.",
         "origin": null,
         "synonyms": null,
         "examples": [
           "J'aime ce quartier populeux et vivant.",
           "Les centres-villes des grandes métropoles sont souvent populeux."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "id": "new-populeux-populaire-populiste-populacier-1",
@@ -4334,15 +4193,13 @@
         "headword": "Populacier",
         "category": "—",
         "posClass": "AUTRE",
-        "translationHy": "",
+        "translationHy": "գռեհիկ, ամբոխային, ստորին խավին հատուկ, պլեբեյական",
         "definition": "Qui est propre à la populace ; qualifie des comportements ou discours vulgaires ou de mauvais goût.",
         "origin": null,
         "synonyms": null,
         "examples": [
           "Son langage populacier choquait ses interlocuteurs."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4396,29 +4253,25 @@
         "headword": "prescription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "բժշկ. դեղատոմս, նշանակում // իրավ. վաղեմություն (իրավունքի մարում ժամանակի ընթացքում)",
         "definition": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé.",
         "origin": "du latin praescriptio « ce qui est écrit en tête »",
         "synonyms": "ordonnance, recommandation",
         "examples": [
           "Ce médicament n'est délivré que sur prescription médicale."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "proscription",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "վտարում, արգելում, արգելանք, աքսոր",
         "definition": "Bannissement, interdiction formelle.",
         "origin": "du latin proscriptio « affichage public d'une condamnation »",
         "synonyms": "bannissement, interdiction",
         "examples": [
           "La proscription de cet usage est désormais générale."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4547,32 +4400,28 @@
         "headword": "Renoncement",
         "category": "m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "(անձնական) հրաժարում, ինքնահրաժարում, զրկանք, անձնազոհություն",
         "definition": "Le renoncement est l’abandon volontaire ou l’abstention de quelque chose,",
         "origin": null,
         "synonyms": null,
         "examples": [
           "Il a fait preuve de renoncement en quittant ce poste avantageux pour poursuivre une carrière qui correspondait mieux à ses valeurs personnelles.",
           "Le renoncement aux honneurs et aux récompenses était la marque de son caractère humble et désintéressé."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "id": "new-renoncement-renonciation-1",
         "headword": "Renonciation",
         "category": "f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "իրավ. (պաշտոնական) հրաժարում (իրավունքից, պահանջից), հրաժարագիր",
         "definition": "La renonciation est l’acte formel d’abandonner un droit, une réclamation ou",
         "origin": null,
         "synonyms": null,
         "examples": [
           "Les héritiers espèrent la renonciation de la plaignante à sa part de l’héritage afin de régler rapidement la succession.",
           "La renonciation à ses droits parentaux a été faite devant un tribunal pour permettre à l’enfant d’être adopté par une autre famille."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4730,27 +4579,23 @@
         "headword": "spécieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "խաբուսիկ, թվացական, ճշմարտանման, ակնահաճ (բայց սուտ)",
         "definition": "Qui n'a qu'une apparence de vérité ; trompeur.",
         "synonyms": "fallacieux, trompeur",
         "examples": [
           "Sous des dehors rigoureux, son raisonnement n'est qu'un argument spécieux."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "spacieux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "ընդարձակ, լայն, լայնարձակ, տարածուն",
         "definition": "Qui est vaste, où l'on a de l'espace.",
         "synonyms": "vaste, ample",
         "examples": [
           "Un appartement spacieux et lumineux."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4885,27 +4730,23 @@
         "headword": "vénéneux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "թունավոր (բույս, սունկ՝ ընդունելիս թունավորող)",
         "definition": "Toxique par ingestion (plante, champignon).",
         "synonyms": "toxique, empoisonné",
         "examples": [
           "Le champignon vénéneux a intoxiqué le promeneur."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       },
       {
         "headword": "venimeux",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "թունավոր (օձ, միջատ՝ խայթելով/կծելով թույն ներարկող)",
         "definition": "Qui inocule un venin (animal qui mord ou pique).",
         "synonyms": "venéneux (à tort), perfide (fig.)",
         "examples": [
           "La vipère venimeuse a mordu le promeneur imprudent."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },
@@ -4972,14 +4813,12 @@
         "headword": "renverser",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "շուռ տալ, տապալել, գցել // (պատահաբար) թափել, ցողել",
         "definition": "Faire tomber, répandre accidentellement.",
         "synonyms": "répandre, faire tomber",
         "examples": [
           "Il a renversé son verre sur la nappe."
-        ],
-        "reviewNeeded": true,
-        "autoFilled": true
+        ]
       }
     ]
   },

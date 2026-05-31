@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import { Badge } from "@/src/components/ui/Badge";
 import { Card } from "@/src/components/ui/Card";
+import { SuggestionForm } from "@/src/components/SuggestionForm";
 
 interface Word {
   id: string;
@@ -27,7 +28,48 @@ interface Group {
   words: Word[];
 }
 
-const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
+/**
+ * Construit les boutons de navigation alphabétique à partir des comptages réels.
+ * - Lettres sans fiches : masquées.
+ * - Lettres consécutives avec peu de fiches (≤ SPARSE_THRESHOLD chacune) :
+ *   regroupées en un seul bouton "X-Z" qui filtre sur chacune séparément
+ *   (l'utilisateur voit "F-G", clique → affiche toutes les fiches F+G).
+ *
+ * Retourne une liste de { label, letters[] }.
+ */
+const SPARSE_THRESHOLD = 3;
+
+function buildLetterBuckets(counts: Record<string, number>): { label: string; letters: string[] }[] {
+  const present = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    .split("")
+    .filter((l) => (counts[l] ?? 0) > 0);
+
+  const buckets: { label: string; letters: string[] }[] = [];
+  let i = 0;
+  while (i < present.length) {
+    const l = present[i];
+    const n = counts[l] ?? 0;
+    if (n <= SPARSE_THRESHOLD) {
+      // Commence un groupe sparse
+      const group: string[] = [l];
+      let j = i + 1;
+      while (j < present.length && (counts[present[j]] ?? 0) <= SPARSE_THRESHOLD) {
+        group.push(present[j]);
+        j++;
+      }
+      if (group.length === 1) {
+        buckets.push({ label: l, letters: group });
+      } else {
+        buckets.push({ label: `${group[0]}-${group[group.length - 1]}`, letters: group });
+      }
+      i = j;
+    } else {
+      buckets.push({ label: l, letters: [l] });
+      i++;
+    }
+  }
+  return buckets;
+}
 
 /** Separe "[IPA] · etymologie" → { ipa, etymology } */
 function parseOrigin(origin: string): { ipa: string; etymology: string } {
@@ -169,15 +211,15 @@ function MiseEnRegard({ words }: { words: Word[] }) {
 export function ManuelClient() {
   const [groups, setGroups] = useState<Group[]>([]);
   const [total, setTotal] = useState(0);
-  const [activeLetter, setActiveLetter] = useState<string | null>(null);
+  const [activeBucket, setActiveBucket] = useState<string[] | null>(null);
   const [search, setSearch] = useState("");
   const [debouncedSearch, setDebouncedSearch] = useState("");
   const [page, setPage] = useState(1);
   const [pages, setPages] = useState(1);
   const [loading, setLoading] = useState(false);
   const [expandedGroups, setExpandedGroups] = useState<Set<string>>(new Set());
-  /** Groupes dont on affiche les exemples (toggle unique par groupe) */
   const [groupsWithExamples, setGroupsWithExamples] = useState<Set<string>>(new Set());
+  const [letterCounts, setLetterCounts] = useState<Record<string, number>>({});
 
   useEffect(() => {
     const t = setTimeout(() => setDebouncedSearch(search), 300);
@@ -187,15 +229,19 @@ export function ManuelClient() {
   useEffect(() => {
     let cancelled = false;
     const params = new URLSearchParams({ page: String(page), limit: "20" });
-    if (activeLetter) params.set("letter", activeLetter);
+    // En mode recherche : pas de filtre lettre (recherche globale)
+    if (!debouncedSearch && activeBucket) {
+      activeBucket.forEach((l) => params.append("letter", l));
+    }
     if (debouncedSearch) params.set("search", debouncedSearch);
     fetch(`/api/manuel?${params}`)
       .then((r) => r.json())
-      .then((data: { groups: Group[]; total: number; pages: number }) => {
+      .then((data: { groups: Group[]; total: number; pages: number; letterCounts?: Record<string, number> }) => {
         if (!cancelled) {
           setGroups(data.groups);
           setTotal(data.total);
           setPages(data.pages);
+          if (data.letterCounts) setLetterCounts(data.letterCounts);
           setLoading(false);
         }
       })
@@ -205,7 +251,7 @@ export function ManuelClient() {
     return () => {
       cancelled = true;
     };
-  }, [activeLetter, debouncedSearch, page]);
+  }, [activeBucket, debouncedSearch, page]);
 
   function toggleGroup(id: string) {
     setExpandedGroups((prev) => {
@@ -237,12 +283,15 @@ export function ManuelClient() {
     });
   }
 
-  function selectLetter(l: string | null) {
-    setActiveLetter(l);
+  function selectBucket(letters: string[] | null) {
+    setActiveBucket(letters);
     setPage(1);
     setSearch("");
     setDebouncedSearch("");
   }
+
+  const buckets = buildLetterBuckets(letterCounts);
+  const activeBucketKey = activeBucket ? activeBucket.join(",") : null;
 
   const hasExamplesInGroup = (g: Group) => g.words.some((w) => w.examples.length > 0);
 
@@ -259,42 +308,49 @@ export function ManuelClient() {
           onChange={(e) => {
             setSearch(e.target.value);
             setPage(1);
+            if (e.target.value) setActiveBucket(null);
           }}
           className="border-grege-300 bg-grege-50 focus:border-lavande-500 w-full rounded-lg border px-3 py-2 text-sm outline-none sm:max-w-xs"
           aria-label="Rechercher dans le manuel"
         />
         <span className="text-encre-soft text-sm">
-          {total} groupe{total !== 1 ? "s" : ""}
+          {total} fiche{total !== 1 ? "s" : ""}
         </span>
       </div>
 
-      {/* Intercalaires alphabetiques */}
-      <nav aria-label="Navigation alphabetique" className="flex flex-wrap gap-1">
-        <button
-          onClick={() => selectLetter(null)}
-          className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
-            activeLetter === null
-              ? "bg-lavande-500 text-white"
-              : "bg-grege-200 text-encre hover:bg-lavande-100"
-          }`}
-        >
-          Tout
-        </button>
-        {LETTERS.map((l) => (
+      {/* Intercalaires alphabetiques — uniquement les lettres ayant des fiches, groupées si peu de fiches */}
+      {buckets.length > 0 && (
+        <nav aria-label="Navigation alphabetique" className="flex flex-wrap gap-1">
           <button
-            key={l}
-            onClick={() => selectLetter(l)}
+            onClick={() => selectBucket(null)}
             className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
-              activeLetter === l
+              activeBucketKey === null
                 ? "bg-lavande-500 text-white"
                 : "bg-grege-200 text-encre hover:bg-lavande-100"
             }`}
-            aria-current={activeLetter === l ? "true" : undefined}
           >
-            {l}
+            Tout
           </button>
-        ))}
-      </nav>
+          {buckets.map((b) => {
+            const key = b.letters.join(",");
+            const isActive = activeBucketKey === key;
+            return (
+              <button
+                key={key}
+                onClick={() => selectBucket(b.letters)}
+                className={`rounded px-2 py-1 text-xs font-medium transition-colors ${
+                  isActive
+                    ? "bg-lavande-500 text-white"
+                    : "bg-grege-200 text-encre hover:bg-lavande-100"
+                }`}
+                aria-current={isActive ? "true" : undefined}
+              >
+                {b.label}
+              </button>
+            );
+          })}
+        </nav>
+      )}
 
       {/* Liste des groupes */}
       {loading ? (
@@ -417,6 +473,8 @@ export function ManuelClient() {
           </button>
         </div>
       )}
+
+      <SuggestionForm />
     </div>
   );
 }

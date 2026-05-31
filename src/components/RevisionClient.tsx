@@ -68,7 +68,7 @@ export function RevisionClient() {
           <h1 className="font-serif text-2xl font-bold">Révision</h1>
           <Badge variant="armenien">{currentEntry.groupTitle}</Badge>
         </div>
-        <ExercisePlayer item={item} onResult={() => {}} onNext={handleNext} />
+        <ExercisePlayer item={item} onResult={() => {}} onNext={handleNext} canGoBack={false} />
       </div>
     );
   }

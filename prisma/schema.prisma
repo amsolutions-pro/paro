@@ -120,6 +120,15 @@ model Attempt {
   @@index([userId, createdAt])
 }
 
+model Suggestion {
+  id        String   @id @default(cuid())
+  headword  String   // mot(s) proposé(s)
+  context   String   // phrase ou contexte d'usage fourni
+  email     String?  // email facultatif pour suivi
+  status    String   @default("pending") // "pending" | "accepted" | "rejected"
+  createdAt DateTime @default(now())
+}
+
 model ReviewState {
   id           String       @id @default(cuid())
   userId       String
