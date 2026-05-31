@@ -20,6 +20,13 @@ async function readJson(file: string): Promise<unknown> {
 
 async function main() {
   console.log("── Seeding ──");
+
+  // Audit des données utilisateur existantes — elles ne doivent jamais être effacées.
+  const [attemptCount, reviewCount] = await Promise.all([
+    prisma.attempt.count(),
+    prisma.reviewState.count(),
+  ]);
+  console.log(`   ℹ️  Données utilisateur conservées : ${attemptCount} tentatives, ${reviewCount} états SRS.`);
   const manual = manualFileSchema.parse(await readJson("manual.json"));
   const exercises = [
     ...exercisesFileSchema.parse(await readJson("exercises.json")),
