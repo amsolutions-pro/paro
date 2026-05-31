@@ -28,6 +28,8 @@ interface QueueEntry {
 export function RevisionClient() {
   const [queue, setQueue] = useState<QueueEntry[]>([]);
   const [totalDue, setTotalDue] = useState(0);
+  const [totalTracked, setTotalTracked] = useState(0);
+  const [nextReviewAt, setNextReviewAt] = useState<string | null>(null);
   const [currentEntry, setCurrentEntry] = useState<QueueEntry | null>(null);
   const [currentItemIdx, setCurrentItemIdx] = useState(0);
   const [loading, setLoading] = useState(true);
@@ -36,9 +38,11 @@ export function RevisionClient() {
     const uid = getUserId();
     fetch(`/api/revision?userId=${encodeURIComponent(uid)}&limit=10`)
       .then((r) => r.json())
-      .then((d: { queue: QueueEntry[]; totalDue: number }) => {
+      .then((d: { queue: QueueEntry[]; totalDue: number; totalTracked: number; nextReviewAt: string | null }) => {
         setQueue(d.queue);
         setTotalDue(d.totalDue);
+        setTotalTracked(d.totalTracked);
+        setNextReviewAt(d.nextReviewAt);
         setLoading(false);
       })
       .catch(() => setLoading(false));
@@ -85,6 +89,15 @@ export function RevisionClient() {
           <p className="text-encre-soft text-sm">
             <strong>{totalDue}</strong> paire{totalDue > 1 ? "s" : ""} à réviser maintenant.
           </p>
+        ) : totalTracked > 0 ? (
+          <p className="text-encre-soft text-sm">
+            Aucune révision due pour l&apos;instant.{" "}
+            {nextReviewAt ? (
+              <>Prochaine session : <strong>{new Date(nextReviewAt).toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" })}</strong>.</>
+            ) : (
+              "Revenez dans quelques heures !"
+            )}
+          </p>
         ) : (
           <p className="text-encre-soft text-sm">
             Aucune révision due pour l&apos;instant. Revenez dans quelques heures !
@@ -101,9 +114,14 @@ export function RevisionClient() {
         </div>
       </div>
 
-      {queue.length === 0 && (
+      {queue.length === 0 && totalTracked === 0 && (
         <p className="text-encre-soft text-sm">
           Faites des exercices pour alimenter la file de révision espacée.
+        </p>
+      )}
+      {queue.length === 0 && totalTracked > 0 && (
+        <p className="text-encre-soft text-sm">
+          <strong>{totalTracked}</strong> paire{totalTracked > 1 ? "s" : ""} en suivi — aucune n&apos;est due pour l&apos;instant.
         </p>
       )}
 
