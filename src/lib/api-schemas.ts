@@ -3,7 +3,7 @@ import { z } from "zod";
 /** Schémas Zod partagés client/serveur pour les routes API. */
 
 export const submitAttemptSchema = z.object({
-  userId: z.string().min(1),
+  userId: z.string().optional(), // facultatif : le serveur préfère l'id de session
   itemId: z.string().min(1),
   userAnswer: z.record(z.string(), z.unknown()),
 });
@@ -23,10 +23,10 @@ export const exercisesQuerySchema = z.object({
 });
 
 export const statsQuerySchema = z.object({
-  userId: z.string().min(1),
+  userId: z.string().optional(),
 });
 
 export const reviewQueueQuerySchema = z.object({
-  userId: z.string().min(1),
+  userId: z.string().optional(),
   limit: z.coerce.number().int().min(1).max(20).default(10),
 });

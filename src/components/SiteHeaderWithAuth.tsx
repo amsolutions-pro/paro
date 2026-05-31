@@ -1,5 +1,6 @@
 import { auth, signIn, signOut } from "@/auth";
 import { SiteHeader } from "./SiteHeader";
+import { IdentityMerge } from "./IdentityMerge";
 
 export async function SiteHeaderWithAuth() {
   const session = await auth();
@@ -15,10 +16,13 @@ export async function SiteHeaderWithAuth() {
   }
 
   return (
-    <SiteHeader
-      user={session?.user ?? null}
-      signInAction={signInAction}
-      signOutAction={signOutAction}
-    />
+    <>
+      {session?.user ? <IdentityMerge /> : null}
+      <SiteHeader
+        user={session?.user ?? null}
+        signInAction={signInAction}
+        signOutAction={signOutAction}
+      />
+    </>
   );
 }

@@ -3,6 +3,22 @@ import { prisma } from "@/src/server/db";
 import { grade } from "@/src/domain/grade";
 import { updateSrs, initialSrsState } from "@/src/domain/srs";
 import { submitAttemptSchema } from "@/src/lib/api-schemas";
+import { getEffectiveUserId } from "@/src/server/identity";
+
+/**
+ * Convertit l'attendu brut du moteur de notation en libellé lisible.
+ * Pour un QCM, `expected` est une clé ("a"/"b") → on la résout vers le texte
+ * de l'option. Pour les listes (TROUS, TEXTE_LACUNAIRE), on joint les valeurs.
+ */
+function humanizeExpected(type: string, expected: unknown, payload: unknown): string {
+  if (type === "QCM") {
+    const opts = (payload as { options?: { key: string; text: string }[] }).options ?? [];
+    const hit = opts.find((o) => o.key === expected);
+    return hit ? hit.text : String(expected);
+  }
+  if (Array.isArray(expected)) return expected.join(", ");
+  return String(expected);
+}
 
 export async function POST(req: NextRequest) {
   let body: unknown;
@@ -16,7 +32,12 @@ export async function POST(req: NextRequest) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { userId, itemId, userAnswer } = parsed.data;
+  const { itemId, userAnswer } = parsed.data;
+
+  const userId = await getEffectiveUserId(parsed.data.userId);
+  if (!userId) {
+    return NextResponse.json({ error: "Identité manquante." }, { status: 400 });
+  }
 
   // Vérification item + user (upsert user anonyme).
   const [item, user] = await Promise.all([
@@ -31,6 +52,7 @@ export async function POST(req: NextRequest) {
   if (!item) return NextResponse.json({ error: "Exercice introuvable." }, { status: 404 });
 
   const solution = JSON.parse(item.solution) as unknown;
+  const payload = JSON.parse(item.payload) as unknown;
   const result = grade(item.gradingMode === "AUTO" ? item.type : "OPEN", userAnswer, solution);
 
   // Enregistrement de la tentative.
@@ -96,7 +118,9 @@ export async function POST(req: NextRequest) {
   return NextResponse.json({
     attemptId: attempt.id,
     correct: result.correct,
-    ...(!result.correct && "expected" in result ? { expected: result.expected } : {}),
+    ...(!result.correct && "expected" in result
+      ? { expected: humanizeExpected(item.type, result.expected, payload) }
+      : {}),
     commentary: item.commentary,
   });
 }

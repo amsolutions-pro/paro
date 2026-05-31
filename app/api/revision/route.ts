@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/src/server/db";
 import { isDue, sortByPriority } from "@/src/domain/srs";
 import { reviewQueueQuerySchema } from "@/src/lib/api-schemas";
+import { getEffectiveUserId } from "@/src/server/identity";
 
 export async function GET(req: NextRequest) {
   const parsed = reviewQueueQuerySchema.safeParse(
@@ -10,7 +11,9 @@ export async function GET(req: NextRequest) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { userId, limit } = parsed.data;
+  const { limit } = parsed.data;
+  const userId = await getEffectiveUserId(parsed.data.userId);
+  if (!userId) return NextResponse.json({ queue: [], totalDue: 0 });
 
   const reviewStates = await prisma.reviewState.findMany({
     where: { userId },

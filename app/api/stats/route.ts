@@ -1,6 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/src/server/db";
 import { statsQuerySchema } from "@/src/lib/api-schemas";
+import { getEffectiveUserId } from "@/src/server/identity";
+
+const EMPTY = { total: 0, correct: 0, rate: 0, byPosClass: {}, activityByDay: {} };
 
 export async function GET(req: NextRequest) {
   const parsed = statsQuerySchema.safeParse(
@@ -9,35 +12,45 @@ export async function GET(req: NextRequest) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { userId } = parsed.data;
 
-  const attempts = await prisma.attempt.findMany({
-    where: { userId },
-    include: { item: { select: { type: true, posClass: true } } },
-    orderBy: { createdAt: "asc" },
-  });
+  const userId = await getEffectiveUserId(parsed.data.userId);
+  if (!userId) return NextResponse.json(EMPTY);
 
-  const total = attempts.length;
-  const correct = attempts.filter((a) => a.isCorrect).length;
-
-  // Par catégorie grammaticale.
-  const byPosClass: Record<string, { total: number; correct: number }> = {};
-  for (const a of attempts) {
-    const pc = a.item.posClass ?? "AUTRE";
-    if (!byPosClass[pc]) byPosClass[pc] = { total: 0, correct: 0 };
-    byPosClass[pc].total++;
-    if (a.isCorrect) byPosClass[pc].correct++;
-  }
-
-  // Activité par jour (7 derniers jours).
+  // Fenêtre des 7 derniers jours (jour courant inclus).
   const sevenDaysAgo = new Date();
+  sevenDaysAgo.setHours(0, 0, 0, 0);
   sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 6);
-  const recent = attempts.filter((a) => a.createdAt >= sevenDaysAgo);
+
+  // Agrégations déléguées à PostgreSQL (pas de chargement de toutes les lignes).
+  const [totals, byPos, byDay] = await Promise.all([
+    prisma.$queryRaw<{ total: number; correct: number }[]>`
+      SELECT COUNT(*)::int AS total,
+             COALESCE(SUM(CASE WHEN "isCorrect" THEN 1 ELSE 0 END), 0)::int AS correct
+      FROM "Attempt" WHERE "userId" = ${userId}`,
+    prisma.$queryRaw<{ pc: string; total: number; correct: number }[]>`
+      SELECT COALESCE(i."posClass", 'AUTRE') AS pc,
+             COUNT(*)::int AS total,
+             COALESCE(SUM(CASE WHEN a."isCorrect" THEN 1 ELSE 0 END), 0)::int AS correct
+      FROM "Attempt" a
+      JOIN "ExerciseItem" i ON i.id = a."itemId"
+      WHERE a."userId" = ${userId}
+      GROUP BY pc`,
+    prisma.$queryRaw<{ day: string; count: number }[]>`
+      SELECT to_char(a."createdAt"::date, 'YYYY-MM-DD') AS day,
+             COUNT(*)::int AS count
+      FROM "Attempt" a
+      WHERE a."userId" = ${userId} AND a."createdAt" >= ${sevenDaysAgo}
+      GROUP BY day ORDER BY day`,
+  ]);
+
+  const total = totals[0]?.total ?? 0;
+  const correct = totals[0]?.correct ?? 0;
+
+  const byPosClass: Record<string, { total: number; correct: number }> = {};
+  for (const r of byPos) byPosClass[r.pc] = { total: r.total, correct: r.correct };
+
   const activityByDay: Record<string, number> = {};
-  for (const a of recent) {
-    const day = a.createdAt.toISOString().slice(0, 10);
-    activityByDay[day] = (activityByDay[day] ?? 0) + 1;
-  }
+  for (const r of byDay) activityByDay[r.day] = r.count;
 
   return NextResponse.json({
     total,

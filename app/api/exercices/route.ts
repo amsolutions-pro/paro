@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/src/server/db";
 import { exercisesQuerySchema } from "@/src/lib/api-schemas";
+import { getEffectiveUserId } from "@/src/server/identity";
 
 export async function GET(req: NextRequest) {
   const parsed = exercisesQuerySchema.safeParse(
@@ -9,7 +10,8 @@ export async function GET(req: NextRequest) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { type, limit, userId } = parsed.data;
+  const { type, limit } = parsed.data;
+  const userId = await getEffectiveUserId(parsed.data.userId);
 
   // Items déjà tentés par cet utilisateur
   let attemptedIds: string[] = [];

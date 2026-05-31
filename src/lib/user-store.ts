@@ -17,11 +17,25 @@ function generateId() {
 
 export const useUserStore = create<UserStore>()(
   persist(
-    () => ({ userId: generateId() }),
-    { name: "paro-user" },
+    () => ({ userId: "" }),
+    {
+      name: "paro-user",
+      version: 1,
+      // Génère l'id seulement si le storage n'en contenait pas — évite que
+      // la valeur par défaut écrase une identité déjà persistée (course de
+      // réhydratation SSR/CSR).
+      onRehydrateStorage: () => (state) => {
+        if (state && !state.userId) state.userId = generateId();
+      },
+    },
   ),
 );
 
 export function getUserId(): string {
-  return useUserStore.getState().userId;
+  let id = useUserStore.getState().userId;
+  if (!id) {
+    id = generateId();
+    useUserStore.setState({ userId: id });
+  }
+  return id;
 }
