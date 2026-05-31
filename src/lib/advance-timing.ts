@@ -7,7 +7,7 @@
  */
 
 const MAX_SAMPLES = 20;
-const MIN_SAMPLES_TO_ADAPT = 5;
+const MIN_SAMPLES_TO_ADAPT = 3;
 
 interface TimingData {
   samples: number[]; // durées en millisecondes

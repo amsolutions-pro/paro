@@ -57,9 +57,13 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     let delay: number;
     if (result.correct) {
       delay = isAuth ? computeAutoDelay(userId) : 3;
-      if (isAuth) resultShownAt.current = Date.now();
+      if (isAuth) {
+        resultShownAt.current = Date.now();
+        setActiveDelay(delay);
+      }
     } else {
       delay = 7;
+      setActiveDelay(null);
     }
     setCountdown(delay);
     timerRef.current = setInterval(() => {
@@ -121,6 +125,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   }
 
   const [accordionOpen, setAccordionOpen] = useState(false);
+  const [activeDelay, setActiveDelay] = useState<number | null>(null);
 
   const type = item.type;
   const isOpen = item.gradingMode === "OPEN";
@@ -202,6 +207,11 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           )}
           <p className="text-sm mt-2 text-encre-soft leading-relaxed">{result.commentary}</p>
 
+          {isAuth && activeDelay !== null && activeDelay < 3 && (
+            <p className="mt-2 text-xs text-green-600">
+              ⚡ Délai réduit à {activeDelay} s (adapté à votre rythme)
+            </p>
+          )}
           <div className="mt-3 flex gap-2">
             {canGoBack && (
               <Button size="sm" variant="outline" onClick={() => { if (timerRef.current) clearInterval(timerRef.current); setCountdown(null); setResult(null); onBack?.(); }}>
