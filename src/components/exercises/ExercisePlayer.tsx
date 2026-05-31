@@ -114,7 +114,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           {type === "QCM" && <QcmRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {type === "TROUS" && <TrousRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {type === "ANOMALIE" && <AnomalieRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
-          {(type === "APPARIEMENT" || type === "ETYMOLOGIE" || type === "COLLOCATION") && <AppariementRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
+          {(type === "APPARIEMENT" || type === "ETYMOLOGIE" || type === "COLLOCATION") && <AppariementRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} result={result} />}
           {type === "VRAIFAUX" && <VraiFauxRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {(type === "REMPLACEMENT" || type === "TRANSFORMATION" || type === "CORRECTION" || type === "HOMOPHONIE" || type === "DEVINETTE") && <SingleInputRenderer key={item.id} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {type === "PAIRE_MINIMALE" && <PaireMinimaleRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
