@@ -2,14 +2,17 @@
  * Révision espacée — algorithme Leitner 5 boîtes + facteur SM-2 allégé.
  * Fonctions pures testées dans tests/unit/srs.test.ts.
  *
- * Intervalles par boîte (en jours) :
- *   1 → 1  |  2 → 3  |  3 → 7  |  4 → 14  |  5 → 30
+ * ⚠️  MODE TEST — intervalles en HEURES (au lieu de jours) pour valider
+ *     la dynamique du module « Mes points faibles » sans attendre plusieurs jours.
+ *     Remettre SRS_UNIT = "days" et restaurer LEITNER_INTERVALS avant la mise en prod.
  *
- * Une bonne réponse : monte dans la boîte suivante, ease augmente légèrement.
- * Une mauvaise réponse : retombe en boîte 1, lapses++, ease diminue.
+ * Intervalles par boîte (en heures, mode test) :
+ *   1 → 1h  |  2 → 3h  |  3 → 7h  |  4 → 14h  |  5 → 30h
  */
 
-export const LEITNER_INTERVALS = [0, 1, 3, 7, 14, 30] as const; // index = box
+// Passer à "days" et restaurer [0,1,3,7,14,30] pour la production.
+const SRS_UNIT: "hours" | "days" = "hours";
+export const LEITNER_INTERVALS = [0, 1, 3, 7, 14, 30] as const; // index = box (valeurs en SRS_UNIT)
 
 export interface ReviewState {
   box: number;       // 1..5
@@ -37,7 +40,7 @@ export function updateSrs(
     const newBox = Math.min(state.box + 1, MAX_BOX) as 1 | 2 | 3 | 4 | 5;
     const newEase = Math.min(state.ease + 0.1, 2.5);
     const intervalDays = LEITNER_INTERVALS[newBox];
-    const nextReview = addDays(now, intervalDays);
+    const nextReview = addInterval(now, intervalDays);
     return { box: newBox, ease: newEase, intervalDays, lapses: state.lapses, nextReview };
   } else {
     const newEase = Math.max(state.ease - 0.2, MIN_EASE);
@@ -46,7 +49,7 @@ export function updateSrs(
       ease: newEase,
       intervalDays: LEITNER_INTERVALS[1],
       lapses: state.lapses + 1,
-      nextReview: addDays(now, LEITNER_INTERVALS[1]),
+      nextReview: addInterval(now, LEITNER_INTERVALS[1]),
     };
   }
 }
@@ -81,4 +84,12 @@ function addDays(d: Date, days: number): Date {
   const r = new Date(d);
   r.setDate(r.getDate() + days);
   return r;
+}
+
+function addHours(d: Date, hours: number): Date {
+  return new Date(d.getTime() + hours * 60 * 60 * 1000);
+}
+
+function addInterval(d: Date, n: number): Date {
+  return SRS_UNIT === "hours" ? addHours(d, n) : addDays(d, n);
 }
