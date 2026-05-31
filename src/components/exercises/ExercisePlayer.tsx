@@ -15,6 +15,7 @@ import { PaireMinimaleRenderer } from "./renderers/PaireMinimaleRenderer";
 import { CategorisationRenderer } from "./renderers/CategorisationRenderer";
 import { TexteLacunaireRenderer } from "./renderers/TexteLacunaireRenderer";
 import { OpenRenderer } from "./renderers/OpenRenderer";
+import { ReecritureRenderer } from "./renderers/ReecritureRenderer";
 
 export interface ExerciseItem {
   id: string;
@@ -119,7 +120,8 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           {type === "PAIRE_MINIMALE" && <PaireMinimaleRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {type === "CATEGORISATION" && <CategorisationRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
           {type === "TEXTE_LACUNAIRE" && <TexteLacunaireRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
-          {isOpen && !["VRAIFAUX"].includes(type) && <OpenRenderer key={item.id} onSubmit={handleSubmit} disabled={!!result || submitting} />}
+          {type === "REECRITURE" && <ReecritureRenderer key={item.id} payload={item.payload} onSubmit={handleSubmit} disabled={!!result || submitting} />}
+          {isOpen && !["VRAIFAUX", "REECRITURE"].includes(type) && <OpenRenderer key={item.id} onSubmit={handleSubmit} disabled={!!result || submitting} />}
         </div>
       </Card>
 
