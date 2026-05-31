@@ -4,7 +4,13 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin("./src/lib/i18n/request.ts");
 
 const nextConfig: NextConfig = {
-  // SQLite + Prisma en dev ; rien de spécial ici pour l'instant.
+  images: {
+    remotePatterns: [
+      { protocol: "https", hostname: "lh3.googleusercontent.com" },
+      { protocol: "https", hostname: "*.fbcdn.net" },
+      { protocol: "https", hostname: "platform-lookaside.fbsbx.com" },
+    ],
+  },
 };
 
 export default withNextIntl(nextConfig);
