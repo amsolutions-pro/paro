@@ -7,8 +7,7 @@ type Status = "idle" | "sending" | "sent" | "error";
 
 export function SuggestionForm() {
   const [open, setOpen] = useState(false);
-  const [headword, setHeadword] = useState("");
-  const [context, setContext] = useState("");
+  const [description, setDescription] = useState("");
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<Status>("idle");
 
@@ -19,12 +18,11 @@ export function SuggestionForm() {
       const res = await fetch("/api/suggestions", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ headword, context, email }),
+        body: JSON.stringify({ description, email }),
       });
       if (!res.ok) throw new Error();
       setStatus("sent");
-      setHeadword("");
-      setContext("");
+      setDescription("");
       setEmail("");
     } catch {
       setStatus("error");
@@ -78,31 +76,16 @@ export function SuggestionForm() {
           </div>
 
           <div className="flex flex-col gap-1">
-            <label className="text-xs font-medium text-encre" htmlFor="sug-headword">
-              Mot(s) paronyme(s) <span className="text-red-500">*</span>
-            </label>
-            <input
-              id="sug-headword"
-              type="text"
-              required
-              placeholder="ex. : effraction / infraction"
-              value={headword}
-              onChange={(e) => setHeadword(e.target.value)}
-              className="border-grege-300 bg-grege-50 focus:border-lavande-500 rounded-lg border px-3 py-2 text-sm outline-none"
-            />
-          </div>
-
-          <div className="flex flex-col gap-1">
-            <label className="text-xs font-medium text-encre" htmlFor="sug-context">
-              Contexte ou exemple d'usage <span className="text-red-500">*</span>
+            <label className="text-xs font-medium text-encre" htmlFor="sug-description">
+              Description <span className="text-red-500">*</span>
             </label>
             <textarea
-              id="sug-context"
+              id="sug-description"
               required
-              rows={3}
-              placeholder="Phrase illustrant la confusion possible ou la nuance entre ces mots…"
-              value={context}
-              onChange={(e) => setContext(e.target.value)}
+              rows={4}
+              placeholder="Mot(s) proposé(s), exemple d'usage, nuance à expliquer…"
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
               className="border-grege-300 bg-grege-50 focus:border-lavande-500 rounded-lg border px-3 py-2 text-sm outline-none resize-none"
             />
           </div>
