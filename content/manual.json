@@ -189,7 +189,7 @@
         "headword": "éruption",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "բժշկ․ցան, ցանավորում․ արտաժայթքում",
         "definition": "Sortie soudaine et violente (lave, gaz) ; apparition rapide (boutons).",
         "origin": "du latin eruptio « action de sortir »",
         "synonyms": "explosion, jaillissement",
@@ -203,7 +203,7 @@
         "headword": "irruption",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "ներխուժում, հարձակում, ասպատակություն, արշավանք",
         "definition": "Une irruption est une entrée soudaine et impétueuse dans un lieu ou une situation. L’eschatologie est une branche de la théologie qui étudie les fins dernières de l’homme, notamment sa destinée ultime après la mort et la fin des temps. La scatologie est l’étude ou la représentation des excréments, mais également un",
         "origin": "du latin irruptio « invasion »",
         "synonyms": "intrusion, incursion",
@@ -295,7 +295,7 @@
         "headword": "prolixe",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "երկարաբան, ձգձգված, բազմախոս",
         "definition": "Le mot « prolixe » qualifie quelqu’un qui est bavard, qui parle longuement et de manière excessive, souvent sans discernement ou sans pertinence. Il est souvent utilisé pour décrire une personne qui a tendance à s’étendre sur un sujet, à parler sans fin ou à utiliser des mots superflus.",
         "synonyms": "bavard, verbeux, diffus",
         "examples": [
@@ -308,7 +308,7 @@
         "headword": "prolifique",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "բեղմնավոր, արգասավոր",
         "definition": "Le terme « prolifique » qualifie quelqu’un qui est fécond, productif ou qui produit en grande quantité. Il est souvent utilisé pour décrire des personnes qui sont extrêmement créatives ou productives dans leur domaine, produisant un grand nombre d’œuvres ou d’efforts de manière régulière.",
         "synonyms": "fécond, productif",
         "examples": [
@@ -363,7 +363,7 @@
         "headword": "infraction",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "իրավբ․խախտում, զանցառում, իրավախախտում, հանցագործություն",
         "definition": "Une infraction est le non-respect d’une loi, d’un règlement ou d’une obligation légale.",
         "synonyms": "manquement, délit",
         "examples": [
@@ -376,7 +376,7 @@
         "headword": "effraction",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "իրավբ․կոտրանք, կոտրելով բաց անելը",
         "definition": "Une effraction est l’action de forcer l’entrée dans un lieu en brisant une clôture, une porte ou une fenêtre.",
         "synonyms": "cambriolage, bris",
         "examples": [
@@ -397,7 +397,7 @@
         "headword": "absorber",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "կլանել, ներծծել",
         "definition": "Le terme « absorber » signifie laisser pénétrer un liquide ou une substance dans un matériau et le retenir à l’intérieur de celui-ci. Il est souvent utilisé pour décrire le processus par lequel un matériau absorbe un liquide, comme une éponge qui absorbe de l’eau.",
         "origin": "du latin absorbere « avaler »",
         "synonyms": "imbiber, engloutir",
@@ -411,7 +411,7 @@
         "headword": "adsorber",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "մակերեսային կլանում կատարել",
         "definition": "Le mot « adsorber » signifie retenir des particules ou des molécules à la surface d’un solide, sans les laisser pénétrer dans le matériau lui-même. Contrairement à l’absorption, où la substance pénètre dans le matériau, l’adsorption se produit à la surface du matériau.",
         "origin": "de ad- « vers » + (ab)sorber",
         "synonyms": "fixer en surface",
@@ -433,7 +433,7 @@
         "headword": "anoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ազնվական դարձնել",
         "definition": "Le terme « anoblir » signifie accorder un titre de noblesse à quelqu’un, généralement par une autorité royale ou monarchique. Il est utilisé pour décrire l’élévation sociale d’une personne au rang de noble, avec les privilèges et les droits qui y sont associés.",
         "synonyms": "élever (à la noblesse)",
         "examples": [
@@ -446,7 +446,7 @@
         "headword": "ennoblir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ազնվացնել, վեհացնել",
         "definition": "Le mot « ennoblir » signifie rendre noble moralement ou élever le caractère ou la conduite d’une personne. Il est utilisé pour décrire l’amélioration ou l’élévation de la qualité morale ou éthique d’une personne.",
         "synonyms": "grandir, élever",
         "examples": [
@@ -467,7 +467,7 @@
         "headword": "consommer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ավարտել, ավարտին հասցնել, վերջացնել, լրացնել",
         "definition": "« Consommer » signifie utiliser ou dépenser une ressource, généralement en la transformant ou en la rendant indisponible pour une utilisation future. Ce terme est souvent associé à l’action de manger de la nourriture, mais il peut également être utilisé dans un sens plus général pour décrire l’utilisation de tout type de ressource.",
         "synonyms": "dépenser, utiliser",
         "examples": [
@@ -480,7 +480,7 @@
         "headword": "consumer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "կլանել, ոչնչացնել, այրել // փխբ․ հյուծել, հալումաշ անել",
         "definition": "« Consumer » signifie détruire ou utiliser complètement quelque chose, souvent par le feu. Au sens figuré, il peut également signifier être consumé par une émotion ou un état mental, au point d’être détruit ou épuisé par cela.",
         "synonyms": "brûler, ronger",
         "examples": [
@@ -501,7 +501,7 @@
         "headword": "addition",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "հավելում // մաթ․ գումարում, գումար // խսկց․ հաշիվ",
         "definition": "Opération arithmétique consistant à réunir plusieurs nombres en une seule quantité (la somme). Par extension, c'est la note à payer au restaurant ou le résultat d'un assemblage.",
         "origin": "du latin additio « action d'ajouter »",
         "synonyms": "ajout, somme",
@@ -515,7 +515,7 @@
         "headword": "adduction",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "բժշկ․ մոտեցնող շարժում (մկանի), մերձեցում // տեխ․ մատակարարում, սնուցում․ adduction d’eau  ջրամատակարարում",
         "definition": "Mouvement qui rapproche un membre ou un segment de membre de l'axe médian du corps (contraire: abduction). Action d'amener de l'eau ou un fluide vers un lieu d'utilisation.",
         "origin": "du latin adductio « action d'amener vers »",
         "synonyms": "acheminement",
@@ -529,7 +529,7 @@
         "headword": "addiction",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "կախվածություն",
         "definition": "Dépendance très forte et aliénante à une substance (drogue, tabac, alcool) ou à une activité (jeu, écran), caractérisée par la perte de contrôle et la poursuite de l'usage malgré la connaissance des conséquences négatives.",
         "origin": "du latin addictus « livré, asservi »",
         "synonyms": "dépendance, accoutumance",
@@ -564,7 +564,7 @@
         "headword": "desceller",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "կնիքը բացել, քանդել",
         "definition": "« Desceller » signifie ouvrir quelque chose qui était scellé ou fermé, généralement en brisant ou en retirant le sceau ou le cachet qui le maintenait fermé. C’est le processus de libérer ce qui était précédemment fermé ou confiné.",
         "synonyms": "arracher, défaire",
         "examples": [
@@ -723,7 +723,7 @@
         "headword": "septique",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "բժշկ․ սեպտիկ, նեխային",
         "definition": "Le mot « septique » qualifie quelque chose qui est contaminé par des agents pathogènes ou des bactéries, souvent dans le contexte d’une infection ou d’une contamination. Il est généralement utilisé pour décrire des environnements, des substances ou des objets qui présentent un risque pour la santé en raison de leur contamination.",
         "synonyms": "infecté, contaminé",
         "examples": [
@@ -736,7 +736,7 @@
         "headword": "sceptique",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "թերահավատ, սկեպտիկ",
         "definition": "Le terme « sceptique » qualifie quelqu’un qui doute ou qui remet en question Une idée, une théorie ou une croyance. Il est souvent utilisé pour décrire une personne qui adopte une attitude de scepticisme face à une affirmation ou à une proposition, cherchant des preuves ou des arguments solides avant de les accepter.",
         "synonyms": "incrédule, dubitatif",
         "examples": [
@@ -827,7 +827,7 @@
         "headword": "répartir",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "բաշխել, բաժանել // տեղաբաշխել, դասավորել // դասակարգել",
         "definition": "Repartir a deux significations distinctes : partir à nouveau, quitter un lieu pour y retourner ou entamer un nouveau voyage (sens intransitif) ; ou répondre vivement, avec vivacité ou colère, à une provocation (sens transitif, littéraire).",
         "synonyms": "distribuer, partager",
         "examples": [
@@ -840,7 +840,7 @@
         "headword": "repartir",
         "category": "v. intr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "բաշխել, բաժանել // տեղաբաշխել, դասավորել // դասակարգել",
         "definition": "Repartir a deux significations distinctes : partir à nouveau, quitter un lieu pour y retourner ou entamer un nouveau voyage (sens intransitif) ; ou répondre vivement, avec vivacité ou colère, à une provocation (sens transitif, littéraire).",
         "synonyms": "repartir, reprendre",
         "examples": [
@@ -861,7 +861,7 @@
         "headword": "allusion",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "ակնարկ",
         "definition": "Une allusion est une référence indirecte à quelque chose, souvent faite de manière subtile ou implicite, sans la mention explicite de ce dont il est question.",
         "synonyms": "sous-entendu, insinuation",
         "examples": [
@@ -874,7 +874,7 @@
         "headword": "illusion",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "պատրանք, ցնորք, մոլորություն, խաբկանք",
         "definition": "Une illusion est une perception fausse ou trompeuse de la réalité, une erreur d’interprétation des sens qui peut conduire à croire en quelque chose qui n’existe pas réellement.",
         "synonyms": "leurre, mirage",
         "examples": [
@@ -895,7 +895,7 @@
         "headword": "décade",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "տասնօրյակ (դեկադա)",
         "definition": "Une décade est une période de dix jours, souvent utilisée dans certains systèmes de calendrier ou de planification.",
         "synonyms": "dizaine de jours",
         "examples": [
@@ -908,7 +908,7 @@
         "headword": "décennie",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "տասնամյակ",
         "definition": "Une décennie est une période de dix années, souvent utilisée pour décrire une époque ou une période spécifique.",
         "synonyms": "dizaine d'années",
         "examples": [
@@ -929,7 +929,7 @@
         "headword": "crédule",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "դյուրահավատ, միամիտ",
         "definition": "Crédule signifie naïf, facilement influençable ou disposé à croire facilement ce que les autres disent, souvent sans preuve ou sans discernement. Ce terme est utilisé pour décrire une personne qui croit facilement aux choses, même si elles sont peu plausibles ou peu crédibles.",
         "synonyms": "naïf, candide",
         "examples": [
@@ -942,7 +942,7 @@
         "headword": "crédible",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "հավաստի, վստահելի",
         "definition": "Crédible qualifie ce qui est digne de foi, ce qui est plausible, convaincant ou vraisemblable. Ce terme est utilisé pour décrire des informations, des arguments ou des témoignages qui sont considérés comme dignes de confiance ou dignes de foi.",
         "synonyms": "vraisemblable, plausible",
         "examples": [
@@ -1065,7 +1065,7 @@
         "headword": "session",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "նստաշրջան, նիստ․ քննաշրջան",
         "definition": "Une session est une période pendant laquelle un groupe est réuni pour une activité spécifique, comme une réunion, une classe, une assemblée ou un examen.",
         "origin": "du latin sessio « action de s'asseoir »",
         "synonyms": "séance, réunion",
@@ -1079,7 +1079,7 @@
         "headword": "cession",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "իրավբ․ զիջում, հանձնում, փոխանցում, ուրիշին թողնելը",
         "definition": "La cession désigne l’action de céder quelque chose, de transférer des droits, des biens ou des responsabilités à quelqu’un d’autre. Il est souvent utilisé dans des contextes commerciaux ou juridiques.",
         "origin": "du latin cessio « action de céder »",
         "synonyms": "transfert, vente",
@@ -1101,7 +1101,7 @@
         "headword": "oppresser",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "բժշկ․ ճնշել, ընկճել, տագնապահարել",
         "definition": "Oppresser signifie étouffer ou exercer une pression intense sur quelque chose, souvent au sens physique ou émotionnel. Ce terme est utilisé pour décrire une action qui restreint ou limite la liberté, la respiration ou le bien-être d’une personne, d’un groupe ou d’un objet.",
         "synonyms": "accabler, étouffer",
         "examples": [
@@ -1114,7 +1114,7 @@
         "headword": "opprimer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "կեղեքել, ճնշել, շահագործել, հարստահարել",
         "definition": "Opprimer signifie soumettre à une autorité excessive et injuste, souvent dans un contexte politique, social ou économique. Ce terme est utilisé pour décrire une action qui réprime, exploite ou abuse d’un individu, d’un groupe ou d’une population, en les privant de leurs droits, de leur liberté ou de leurs ressources.",
         "synonyms": "tyranniser, asservir",
         "examples": [
@@ -1135,7 +1135,7 @@
         "headword": "évoquer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "ոգեկոչել, կանչել // փխբ․ վկայակոչել, հիշատակել",
         "definition": "« Évoquer » signifie rappeler à la mémoire quelque chose ou quelqu’un, souvent en évoquant des souvenirs, des sentiments ou des sensations. Cela implique de faire surgir des pensées ou des émotions en relation avec quelque chose de passé ou de présent.",
         "synonyms": "rappeler, mentionner",
         "examples": [
@@ -1148,7 +1148,7 @@
         "headword": "invoquer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "խնդրել, աղերսել, թախանձել // վկայակոչել",
         "definition": "« Invoquer » signifie appeler ou solliciter quelque chose, souvent une force surnaturelle, une divinité ou une autorité supérieure, pour obtenir de l’aide, du soutien ou une protection. Cela implique de faire appel à quelque chose de sacré ou de transcendant.",
         "synonyms": "alléguer, en appeler à",
         "examples": [
@@ -1182,7 +1182,7 @@
         "headword": "défenseur",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "պաշտպան, կողմնակից, ռազմ. պաշտպան // իրավ դատապաշտպան, հովանավոր",
         "definition": "Le défenseur est celui qui défend un intérêt, une cause, ou une personne.",
         "synonyms": "avocat, protecteur",
         "examples": [
@@ -1203,7 +1203,7 @@
         "headword": "perpétrer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "կատարել, գործել",
         "definition": "Perpétrer signifie commettre un acte criminel, souvent avec l’intention de causer des dommages, de l’injustice ou du mal à autrui. Ce terme est utilisé pour décrire une action illégale ou immorale, telle qu’un crime ou un délit, qui viole les normes sociales ou les lois établies.",
         "synonyms": "commettre, accomplir",
         "examples": [
@@ -1216,7 +1216,7 @@
         "headword": "perpétuer",
         "category": "v. tr.",
         "posClass": "VERBE",
-        "translationHy": "",
+        "translationHy": "հավերժացնել, հավիտենականացնել, անմահացնել",
         "definition": "Perpétuer signifie prolonger ou maintenir quelque chose dans le temps, souvent dans le but de préserver une tradition, une idée ou une pratique. Ce terme est utilisé pour décrire une action qui vise à garantir la continuité ou la survie de quelque chose au fil du temps.",
         "synonyms": "transmettre, prolonger",
         "examples": [
@@ -1305,7 +1305,7 @@
         "headword": "âpre",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "տտիպ // ծակող (froid դարձնել հայերեն ). սուր (vent) // առևտր․ դաժան (concurrence) //",
         "definition": "Âpre qualifie ce qui est rude, dur ou désagréable au toucher, au goût ou dans ses caractéristiques générales. Cela peut également décrire des attitudes ou des comportements qui sont durs, stricts ou rigides, souvent associés à la difficulté ou à la sévérité.",
         "synonyms": "rude, acharné",
         "examples": [
@@ -1318,7 +1318,7 @@
         "headword": "âcre",
         "category": "adj.",
         "posClass": "ADJECTIF",
-        "translationHy": "",
+        "translationHy": "կծու, կսկծացնող // փխբ․ կծու, սուր, բարկ",
         "definition": "Âcre qualifie une sensation forte et piquante, généralement associée à une odeur ou à une saveur qui irrite les sens, particulièrement en provoquant une sensation de brûlure ou de picotement à la gorge. Cette sensation est souvent perçue comme désagréable.",
         "synonyms": "irritant, piquant",
         "examples": [
@@ -1373,7 +1373,7 @@
         "headword": "conservation",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "պահում, պահելը, պահպանում, պահպանելը",
         "definition": "La conservation se réfère à l’action ou au processus de maintien de quelque chose dans son état actuel, que ce soit des objets, des documents, des aliments, ou des ressources naturelles.",
         "synonyms": "préservation, maintien",
         "examples": [
@@ -1386,7 +1386,7 @@
         "headword": "conversation",
         "category": "n. f.",
         "posClass": "NOM_F",
-        "translationHy": "",
+        "translationHy": "զրույց, խոսակցություն",
         "definition": "Une conversation désigne une discussion entre deux personnes ou plus, généralement sur des sujets variés, allant de la banalité à des thèmes plus profonds.",
         "synonyms": "discussion, entretien",
         "examples": [
@@ -1577,7 +1577,7 @@
         "headword": "excès",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "ավելցուկ, գերառատություն, չափազանցություն",
         "definition": "Un excès se réfère au dépassement d’une quantité, d’une limite ou d’une mesure normale, souvent associé à quelque chose de trop ou en surplus.",
         "synonyms": "dépassement, abus",
         "examples": [
@@ -1590,7 +1590,7 @@
         "headword": "accès",
         "category": "n. m.",
         "posClass": "NOM_M",
-        "translationHy": "",
+        "translationHy": "մուտք, մոտենալու հնարավորություն, բժշկ. նոպա, փխբ. պոռթկում, բռնկում",
         "definition": "Un accès désigne un moyen ou un passage permettant d’entrer ou de sortir d’un lieu ou d’atteindre quelque chose.",
         "synonyms": "entrée, crise",
         "examples": [

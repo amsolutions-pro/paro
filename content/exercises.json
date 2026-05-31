@@ -2672,8 +2672,8 @@
     "prompt": "Un ……… spécialiste de la langue française.",
     "payload": {
       "bank": [
-        "éminent",
-        "imminent"
+        "imminent",
+        "éminent"
       ],
       "blanksCount": 1
     },
@@ -4385,8 +4385,8 @@
     "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
     "payload": {
       "pair": [
-        "conjoncture",
-        "conjecture"
+        "conjecture",
+        "conjoncture"
       ],
       "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples ………s."
     },
@@ -5738,8 +5738,8 @@
         {
           "n": 2,
           "options": [
-            "imminence",
-            "éminence"
+            "éminence",
+            "imminence"
           ]
         },
         {
@@ -5791,8 +5791,8 @@
         {
           "n": 3,
           "options": [
-            "irruption",
-            "éruption"
+            "éruption",
+            "irruption"
           ]
         }
       ]
@@ -5837,8 +5837,8 @@
         {
           "n": 3,
           "options": [
-            "prolixe",
-            "prolifique"
+            "prolifique",
+            "prolixe"
           ]
         }
       ]
@@ -5876,8 +5876,8 @@
         {
           "n": 2,
           "options": [
-            "effraction",
-            "infraction"
+            "infraction",
+            "effraction"
           ]
         },
         {
@@ -5915,15 +5915,15 @@
         {
           "n": 1,
           "options": [
-            "ennoblir",
-            "anoblir"
+            "anoblir",
+            "ennoblir"
           ]
         },
         {
           "n": 2,
           "options": [
-            "consumer",
-            "consommer"
+            "consommer",
+            "consumer"
           ]
         },
         {
@@ -5961,8 +5961,8 @@
         {
           "n": 1,
           "options": [
-            "déceler",
-            "desceller"
+            "desceller",
+            "déceler"
           ]
         },
         {
@@ -5975,8 +5975,8 @@
         {
           "n": 3,
           "options": [
-            "proscription",
-            "prescription"
+            "prescription",
+            "proscription"
           ]
         }
       ]
@@ -6007,15 +6007,15 @@
         {
           "n": 1,
           "options": [
-            "spacieux",
-            "spécieux"
+            "spécieux",
+            "spacieux"
           ]
         },
         {
           "n": 2,
           "options": [
-            "percepteur",
-            "précepteur"
+            "précepteur",
+            "percepteur"
           ]
         },
         {
@@ -6053,8 +6053,8 @@
         {
           "n": 1,
           "options": [
-            "immigrer",
-            "émigrer"
+            "émigrer",
+            "immigrer"
           ]
         },
         {
@@ -6067,8 +6067,8 @@
         {
           "n": 3,
           "options": [
-            "répartir",
-            "repartir"
+            "repartir",
+            "répartir"
           ]
         }
       ]
@@ -6099,15 +6099,15 @@
         {
           "n": 1,
           "options": [
-            "illusion",
-            "allusion"
+            "allusion",
+            "illusion"
           ]
         },
         {
           "n": 2,
           "options": [
-            "décennie",
-            "décade"
+            "décade",
+            "décennie"
           ]
         },
         {
