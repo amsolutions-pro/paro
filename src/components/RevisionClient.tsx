@@ -5,6 +5,7 @@ import { getUserId } from "@/src/lib/user-store";
 import { ExercisePlayer } from "@/src/components/exercises/ExercisePlayer";
 import { Card } from "@/src/components/ui/Card";
 import { Badge } from "@/src/components/ui/Badge";
+import { BuildInfo } from "@/src/components/ui/BuildInfo";
 
 interface QueueEntry {
   groupId: string;
@@ -76,7 +77,10 @@ export function RevisionClient() {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-3">
-        <h1 className="font-serif text-3xl font-bold">Mes points faibles</h1>
+        <div className="flex items-baseline gap-3">
+          <h1 className="font-serif text-3xl font-bold">Mes points faibles</h1>
+          <BuildInfo />
+        </div>
         {totalDue > 0 ? (
           <p className="text-encre-soft text-sm">
             <strong>{totalDue}</strong> paire{totalDue > 1 ? "s" : ""} à réviser aujourd&apos;hui.

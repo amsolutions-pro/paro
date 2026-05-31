@@ -4,20 +4,22 @@ import { execSync } from "child_process";
 
 const withNextIntl = createNextIntlPlugin("./src/lib/i18n/request.ts");
 
-function getCommitSha(): string {
-  if (process.env.VERCEL_GIT_COMMIT_SHA) {
-    return process.env.VERCEL_GIT_COMMIT_SHA.slice(0, 7);
-  }
+function getCommitCount(): number {
   try {
-    return execSync("git rev-parse --short HEAD").toString().trim();
+    return parseInt(execSync("git rev-list --count HEAD").toString().trim(), 10);
   } catch {
-    return "dev";
+    return 0;
   }
+}
+
+function getAppVersion(): string {
+  const count = getCommitCount();
+  return `0.${count}.0`;
 }
 
 const nextConfig: NextConfig = {
   env: {
-    NEXT_PUBLIC_COMMIT_SHA: getCommitSha(),
+    NEXT_PUBLIC_APP_VERSION: getAppVersion(),
   },
   images: {
     remotePatterns: [

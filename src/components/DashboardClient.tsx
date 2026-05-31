@@ -14,6 +14,7 @@ import {
 } from "recharts";
 import { getUserId } from "@/src/lib/user-store";
 import { Card } from "@/src/components/ui/Card";
+import { BuildInfo } from "@/src/components/ui/BuildInfo";
 
 interface Stats {
   total: number;
@@ -54,7 +55,10 @@ export function DashboardClient() {
 
   return (
     <div className="flex flex-col gap-6">
-      <h1 className="font-serif text-3xl font-bold">Tableau de bord</h1>
+      <div className="flex items-baseline gap-3">
+        <h1 className="font-serif text-3xl font-bold">Tableau de bord</h1>
+        <BuildInfo />
+      </div>
 
       {/* KPIs */}
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
