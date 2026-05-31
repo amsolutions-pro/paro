@@ -2,7 +2,10 @@
 
 import { useState, useEffect, useRef } from "react";
 import { getUserId } from "@/src/lib/user-store";
-import { addTimingSample, computeAutoDelay, clearTimingSamples } from "@/src/lib/advance-timing";
+import {
+  addTimingSample, computeAutoDelay, clearTimingSamples,
+  addIncorrectTimingSample, computeIncorrectAutoDelay, clearIncorrectTimingSamples,
+} from "@/src/lib/advance-timing";
 import { Button } from "@/src/components/ui/Button";
 import { Card } from "@/src/components/ui/Card";
 
@@ -58,13 +61,12 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     let delay: number;
     if (result.correct) {
       delay = isAuthed ? computeAutoDelay(userId) : 3;
-      if (isAuthed) {
-        resultShownAt.current = Date.now();
-        setActiveDelay(delay);
-      }
     } else {
-      delay = 7;
-      setActiveDelay(null);
+      delay = isAuthed ? computeIncorrectAutoDelay(userId) : 6;
+    }
+    if (isAuthed) {
+      resultShownAt.current = Date.now();
+      setActiveDelay(delay);
     }
     setCountdown(delay);
     timerRef.current = setInterval(() => {
@@ -119,8 +121,10 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
 
   // Appel explicite par le bouton (jamais par le timer) — enregistre le timing.
   function handleManualNext() {
-    if (isAuthed && result?.correct && !noAutoAdvance && resultShownAt.current !== null) {
-      addTimingSample(userId, Date.now() - resultShownAt.current);
+    if (isAuthed && !noAutoAdvance && resultShownAt.current !== null) {
+      const elapsed = Date.now() - resultShownAt.current;
+      if (result?.correct) addTimingSample(userId, elapsed);
+      else if (!isOpen) addIncorrectTimingSample(userId, elapsed);
     }
     handleNext();
   }
@@ -209,8 +213,11 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
           )}
           <p className="text-sm mt-2 text-encre-soft leading-relaxed">{result.commentary}</p>
 
-          {isAuthed && activeDelay !== null && activeDelay < 3 && (
-            <p className="mt-2 text-xs text-green-600">
+          {isAuthed && activeDelay !== null && (
+            (result?.correct && activeDelay < 3) ||
+            (!result?.correct && activeDelay < 6)
+          ) && (
+            <p className={`mt-2 text-xs ${result?.correct ? "text-green-600" : "text-amber-600"}`}>
               ⚡ Délai réduit à {activeDelay} s (adapté à votre rythme)
             </p>
           )}
@@ -220,7 +227,10 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
                 if (timerRef.current) clearInterval(timerRef.current);
                 setCountdown(null);
                 setResult(null);
-                if (isAuthed && result?.correct) clearTimingSamples(userId);
+                if (isAuthed) {
+                  if (result?.correct) clearTimingSamples(userId);
+                  else if (!isOpen) clearIncorrectTimingSamples(userId);
+                }
                 onBack?.();
               }}>
                 ← Retour
