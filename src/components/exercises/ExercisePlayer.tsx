@@ -48,7 +48,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   // Demarre le compte a rebours apres une reponse (sauf en mode revision)
   useEffect(() => {
     if (!result || noAutoAdvance) return;
-    const delay = result.correct ? 1 : 3;
+    const delay = result.correct ? 3 : 7;
     setCountdown(delay);
     timerRef.current = setInterval(() => {
       setCountdown((c) => {
