@@ -17,7 +17,7 @@ const SECTIONS = [
   },
   {
     title: "Paronymes en contexte bilingue français–arménien",
-    body: `Pour un apprenant arménophone, la difficulté est double : il faut d'abord distinguer deux formes françaises proches, puis associer à chacune la traduction correcte. Or certaines paires françaises correspondent à deux termes arméniens phonétiquement distincts (éminent : ականavоr ; imminent : մоталут), tandis que d'autres n'ont qu'un seul équivalent arménien — ce qui masque la distinction et favorise la confusion. C'est pourquoi ce dictionnaire indique systématiquement les deux traductions.`,
+    body: `Pour un apprenant arménophone, la difficulté est double : il faut d'abord distinguer deux formes françaises proches, puis associer à chacune la traduction correcte. Or certaines paires françaises correspondent à deux termes arméniens phonétiquement distincts (éminent : ականավոր ; imminent : մոտալուտ), tandis que d'autres n'ont qu'un seul équivalent arménien — ce qui masque la distinction et favorise la confusion. C'est pourquoi ce dictionnaire indique systématiquement les deux traductions.`,
   },
 ];
 
