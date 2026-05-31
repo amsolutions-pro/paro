@@ -55,9 +55,9 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
 
   const userId = getUserId();
 
-  // Demarre le compte a rebours apres une reponse (sauf en mode revision)
+  // Demarre le compte a rebours apres une reponse.
   useEffect(() => {
-    if (!result || noAutoAdvance) return;
+    if (!result) return;
     let delay: number;
     if (result.correct) {
       delay = isAuthed ? computeAutoDelay(userId) : 3;
@@ -81,10 +81,10 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     return () => { if (timerRef.current) clearInterval(timerRef.current); };
   }, [result, noAutoAdvance]);
 
-  // Passage automatique quand le compte atteint null apres avoir ete demarre
+  // Passage automatique quand le compte atteint null — désactivé en mode révision.
   const countdownJustExpired = useRef(false);
   useEffect(() => {
-    if (result && countdown === null && countdownJustExpired.current) {
+    if (!noAutoAdvance && result && countdown === null && countdownJustExpired.current) {
       countdownJustExpired.current = false;
       handleNext();
     }
