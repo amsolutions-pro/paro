@@ -75,11 +75,20 @@ function buildLetterBuckets(counts: Record<string, number>): { label: string; le
   return buckets;
 }
 
-const EXPAND_THRESHOLD = 200;
+// ~68 caractères par ligne dans le conteneur habituel.
+// line-clamp-5 montre ~5 lignes. On n'affiche le bouton que si au moins 3 lignes
+// supplémentaires sont cachées (soit > 8 lignes au total).
+const CHARS_PER_LINE = 68;
+const VISIBLE_LINES = 5;
+const MIN_EXTRA_LINES = 3;
+const EXPAND_THRESHOLD = (VISIBLE_LINES + MIN_EXTRA_LINES) * CHARS_PER_LINE; // ≈ 544
 
 function ExpandableText({ text, className }: { text: string; className?: string }) {
   const [expanded, setExpanded] = useState(false);
   const isLong = text.length > EXPAND_THRESHOLD;
+  const extraLines = isLong
+    ? Math.round((text.length - VISIBLE_LINES * CHARS_PER_LINE) / CHARS_PER_LINE)
+    : 0;
   return (
     <span>
       <span className={!expanded && isLong ? "line-clamp-5" : className}>
@@ -91,7 +100,7 @@ function ExpandableText({ text, className }: { text: string; className?: string 
           onClick={() => setExpanded((e) => !e)}
           className="block text-lavande-600 hover:underline text-xs mt-0.5"
         >
-          {expanded ? "Voir moins ▲" : "Voir plus ▼"}
+          {expanded ? "Voir moins ▲" : `Voir ${extraLines} lignes de plus ▼`}
         </button>
       )}
     </span>
