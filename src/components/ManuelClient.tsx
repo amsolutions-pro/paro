@@ -29,15 +29,13 @@ interface Group {
 }
 
 /**
- * Construit les boutons de navigation alphabétique à partir des comptages réels.
+ * Regroupe les lettres de façon à ce que chaque bouton représente environ
+ * TARGET fiches — comme une pagination alphabétique.
  * - Lettres sans fiches : masquées.
- * - Lettres consécutives avec peu de fiches (≤ SPARSE_THRESHOLD chacune) :
- *   regroupées en un seul bouton "X-Z" qui filtre sur chacune séparément
- *   (l'utilisateur voit "F-G", clique → affiche toutes les fiches F+G).
- *
- * Retourne une liste de { label, letters[] }.
+ * - Une lettre seule ≥ TARGET obtient son propre bouton.
+ * - Les petites lettres consécutives s'accumulent jusqu'à atteindre TARGET.
  */
-const SPARSE_THRESHOLD = 3;
+const BUCKET_TARGET = 10;
 
 function buildLetterBuckets(counts: Record<string, number>): { label: string; letters: string[] }[] {
   const present = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -45,29 +43,33 @@ function buildLetterBuckets(counts: Record<string, number>): { label: string; le
     .filter((l) => (counts[l] ?? 0) > 0);
 
   const buckets: { label: string; letters: string[] }[] = [];
-  let i = 0;
-  while (i < present.length) {
-    const l = present[i];
+  let current: string[] = [];
+  let currentCount = 0;
+
+  function emit() {
+    if (current.length === 0) return;
+    const label = current.length === 1
+      ? current[0]
+      : `${current[0]}-${current[current.length - 1]}`;
+    buckets.push({ label, letters: [...current] });
+    current = [];
+    currentCount = 0;
+  }
+
+  for (const l of present) {
     const n = counts[l] ?? 0;
-    if (n <= SPARSE_THRESHOLD) {
-      // Commence un groupe sparse
-      const group: string[] = [l];
-      let j = i + 1;
-      while (j < present.length && (counts[present[j]] ?? 0) <= SPARSE_THRESHOLD) {
-        group.push(present[j]);
-        j++;
-      }
-      if (group.length === 1) {
-        buckets.push({ label: l, letters: group });
-      } else {
-        buckets.push({ label: `${group[0]}-${group[group.length - 1]}`, letters: group });
-      }
-      i = j;
-    } else {
+    if (n >= BUCKET_TARGET) {
+      // Grande lettre : émet le bucket en cours, puis émet cette lettre seule
+      emit();
       buckets.push({ label: l, letters: [l] });
-      i++;
+    } else {
+      current.push(l);
+      currentCount += n;
+      if (currentCount >= BUCKET_TARGET) emit();
     }
   }
+  emit(); // reste éventuel
+
   return buckets;
 }
 
