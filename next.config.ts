@@ -1,20 +1,22 @@
 import type { NextConfig } from "next";
 import createNextIntlPlugin from "next-intl/plugin";
-import { execSync } from "child_process";
+import { readFileSync } from "fs";
 
 const withNextIntl = createNextIntlPlugin("./src/lib/i18n/request.ts");
 
-function getCommitCount(): number {
-  try {
-    return parseInt(execSync("git rev-list --count HEAD").toString().trim(), 10);
-  } catch {
-    return 0;
-  }
-}
-
+/**
+ * Version lue depuis package.json — fiable partout, y compris sur Vercel.
+ * (On n'utilise PAS `git rev-list` : Vercel clone en shallow, le compte de
+ * commits y est tronqué et resterait figé.)
+ * À bumper à chaque livraison dans package.json → "version".
+ */
 function getAppVersion(): string {
-  const count = getCommitCount();
-  return `0.${count}.0`;
+  try {
+    const pkg = JSON.parse(readFileSync("./package.json", "utf8")) as { version?: string };
+    return pkg.version ?? "0.0.0";
+  } catch {
+    return "0.0.0";
+  }
 }
 
 const nextConfig: NextConfig = {
