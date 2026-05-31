@@ -5,6 +5,7 @@ import { Badge } from "@/src/components/ui/Badge";
 import { Card } from "@/src/components/ui/Card";
 import { SuggestionForm } from "@/src/components/SuggestionForm";
 import { BuildInfo } from "@/src/components/ui/BuildInfo";
+import { trackDictView } from "@/src/lib/onboarding";
 
 interface Word {
   id: string;
@@ -284,7 +285,6 @@ export function ManuelClient() {
       const next = new Set(prev);
       if (next.has(id)) {
         next.delete(id);
-        // Ferme aussi les exemples quand on replie le groupe
         setGroupsWithExamples((prevEx) => {
           const nextEx = new Set(prevEx);
           nextEx.delete(id);
@@ -292,6 +292,7 @@ export function ManuelClient() {
         });
       } else {
         next.add(id);
+        trackDictView();
       }
       return next;
     });
@@ -324,7 +325,7 @@ export function ManuelClient() {
   return (
     <div className="flex flex-col gap-6">
       <div className="flex items-baseline gap-3">
-        <h1 className="font-serif text-3xl font-bold">Manuel des paronymes</h1>
+        <h1 className="font-serif text-3xl font-bold">Dictionnaire des paronymes</h1>
         <BuildInfo />
       </div>
 
@@ -340,7 +341,7 @@ export function ManuelClient() {
             if (e.target.value) setActiveBucket(null);
           }}
           className="border-grege-300 bg-grege-50 focus:border-lavande-500 w-full rounded-lg border px-3 py-2 text-sm outline-none sm:max-w-xs"
-          aria-label="Rechercher dans le manuel"
+          aria-label="Rechercher dans le dictionnaire"
         />
         <span className="text-encre-soft text-sm">
           {total} fiche{total !== 1 ? "s" : ""}

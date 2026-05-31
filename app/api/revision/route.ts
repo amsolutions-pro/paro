@@ -11,7 +11,7 @@ export async function GET(req: NextRequest) {
   if (!parsed.success) {
     return NextResponse.json({ error: parsed.error.flatten() }, { status: 400 });
   }
-  const { limit } = parsed.data;
+  const { limit, all } = parsed.data;
   const userId = await getEffectiveUserId(parsed.data.userId);
   if (!userId) return NextResponse.json({ queue: [], totalDue: 0, totalTracked: 0, nextReviewAt: null });
 
@@ -36,13 +36,19 @@ export async function GET(req: NextRequest) {
         rs.nextReview < min ? rs.nextReview : min, notDue[0].nextReview)
     : null;
 
-  // Tri par priorité — on trie les ReviewState directement pour garder groupId.
-  const sortedDue = [...due].sort((a, b) => {
-    if (b.lapses !== a.lapses) return b.lapses - a.lapses;
-    return a.nextReview.getTime() - b.nextReview.getTime();
-  });
+  // Tri par priorité (lapses desc, nextReview asc).
+  const sortByPrio = (arr: typeof reviewStates) =>
+    [...arr].sort((a, b) => {
+      if (b.lapses !== a.lapses) return b.lapses - a.lapses;
+      return a.nextReview.getTime() - b.nextReview.getTime();
+    });
 
-  const topGroups = sortedDue.slice(0, limit).map((rs) => ({
+  // Mode "tout réviser" : toutes les paires suivies, dues en premier.
+  const sortedStates = all
+    ? [...sortByPrio(due), ...sortByPrio(notDue)]
+    : sortByPrio(due).slice(0, limit);
+
+  const topGroups = sortedStates.map((rs) => ({
     groupId: rs.groupId,
     groupTitle: rs.group.title,
     box: rs.box,

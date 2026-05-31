@@ -679,21 +679,16 @@
     "slug": "reecriture-1",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « venimeux » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "La vipère venimeuse a mordu le promeneur imprudent.",
-      "mot_souligne": "venimeux",
-      "indice": "Se dit d'un animal qui injecte du venin par morsure ou piqûre."
+      "source": "La vipère venimeuse a mordu le promeneur imprudent.",
+      "target": "vénéneux"
     },
     "solution": {
-      "paronyme_attendu": "vénéneux",
-      "reponses_acceptees": [
-        "vénéneux"
-      ],
-      "corrige": "Le champignon vénéneux a intoxiqué le promeneur imprudent.",
-      "explication": "*Venimeux* se dit d'un organisme qui injecte du venin (serpent, araignée) ; *vénéneux*, de ce qui empoisonne par ingestion (plante, champignon)."
+      "model": "Le champignon vénéneux a intoxiqué le promeneur.",
+      "note": "vénéneux = toxique par ingestion, et non par morsure."
     },
-    "commentary": "Corrigé : Le champignon vénéneux a intoxiqué le promeneur imprudent.\n\n*Venimeux* se dit d'un organisme qui injecte du venin (serpent, araignée) ; *vénéneux*, de ce qui empoisonne par ingestion (plante, champignon).",
+    "commentary": "vénéneux — « Le champignon vénéneux a intoxiqué le promeneur. » (toxique par ingestion).",
     "groupSlug": "veneneux-venimeux",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -704,21 +699,16 @@
     "slug": "reecriture-2",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « répartir » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "Le notaire a réparti les biens entre les héritiers.",
-      "mot_souligne": "répartir",
-      "indice": "Distribuer, partager entre plusieurs personnes."
+      "source": "Le notaire a réparti les biens entre les héritiers.",
+      "target": "repartir"
     },
     "solution": {
-      "paronyme_attendu": "repartir",
-      "reponses_acceptees": [
-        "repartir"
-      ],
-      "corrige": "Les héritiers ont reparti aussitôt après la lecture du testament.",
-      "explication": "*Répartir* (accent) = distribuer, partager ; *repartir* (sans accent) = partir de nouveau."
+      "model": "Après une courte halte, les randonneurs sont repartis vers le sommet.",
+      "note": "repartir = partir de nouveau."
     },
-    "commentary": "Corrigé : Les héritiers ont reparti aussitôt après la lecture du testament.\n\n*Répartir* (accent) = distribuer, partager ; *repartir* (sans accent) = partir de nouveau.",
+    "commentary": "repartir — « Après une courte halte, les randonneurs sont repartis vers le sommet. »",
     "groupSlug": "repartir-repartir-accent",
     "posClass": "VERBE",
     "source": "manuel",
@@ -729,21 +719,16 @@
     "slug": "reecriture-3",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « littéral » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "Il a proposé une traduction littérale du contrat.",
-      "mot_souligne": "littéral",
-      "indice": "Qui correspond exactement au sens premier des mots, sans interprétation."
+      "source": "Il a proposé une traduction littérale du contrat.",
+      "target": "littéraire"
     },
     "solution": {
-      "paronyme_attendu": "littéraire",
-      "reponses_acceptees": [
-        "littéraire"
-      ],
-      "corrige": "Il a proposé une analyse littéraire du roman.",
-      "explication": "*Littéral* = pris au sens propre des mots ; *littéraire* = relatif à la littérature."
+      "model": "Elle se destine à des études littéraires.",
+      "note": "littéraire = relatif à la littérature."
     },
-    "commentary": "Corrigé : Il a proposé une analyse littéraire du roman.\n\n*Littéral* = pris au sens propre des mots ; *littéraire* = relatif à la littérature.",
+    "commentary": "littéraire — « Elle se destine à des études littéraires. »",
     "groupSlug": "litteral-litteraire",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -754,21 +739,16 @@
     "slug": "reecriture-4",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « éminent » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "Un professeur éminent a présidé le jury de thèse.",
-      "mot_souligne": "éminent",
-      "indice": "Qui se distingue par son mérite, sa valeur ou son rang."
+      "source": "Un professeur éminent a présidé le jury de thèse.",
+      "target": "imminent"
     },
     "solution": {
-      "paronyme_attendu": "imminent",
-      "reponses_acceptees": [
-        "imminent"
-      ],
-      "corrige": "Un danger imminent a contraint les équipes à interrompre la séance.",
-      "explication": "*Éminent* qualifie une personne qui se distingue par ses qualités ; *imminent* qualifie un événement sur le point de se produire."
+      "model": "Le départ imminent du train pressait les voyageurs.",
+      "note": "imminent = sur le point d'arriver."
     },
-    "commentary": "Corrigé : Un danger imminent a contraint les équipes à interrompre la séance.\n\n*Éminent* qualifie une personne qui se distingue par ses qualités ; *imminent* qualifie un événement sur le point de se produire.",
+    "commentary": "imminent — « Le départ imminent du train pressait les voyageurs. »",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -779,21 +759,16 @@
     "slug": "reecriture-5",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « conservation » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "La conservation des denrées exige une chaîne du froid.",
-      "mot_souligne": "conservation",
-      "indice": "Action de maintenir en bon état, de préserver quelque chose."
+      "source": "La conservation des denrées exige une chaîne du froid.",
+      "target": "conversation"
     },
     "solution": {
-      "paronyme_attendu": "conversation",
-      "reponses_acceptees": [
-        "conversation"
-      ],
-      "corrige": "La conversation des convives s'est animée autour du repas.",
-      "explication": "*Conservation* = action de garder, préserver ; *conversation* = échange oral entre des personnes."
+      "model": "Leur conversation s'est prolongée tard dans la nuit.",
+      "note": "conversation = échange de propos."
     },
-    "commentary": "Corrigé : La conversation des convives s'est animée autour du repas.\n\n*Conservation* = action de garder, préserver ; *conversation* = échange oral entre des personnes.",
+    "commentary": "conversation — « Leur conversation s'est prolongée tard dans la nuit. »",
     "groupSlug": "conservation-conversation",
     "posClass": "NOM_F",
     "source": "manuel",
@@ -804,21 +779,16 @@
     "slug": "reecriture-6",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « dénué » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "Son réquisitoire était dénué du moindre fondement.",
-      "mot_souligne": "dénué",
-      "indice": "Totalement dépourvu de quelque chose, qui en manque absolument."
+      "source": "Son réquisitoire était dénué du moindre fondement.",
+      "target": "dénudé"
     },
     "solution": {
-      "paronyme_attendu": "dénudé",
-      "reponses_acceptees": [
-        "dénudé"
-      ],
-      "corrige": "Son bras dénudé portait les traces d'une ancienne blessure.",
-      "explication": "*Dénué (de)* = dépourvu de, qui manque de ; *dénudé* = mis à nu, dont on a ôté ce qui couvrait."
+      "model": "En hiver, les arbres dénudés bordaient l'allée.",
+      "note": "dénudé = mis à nu."
     },
-    "commentary": "Corrigé : Son bras dénudé portait les traces d'une ancienne blessure.\n\n*Dénué (de)* = dépourvu de, qui manque de ; *dénudé* = mis à nu, dont on a ôté ce qui couvrait.",
+    "commentary": "dénudé — « En hiver, les arbres dénudés bordaient l'allée. »",
     "groupSlug": "denue-denude",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -829,21 +799,16 @@
     "slug": "reecriture-7",
     "type": "REECRITURE",
     "gradingMode": "OPEN",
-    "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
+    "prompt": "Réécrivez en remplaçant « original » par son paronyme, en adaptant le contexte.",
     "payload": {
-      "phrase_depart": "Le manuscrit original est conservé sous vitrine.",
-      "mot_souligne": "original",
-      "indice": "Qui provient directement de l'auteur ou de la source première, sans copie."
+      "source": "Le manuscrit original est conservé sous vitrine.",
+      "target": "originel"
     },
     "solution": {
-      "paronyme_attendu": "originel",
-      "reponses_acceptees": [
-        "originel"
-      ],
-      "corrige": "Le texte originel de la charte a été conservé sous vitrine.",
-      "explication": "*Original* = qui émane de l'auteur, non reproduit, singulier ; *originel* = qui remonte à l'origine, primitif."
+      "model": "Le péché originel est au cœur de ce traité.",
+      "note": "originel = qui remonte à l'origine."
     },
-    "commentary": "Corrigé : Le texte originel de la charte a été conservé sous vitrine.\n\n*Original* = qui émane de l'auteur, non reproduit, singulier ; *originel* = qui remonte à l'origine, primitif.",
+    "commentary": "originel — « Le péché originel est au cœur de ce traité. »",
     "groupSlug": "original-originel",
     "posClass": "ADJECTIF",
     "source": "manuel",
@@ -2666,7 +2631,7 @@
     "solution": {
       "correctKey": "a"
     },
-    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "commentary": "✅ éminent — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.\n❌ imminent — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -2682,18 +2647,18 @@
       "options": [
         {
           "key": "a",
-          "text": "éminence"
+          "text": "imminence"
         },
         {
           "key": "b",
-          "text": "imminence"
+          "text": "éminence"
         }
       ]
     },
     "solution": {
-      "correctKey": "a"
+      "correctKey": "b"
     },
-    "commentary": "éminence — Élévation de terrain ; par extension, dignité, haut rang.",
+    "commentary": "✅ éminence — Élévation de terrain ; par extension, dignité, haut rang.\n❌ imminence — Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
     "groupSlug": "eminence-imminence",
     "posClass": "NOM_F",
     "source": "generated",
@@ -2718,7 +2683,7 @@
       ],
       "accentSensitive": false
     },
-    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "commentary": "éminent — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -2763,7 +2728,7 @@
       "correct": "éminent",
       "accentSensitive": false
     },
-    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur. (à ne pas confondre avec imminent).",
+    "commentary": "éminent — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine. (à ne pas confondre avec imminent).",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -2796,19 +2761,19 @@
     "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
-      "phrase_depart": "Le directeur a versé une allocation exceptionnelle à ses employés.",
-      "mot_souligne": "allocation",
-      "indice": "Somme d'argent versée régulièrement à titre d'aide ou de prestation sociale."
+      "phrase_depart": "Un éminent spécialiste de la langue française.",
+      "mot_souligne": "éminent",
+      "indice": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
     "solution": {
-      "paronyme_attendu": "allocution",
+      "paronyme_attendu": "imminent",
       "reponses_acceptees": [
-        "allocution"
+        "imminent"
       ],
-      "corrige": "Le directeur a prononcé une allocution de bienvenue lors de la cérémonie.",
-      "explication": "*Allocation* = versement d'argent (allocation chômage, familiale) ; *allocution* = court discours prononcé en public."
+      "corrige": "Un orage imminent menaçait la vallée.",
+      "explication": "« éminent » — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine. · « imminent » — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment."
     },
-    "commentary": "Corrigé : Le directeur a prononcé une allocution de bienvenue lors de la cérémonie.\n\n*Allocation* = versement d'argent (allocation chômage, familiale) ; *allocution* = court discours prononcé en public.",
+    "commentary": "Corrigé : Un orage imminent menaçait la vallée.\n\nBien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -2821,21 +2786,21 @@
     "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
-      "phrase_depart": "Le château se dresse sur une éminence.",
-      "mot_souligne": "éminence",
-      "indice": "Élévation de terrain ; haut rang ou distinction dans une hiérarchie."
+      "phrase_depart": "Un orage imminent menaçait la vallée.",
+      "mot_souligne": "imminent",
+      "indice": "Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment."
     },
     "solution": {
-      "paronyme_attendu": "imminence",
+      "paronyme_attendu": "éminent",
       "reponses_acceptees": [
-        "imminence"
+        "éminent"
       ],
-      "corrige": "Devant l'imminence du vote, l'opposition a exigé un report.",
-      "explication": "*Éminence* = élévation de terrain ou haut rang (Son Éminence) ; *imminence* = caractère de ce qui est sur le point de se produire."
+      "corrige": "Un éminent spécialiste de la langue française.",
+      "explication": "« imminent » — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment. · « éminent » — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
-    "commentary": "Corrigé : Devant l'imminence du vote, l'opposition a exigé un report.\n\n*Éminence* = élévation de terrain ou haut rang (Son Éminence) ; *imminence* = caractère de ce qui est sur le point de se produire.",
-    "groupSlug": "eminence-imminence",
-    "posClass": "NOM_F",
+    "commentary": "Corrigé : Un éminent spécialiste de la langue française.\n\nBien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale.",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
     "source": "generated",
     "reviewNeeded": true,
     "orderIndex": 9
@@ -2846,20 +2811,20 @@
     "gradingMode": "OPEN",
     "prompt": "Réécrivez la phrase en remplaçant le mot souligné par son paronyme, en adaptant le contexte si nécessaire.",
     "payload": {
-      "phrase_depart": "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
-      "mot_souligne": "conjecture",
-      "indice": "Supposition, hypothèse fondée sur des apparences sans preuve certaine."
+      "phrase_depart": "Le château se dresse sur une éminence.",
+      "mot_souligne": "éminence",
+      "indice": "Élévation de terrain ; par extension, dignité, haut rang."
     },
     "solution": {
-      "paronyme_attendu": "conjoncture",
+      "paronyme_attendu": "imminence",
       "reponses_acceptees": [
-        "conjoncture"
+        "imminence"
       ],
-      "corrige": "Face à une conjoncture difficile, le gouvernement a annoncé des mesures d'urgence.",
-      "explication": "*Conjecture* = supposition de l'esprit, hypothèse sans certitude ; *conjoncture* = situation présente résultant d'un ensemble de circonstances."
+      "corrige": "Devant l'imminence du vote, l'opposition a invoqué un vice de procédure.",
+      "explication": "« éminence » — Élévation de terrain ; par extension, dignité, haut rang. · « imminence » — Caractère de ce qui est imminent ; proximité immédiate d'un événement."
     },
-    "commentary": "Corrigé : Face à une conjoncture difficile, le gouvernement a annoncé des mesures d'urgence.\n\n*Conjecture* = supposition de l'esprit, hypothèse sans certitude ; *conjoncture* = situation présente résultant d'un ensemble de circonstances.",
-    "groupSlug": "conjecture-conjoncture",
+    "commentary": "Corrigé : Devant l'imminence du vote, l'opposition a invoqué un vice de procédure.\n\nL'éminence renvoie au haut rang ou à une élévation ; l'imminence à la proximité immédiate d'un événement.",
+    "groupSlug": "eminence-imminence",
     "posClass": "NOM_F",
     "source": "generated",
     "reviewNeeded": true,
@@ -2892,11 +2857,11 @@
       "right": [
         {
           "id": "a",
-          "text": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+          "text": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
         },
         {
           "id": "b",
-          "text": "Qui est sur le point de se produire ; tout proche dans le temps."
+          "text": "Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment."
         },
         {
           "id": "c",
@@ -2950,11 +2915,11 @@
       "right": [
         {
           "id": "a",
-          "text": "Supposition fondée sur des indices, hypothèse non vérifiée."
+          "text": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
         },
         {
           "id": "b",
-          "text": "Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+          "text": "La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux."
         },
         {
           "id": "c",
@@ -3008,11 +2973,11 @@
       "right": [
         {
           "id": "a",
-          "text": "Fait merveilleux ; personne aux dons extraordinaires."
+          "text": "Le terme « prodige » qualifie quelque chose qui est miraculeux, extraordinaire ou exceptionnellement doué. Il est souvent utilisé pour décrire une personne, un événement ou une réalisation qui dépasse les capacités normales ou qui suscite l’admiration en raison de son caractère exceptionnel."
         },
         {
           "id": "b",
-          "text": "Qui dépense sans compter, avec excès."
+          "text": "Le mot « prodigue » qualifie quelqu’un qui dépense à l’excès, de manière inconsidérée ou généreuse, souvent au point de gaspiller ses ressources ou ses richesses. Il est utilisé pour décrire une personne qui est excessive dans ses dépenses ou qui donne librement sans se soucier des conséquences."
         },
         {
           "id": "c",
@@ -3020,7 +2985,7 @@
         },
         {
           "id": "d",
-          "text": "Entrée soudaine, brusque et inattendue dans un lieu."
+          "text": "Une irruption est une entrée soudaine et impétueuse dans un lieu ou une situation. L’eschatologie est une branche de la théologie qui étudie les fins dernières de l’homme, notamment sa destinée ultime après la mort et la fin des temps. La scatologie est l’étude ou la représentation des excréments, mais également un"
         }
       ]
     },
@@ -3066,19 +3031,19 @@
       "right": [
         {
           "id": "a",
-          "text": "Mettre en accusation, imputer une faute à quelqu'un."
+          "text": "Inculper signifie mettre en accusation, accuser formellement quelqu’un d’avoir commis un crime ou un délit. Ce terme est souvent utilisé dans le contexte judiciaire pour désigner le processus par lequel une personne est officiellement accusée d’une infraction et doit répondre devant un tribunal."
         },
         {
           "id": "b",
-          "text": "Faire entrer durablement dans l'esprit par une instruction répétée."
+          "text": "Inculquer signifie enseigner ou transmettre des connaissances, des valeurs ou des principes à quelqu’un de manière persistante et répétée. Ce terme est souvent utilisé dans le contexte de l’éducation pour décrire le processus d’imprégnation ou d’insertion de concepts dans l’esprit d’une personne."
         },
         {
           "id": "c",
-          "text": "Relatif à la médecine et à son exercice."
+          "text": "Le terme « médical » qualifie ce qui est lié à la médecine, à la pratique médicale ou aux soins de santé en général. Il est souvent utilisé pour décrire des activités, des professions, des procédures ou des équipements liés au diagnostic, au traitement et à la prévention des maladies et des affections."
         },
         {
           "id": "d",
-          "text": "Qui possède des vertus curatives, qui sert de remède."
+          "text": "Le mot « médicinal » qualifie quelque chose qui concerne un remède, une substance ou une plante ayant des propriétés curatives ou thérapeutiques. Il est souvent utilisé pour décrire des produits naturels ou des médicaments utilisés pour traiter ou soulager des symptômes médicaux."
         }
       ]
     },
@@ -3124,19 +3089,19 @@
       "right": [
         {
           "id": "a",
-          "text": "Trop long, trop bavard, qui se perd en développements."
+          "text": "Le mot « prolixe » qualifie quelqu’un qui est bavard, qui parle longuement et de manière excessive, souvent sans discernement ou sans pertinence. Il est souvent utilisé pour décrire une personne qui a tendance à s’étendre sur un sujet, à parler sans fin ou à utiliser des mots superflus."
         },
         {
           "id": "b",
-          "text": "Qui se reproduit ou produit beaucoup ; très fécond."
+          "text": "Le terme « prolifique » qualifie quelqu’un qui est fécond, productif ou qui produit en grande quantité. Il est souvent utilisé pour décrire des personnes qui sont extrêmement créatives ou productives dans leur domaine, produisant un grand nombre d’œuvres ou d’efforts de manière régulière."
         },
         {
           "id": "c",
-          "text": "Qui vient à propos, au moment favorable."
+          "text": "Le mot « opportun » qualifie quelque chose qui survient au bon moment ou qui est bien choisi pour tirer avantage d’une opportunité. Il est utilisé pour décrire des actions, des décisions ou des événements qui sont propices ou appropriés dans un contexte spécifique."
         },
         {
           "id": "d",
-          "text": "Qui gêne, qui survient ou insiste mal à propos."
+          "text": "Le terme « importun » qualifie quelque chose ou quelqu’un de dérangeant, d’inopportun ou d’inapproprié. Il est souvent utilisé pour décrire des actions, des demandes ou des comportements qui causent un désagrément ou une gêne à autrui."
         }
       ]
     },
@@ -3182,19 +3147,19 @@
       "right": [
         {
           "id": "a",
-          "text": "Violation d'une loi, d'un règlement."
+          "text": "Une infraction est le non-respect d’une loi, d’un règlement ou d’une obligation légale."
         },
         {
           "id": "b",
-          "text": "Bris de clôture ou de serrure pour pénétrer dans un lieu."
+          "text": "Une effraction est l’action de forcer l’entrée dans un lieu en brisant une clôture, une porte ou une fenêtre."
         },
         {
           "id": "c",
-          "text": "Faire pénétrer et retenir un fluide à l'intérieur d'un corps."
+          "text": "Le terme « absorber » signifie laisser pénétrer un liquide ou une substance dans un matériau et le retenir à l’intérieur de celui-ci. Il est souvent utilisé pour décrire le processus par lequel un matériau absorbe un liquide, comme une éponge qui absorbe de l’eau."
         },
         {
           "id": "d",
-          "text": "Retenir des molécules à la surface d'un solide."
+          "text": "Le mot « adsorber » signifie retenir des particules ou des molécules à la surface d’un solide, sans les laisser pénétrer dans le matériau lui-même. Contrairement à l’absorption, où la substance pénètre dans le matériau, l’adsorption se produit à la surface du matériau."
         }
       ]
     },
@@ -3240,19 +3205,19 @@
       "right": [
         {
           "id": "a",
-          "text": "Conférer un titre de noblesse à quelqu'un."
+          "text": "Le terme « anoblir » signifie accorder un titre de noblesse à quelqu’un, généralement par une autorité royale ou monarchique. Il est utilisé pour décrire l’élévation sociale d’une personne au rang de noble, avec les privilèges et les droits qui y sont associés."
         },
         {
           "id": "b",
-          "text": "Élever moralement, donner de la dignité, de la grandeur."
+          "text": "Le mot « ennoblir » signifie rendre noble moralement ou élever le caractère ou la conduite d’une personne. Il est utilisé pour décrire l’amélioration ou l’élévation de la qualité morale ou éthique d’une personne."
         },
         {
           "id": "c",
-          "text": "User d'une ressource, l'utiliser ou la dépenser."
+          "text": "« Consommer » signifie utiliser ou dépenser une ressource, généralement en la transformant ou en la rendant indisponible pour une utilisation future. Ce terme est souvent associé à l’action de manger de la nourriture, mais il peut également être utilisé dans un sens plus général pour décrire l’utilisation de tout type de ressource."
         },
         {
           "id": "d",
-          "text": "Détruire par le feu ; user lentement."
+          "text": "« Consumer » signifie détruire ou utiliser complètement quelque chose, souvent par le feu. Au sens figuré, il peut également signifier être consumé par une émotion ou un état mental, au point d’être détruit ou épuisé par cela."
         }
       ]
     },
@@ -3298,19 +3263,19 @@
       "right": [
         {
           "id": "a",
-          "text": "Action d'ajouter ; opération arithmétique ; note à payer."
+          "text": "Opération arithmétique consistant à réunir plusieurs nombres en une seule quantité (la somme). Par extension, c'est la note à payer au restaurant ou le résultat d'un assemblage."
         },
         {
           "id": "b",
-          "text": "Action d'amener un fluide vers un lieu (eau, gaz)."
+          "text": "Mouvement qui rapproche un membre ou un segment de membre de l'axe médian du corps (contraire: abduction). Action d'amener de l'eau ou un fluide vers un lieu d'utilisation."
         },
         {
           "id": "c",
-          "text": "Dépendance aliénante à une substance ou à une pratique."
+          "text": "Dépendance très forte et aliénante à une substance (drogue, tabac, alcool) ou à une activité (jeu, écran), caractérisée par la perte de contrôle et la poursuite de l'usage malgré la connaissance des conséquences négatives."
         },
         {
           "id": "d",
-          "text": "Découvrir, détecter ce qui était caché."
+          "text": "« Déceler » signifie découvrir ou détecter quelque chose qui était caché, secret ou difficile à percevoir. C’est le processus de trouver ou de mettre en lumière quelque chose qui était dissimulé ou non évident au départ."
         }
       ]
     },
@@ -3356,7 +3321,7 @@
       "right": [
         {
           "id": "a",
-          "text": "Détacher, arracher ce qui était scellé ou fixé."
+          "text": "« Desceller » signifie ouvrir quelque chose qui était scellé ou fermé, généralement en brisant ou en retirant le sceau ou le cachet qui le maintenait fermé. C’est le processus de libérer ce qui était précédemment fermé ou confiné."
         },
         {
           "id": "b",
@@ -3368,7 +3333,7 @@
         },
         {
           "id": "d",
-          "text": "Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé."
+          "text": "Une prescription désigne généralement un ordre ou une recommandation officielle donnée par un médecin, un professionnel de la santé ou une autorité compétente. Cela peut également se référer à une directive légale ou à une disposition réglementaire qui établit des règles ou des lignes directrices à suivre dans un domaine spécifique."
         }
       ]
     },
@@ -3399,9 +3364,9 @@
       ]
     },
     "solution": {
-      "model": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+      "model": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale."
     },
-    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "commentary": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale.",
     "groupSlug": "eminent-imminent",
     "posClass": null,
     "source": "generated",
@@ -3441,9 +3406,9 @@
       ]
     },
     "solution": {
-      "model": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+      "model": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale."
     },
-    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "commentary": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": null,
     "source": "generated",
@@ -3482,9 +3447,9 @@
     },
     "solution": {
       "model": "Un éminent spécialiste de la langue française.",
-      "note": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+      "note": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
-    "commentary": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "commentary": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -3522,9 +3487,9 @@
     },
     "solution": {
       "model": "Faute de preuves, l'enquêteur en était réduit à de simples conjectures.",
-      "note": "Supposition fondée sur des indices, hypothèse non vérifiée."
+      "note": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
     },
-    "commentary": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "commentary": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -3535,16 +3500,16 @@
     "slug": "remplacement-gen-1",
     "type": "REMPLACEMENT",
     "gradingMode": "AUTO",
-    "prompt": "Un [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.] spécialiste de la langue française.",
+    "prompt": "Un [Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.] spécialiste de la langue française.",
     "payload": {
-      "sentence": "Un [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.] spécialiste de la langue française.",
-      "periphrase": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+      "sentence": "Un [Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.] spécialiste de la langue française.",
+      "periphrase": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
     "solution": {
       "answer": "éminent",
       "accentSensitive": false
     },
-    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "commentary": "éminent — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -3575,16 +3540,16 @@
     "slug": "remplacement-gen-3",
     "type": "REMPLACEMENT",
     "gradingMode": "AUTO",
-    "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples [Supposition fondée sur des indices, hypothèse non vérifiée.]s.",
+    "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples [Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.]s.",
     "payload": {
-      "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples [Supposition fondée sur des indices, hypothèse non vérifiée.]s.",
-      "periphrase": "Supposition fondée sur des indices, hypothèse non vérifiée."
+      "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples [Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.]s.",
+      "periphrase": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
     },
     "solution": {
       "answer": "conjecture",
       "accentSensitive": false
     },
-    "commentary": "conjecture — Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "commentary": "conjecture — Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -3595,15 +3560,15 @@
     "slug": "vraifaux-gen-1",
     "type": "VRAIFAUX",
     "gradingMode": "AUTO",
-    "prompt": "« éminent » signifie : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "prompt": "« éminent » signifie : Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "payload": {
-      "statement": "« éminent » signifie : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+      "statement": "« éminent » signifie : Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
     "solution": {
       "value": true,
-      "justification": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+      "justification": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale."
     },
-    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "commentary": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -3633,15 +3598,15 @@
     "slug": "vraifaux-gen-3",
     "type": "VRAIFAUX",
     "gradingMode": "AUTO",
-    "prompt": "« conjecture » signifie : Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "prompt": "« conjecture » signifie : Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
     "payload": {
-      "statement": "« conjecture » signifie : Supposition fondée sur des indices, hypothèse non vérifiée."
+      "statement": "« conjecture » signifie : Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
     },
     "solution": {
       "value": true,
-      "justification": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+      "justification": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale."
     },
-    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "commentary": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -3652,7 +3617,7 @@
     "slug": "transformation-gen-1",
     "type": "TRANSFORMATION",
     "gradingMode": "AUTO",
-    "prompt": "Donnez le paronyme de « éminent » (Qui est sur le point de se produire ; tout proche dans le temps.).",
+    "prompt": "Donnez le paronyme de « éminent » (Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.).",
     "payload": {
       "from": "éminent"
     },
@@ -3660,7 +3625,7 @@
       "answer": "imminent",
       "accentSensitive": false
     },
-    "commentary": "imminent — Qui est sur le point de se produire ; tout proche dans le temps.",
+    "commentary": "imminent — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -3690,7 +3655,7 @@
     "slug": "transformation-gen-3",
     "type": "TRANSFORMATION",
     "gradingMode": "AUTO",
-    "prompt": "Donnez le paronyme de « conjecture » (Situation présente résultant d'un ensemble de circonstances (souvent économiques).).",
+    "prompt": "Donnez le paronyme de « conjecture » (La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux.).",
     "payload": {
       "from": "conjecture"
     },
@@ -3698,7 +3663,7 @@
       "answer": "conjoncture",
       "accentSensitive": false
     },
-    "commentary": "conjoncture — Situation présente résultant d'un ensemble de circonstances (souvent économiques).",
+    "commentary": "conjoncture — La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -3718,7 +3683,7 @@
       "answer": "imminent",
       "accentSensitive": false
     },
-    "commentary": "imminent — Qui est sur le point de se produire ; tout proche dans le temps.",
+    "commentary": "imminent — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -3758,7 +3723,7 @@
       "answer": "conjoncture",
       "accentSensitive": false
     },
-    "commentary": "conjoncture — Situation présente résultant d'un ensemble de circonstances (souvent économiques).",
+    "commentary": "conjoncture — La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -4311,9 +4276,9 @@
     "slug": "homophonie-gen-1",
     "type": "HOMOPHONIE",
     "gradingMode": "AUTO",
-    "prompt": "émin……… [Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.]",
+    "prompt": "émin……… [Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.]",
     "payload": {
-      "hint": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+      "hint": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
       "stem": "émin"
     },
     "solution": {
@@ -4351,9 +4316,9 @@
     "slug": "homophonie-gen-3",
     "type": "HOMOPHONIE",
     "gradingMode": "AUTO",
-    "prompt": "conj……… [Supposition fondée sur des indices, hypothèse non vérifiée.]",
+    "prompt": "conj……… [Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.]",
     "payload": {
-      "hint": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+      "hint": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
       "stem": "conj"
     },
     "solution": {
@@ -4383,7 +4348,7 @@
       "answer": "éminent",
       "accentSensitive": false
     },
-    "commentary": "éminent — Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "commentary": "éminent — Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "groupSlug": "eminent-imminent",
     "posClass": "ADJECTIF",
     "source": "generated",
@@ -4420,8 +4385,8 @@
     "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
     "payload": {
       "pair": [
-        "conjecture",
-        "conjoncture"
+        "conjoncture",
+        "conjecture"
       ],
       "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples ………s."
     },
@@ -4429,7 +4394,7 @@
       "answer": "conjecture",
       "accentSensitive": false
     },
-    "commentary": "conjecture — Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "commentary": "conjecture — Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": "NOM_F",
     "source": "generated",
@@ -4449,9 +4414,9 @@
       ]
     },
     "solution": {
-      "criteria": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu)."
+      "criteria": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale."
     },
-    "commentary": "L'éminent se distingue par sa valeur (une personne, un mérite) ; l'imminent par sa proximité dans le temps (un événement attendu).",
+    "commentary": "Bien que les termes « éminent » et « imminent » puissent sembler similaires en raison de leur prononciation proche, ils sont utilisés dans des contextes différents. « Éminent » qualifie quelque chose de remarquablement important ou influent, tandis que « imminent » qualifie quelque chose de sur le point de se produire dans un avenir rapproché. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale.",
     "groupSlug": "eminent-imminent",
     "posClass": null,
     "source": "generated",
@@ -4493,9 +4458,9 @@
       ]
     },
     "solution": {
-      "criteria": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances."
+      "criteria": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale."
     },
-    "commentary": "La conjecture est une supposition de l'esprit ; la conjoncture, la situation présente née d'un ensemble de circonstances.",
+    "commentary": "Bien que les mots « conjecture » et « conjoncture » partagent une certaine ressemblance dans leur sonorité, ils ont des significations très différentes. « Conjecture » se réfère à une supposition ou une hypothèse, tandis que « conjoncture » se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Comprendre ces nuances est essentiel pour une communication précise en français, en particulier dans des contextes liés à l’analyse économique, politique ou sociale.",
     "groupSlug": "conjecture-conjoncture",
     "posClass": null,
     "source": "generated",
@@ -4537,9 +4502,9 @@
       ]
     },
     "solution": {
-      "criteria": "Un prodige est un fait merveilleux ou un talent extraordinaire (nom) ; prodigue qualifie celui qui dépense sans compter (adjectif)."
+      "criteria": "Bien que les termes « prodige » et « prodigue » partagent une racine similaire, ils ont des significations distinctes en français. « Prodige » qualifie quelque chose qui est miraculeux ou exceptionnellement doué, tandis que « prodigue » qualifie quelqu’un qui dépense à l’excès ou de manière inconsidérée. En comprenant cette distinction, vous pouvez utiliser ces termes avec précision pour décrire des concepts spécifiques dans divers contextes liés à la générosité."
     },
-    "commentary": "Un prodige est un fait merveilleux ou un talent extraordinaire (nom) ; prodigue qualifie celui qui dépense sans compter (adjectif).",
+    "commentary": "Bien que les termes « prodige » et « prodigue » partagent une racine similaire, ils ont des significations distinctes en français. « Prodige » qualifie quelque chose qui est miraculeux ou exceptionnellement doué, tandis que « prodigue » qualifie quelqu’un qui dépense à l’excès ou de manière inconsidérée. En comprenant cette distinction, vous pouvez utiliser ces termes avec précision pour décrire des concepts spécifiques dans divers contextes liés à la générosité.",
     "groupSlug": "prodige-prodigue",
     "posClass": null,
     "source": "generated",
@@ -4559,9 +4524,9 @@
       ]
     },
     "solution": {
-      "criteria": "L'éruption est une sortie violente (volcan, peau) ; l'irruption, une entrée soudaine et impétueuse dans un lieu."
+      "criteria": "Bien que les mots « éruption » et « irruption » partagent une origine étymologique commune liée à l’idée de surgissement, ils sont utilisés dans des contextes différents. « Éruption » se réfère généralement à un jaillissement, en particulier celui d’un volcan, tandis que « irruption » désigne une entrée soudaine et impétueuse dans un lieu ou une situation. Comprendre la distinction entre ces deux termes est essentiel pour une communication précise en français. Eschatologie [ɛskatɔlɔʒi] & Scatologie Deux termes distincts « eschatologie » et « scatologie » sont souvent confondus. Bien qu’ils partagent une similitude phonétique, ils appartiennent à des domaines d’étude radicalement différents. Eschatologie f. էսխատոլոգիա, վախճանաբանություն, աշխարհի վերջ Scatologie f. կղանքաբանություն // կոպիտ կատակ, անպարկեշտ ստեղծագործություն, կեղտոտ պոռնոգրաֆիա discours centré sur des sujets grossiers ou vulgaires. Bien que « eschatologie » et « scatologie » puissent sembler similaires en raison de leur phonétique, elles appartiennent à des domaines d’étude totalement différents. Alors que l’eschatologie explore les questions de destinée ultime et de fin des temps dans le contexte théologique, la scatologie se concentre sur les excréments et peut également être utilisée pour désigner un discours grossier. Il est essentiel de faire la distinction entre ces termes pour une communication précise en français."
     },
-    "commentary": "L'éruption est une sortie violente (volcan, peau) ; l'irruption, une entrée soudaine et impétueuse dans un lieu.",
+    "commentary": "Bien que les mots « éruption » et « irruption » partagent une origine étymologique commune liée à l’idée de surgissement, ils sont utilisés dans des contextes différents. « Éruption » se réfère généralement à un jaillissement, en particulier celui d’un volcan, tandis que « irruption » désigne une entrée soudaine et impétueuse dans un lieu ou une situation. Comprendre la distinction entre ces deux termes est essentiel pour une communication précise en français. Eschatologie [ɛskatɔlɔʒi] & Scatologie Deux termes distincts « eschatologie » et « scatologie » sont souvent confondus. Bien qu’ils partagent une similitude phonétique, ils appartiennent à des domaines d’étude radicalement différents. Eschatologie f. էսխատոլոգիա, վախճանաբանություն, աշխարհի վերջ Scatologie f. կղանքաբանություն // կոպիտ կատակ, անպարկեշտ ստեղծագործություն, կեղտոտ պոռնոգրաֆիա discours centré sur des sujets grossiers ou vulgaires. Bien que « eschatologie » et « scatologie » puissent sembler similaires en raison de leur phonétique, elles appartiennent à des domaines d’étude totalement différents. Alors que l’eschatologie explore les questions de destinée ultime et de fin des temps dans le contexte théologique, la scatologie se concentre sur les excréments et peut également être utilisée pour désigner un discours grossier. Il est essentiel de faire la distinction entre ces termes pour une communication précise en français.",
     "groupSlug": "eruption-irruption",
     "posClass": null,
     "source": "generated",
@@ -4581,9 +4546,9 @@
       ]
     },
     "solution": {
-      "criteria": "Inculper, c'est mettre en accusation ; inculquer, c'est faire entrer durablement dans l'esprit (enseigner)."
+      "criteria": "Bien que les termes « inculper » et « inculquer » puissent sembler similaires en raison de leur sonorité proche, ils décrivent des actions très différentes en français. « Inculper » se réfère à l’accusation formelle de quelqu’un d’avoir commis un crime, tandis que « inculquer » se réfère à l’enseignement persistant et répété de connaissances, de valeurs ou de principes. Comprendre ces distinctions est essentiel pour une communication précise en français, que ce soit dans le domaine judiciaire ou éducatif."
     },
-    "commentary": "Inculper, c'est mettre en accusation ; inculquer, c'est faire entrer durablement dans l'esprit (enseigner).",
+    "commentary": "Bien que les termes « inculper » et « inculquer » puissent sembler similaires en raison de leur sonorité proche, ils décrivent des actions très différentes en français. « Inculper » se réfère à l’accusation formelle de quelqu’un d’avoir commis un crime, tandis que « inculquer » se réfère à l’enseignement persistant et répété de connaissances, de valeurs ou de principes. Comprendre ces distinctions est essentiel pour une communication précise en français, que ce soit dans le domaine judiciaire ou éducatif.",
     "groupSlug": "inculper-inculquer",
     "posClass": null,
     "source": "generated",
@@ -5087,7 +5052,7 @@
     },
     "solution": {
       "model": "ականավոր",
-      "note": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+      "note": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
     "commentary": "éminent → ականավոր",
     "groupSlug": "eminent-imminent",
@@ -5107,7 +5072,7 @@
     },
     "solution": {
       "model": "մոտալուտ",
-      "note": "Qui est sur le point de se produire ; tout proche dans le temps."
+      "note": "Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment."
     },
     "commentary": "imminent → մոտալուտ",
     "groupSlug": "eminent-imminent",
@@ -5127,7 +5092,7 @@
     },
     "solution": {
       "model": "ենթադրություն",
-      "note": "Supposition fondée sur des indices, hypothèse non vérifiée."
+      "note": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
     },
     "commentary": "conjecture → ենթադրություն",
     "groupSlug": "conjecture-conjoncture",
@@ -5147,7 +5112,7 @@
     },
     "solution": {
       "model": "իրավիճակ",
-      "note": "Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+      "note": "La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux."
     },
     "commentary": "conjoncture → իրավիճակ",
     "groupSlug": "conjecture-conjoncture",
@@ -5203,11 +5168,11 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+          "text": "emploi : Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
         },
         {
           "id": "b",
-          "text": "emploi : Qui est sur le point de se produire ; tout proche dans le temps."
+          "text": "emploi : Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment."
         },
         {
           "id": "c",
@@ -5261,11 +5226,11 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Supposition fondée sur des indices, hypothèse non vérifiée."
+          "text": "emploi : Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
         },
         {
           "id": "b",
-          "text": "emploi : Situation présente résultant d'un ensemble de circonstances (souvent économiques)."
+          "text": "emploi : La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux."
         },
         {
           "id": "c",
@@ -5319,11 +5284,11 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Fait merveilleux ; personne aux dons extraordinaires."
+          "text": "emploi : Le terme « prodige » qualifie quelque chose qui est miraculeux, extraordinaire ou exceptionnellement doué. Il est souvent utilisé pour décrire une personne, un événement ou une réalisation qui dépasse les capacités normales ou qui suscite l’admiration en raison de son caractère exceptionnel."
         },
         {
           "id": "b",
-          "text": "emploi : Qui dépense sans compter, avec excès."
+          "text": "emploi : Le mot « prodigue » qualifie quelqu’un qui dépense à l’excès, de manière inconsidérée ou généreuse, souvent au point de gaspiller ses ressources ou ses richesses. Il est utilisé pour décrire une personne qui est excessive dans ses dépenses ou qui donne librement sans se soucier des conséquences."
         },
         {
           "id": "c",
@@ -5331,7 +5296,7 @@
         },
         {
           "id": "d",
-          "text": "emploi : Entrée soudaine, brusque et inattendue dans un lieu."
+          "text": "emploi : Une irruption est une entrée soudaine et impétueuse dans un lieu ou une situation. L’eschatologie est une branche de la théologie qui étudie les fins dernières de l’homme, notamment sa destinée ultime après la mort et la fin des temps. La scatologie est l’étude ou la représentation des excréments, mais également un"
         }
       ]
     },
@@ -5377,19 +5342,19 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Mettre en accusation, imputer une faute à quelqu'un."
+          "text": "emploi : Inculper signifie mettre en accusation, accuser formellement quelqu’un d’avoir commis un crime ou un délit. Ce terme est souvent utilisé dans le contexte judiciaire pour désigner le processus par lequel une personne est officiellement accusée d’une infraction et doit répondre devant un tribunal."
         },
         {
           "id": "b",
-          "text": "emploi : Faire entrer durablement dans l'esprit par une instruction répétée."
+          "text": "emploi : Inculquer signifie enseigner ou transmettre des connaissances, des valeurs ou des principes à quelqu’un de manière persistante et répétée. Ce terme est souvent utilisé dans le contexte de l’éducation pour décrire le processus d’imprégnation ou d’insertion de concepts dans l’esprit d’une personne."
         },
         {
           "id": "c",
-          "text": "emploi : Relatif à la médecine et à son exercice."
+          "text": "emploi : Le terme « médical » qualifie ce qui est lié à la médecine, à la pratique médicale ou aux soins de santé en général. Il est souvent utilisé pour décrire des activités, des professions, des procédures ou des équipements liés au diagnostic, au traitement et à la prévention des maladies et des affections."
         },
         {
           "id": "d",
-          "text": "emploi : Qui possède des vertus curatives, qui sert de remède."
+          "text": "emploi : Le mot « médicinal » qualifie quelque chose qui concerne un remède, une substance ou une plante ayant des propriétés curatives ou thérapeutiques. Il est souvent utilisé pour décrire des produits naturels ou des médicaments utilisés pour traiter ou soulager des symptômes médicaux."
         }
       ]
     },
@@ -5435,19 +5400,19 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Trop long, trop bavard, qui se perd en développements."
+          "text": "emploi : Le mot « prolixe » qualifie quelqu’un qui est bavard, qui parle longuement et de manière excessive, souvent sans discernement ou sans pertinence. Il est souvent utilisé pour décrire une personne qui a tendance à s’étendre sur un sujet, à parler sans fin ou à utiliser des mots superflus."
         },
         {
           "id": "b",
-          "text": "emploi : Qui se reproduit ou produit beaucoup ; très fécond."
+          "text": "emploi : Le terme « prolifique » qualifie quelqu’un qui est fécond, productif ou qui produit en grande quantité. Il est souvent utilisé pour décrire des personnes qui sont extrêmement créatives ou productives dans leur domaine, produisant un grand nombre d’œuvres ou d’efforts de manière régulière."
         },
         {
           "id": "c",
-          "text": "emploi : Qui vient à propos, au moment favorable."
+          "text": "emploi : Le mot « opportun » qualifie quelque chose qui survient au bon moment ou qui est bien choisi pour tirer avantage d’une opportunité. Il est utilisé pour décrire des actions, des décisions ou des événements qui sont propices ou appropriés dans un contexte spécifique."
         },
         {
           "id": "d",
-          "text": "emploi : Qui gêne, qui survient ou insiste mal à propos."
+          "text": "emploi : Le terme « importun » qualifie quelque chose ou quelqu’un de dérangeant, d’inopportun ou d’inapproprié. Il est souvent utilisé pour décrire des actions, des demandes ou des comportements qui causent un désagrément ou une gêne à autrui."
         }
       ]
     },
@@ -5493,19 +5458,19 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Violation d'une loi, d'un règlement."
+          "text": "emploi : Une infraction est le non-respect d’une loi, d’un règlement ou d’une obligation légale."
         },
         {
           "id": "b",
-          "text": "emploi : Bris de clôture ou de serrure pour pénétrer dans un lieu."
+          "text": "emploi : Une effraction est l’action de forcer l’entrée dans un lieu en brisant une clôture, une porte ou une fenêtre."
         },
         {
           "id": "c",
-          "text": "emploi : Faire pénétrer et retenir un fluide à l'intérieur d'un corps."
+          "text": "emploi : Le terme « absorber » signifie laisser pénétrer un liquide ou une substance dans un matériau et le retenir à l’intérieur de celui-ci. Il est souvent utilisé pour décrire le processus par lequel un matériau absorbe un liquide, comme une éponge qui absorbe de l’eau."
         },
         {
           "id": "d",
-          "text": "emploi : Retenir des molécules à la surface d'un solide."
+          "text": "emploi : Le mot « adsorber » signifie retenir des particules ou des molécules à la surface d’un solide, sans les laisser pénétrer dans le matériau lui-même. Contrairement à l’absorption, où la substance pénètre dans le matériau, l’adsorption se produit à la surface du matériau."
         }
       ]
     },
@@ -5551,19 +5516,19 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Conférer un titre de noblesse à quelqu'un."
+          "text": "emploi : Le terme « anoblir » signifie accorder un titre de noblesse à quelqu’un, généralement par une autorité royale ou monarchique. Il est utilisé pour décrire l’élévation sociale d’une personne au rang de noble, avec les privilèges et les droits qui y sont associés."
         },
         {
           "id": "b",
-          "text": "emploi : Élever moralement, donner de la dignité, de la grandeur."
+          "text": "emploi : Le mot « ennoblir » signifie rendre noble moralement ou élever le caractère ou la conduite d’une personne. Il est utilisé pour décrire l’amélioration ou l’élévation de la qualité morale ou éthique d’une personne."
         },
         {
           "id": "c",
-          "text": "emploi : User d'une ressource, l'utiliser ou la dépenser."
+          "text": "emploi : « Consommer » signifie utiliser ou dépenser une ressource, généralement en la transformant ou en la rendant indisponible pour une utilisation future. Ce terme est souvent associé à l’action de manger de la nourriture, mais il peut également être utilisé dans un sens plus général pour décrire l’utilisation de tout type de ressource."
         },
         {
           "id": "d",
-          "text": "emploi : Détruire par le feu ; user lentement."
+          "text": "emploi : « Consumer » signifie détruire ou utiliser complètement quelque chose, souvent par le feu. Au sens figuré, il peut également signifier être consumé par une émotion ou un état mental, au point d’être détruit ou épuisé par cela."
         }
       ]
     },
@@ -5609,19 +5574,19 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Action d'ajouter ; opération arithmétique ; note à payer."
+          "text": "emploi : Opération arithmétique consistant à réunir plusieurs nombres en une seule quantité (la somme). Par extension, c'est la note à payer au restaurant ou le résultat d'un assemblage."
         },
         {
           "id": "b",
-          "text": "emploi : Action d'amener un fluide vers un lieu (eau, gaz)."
+          "text": "emploi : Mouvement qui rapproche un membre ou un segment de membre de l'axe médian du corps (contraire: abduction). Action d'amener de l'eau ou un fluide vers un lieu d'utilisation."
         },
         {
           "id": "c",
-          "text": "emploi : Dépendance aliénante à une substance ou à une pratique."
+          "text": "emploi : Dépendance très forte et aliénante à une substance (drogue, tabac, alcool) ou à une activité (jeu, écran), caractérisée par la perte de contrôle et la poursuite de l'usage malgré la connaissance des conséquences négatives."
         },
         {
           "id": "d",
-          "text": "emploi : Découvrir, détecter ce qui était caché."
+          "text": "emploi : « Déceler » signifie découvrir ou détecter quelque chose qui était caché, secret ou difficile à percevoir. C’est le processus de trouver ou de mettre en lumière quelque chose qui était dissimulé ou non évident au départ."
         }
       ]
     },
@@ -5667,7 +5632,7 @@
       "right": [
         {
           "id": "a",
-          "text": "emploi : Détacher, arracher ce qui était scellé ou fixé."
+          "text": "emploi : « Desceller » signifie ouvrir quelque chose qui était scellé ou fermé, généralement en brisant ou en retirant le sceau ou le cachet qui le maintenait fermé. C’est le processus de libérer ce qui était précédemment fermé ou confiné."
         },
         {
           "id": "b",
@@ -5679,7 +5644,7 @@
         },
         {
           "id": "d",
-          "text": "emploi : Ordre, recommandation (médicale) ; extinction d'un droit par le temps écoulé."
+          "text": "emploi : Une prescription désigne généralement un ordre ou une recommandation officielle donnée par un médecin, un professionnel de la santé ou une autorité compétente. Cela peut également se référer à une directive légale ou à une disposition réglementaire qui établit des règles ou des lignes directrices à suivre dans un domaine spécifique."
         }
       ]
     },
@@ -5702,9 +5667,9 @@
     "slug": "devinette-gen-1",
     "type": "DEVINETTE",
     "gradingMode": "AUTO",
-    "prompt": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur.",
+    "prompt": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine.",
     "payload": {
-      "definition": "Qui s'élève au-dessus du niveau commun ; remarquable, supérieur."
+      "definition": "Éminent signifie remarquable, de grande importance, ou ayant un statut élevé dans un domaine particulier. Ce terme est souvent utilisé pour décrire des personnes ou des choses qui sont très respectées, estimées ou influentes dans leur domaine."
     },
     "solution": {
       "answer": "éminent",
@@ -5740,9 +5705,9 @@
     "slug": "devinette-gen-3",
     "type": "DEVINETTE",
     "gradingMode": "AUTO",
-    "prompt": "Supposition fondée sur des indices, hypothèse non vérifiée.",
+    "prompt": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits.",
     "payload": {
-      "definition": "Supposition fondée sur des indices, hypothèse non vérifiée."
+      "definition": "Une conjecture se réfère à une supposition ou une hypothèse, généralement basée sur des indices ou des éléments de preuve limités. C’est une affirmation qui n’est pas nécessairement confirmée par des faits."
     },
     "solution": {
       "answer": "conjecture",
@@ -5773,15 +5738,15 @@
         {
           "n": 2,
           "options": [
-            "éminence",
-            "imminence"
+            "imminence",
+            "éminence"
           ]
         },
         {
           "n": 3,
           "options": [
-            "conjecture",
-            "conjoncture"
+            "conjoncture",
+            "conjecture"
           ]
         }
       ]
@@ -5812,22 +5777,22 @@
         {
           "n": 1,
           "options": [
-            "collision",
-            "collusion"
+            "collusion",
+            "collision"
           ]
         },
         {
           "n": 2,
           "options": [
-            "prodige",
-            "prodigue"
+            "prodigue",
+            "prodige"
           ]
         },
         {
           "n": 3,
           "options": [
-            "éruption",
-            "irruption"
+            "irruption",
+            "éruption"
           ]
         }
       ]
@@ -5904,22 +5869,22 @@
         {
           "n": 1,
           "options": [
-            "opportun",
-            "importun"
+            "importun",
+            "opportun"
           ]
         },
         {
           "n": 2,
           "options": [
-            "infraction",
-            "effraction"
+            "effraction",
+            "infraction"
           ]
         },
         {
           "n": 3,
           "options": [
-            "absorber",
-            "adsorber"
+            "adsorber",
+            "absorber"
           ]
         }
       ]
@@ -5950,15 +5915,15 @@
         {
           "n": 1,
           "options": [
-            "anoblir",
-            "ennoblir"
+            "ennoblir",
+            "anoblir"
           ]
         },
         {
           "n": 2,
           "options": [
-            "consommer",
-            "consumer"
+            "consumer",
+            "consommer"
           ]
         },
         {
@@ -6003,15 +5968,15 @@
         {
           "n": 2,
           "options": [
-            "abjurer",
-            "adjurer"
+            "adjurer",
+            "abjurer"
           ]
         },
         {
           "n": 3,
           "options": [
-            "prescription",
-            "proscription"
+            "proscription",
+            "prescription"
           ]
         }
       ]
@@ -6042,8 +6007,8 @@
         {
           "n": 1,
           "options": [
-            "spécieux",
-            "spacieux"
+            "spacieux",
+            "spécieux"
           ]
         },
         {
@@ -6056,8 +6021,8 @@
         {
           "n": 3,
           "options": [
-            "septique",
-            "sceptique"
+            "sceptique",
+            "septique"
           ]
         }
       ]
@@ -6088,15 +6053,15 @@
         {
           "n": 1,
           "options": [
-            "émigrer",
-            "immigrer"
+            "immigrer",
+            "émigrer"
           ]
         },
         {
           "n": 2,
           "options": [
-            "affectif",
-            "affectueux"
+            "affectueux",
+            "affectif"
           ]
         },
         {
@@ -6134,15 +6099,15 @@
         {
           "n": 1,
           "options": [
-            "allusion",
-            "illusion"
+            "illusion",
+            "allusion"
           ]
         },
         {
           "n": 2,
           "options": [
-            "décade",
-            "décennie"
+            "décennie",
+            "décade"
           ]
         },
         {

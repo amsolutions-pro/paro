@@ -2,16 +2,11 @@
  * Révision espacée — algorithme Leitner 5 boîtes + facteur SM-2 allégé.
  * Fonctions pures testées dans tests/unit/srs.test.ts.
  *
- * ⚠️  MODE TEST — intervalles en HEURES (au lieu de jours) pour valider
- *     la dynamique du module « Mes points faibles » sans attendre plusieurs jours.
- *     Remettre SRS_UNIT = "days" et restaurer LEITNER_INTERVALS avant la mise en prod.
- *
- * Intervalles par boîte (en heures, mode test) :
- *   1 → 1h  |  2 → 3h  |  3 → 7h  |  4 → 14h  |  5 → 30h
+ * Intervalles par boîte (en jours) :
+ *   1 → 1j  |  2 → 3j  |  3 → 7j  |  4 → 14j  |  5 → 30j
  */
 
-// Passer à "days" et restaurer [0,1,3,7,14,30] pour la production.
-const SRS_UNIT: "hours" | "days" = "hours";
+const SRS_UNIT: "hours" | "days" = "days";
 export const LEITNER_INTERVALS = [0, 1, 3, 7, 14, 30] as const; // index = box (valeurs en SRS_UNIT)
 
 export interface ReviewState {

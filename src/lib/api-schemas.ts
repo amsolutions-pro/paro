@@ -28,5 +28,6 @@ export const statsQuerySchema = z.object({
 
 export const reviewQueueQuerySchema = z.object({
   userId: z.string().optional(),
-  limit: z.coerce.number().int().min(1).max(20).default(10),
+  limit: z.coerce.number().int().min(1).max(200).default(10),
+  all: z.preprocess((v) => v === "true" || v === "1", z.boolean()).default(false),
 });

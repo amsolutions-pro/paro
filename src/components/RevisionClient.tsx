@@ -25,20 +25,25 @@ interface QueueEntry {
   }[];
 }
 
+type ApiResponse = { queue: QueueEntry[]; totalDue: number; totalTracked: number; nextReviewAt: string | null };
+
 export function RevisionClient() {
   const [queue, setQueue] = useState<QueueEntry[]>([]);
   const [totalDue, setTotalDue] = useState(0);
   const [totalTracked, setTotalTracked] = useState(0);
   const [nextReviewAt, setNextReviewAt] = useState<string | null>(null);
   const [currentEntry, setCurrentEntry] = useState<QueueEntry | null>(null);
+  const [currentEntryQueue, setCurrentEntryQueue] = useState<QueueEntry[]>([]);
+  const [currentEntryIdx, setCurrentEntryIdx] = useState(0);
   const [currentItemIdx, setCurrentItemIdx] = useState(0);
   const [loading, setLoading] = useState(true);
+  const [loadingAll, setLoadingAll] = useState(false);
 
   useEffect(() => {
     const uid = getUserId();
     fetch(`/api/revision?userId=${encodeURIComponent(uid)}&limit=10`)
       .then((r) => r.json())
-      .then((d: { queue: QueueEntry[]; totalDue: number; totalTracked: number; nextReviewAt: string | null }) => {
+      .then((d: ApiResponse) => {
         setQueue(d.queue);
         setTotalDue(d.totalDue);
         setTotalTracked(d.totalTracked);
@@ -48,17 +53,44 @@ export function RevisionClient() {
       .catch(() => setLoading(false));
   }, []);
 
-  function startEntry(entry: QueueEntry) {
+  function startSingleEntry(entry: QueueEntry) {
+    setCurrentEntryQueue([entry]);
+    setCurrentEntryIdx(0);
     setCurrentEntry(entry);
     setCurrentItemIdx(0);
+  }
+
+  async function handleToutReviser() {
+    setLoadingAll(true);
+    const uid = getUserId();
+    try {
+      const d = await fetch(`/api/revision?userId=${encodeURIComponent(uid)}&all=true`).then(r => r.json()) as ApiResponse;
+      if (d.queue.length > 0) {
+        setCurrentEntryQueue(d.queue);
+        setCurrentEntryIdx(0);
+        setCurrentEntry(d.queue[0]);
+        setCurrentItemIdx(0);
+      }
+    } finally {
+      setLoadingAll(false);
+    }
   }
 
   function handleNext() {
     if (!currentEntry) return;
     if (currentItemIdx + 1 < currentEntry.items.length) {
       setCurrentItemIdx((i) => i + 1);
+      return;
+    }
+    // Fin des items de cette entrée — passe à l'entrée suivante
+    const nextIdx = currentEntryIdx + 1;
+    if (nextIdx < currentEntryQueue.length) {
+      setCurrentEntryIdx(nextIdx);
+      setCurrentEntry(currentEntryQueue[nextIdx]);
+      setCurrentItemIdx(0);
     } else {
       setCurrentEntry(null);
+      setCurrentEntryIdx(0);
       setCurrentItemIdx(0);
     }
   }
@@ -67,11 +99,15 @@ export function RevisionClient() {
 
   if (currentEntry) {
     const item = currentEntry.items[currentItemIdx];
+    const progress = currentEntryQueue.length > 1
+      ? `${currentEntryIdx + 1} / ${currentEntryQueue.length}`
+      : null;
     return (
       <div className="flex flex-col gap-4">
-        <div className="flex items-center gap-2">
-          <h1 className="font-serif text-2xl font-bold">Révision</h1>
+        <div className="flex items-center gap-2 flex-wrap">
+          <h1 className="font-serif text-2xl font-bold">Révisions</h1>
           <Badge variant="armenien">{currentEntry.groupTitle}</Badge>
+          {progress && <span className="text-encre-soft text-sm">{progress}</span>}
         </div>
         <ExercisePlayer item={item} onResult={() => {}} onNext={handleNext} canGoBack={false} />
       </div>
@@ -82,7 +118,7 @@ export function RevisionClient() {
     <div className="flex flex-col gap-6">
       <div className="flex flex-col gap-3">
         <div className="flex items-baseline gap-3">
-          <h1 className="font-serif text-3xl font-bold">Mes points faibles</h1>
+          <h1 className="font-serif text-3xl font-bold">Révisions</h1>
           <BuildInfo />
         </div>
         {totalDue > 0 ? (
@@ -98,31 +134,35 @@ export function RevisionClient() {
               "Revenez dans quelques heures !"
             )}
           </p>
-        ) : (
-          <p className="text-encre-soft text-sm">
-            Aucune révision due pour l&apos;instant. Revenez dans quelques heures !
-          </p>
-        )}
-        <div className="border-amber-300 bg-amber-50 rounded-lg border-l-4 p-3 text-sm">
-          <p className="font-semibold text-encre">⚠️ Mode test — intervalles en heures</p>
-          <p className="text-encre-soft mt-1">
-            Chaque paire travaillée est planifiée selon l&apos;algorithme de Leitner :
-            bonne réponse → intervalle allongé (1 h → 3 h → 7 h → 14 h → 30 h) ;
-            mauvaise réponse → retour en boîte 1, révision dans 1 heure.
-            Revenez régulièrement pour observer la dynamique du module.
-          </p>
+        ) : null}
+        <div className="border-grege-300 bg-grege-50 rounded-lg border p-3 text-sm text-encre-soft">
+          Algorithme de Leitner (5 boîtes) — bonne réponse : intervalle allongé
+          (1 j → 3 j → 7 j → 14 j → 30 j) ; mauvaise réponse : retour en boîte 1.
         </div>
       </div>
 
-      {queue.length === 0 && totalTracked === 0 && (
+      {totalTracked === 0 && (
         <p className="text-encre-soft text-sm">
           Faites des exercices pour alimenter la file de révision espacée.
         </p>
       )}
-      {queue.length === 0 && totalTracked > 0 && (
-        <p className="text-encre-soft text-sm">
-          <strong>{totalTracked}</strong> paire{totalTracked > 1 ? "s" : ""} en suivi — aucune n&apos;est due pour l&apos;instant.
-        </p>
+
+      {/* Bouton "Tout réviser" */}
+      {totalTracked > 0 && (
+        <div className="flex items-center gap-3">
+          {queue.length > 0 && (
+            <p className="text-encre-soft text-sm flex-1">
+              <strong>{totalTracked}</strong> paire{totalTracked > 1 ? "s" : ""} en suivi
+            </p>
+          )}
+          <button
+            onClick={handleToutReviser}
+            disabled={loadingAll}
+            className="border-lavande-300 text-lavande-700 hover:bg-lavande-100 rounded-lg border px-4 py-2 text-sm font-medium transition-colors disabled:opacity-50"
+          >
+            {loadingAll ? "Chargement…" : `Tout réviser (${totalTracked})`}
+          </button>
+        </div>
       )}
 
       <div className="flex flex-col gap-3">
@@ -139,7 +179,7 @@ export function RevisionClient() {
                 </div>
               </div>
               <button
-                onClick={() => startEntry(entry)}
+                onClick={() => startSingleEntry(entry)}
                 className="bg-lavande-500 hover:bg-lavande-700 rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors"
               >
                 Réviser →

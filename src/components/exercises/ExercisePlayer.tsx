@@ -8,6 +8,7 @@ import {
 } from "@/src/lib/advance-timing";
 import { Button } from "@/src/components/ui/Button";
 import { Card } from "@/src/components/ui/Card";
+import { trackError } from "@/src/lib/onboarding";
 
 import { QcmRenderer } from "./renderers/QcmRenderer";
 import { TrousRenderer } from "./renderers/TrousRenderer";
@@ -105,6 +106,7 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
       const data = (await res.json()) as AttemptResult;
       setResult(data);
       onResult(data.correct);
+      if (!data.correct) trackError();
     } finally {
       setSubmitting(false);
     }

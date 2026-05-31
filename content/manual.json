@@ -1601,5 +1601,2858 @@
         "autoFilled": false
       }
     ]
+  },
+  {
+    "slug": "affirmer-affliger",
+    "title": "Affirmer & Infirmer",
+    "letter": "A",
+    "summary": "Distinguer Affirmer et Affliger.",
+    "words": [
+      {
+        "headword": "Affirmer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "հաստատել, հավաստել // պնդել",
+        "definition": "Le mot « infirmer » signifie contredire ou réfuter une affirmation ou une",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Affliger",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "վշտացնել, ցավ պատճառել, տխրեցնել // համակել, հարվածել",
+        "definition": "Le mot « agoniser » signifie être près de mourir ou être en train de mourir, généralement après une période de souffrance ou de lutte. Il est utilisé pour décrire l’état d’une personne ou d’un animal en fin de vie, où la mort est imminente.",
+        "examples": [
+          "d’utilisation :",
+          "Marie était affligée d’apprendre que sa candidature ne serait pas retenue.",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "altitude-attitude-amener-emmener",
+    "title": "Altitude & Attitude",
+    "letter": "A",
+    "summary": "Distinguer Altitude et Attitude et Amener et Emmener.",
+    "words": [
+      {
+        "headword": "Altitude",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բարձրություն",
+        "definition": "L’altitude est la hauteur d’un point par rapport au niveau de la mer. Ce terme",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Attitude",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "դիրք, կեցվածք // վերաբերմունք",
+        "definition": "L’attitude est la manière de se tenir, de se comporter, ou l’état d’esprit qu’une personne affiche. Ce terme est utilisé pour décrire la posture physique ou le comportement émotionnel et mental de quelqu’un dans une situation donnée.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Amener",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "բերել // անցկացնել // փխբ․ բերել հասցնել, հանգեցնել",
+        "definition": "Le terme « amener » signifie faire venir une personne ou un objet vers le lieu où l’on se trouve. Il implique un déplacement vers le locuteur ou vers un lieu spécifique où il se trouve.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Emmener",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "տանել",
+        "definition": "Le mot « apporter » est utilisé pour indiquer l’action de déplacer un objet inanimé vers un lieu où se trouve la personne qui parle. Il implique un déplacement en direction du locuteur ou du lieu spécifique où il se trouve.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "apparier-appareiller",
+    "title": "Apparier & Appareiller",
+    "letter": "A",
+    "summary": "Distinguer Apparier et Appareiller.",
+    "words": [
+      {
+        "headword": "Apparier",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "զուգավորել, զույգ կազմել",
+        "definition": "Le terme « apparier » signifie assortir ou accoupler deux choses pour qu’elles",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Appareiller",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "զուգավորել, համապատասխանեցնել",
+        "definition": "Le mot « appareiller » a plusieurs significations selon le contexte :",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "apporter-emporter",
+    "title": "Apporter & Emporter",
+    "letter": "A",
+    "summary": "Deux termes en français, « apporter » et « emporter », sont souvent utilisés de manière interchangeable, mais qui ont des significations distinctes. Bien qu’ils partagent une racine commune, ces mots sont utilisés dans des contextes différents pour décrire l’action de prendre quelque chose avec soi et le transporter vers un lieu spécifique (« apporter ») ou vers un autre endroit, ou même pour décrire des situations plus abstraites (« emporter »). Comprendre la distinction entre ces deux termes est essentiel pour une communication précise en français.",
+    "words": [
+      {
+        "headword": "Apporter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "բերել // փխբ․ ներդնել, պատճառել",
+        "definition": "Le terme « apporter » signifie prendre quelque chose avec soi et le transporter",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Emporter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "տանել // իր հետ վերցնել",
+        "definition": "Le mot « emporter » peut avoir plusieurs significations selon le contexte :",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "assertion-insertion",
+    "title": "Assertion & Insertion",
+    "letter": "A",
+    "summary": "Distinguer Assertion et Insertion.",
+    "words": [
+      {
+        "headword": "Assertion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հաստատում",
+        "definition": "Une assertion est une affirmation ou une déclaration catégorique, souvent utilisée pour exprimer une opinion ou une position sur un sujet.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Insertion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ներառում, զետեղում, հրապարակում․ ներգրավում",
+        "definition": "Une insertion est l’action d’intégrer ou d’introduire un élément dans un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "bedeau-badaud",
+    "title": "Bedeau & Badaud",
+    "letter": "B",
+    "summary": "Distinguer Bedeau et Badaud.",
+    "words": [
+      {
+        "headword": "Bedeau",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "եկեղ․ ժամկոչ, ժամհար",
+        "definition": "Un bedeau est un employé d’une église, souvent chargé de tâches telles que l’entretien des lieux de culte, la préparation des cérémonies religieuses et l’aide au bon déroulement des offices.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Badaud",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "դատարկաշրջիկ՝ պարապ-սարապ՝տեսարան դիտելու սիրահար անձ",
+        "definition": "Un badaud est un passant ou un spectateur qui observe de manière curieuse ou indifférente ce qui se passe autour de lui, souvent sans être directement impliqué dans l’événement.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "biographie-bibliographie-cacatois-cacatoes",
+    "title": "Biographie & Bibliographie",
+    "letter": "B",
+    "summary": "Deux paronymes en français, « biographie » et « bibliographie », peuvent sembler similaires, mais ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Biographie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "կենսագրություն",
+        "definition": "Une biographie est un récit détaillé de la vie d’une personne, souvent écrite par",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Bibliographie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մատենագիտություն, բիբլիոգրաֆիա․ գրականագրության ցանկ",
+        "definition": "Une bibliographie est une liste systématique et organisée de livres, d’articles, de",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Cacatois",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "ծով․ վերին առագաստ, մանրակայմի առագաստ",
+        "definition": "Le cacatois est une petite voile triangulaire utilisée sur certains bateaux, souvent placée à l’avant du mât.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Cacatoès",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "[kakatɔɛs]\tկակադու",
+        "definition": "s : Une canette, ou cannette, est un contenant, de faible volume (33cl jusqu'à un litre), en verre ou en métal, qui contient une boisson que l'on peut emporter puis boire sans outil ni gobelet.",
+        "examples": [
+          "d’utilisation :",
+          "L'œuf d'une cane pèse près de 100 grammes.",
+          "La canne à sucre."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "captation-captage-capter-capturer-captiver",
+    "title": "Captation & Captage",
+    "letter": "C",
+    "summary": "Deux paronymes en français, « captation » et « captage », peuvent sembler similaires, mais ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Captation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "իրավբ․ յուրացում, սեփականացում, զավթում",
+        "definition": "La captation désigne l’action de s’emparer de quelque chose, souvent de manière",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Captage",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "գրավում, զավթում, յուրացում, սեփականացում, աղբյուրակապում",
+        "definition": "Le captage est l’action de capter ou de prélever quelque chose, en particulier",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Capter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "գրավել // բռնի ուժով ձեռք բերել // ձեռք բերել",
+        "definition": "« Capter » signifie recevoir ou comprendre un message, une information ou un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Capturer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "բռնել, ձերբակալել // գերել, գերի վերցնել",
+        "definition": "« Capturer » signifie faire prisonnier, prendre en otage ou attraper quelque chose",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Captiver",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "գրավել, հմայել, կլանել, հափշտակել, գերել",
+        "definition": "« Captiver » signifie intéresser profondément quelqu’un, retenir son attention",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "carnassier-carnivore",
+    "title": "Carnassier  &  Carnivore",
+    "letter": "C",
+    "summary": "Distinguer Carnassier et Carnivore.",
+    "words": [
+      {
+        "headword": "Carnassier",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "գիշակեր կենդանի",
+        "definition": "Un carnassier est un être, généralement un animal, qui a un appétit féroce pour la chair et qui chasse d’autres animaux pour se nourrir. Ce terme est souvent utilisé pour décrire des comportements agressifs ou prédateurs.",
+        "examples": [
+          "Son sourire carnassier en a effrayé plus d’un."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Carnivore",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "մսակեր կենդանի",
+        "definition": "Un carnivore est un être, généralement un animal, qui se nourrit principalement de chair ou de viande. Ce terme est utilisé pour décrire le régime alimentaire d’un animal plutôt que son comportement prédateur.",
+        "examples": [
+          "Le chat est un animal carnivore. (régime alimentaire basé sur la viande)"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "cligner-clignoter",
+    "title": "Cligner & Clignoter",
+    "letter": "C",
+    "summary": "Deux mots en français, « cligner » et « clignoter », semblent similaires, mais ils ont des significations distinctes. Ces termes sont utilisés pour décrire des actions spécifiques liées aux mouvements des paupières, mais dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Cligner",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "(աչքերը) թարթել, կկոցել",
+        "definition": "« Cligner » signifie fermer à demi l’œil de manière rapide et répétitive. C’est un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Clignoter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "շողշողալ, առկայծել․ թարթվել // էլ․ թրթռալ",
+        "definition": "« Clignoter » signifie rapprocher successivement et involontairement les",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "coassement-croassement-coffin-couffin-cohesion",
+    "title": "Coassement & Croassement",
+    "letter": "C",
+    "summary": "Distinguer Coassement et Croassement et Coffin et Couffin et Cohésion.",
+    "words": [
+      {
+        "headword": "Coassement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "կռկռոց, կռռոց",
+        "definition": "Le coassement est le cri émis par les grenouilles et certains autres amphibiens. Il",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Croassement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "կռկռալը, կռավելը, կռավոց",
+        "definition": "« Croasser » désigne le cri émis par les corbeaux ou les corneilles. C’est un son rauque et discordant, souvent associé au corbeau, mais également émis par d’autres oiseaux de la famille des corvidés. Ce cri peut avoir différentes significations, y compris la communication sociale, l’avertissement de danger ou l’annonce de la présence de nourriture.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Coffin",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "զամբյուղ, կողով․տուփ, արկղիկ",
+        "definition": "Un coffin est un étui ou une boîte utilisée pour ranger ou transporter une pierre à aiguiser. Il est souvent utilisé dans le domaine de l’artisanat ou de la cuisine.",
+        "examples": [
+          "d’utilisation :\tLe faucheur est muni de sa pierre et de son coffin."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Couffin",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "մեծ կողով՝ զամբյուղ, զամբյուղ-մահճակալ (մանկիկի)",
+        "definition": "Un coussin est un objet rembourré utilisé comme oreiller ou support confortable",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Cohésion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "կապ, կապակցություն, հարակցություն",
+        "definition": "« Colorier » signifie appliquer de la couleur sur un objet ou une surface. Ce terme est généralement utilisé pour décrire l’action de remplir des dessins ou des illustrations avec des couleurs, souvent à l’aide de crayons de couleur, de peinture ou d’autres médiums artistiques.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "compatibilite-comptabilite-completage-complement-complementation-completude",
+    "title": "Compatibilité & Comptabilité",
+    "letter": "C",
+    "summary": "Distinguer Compatibilité et Comptabilité et Complétage et Complément et Complémentation et Complétude.",
+    "words": [
+      {
+        "headword": "Compatibilité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "համապատասխանություն, համատեղելիություն",
+        "definition": "La compatibilité désigne la capacité de s’accorder avec quelqu’un ou quelque chose, ou la capacité de coexister ou de fonctionner ensemble sans conflit.",
+        "examples": [
+          "Il a vérifié la compatibilité des équipements informatiques."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Comptabilité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հաշիվ, հաշվապահություն, հաշվարկ, հաշվետարություն",
+        "definition": "La comptabilité désigne la pratique ou la discipline de tenir les comptes et les registres financiers d’une entreprise ou d’une organisation. Cela implique de suivre, d’enregistrer et de rapporter les transactions financières.",
+        "examples": [
+          "La comptabilité de son commerce doit être tenue par un expert."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Complétage",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "լրացում",
+        "definition": "Le complétage est l’action de compléter quelque chose, généralement une carte,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Complément",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "լրում, լրացում //քրկն․ լրացում, complement direct, ուղիղ խնդիր",
+        "definition": "Un complément est un élément qui complète ou enrichit quelque chose d’autre,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Complémentation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "լրացման գործընթաց",
+        "definition": "La complémentation est l’action de compléter ou de rendre complet quelque",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Complétude",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ամբողջականություն",
+        "definition": "La complétude se réfère à l’état de ce qui est complet, entier ou total. C’est le fait",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "complexion-complexite",
+    "title": "Complexion & Complexité",
+    "letter": "C",
+    "summary": "Bien que les paronymes « complexion » et « complexité » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Complexion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մարմնի կազմվածք, մարմնակազմ",
+        "definition": "La complexion se réfère à la constitution physique ou à l’état de santé d’une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Complexité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բարդություն",
+        "definition": "La complexité se réfère à l’état d’une chose complexe, compliquée ou difficile à",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "concreter-concretiser-confirmer-infirmer",
+    "title": "Concréter & Concrétiser",
+    "letter": "C",
+    "summary": "Deux mots en français, « concréter » et « concrétiser », partagent une racine commune mais ils ont des significations distinctes. Ces termes sont utilisés pour décrire des processus qui impliquent la réalisation ou la matérialisation de quelque chose, mais dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Concréter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "խտացնել, թանձրացնել, ամրացնել, պնդացնել",
+        "definition": "« Concréter » signifie durcir ou épaissir une substance, généralement en la",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Concrétiser",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "նյութական՝ առարկայական՝ որոշակի դարձնել, կոնկրետացնել",
+        "definition": "« Concrétiser » signifie rendre réelles ou tangibles des idées, des concepts ou des",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Confirmer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "հաստատել, հավաստել․ պաշտպանել, կողմ լինել․ վավերացնել",
+        "definition": "« Confirmer » signifie rendre certain ou établir la véracité ou la validité de quelque chose. C’est le processus de renforcer ou de valider une affirmation ou une information déjà existante, souvent en fournissant des preuves supplémentaires ou en réitérant une conviction.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Infirmer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "իրավբ․ չեղյալ հայտարարել, վեչացնել, անվավեր դարձնել՝",
+        "definition": "« Infirmer » signifie démentir ou remettre en question la validité ou la véracité de quelque chose. C’est le processus de réfutation ou de contestation d’une affirmation ou d’une théorie, généralement en apportant des preuves ou des arguments contraires.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "conflagration-deflagration",
+    "title": "Conflagration & Déflagration",
+    "letter": "C",
+    "summary": "Les paronymes « conflagration » et « déflagration » se ressemblent par leur forme mais ont des sens différents :",
+    "words": [
+      {
+        "headword": "Conflagration",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մեծ ընդհարում, միջազգային բախում",
+        "definition": "Incendie étendu, souvent utilisé au sens figuré pour désigner une guerre de",
+        "examples": [
+          "La Seconde Guerre mondiale fut une conflagration mondiale."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Déflagration",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բռնկում, պայթյուն",
+        "definition": "Explosion accompagnée d’une forte détonation, causée par une combustion très rapide (mais sans onde de choc comme dans une détonation).",
+        "examples": [
+          "La fuite de gaz a provoqué une violente déflagration."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "continuation-continuite",
+    "title": "Continuation & Continuité",
+    "letter": "C",
+    "summary": "Bien que « continuation » et « continuité » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Continuation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "շարունակում, շարունակելը, շարունուկություն, հաջորդություն",
+        "definition": "La continuation se réfère à l’action de poursuivre ou de prolonger quelque chose",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Continuité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "շարունակականություն․ տևականություն․ անխզելիություն",
+        "definition": "La continuité se réfère au caractère de ce qui est continu, sans interruption ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "cruaute-crudite",
+    "title": "Cruauté & Crudité",
+    "letter": "C",
+    "summary": "Distinguer Cruauté et Crudité.",
+    "words": [
+      {
+        "headword": "Cruauté",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "դաժանություն, անգթություն, վայրագություն",
+        "definition": "La cruauté se réfère à un comportement ou une attitude qui cherche à infliger de la souffrance physique ou morale à autrui, souvent de manière délibérée.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Crudité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "խհրր. հում՝ չեփված լինելը, հում ուտելիք.  թարմ մրգեր և բանջարեղեն //",
+        "definition": "La crudité se réfère à la qualité de ce qui est cru, non cuit, ou bien au sens figuré,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "cymbale-timbale",
+    "title": "Cymbale & Timbale",
+    "letter": "C",
+    "summary": "Bien que « cymbale » et « timbale ». puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Cymbale",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "երժշտ․ ծնծղա",
+        "definition": "Une cymbale est un instrument de musique constitué d’un disque de métal",
+        "examples": [
+          "d’utilisation :\tLe batteur du groupe est excellent aux cymbales."
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Timbale",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մետաղյա սկահ՝ գավաթ // երժշտ․ կիսագնդաձև թմբուկ",
+        "definition": "Une timbale peut avoir deux significations :",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "debiteuse-debitrice",
+    "title": "Débiteuse & Débitrice",
+    "letter": "D",
+    "summary": "Distinguer Débiteuse et Débitrice.",
+    "words": [
+      {
+        "headword": "Débiteuse",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "առևտր․ վաճառող, առևտրական // տարածող (de nouvelles)",
+        "definition": "Une débiteuse est une personne, généralement une femme, qui débite des",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Débitrice",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ֆին․ դեբիտոր, պրտապան // փխբր․ être le débiteur de qqn մեկին",
+        "definition": "« Commencer » signifie initier ou entamer quelque chose. Il est le seul des trois",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "dechirement-dechirure",
+    "title": "Déchirement & Déchirure",
+    "letter": "D",
+    "summary": "Bien que « déchirement » et « déchirure » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Déchirement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "ծվեն-ծվեն անելը (du tissu) // pl. երկպառակություններ // բժշկ․",
+        "definition": "Un déchirement est à la fois l’action de déchirer un tissu ou un matériau et une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Déchirure",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "անցք, պատռվածք // բժշկ․ պատռվածք",
+        "definition": "Une déchirure est la rupture d’un tissu ou d’un matériau, généralement causée",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "decocher-decrocher",
+    "title": "Décocher & Décrocher",
+    "letter": "D",
+    "summary": "Distinguer Décocher et Décrocher.",
+    "words": [
+      {
+        "headword": "Décocher",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "արձակել // փխբ․նետել",
+        "definition": "« Décocher » signifie lancer ou envoyer quelque chose, souvent en utilisant",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Décrocher",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "քանդել․կախած տեղից հանել․ձեռք բերել․ լսափողը վերցնել",
+        "definition": "« Décrocher » signifie détacher quelque chose qui était accroché ou suspendu,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "dedicacer-dedier",
+    "title": "Dédicacer & Dédier",
+    "letter": "D",
+    "summary": "Deux verbes en français, « dédicacer » et « dédier », ont des significations distinctes bien que leur usage puisse sembler similaire. Ces termes sont utilisés dans des contextes différents pour exprimer des actions spécifiques liées à l’attribution ou à l’offrande de quelque chose.",
+    "words": [
+      {
+        "headword": "Dédicacer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "ձոնել, ընծայագրել",
+        "definition": "« Dédicacer » signifie signer concrètement quelque chose pour quelqu’un,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Dédier",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "ձոնել նվիրել, նվիրաբերել",
+        "definition": "« Dédier » signifie offrir ou consacrer quelque chose à quelqu’un ou à une cause",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "dentition-denture",
+    "title": "Dentition & Denture",
+    "letter": "D",
+    "summary": "Bien que deux paronymes en français, « dentition » et « denture », puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Dentition",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բժշկ․ ատամների դուրս գալը՝ ծկթելը․ ատամնաշար",
+        "definition": "La dentition fait référence à la formation et à la croissance des dents chez les",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Denture",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բժշկ․ ատամնաշար // տեխ․ատամներ (անվի)․ ատամնավոր կցորդում",
+        "definition": "La denture désigne l’ensemble des dents présentes dans la bouche d’un être",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "depecement-depreciation-deprecation-depredation",
+    "title": "Dépeçage & Dépècement",
+    "letter": "D",
+    "summary": "Bien que deux paronymes en français : « dépeçage » et « dépècement » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents. Dépeçage m. անդամահատում, մորթազերծում (d’un animal) // խսկց․ կտրատում (d’une volaille) // ծով․ մաս-մաս լինելը (d’un navire) // փխբ․մասնատելը (d’une nation). մասերի բաժանելը d’un ouvrage Définition : Le dépeçage se réfère à l’action de découper un être vivant, généralement dans le cadre de la chasse ou de l’abattage des animaux. Exemples d’utilisation : Le chasseur procède au dépeçage du gibier. (action de découper un animal) La boucherie est spécialisée dans le dépeçage des viandes. (action de découper des morceaux de viande) Après l’abattage, il faut effectuer le dépeçage pour préparer la viande. (action de découper un animal)",
+    "words": [
+      {
+        "headword": "Dépècement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "մասնատում",
+        "definition": "Le dépècement se réfère à l’action de morceler ou de diviser un territoire ou une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Dépréciation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ամորտիզացիա, մաշում ֆին. արժեզրկում, առտր. էժանացում, փխբ. թերագնահատում, նսեմացում",
+        "definition": "La dépréciation fait référence à une perte de valeur, en particulier en ce qui concerne la diminution de la valeur monétaire d’un bien ou d’une devise.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Déprécation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "աղաչանք, աղերսանք, աղաչանքի աղոթք",
+        "definition": "La déprécation est une prière pour obtenir le pardon ou la miséricorde, souvent adressée à une divinité ou à une autorité supérieure.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Déprédation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "կողոպուտ, թալան, վնաս, ֆին. յուրացում, հափշտակում",
+        "definition": "La déprédation désigne une dégradation, une destruction ou un pillage, généralement commis par des individus ou des groupes.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "desaffection-desaffectation",
+    "title": "Désaffection & désaffectation",
+    "letter": "D",
+    "summary": "Bien que les paronymes « désaffection » et « désaffectation » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Désaffection",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "անբարյացակամություն (envers)",
+        "definition": "La désaffection fait référence à la perte d’affection ou d’intérêt pour quelque",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Désaffectation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "եկեղ.  աշխարհականացում, պետականացում (d’une église), ռազմ.",
+        "definition": "La désaffectation est l’action de ne plus utiliser ou d’abandonner quelque chose,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "desagregation-desintegration",
+    "title": "Désagrégation & Désintégration",
+    "letter": "D",
+    "summary": "Bien que « désagrégation » et « désintégration » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Désagrégation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մասնատում, բաժանում բաղկացուցիչ մասերի․աշխգր․",
+        "definition": "La désagrégation désigne l’action de séparer ce qui est uni, de briser ou de",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Désintégration",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մասնատում, քայքայում, կազմալուծում // ֆիզ․ տրոհում (de",
+        "definition": "La désintégration est l’action de décomposer en particules ou en éléments",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "desinteret-desinteressement",
+    "title": "Désintérêt & Désintéressement",
+    "letter": "D",
+    "summary": "Bien que « désintérêt » et « désintéressement » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Désintérêt",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "անտարբերություն",
+        "definition": "Le désintérêt signifie l’indifférence ou le manque d’intérêt pour quelque chose",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Désintéressement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "անշահախնդրություն, անկողմնապահություն // ֆին.",
+        "definition": "Le désintéressement peut avoir deux significations :",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "diptyque-distique",
+    "title": "Diptyque & Distique",
+    "letter": "D",
+    "summary": "Bien que « diptyque » et « distique » puissent sembler similaires, ils sont utilisés dans des contextes différents et ont des significations distinctes.",
+    "words": [
+      {
+        "headword": "Diptyque",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "երկթև սրբանկար, երկփեղկ պատկեր",
+        "definition": "Un diptyque est un objet artistique ou religieux composé de deux panneaux",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Distique",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "երկտող ոտանավոր, ոտանավորի երկտող, դիստիկոն",
+        "definition": "« Récriminer » signifie critiquer amèrement quelqu’un en réponse à une",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "dissension-dissentiment",
+    "title": "Dissension & Dissentiment",
+    "letter": "D",
+    "summary": "Bien que « dissension » et « dissentiment » puissent sembler similaires, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Dissension",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "տարաձայնություն, անհամաձայնություն, երկպառակություն",
+        "definition": "La dissension désigne un état d’hostilité ou de désaccord, souvent entre",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Dissentiment",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "տարակարծություն, անհամաձայնություն",
+        "definition": "Le dissentiment est un jugement différent ou un désaccord qui crée un conflit",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "diversion-divertissement",
+    "title": "Diversion & Divertissement",
+    "letter": "D",
+    "summary": "Distinguer Diversion et Divertissement.",
+    "words": [
+      {
+        "headword": "Diversion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "շեղում, ռազմ․ դիվերսիա //փխբ․զվարճալիք, փոփոխություն, faire",
+        "definition": "La diversion est l’action de détourner l’attention de quelqu’un, souvent dans un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Divertissement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "զվարճություն, զվարճանալը, հաճելի ժամանց, խաղ",
+        "definition": "Le divertissement désigne un loisir, une activité récréative ou un spectacle qui a",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "donation-dotation",
+    "title": "Donation & Dotation",
+    "letter": "D",
+    "summary": "Distinguer Donation et Dotation.",
+    "words": [
+      {
+        "headword": "Donation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "իրավ.  Նվեր, նվիրատվություն, նվիրաբերություն",
+        "definition": "Une donation désigne l’acte de donner quelque chose de manière définitive,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Dotation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "դոտացիա, դրամական միջոցների հատկացում // նվիրատվություն,",
+        "definition": "Une dotation est une somme d’argent, un revenu ou un fond attribué à une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "ecaille-ecale",
+    "title": "Écaille & Écale",
+    "letter": "E",
+    "summary": "Bien que les mots « écaille » et « écale » puissent sembler similaires, ils sont utilisés dans des contextes différents et ont des significations distinctes.",
+    "words": [
+      {
+        "headword": "Écaille",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "թեփուկ ձկան․ խեցի ոստրեի․ պատյան կրիայի",
+        "definition": "Une écaille est une petite plaque ou une membrane qui recouvre la peau de",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Écale",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "կեղև, կճեպ (de châtaigne, de noix) պատիճ (des pois)",
+        "definition": "Une écale est l’enveloppe ou la coquille recouvrant certains fruits, graines ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "eclipse-ellipse",
+    "title": "Éclipse & Ellipse",
+    "letter": "E",
+    "summary": "Deux paronymes en français : « éclipse » et « ellipse » puissent sembler similaires et ils sont utilisés dans des contextes différents ayant des significations distinctes.",
+    "words": [
+      {
+        "headword": "Éclipse",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "աստղ․ խավարում // փխբ․ անհետացում, խավարում",
+        "definition": "Une éclipse est l’occultation partielle ou totale d’un astre par un autre astre.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Ellipse",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "քրկն․ զեղչում, բացթողում, էլիպս",
+        "definition": "Une ellipse est une figure géométrique ressemblant à un cercle aplati,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "epigramme-epigraphe",
+    "title": "Épigramme & Épigraphe",
+    "letter": "E",
+    "summary": "Deux paronymes en français : « épigramme » et « épigraphe » semblent similaires, mais ils sont utilisés dans des contextes différents et ont des significations distinctes.",
+    "words": [
+      {
+        "headword": "Épigramme",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "երգիծական կարճ բանաստեղծություն, էպիգրամ",
+        "definition": "Une épigramme est un court poème satirique ou humoristique qui exprime",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Épigraphe",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բնաբան, էպիգրաֆ // մակագրություն",
+        "definition": "Une épigraphe est une citation, un texte ou une inscription placée au début d’un livre, d’un chapitre, d’un article ou d’un monument, servant souvent à introduire le thème ou le ton de l’œuvre.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "ethologie-ethnologie-evasion-invasion-eventaire-inventaire",
+    "title": "Étalage & Étalement",
+    "letter": "E",
+    "summary": "Deux termes sont souvent confondus : « étalage » et « étalement ». Bien qu’ils partagent une origine étymologique similaire, ils ont des usages distincts dans la langue. Étalage m. Définition : Un étalage désigne l’action d’exposer des marchandises à la vue des clients dans un magasin ou sur un stand, ainsi que l’espace ou la structure où ces marchandises sont exposées. Exemples d’utilisation : Le boucher a préparé un magnifique étalage de viandes fraîches pour attirer les clients. Dans les grands magasins, l’étalage des produits est souvent soigneusement agencé pour maximiser leur attrait visuel. L’étalage de fruits et légumes sur les marchés donne souvent envie de les acheter. Étalement m. Définition : L’étalement fait référence à l’action de répartir ou d’étendre quelque chose sur une certaine période ou une certaine étendue, ou bien à l’état de ce qui est étendu ou réparti. Exemples d’utilisation : L’étalement des dépenses sur plusieurs mois permet de mieux gérer son budget. La construction de la route sera réalisée en plusieurs phases pour un étalement des travaux sur plusieurs années. L’étalement urbain désigne la croissance étendue des villes sur leur périphérie. Bien que « étalage » et « étalement » puissent sembler similaires en raison de leur forme, ils ont des significations différentes dans la langue française. Tandis que l’étalage se rapporte à l’exposition de marchandises dans un magasin, l’étalement concerne la répartition ou la répartition de quelque chose sur une certaine période ou une certaine étendue. Il est important de faire la distinction entre ces termes pour une communication précise. Éthologie et ethnologie",
+    "words": [
+      {
+        "headword": "Éthologie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "կենդ․ գիտություն կենդանիների վարքի՝ հոգեբանության մասին",
+        "definition": "L’éthologie est une discipline scientifique qui étudie le comportement des animaux dans leur environnement naturel. Elle cherche à comprendre les comportements instinctifs, sociaux et adaptatifs des différentes espèces animales.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Ethnologie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ազգաբանություն, ազգախոսություն",
+        "definition": "L’ethnologie est une discipline qui étudie les cultures humaines, les sociétés et les modes de vie des différents peuples à travers le monde. Elle s’intéresse aux coutumes, aux croyances, aux pratiques sociales, à l’organisation sociale, ainsi qu’aux manifestations culturelles et artistiques des différentes sociétés.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Évasion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "փախուստ // հեռացում, շեղում",
+        "definition": "L’évasion désigne le fait de s’échapper d’un lieu où l’on est retenu contre son gré",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Invasion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ռազմ, ներխուժում, արշվանք // բժշկ․ բռնկում, հանկարծական",
+        "definition": "L’invasion est l’action d’entrer par la force dans un territoire, un pays ou un lieu, souvent dans le but de conquête, de contrôle ou de domination. Cela peut impliquer l’arrivée massive de troupes militaires, mais aussi la colonisation ou la prise de contrôle d’un espace par un groupe ou une population.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Éventaire",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "վաճառասեղան",
+        "definition": "Un éventaire est un étal extérieur, souvent utilisé par les commerçants pour exposer leurs marchandises à la vue des clients. Il peut s’agir d’un étalage temporaire installé sur un trottoir, sur un marché en plein air ou lors d’événements spéciaux.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Inventaire",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "գույքագրում, ապրանքի հաշվառում",
+        "definition": "Un inventaire est une liste détaillée et exhaustive des biens, des marchandises, des objets ou des éléments d’un ensemble donné. Il est utilisé pour évaluer, recenser ou comptabiliser tous les éléments présents dans un lieu ou dans une collection.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "exalter-exode-exorde",
+    "title": "Exalter & Exulter",
+    "letter": "E",
+    "summary": "Deux termes en français, « exalter » et « exulter », semblent similaires, mais ils ont des significations distinctes. Ces termes sont utilisés pour décrire des états émotionnels différents : glorification et joie intense.",
+    "words": [
+      {
+        "headword": "Exalter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "մեծարել, փառաբանել // բարձրացնել //ոգեշնչել, խանդավառել",
+        "definition": "Exulter signifie être au comble de la joie, ressentir une grande jubilation ou une",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Exode",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "արտագաղթ, զանգվածային մեկնում",
+        "definition": "L’exode désigne un départ massif ou une fuite en masse d’un groupe de personnes d’un lieu donné, souvent causé par des circonstances telles que la guerre, la famine, les persécutions ou les catastrophes naturelles. Il peut s’agir d’un mouvement de population à grande échelle.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Exorde",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "առաջաբան, ներածական // խսկց․ սկիզբ",
+        "definition": "L’exorde est la première partie d’un discours ou d’une œuvre littéraire. Il s’agit de l’introduction où l’orateur ou l’auteur expose le sujet, capte l’attention de son auditoire et établit le ton ou le cadre pour le reste du discours ou de l’œuvre.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "expansion-extension",
+    "title": "Expansion & Extension",
+    "letter": "E",
+    "summary": "En français, il est courant de rencontrer des mots qui se ressemblent mais qui ont des significations différentes. Les termes « expansion » et « extension » sont des exemples de ces paronymes. Bien qu’ils partagent des similitudes dans leur orthographe et leur prononciation, ils sont utilisés dans des contextes distincts pour décrire des concepts différents.",
+    "words": [
+      {
+        "headword": "Expansion",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ընդարձակում, տարածում, ընդլայնում // փխբ․ սրտազեղում",
+        "definition": "L’expansion se réfère à un processus de développement ou de croissance, souvent caractérisé par une augmentation ou une extension significative dans divers domaines tels que le commerce, l’économie, la population, etc. Cela implique généralement une expansion ou une dilatation dans le temps, l’espace ou l’influence.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Extension",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ընդարձակում, ընդլայնում // երկարացնելը",
+        "definition": "L’extension se réfère à l’action d’étendre ou de prolonger quelque chose, souvent dans le sens de l’allongement ou de l’élargissement. Cela peut concerner des objets physiques, des concepts abstraits ou des périodes de temps.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "expliquer-expliciter",
+    "title": "Expliquer & Expliciter",
+    "letter": "E",
+    "summary": "Deux termes en français, « expliquer » et « expliciter », semblent proches, mais ils ont des nuances distinctes. Ces termes sont utilisés pour transmettre des informations ou des concepts de manière claire et compréhensible, mais dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Expliquer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "բացատրել, մեկնաբանել",
+        "definition": "Expliquer signifie faire comprendre quelque chose à quelqu’un en exposant des",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Expliciter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "պարզաբանել, բացատրել, լուսաբանել",
+        "definition": "Expliciter signifie énoncer formellement ou plus clairement quelque chose qui",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "faction-fraction",
+    "title": "Faction & Fraction",
+    "letter": "F",
+    "summary": "Dans cette leçon, nous allons explorer deux mots paronymes en français : « faction » et « fraction ». Bien qu’ils puissent sembler similaires, ils sont utilisés dans des contextes distincts pour décrire des idées différentes.",
+    "words": [
+      {
+        "headword": "Faction",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "խռովարար խմբակցություն",
+        "definition": "Une faction désigne un groupe organisé de personnes partageant des intérêts, des opinions ou des objectifs communs. Ce terme est souvent utilisé pour décrire des partis politiques dissidents, des groupes révolutionnaires ou des mouvements contestataires à l’intérieur d’une organisation ou d’une société.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Fraction",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մաս, բաժին, միավոր, կոտորակ, բեկում",
+        "definition": "Une fraction désigne une partie ou un segment d’un tout, généralement exprimé",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "filiation-filiere-filiale-flagrance-fragrance",
+    "title": "Falloir & Valoir",
+    "letter": "F",
+    "summary": "Falloir v. impers. պետք լինել, անհրաժեշտ լինել, հարկ լինել Définition : Falloir implique une idée d’obligation, de nécessité. Il est souvent utilisé pour exprimer qu’il est nécessaire de faire quelque chose ou qu’une action est inévitable dans une situation donnée. Exemples d’utilisation : Il a fallu composer avec l’opinion publique pour atteindre un compromis satisfaisant. Pour réussir dans ce projet, il faudra beaucoup de travail et d’efforts. Il faut que tu termines tes devoirs avant de sortir ce soir. Valoir v. intr. արժենալ, արժեք ունենալ // համարժեք լինել Définition : Valoir implique l’idée d’importance, de valeur. Ce terme est souvent utilisé pour exprimer la qualité, le mérite ou l’importance de quelque chose ou de quelqu’un. Exemples d’utilisation : Cette promesse lui a valu de nombreux suffrages lors de l’élection présidentielle. Ce tableau ancien vaut une fortune en raison de sa rareté et de son histoire. Il vaut mieux prendre des précautions supplémentaires pour éviter tout risque. Bien que les termes « falloir » et « valoir » puissent sembler similaires en raison de leur prononciation proche, ils expriment des concepts différents en français. « Falloir » indique une obligation ou une nécessité, tandis que « valoir » évoque l’idée d’importance ou de valeur. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale. Filiation et Filière",
+    "words": [
+      {
+        "headword": "Filiation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ազգակցականություն, ազգակցական կապ // փխբ․ կապ, շղթա,",
+        "definition": "La filiation désigne le lien de parenté qui existe entre les membres d’une même famille, en particulier entre les parents et leurs enfants. Ce terme est utilisé pour décrire la lignée ou la descendance généalogique.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Filière",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "թել արտադրող օրգան․ // փխբ․ ձևականությունների շարք․ // փխբ․",
+        "definition": "Une filière désigne une succession d’éléments, de personnes ou d’étapes organisées dans un processus ou un système. Ce terme est souvent utilisé dans le contexte de l’éducation, de la production, ou de l’approvisionnement.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Filiale",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մասնաճյուղ, ֆիլիալ",
+        "definition": "Une filiale est une société ou une entreprise qui est détenue ou contrôlée par une autre société, souvent appelée société mère. La filiale est distincte de la société mère sur le plan juridique et financier, mais elle peut être influencée par ses décisions.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Flagrance",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ակնհայտություն",
+        "definition": "La flagrance est ce qui est évident, manifeste ou saillant. Ce terme est souvent associé à quelque chose de choquant, de criant ou de scandaleux.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Fragrance",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բույր, բուրմունք, անուշաբույր հոտ",
+        "definition": "Une fragrance désigne un parfum, une odeur agréable. Ce terme est généralement associé à des arômes plaisants ou des senteurs délicates.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "funebre-funeraire-funeste",
+    "title": "Fracasser & Fricasser",
+    "letter": "F",
+    "summary": "Deux termes en français, « fracasser » et « fricasser », qui, bien qu’ils partagent une certaine similarité dans leur sonorité, ont des significations distinctes. Ces termes sont utilisés pour décrire des actions différentes : briser violemment pour « fracasser », et faire sauter des aliments au beurre puis les laisser mijoter pour « fricasser ». Fracasser v. tr. Définition : Fracasser signifie briser violemment quelque chose, souvent avec force ou violence. Ce terme est utilisé pour décrire une action qui entraîne la destruction ou la fragmentation d’un objet physique. Exemples d’utilisation : De colère, il a fracassé une porte, laissant des éclats de bois éparpillés sur le sol. Le conducteur a perdu le contrôle de sa voiture et a fracassé la barrière de sécurité. Les vagues déferlaient avec tant de force qu’elles ont fini par fracasser les rochers sur la côte. Fricasser v. tr. Définition : Fricasser signifie faire sauter des aliments dans une poêle avec du beurre, puis les laisser mijoter doucement dans leur propre jus. Ce terme est souvent utilisé en cuisine pour décrire une méthode de cuisson qui implique à la fois la saisie des aliments et une cuisson lente et douce. Exemples d’utilisation : Faut-il fricasser ou rôtir ces légumes pour accompagner le plat principal ? La recette traditionnelle demande de fricasser les morceaux de poulet avec des oignons et des champignons. Après avoir fricassé les crevettes dans la poêle, ajoutez un peu de vin blanc et laissez mijoter jusqu’à ce qu’elles soient tendres. Bien que les termes « fracasser » et « fricasser » puissent sembler similaires en raison de leur sonorité proche, ils décrivent des actions très différentes en français. « Fracasser » se réfère à la destruction violente de quelque chose, tandis que « fricasser » se réfère à une méthode de cuisson où les aliments sont saisis puis mijotés doucement dans leur propre jus. Comprendre ces nuances est essentiel pour une communication précise et efficace en français, que ce soit dans la cuisine ou dans d’autres contextes. Funèbre, Funéraire & Funeste Ces trois termes sont souvent associés au domaine des funérailles ou de la mort, mais ils sont utilisés dans des contextes différents pour décrire des aspects spécifiques liés à ce domaine.",
+    "words": [
+      {
+        "headword": "Funèbre",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "մահվան, թաղման, հուղարկավորության (marche, oraison) // փխբ․",
+        "definition": "Le terme « funèbre » est utilisé pour qualifier ce qui appartient aux funérailles",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Funéraire",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "թաղման, հուղարկավորության",
+        "definition": "Le mot « funéraire » est utilisé pour décrire ce qui concerne les funérailles",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Funeste",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "կործանարար, չարագուշակ, ճակատագրական, մահացու,",
+        "definition": "Le terme « funeste » qualifie quelque chose qui cause la mort ou qui est associé",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "gradation-graduation",
+    "title": "Gradation & Graduation",
+    "letter": "G",
+    "summary": "Distinguer Gradation et Graduation.",
+    "words": [
+      {
+        "headword": "Gradation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "աստիճանավորում, աստիճանավորություն",
+        "definition": "Une gradation désigne un accroissement progressif ou une série d’éléments",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Graduation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "աստիճանավորում, աստիճան (ջերմաչափի և այլն) // մասշտաբ,",
+        "definition": "La graduation est l’action de graduer ou d’indiquer les degrés, les niveaux ou les mesures sur une échelle. Cela peut également faire référence aux marques ou aux échelons utilisés pour mesurer ou évaluer quelque chose.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "granulaire-idiotie-idiotisme",
+    "title": "Granuleux & Granulaire",
+    "letter": "G",
+    "summary": "Deux termes en français « granuleux » et « granulaire » semblent similaires mais ont des significations distinctes. Bien que ces mots partagent une racine linguistique commune, ils sont utilisés dans des contextes différents pour décrire des caractéristiques spécifiques liées à la texture ou à la composition des objets. Granuleux, euse adj. հատիկավոր, հատավորված, խորդուբորդ Définition : Le terme « granuleux » qualifie quelque chose qui est formé de petits grains ou granules, généralement perceptibles au toucher ou à la vue. Il est utilisé pour décrire des surfaces ou des matériaux qui présentent une texture rugueuse ou sablonneuse composée de grains fins. Exemples d’utilisation : Il cherche des roches granuleuses pour son exposé géologique. La peinture sur cette toile crée un effet granuleux qui ajoute du dynamisme à l’œuvre. La texture granuleuse du sable sous ses pieds lui rappelait la plage.",
+    "words": [
+      {
+        "headword": "Granulaire",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "հատիկավոր (roche), հատիկային",
+        "definition": "Le mot « granulaire » qualifie ce qui est formé de petits grains ou granules, mais",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Idiotie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հիմարություն, անմտություն, ապուշություն, պակասամտություն //",
+        "definition": "L’idiotie désigne l’arriération mentale, la sottise ou l’absence d’intelligence. C’est",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Idiotisme",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "քրկն․ իդիոմ, հատկաբանություն",
+        "definition": "Un idiotisme est une expression ou une tournure propre à une langue donnée",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "immigration-emigration",
+    "title": "Immigration & Émigration",
+    "letter": "I",
+    "summary": "Deux termes en français, « immigration » et « émigration », qui partagent une certaine similarité dans leur sonorité, ont des significations distinctes. Ces termes sont utilisés pour décrire des mouvements de population dans des directions opposées : entrer dans un pays pour « immigration » et quitter un pays pour « émigration ».",
+    "words": [
+      {
+        "headword": "Immigration",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ներգաղթ, ներգաղթում",
+        "definition": "L’immigration est l’action de venir s’installer dans un pays étranger pour y vivre",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Émigration",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "գաղթ, արտագաղթ, վտարանդիություն, էմիգրացիա",
+        "definition": "L’émigration est l’action de quitter son pays pour aller vivre de façon",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "impassible-impavide",
+    "title": "Impassible & Impavide",
+    "letter": "I",
+    "summary": "Deux termes en français « impassible » et « impavide » peuvent sembler similaires, mais ils ont des nuances distinctes. Bien que ces mots partagent un sens de calme ou de résilience, ils sont utilisés dans des contextes différents pour décrire des attitudes émotionnelles spécifiques.",
+    "words": [
+      {
+        "headword": "Impassible",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "անկիրք, անվրդով, անխռով, սառնասիրտ, անտարբեր, անկարեկից",
+        "definition": "Le terme « impassible » qualifie quelqu’un qui ne ressent ou n’exprime aucune",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Impavide",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "անվախ, անվեհեր, անահ, աներկյուղ",
+        "definition": "Le mot « opportun » qualifie quelque chose qui survient au bon moment ou qui est bien choisi pour tirer avantage d’une opportunité. Il est utilisé pour décrire des actions, des décisions ou des événements qui sont propices ou appropriés dans un contexte spécifique.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "inanite-inapte-inepte-incendie-incident",
+    "title": "Inanité & Inanition",
+    "letter": "I",
+    "summary": "Distinguer Inanité et Inapte et Inepte et Incendie et Incident.",
+    "words": [
+      {
+        "headword": "Inanité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ապարդյունություն, զուր լինելը, ունայնություն, դատարկություն,",
+        "definition": "L’inanition est le manque de nourriture, la faim extrême qui résulte de l’absence",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Inapte",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "անկարող, անընդունակ, ոչ պիտանի",
+        "definition": "Le terme « inapte » qualifie quelqu’un qui est incapable ou impropre à accomplir une tâche ou à remplir une fonction spécifique. Il est souvent utilisé dans des contextes officiels ou médicaux pour décrire quelqu’un qui ne satisfait pas aux exigences nécessaires pour une activité ou un service particulier.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Inepte",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "հիմար, անխելք, անմիտ․ անիմաստ, անհեթեթ",
+        "definition": "Le mot « inepte » qualifie quelque chose qui est absurde, stupide ou dépourvu de sens. Il est utilisé pour décrire des idées, des actions ou des propos qui manquent de pertinence, de logique ou de compétence, et qui peuvent être perçus comme ridicules ou exaspérants.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Incendie",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "հրդեհ, հրկիզում, հրդեհում // փխբ․ հրդեհ, պատերազմի վիճակ",
+        "definition": "Un incendie est un feu non maîtrisé, une combustion incontrôlée pouvant causer des dégâts matériels, des blessures ou des pertes de vie.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Incident",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "դեպք, միջադեպ, պատահար // արգելք, խոչընդոտ",
+        "definition": "Un incident est un événement qui survient de manière imprévue ou peu importante. Il peut s’agir d’une situation perturbatrice ou d’une circonstance inhabituelle, mais qui ne provoque généralement pas de dommages importants.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "influx-reflux",
+    "title": "Influx & Reflux",
+    "letter": "I",
+    "summary": "Bien que deux paronymes en français, « influx » et « reflux », partagent une racine commune, ces mots ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Influx",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "բժշկ․ influx nerveux, նյարդային ալիք",
+        "definition": "Un influx désigne la transmission d’une force ou d’une excitation nerveuse à",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Reflux",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "տեղատվություն. Le flux et reflux de la mer, ծովի մակընթացությունն ու",
+        "definition": "Le reflux se réfère au mouvement de recul ou de retour en arrière, en particulier",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "inique-unique",
+    "title": "Inique & Unique",
+    "letter": "I",
+    "summary": "Deux termes en français « inique » et « unique » partagent une certaine similitude dans leur sonorité mais ils ont des significations distinctes. Ces mots sont utilisés dans des contextes différents pour décrire des concepts spécifiques.",
+    "words": [
+      {
+        "headword": "Inique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "անարդար //անօրեն, ապօրինի",
+        "definition": "Le terme « inique » qualifie quelque chose de très injuste, partial ou contraire à",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Unique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "միակ, եզակի, անկրկնելի",
+        "definition": "Le mot « unique » qualifie quelque chose qui est le seul dans sa catégorie, son",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "injection-injonction",
+    "title": "Injection & Injonction",
+    "letter": "I",
+    "summary": "Distinguer Injection et Injonction.",
+    "words": [
+      {
+        "headword": "Injection",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բժշկ․ սրսկում, ներարկում",
+        "definition": "Une injection désigne l’action de faire pénétrer un liquide sous pression dans le corps ou dans un objet. C’est un terme souvent associé aux soins médicaux, où une substance est introduite dans le corps par le biais d’une piqûre.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Injonction",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "իրավբ․ հրաման, կարգադրություն, հրահանգ",
+        "definition": "Une injonction est un ordre formel ou une sommation émanant d’une autorité ou d’une personne en position de pouvoir. C’est un terme utilisé pour exprimer une exigence impérative à laquelle il est attendu que quelqu’un obéisse.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "investiture-investissement",
+    "title": "Investiture & Investissement",
+    "letter": "I",
+    "summary": "Bien que deux paronymes en français : « investiture » et « investissement » partagent une racine commune, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Investiture",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "պաշտոնամուտ",
+        "definition": "L’investiture désigne la cérémonie officielle ou le processus par lequel une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Investissement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "ներդրում, ներդրված դրամագլուխ, դրամագլխի ներդրում // ռազմ․",
+        "definition": "Un investissement est un placement d’argent dans le but de générer des revenus",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "judiciaire-juridique",
+    "title": "Judiciaire & Juridique",
+    "letter": "J",
+    "summary": "Deux termes en français, « judiciaire » et « juridique », sont souvent utilisés dans des contextes similaires mais ils ont des significations distinctes. Bien qu’ils soient liés au domaine de la justice et du droit, ces mots ont des nuances spécifiques dans leur utilisation.",
+    "words": [
+      {
+        "headword": "Judiciaire",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "դատական",
+        "definition": "Le terme « judiciaire » qualifie ce qui est relatif à la justice, aux tribunaux ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Juridique",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "իրավական, իրավաբանական, դատական․ օրինական",
+        "definition": "Le mot « juridique » qualifie ce qui est relatif au droit, aux lois ou aux",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "justesse-justice",
+    "title": "Justesse & Justice",
+    "letter": "J",
+    "summary": "Bien que deux paronymes en français, « justesse » et « justice », partagent une racine commune, ces mots ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Justesse",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ճշտություն, ստուգություն, իսկություն",
+        "definition": "La justesse se réfère à l’exactitude, à la précision ou à la rectitude d’une chose,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Justice",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "արդարություն // իրավբ․ արդարադատություն, դատական համակարգ",
+        "definition": "La justice est le respect ou l’application des lois et des principes moraux dans une",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "lacune-lagune",
+    "title": "Lacune & Lagune",
+    "letter": "L",
+    "summary": "Bien que deux paronymes en français : « lacune » et « lagune » partagent une racine commune, ils ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Lacune",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բաց, բացթողում",
+        "definition": "Une lacune désigne un manque, une absence ou une imperfection dans quelque",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Lagune",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "աշխգր․ ծովալճակ",
+        "definition": "Une lagune est une étendue d’eau généralement séparée de la mer par une bande",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "legislation-legislature",
+    "title": "Législation & Législature",
+    "letter": "L",
+    "summary": "Bien que « législation » et « législature » partagent une racine commune, ces mots ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Législation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "իրավբ․ օրենսդրություն, օրենքների  ժողովածու",
+        "definition": "La législation désigne l’ensemble des lois et des règlements établis par un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Législature",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "օրենսդիր մարմնի լիազորությունների ժամկետ",
+        "definition": "La législature désigne la durée du mandat d’une assemblée législative, c’est-à-",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "liberation-liberalisation",
+    "title": "Libération & Libéralisation",
+    "letter": "L",
+    "summary": "Distinguer Libération et Libéralisation.",
+    "words": [
+      {
+        "headword": "Libération",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ազատագրում, ազատում",
+        "definition": "La libération désigne le fait de délivrer ou de rendre libre une personne, une population ou un territoire d’une oppression, d’une contrainte ou d’une domination. C’est un terme utilisé pour décrire un acte de libération physique, politique ou psychologique.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Libéralisation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ազատականացում",
+        "definition": "La libéralisation désigne le processus de rendre un État plus libéral économiquement ou politiquement, en réduisant les restrictions gouvernementales et en favorisant la concurrence sur les marchés. C’est un terme utilisé dans le contexte des politiques économiques pour promouvoir la liberté économique et l’ouverture des marchés.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "luxe-luxuriance-luxure-luxation",
+    "title": "Littéral & Littéraire",
+    "letter": "L",
+    "summary": "Deux termes en français, « littéral » et « littéraire », partagent une racine commune mais ils ont des significations distinctes : Bien qu’ils soient liés à la langue et à la littérature, ces mots sont utilisés dans des contextes différents pour décrire des concepts spécifiques. Littéral, ale adj. բառացի, տառացի Définition : Le terme « littéral » qualifie quelque chose qui est conforme à la signification exacte des mots utilisés, sans interprétation ou métaphore. Il est souvent utilisé pour décrire une lecture ou une interprétation strictement textuelle, mot à mot, au pied de la lettre. Exemples d’utilisation : Il n’a tenu compte que de la signification littérale du poème, sans chercher à comprendre ses implications symboliques ou métaphoriques. La traduction littérale du texte rendait le passage difficile à comprendre, car elle ne prenait pas en compte les nuances linguistiques. La définition du terme était clairement définie dans le contrat, mais certains points ont été mal interprétés en raison d’une lecture trop littérale. Littéraire adj. գրական Définition : Le mot « littéraire » qualifie ce qui est propre à la littérature ou en rapport avec elle, y compris les œuvres écrites, les genres, les mouvements et les styles. Il est souvent utilisé pour décrire des éléments de la littérature tels que les romans, les poèmes, les pièces de théâtre, ainsi que les études et les critiques littéraires. Exemples d’utilisation : Il ne se rattache à aucun mouvement littéraire, préférant écrire des poèmes libres qui transcendent les conventions traditionnelles. Son travail académique se concentre sur l’analyse des thèmes littéraires dans la poésie romantique. La critique littéraire de son dernier roman a été largement positive, saluant son style d’écriture et sa profondeur thématique. Bien que les termes « littéral » et « littéraire » partagent une racine commune, ils ont des significations distinctes en français. « Littéral » se rapporte à la signification exacte des mots, tandis que « littéraire » qualifie ce qui est propre à la littérature ou en rapport avec elle. En comprenant cette distinction, vous pouvez utiliser ces termes avec précision pour décrire des concepts spécifiques dans des contextes liés à la langue et à la littérature. Luxe, Luxuriance, Luxure & Luxation",
+    "words": [
+      {
+        "headword": "Luxe",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "շքեղություն, պերճանք, ճոխություն",
+        "definition": "Le luxe désigne le faste, l’opulence et la richesse. C’est un terme utilisé pour décrire des biens, des services ou des modes de vie caractérisés par leur raffinement, leur qualité et leur coût élevé.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Luxuriance",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ճոխություն, փարթամություն, հորդառատություն",
+        "definition": "La luxuriance désigne l’abondance, la profusion ou la surabondance. C’est un terme utilisé pour décrire la croissance excessive et la densité élevée des végétaux, en particulier dans le contexte des plantes, des arbres ou des forêts.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Luxure",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "անբարոյականություն, անառակություն, ցոփություն, տռփանք,",
+        "definition": "La luxure désigne la débauche, la dépravation ou le désir excessif de plaisirs charnels.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Luxation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բժշկ․ հոդաթափություն, հոդախախտում",
+        "definition": "Une luxation est le déboîtement ou la sortie anormale d’un os de son articulation. C’est un terme utilisé en médecine pour décrire une blessure où les surfaces articulaires ne sont plus en contact.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "lymphe-nymphe-machination-machinerie-magnificence-munificence-mandater",
+    "title": "Lymphe & Nymphe",
+    "letter": "L",
+    "summary": "Bien que les paronymes : « lymphe » et « nymphe » partagent une ressemblance phonétique, ces mots ont des significations distinctes et sont utilisés dans des contextes différents.",
+    "words": [
+      {
+        "headword": "Lymphe",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "բժշկ. ավիշ",
+        "definition": "La lymphe est un liquide organique transparent, similaire au plasma sanguin, qui circule dans le système lymphatique. Elle joue un rôle crucial dans le transport des nutriments, des déchets métaboliques et des cellules immunitaires à travers le corps.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Nymphe",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հավերժահարս // կենդբ. հարսնյակ (միջատի)",
+        "definition": "Une nymphe peut avoir plusieurs significations :",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Machination",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մեքենայություն, դավ, բանսարկություն, ինտրիգ",
+        "definition": "Une machination désigne un complot, une intrigue ou une manœuvre secrète et souvent malveillante visant à tromper, à manipuler ou à nuire à autrui. C’est un terme utilisé pour décrire des actions planifiées dans le but de parvenir à un objectif, souvent de manière sournoise ou illégale.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Machinerie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "մեքենաշինություն // մեքենայական սարքավորում",
+        "definition": "La machinerie désigne un ensemble d’appareils, de mécanismes ou de machines utilisés dans un processus de production, de fabrication ou de fonctionnement. C’est un terme utilisé pour décrire l’ensemble des équipements mécaniques nécessaires au bon fonctionnement d’un système ou d’une activité.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Magnificence",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "շքեղություն, պերճություն, հոյակապություն, փարթամություն",
+        "definition": "La magnificence se réfère au faste, au luxe et à la somptuosité. C’est un terme utilisé pour décrire la grandeur et la splendeur de quelque chose, souvent associé à des événements, des lieux ou des objets qui inspirent l’admiration et l’émerveillement.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Munificence",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "առատաձեռնություն, մեծահոգություն, վեհանձնություն",
+        "definition": "La munificence se réfère à la grandeur dans la générosité, à la libéralité et à la magnanimité. C’est un terme utilisé pour décrire la générosité exceptionnelle d’une personne ou d’une institution dans ses actions philanthropiques ou ses dons.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Mandater",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "լիազորել, լիազորություն՝ հանձնարականներ տալ",
+        "definition": "Faire venir quelqu'un, lui donner l'ordre de se présenter. Parfois, faire savoir quelque chose (moins courant).",
+        "synonyms": "Convoquer, appeler, mander quelqu'un, citer, faire venir.",
+        "examples": [],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "natalite-nativite",
+    "title": "Natalité & Nativité",
+    "letter": "N",
+    "summary": "Distinguer Natalité et Nativité.",
+    "words": [
+      {
+        "headword": "Natalité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ծնելիություն",
+        "definition": "La natalité désigne le nombre de naissances enregistrées dans une population",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Nativité",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "եկեղ․Սուրբ ծնունդ",
+        "definition": "La Nativité se réfère à la naissance de Jésus-Christ dans la tradition chrétienne.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "numeration-numerotation-oiseleur-oiselier",
+    "title": "Naturiste & Naturaliste",
+    "letter": "N",
+    "summary": "Naturiste s. նատուրիզմի՝ բնության պաշտամունքի՝ մերկապաշտության հետևորդ, մերկապաշտ, Définition : Le terme « naturiste » qualifie une personne qui pratique le naturisme, c’est-à- dire qui est adepte de la nudité dans certaines situations, généralement dans des environnements naturels tels que les plages, les campings ou les centres naturistes. Le naturisme est souvent associé à une philosophie de vie qui prône la liberté, la tolérance et le respect de l’environnement. Exemples d’utilisation : Les plages naturistes sont difficiles d’accès. Elle est une adepte convaincue du mode de vie naturiste. Le camping naturiste offre une expérience de vacances en harmonie avec la nature. Naturaliste s. փիլ․, արվ․ նատուրալիստ, բնագետ, բնապաշտ Définition : Le mot « naturaliste » désigne un savant ou un scientifique qui étudie la nature et ses phénomènes. Les naturalistes observent, analysent et documentent les plantes, les animaux, les écosystèmes et les phénomènes naturels dans le but de mieux comprendre le monde qui les entoure. Exemples d’utilisation : Le naturaliste est parti en quête de papillons. Charles Darwin était un célèbre naturaliste dont les travaux ont révolutionné notre compréhension de l’évolution. Le musée d’histoire naturelle abrite de nombreuses collections de spécimens étudiés par des naturalistes. Bien que les mots « naturiste » et « naturaliste » partagent une racine commune, ils ont des significations différentes en français. « Naturiste » qualifie une personne adepte de la nudité dans certaines situations, tandis que « naturaliste » désigne un scientifique qui étudie la nature. En comprenant cette distinction, vous pouvez utiliser ces termes de manière appropriée et précise dans votre communication en français. Numération et Numérotation",
+    "words": [
+      {
+        "headword": "Numération",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հաշվում, հաշիվ, հաշվարկում․ համարակալում, համարագրում,",
+        "definition": "La numération désigne l’ordre des nombres et le système utilisé pour les représenter, ainsi que le mode de calcul associé. C’est un terme utilisé pour décrire les méthodes de comptage et de notation des nombres dans divers systèmes, tels que le système décimal, binaire, octal, etc.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Numérotation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "համարակալում, համարակալելը",
+        "definition": "Ouvrir signifie permettre l’entrée ou l’accès à quelque chose en déplaçant une barrière, une porte ou un couvercle. Ce terme est utilisé pour décrire l’action de rendre disponible ou accessible quelque chose qui était auparavant fermé ou inaccessible.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Oiseleur",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "թռչնորս, թռչուն որսացող",
+        "definition": "Un oiseleur est une personne qui capture les oiseaux, généralement dans le but de les vendre, de les utiliser comme animaux de compagnie ou pour d’autres activités liées à l’exploitation des oiseaux.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Oiselier",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "թռչնավաճառ․ թռչնաբույծ",
+        "definition": "Un oiselier est une personne qui élève ou qui s’occupe des oiseaux, généralement dans le cadre d’une activité de loisir ou de passion. Contrairement à l’oiseleur, l’oiselier ne capture pas les oiseaux dans la nature, mais plutôt les élève en captivité.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "orfraie-effraie",
+    "title": "Orfraie & Effraie",
+    "letter": "O",
+    "summary": "Bien que les termes « orfraie » et « effraie » semblent similaires et soient tous deux liés à des oiseaux, ils représentent des espèces différentes et sont utilisés dans des contextes distincts.",
+    "words": [
+      {
+        "headword": "Orfraie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "ծովարծիվ, ոսկրկուլ",
+        "definition": "L’orfraie est un rapace diurne, appartenant généralement à la famille des faucons. Ce terme peut également être utilisé dans une expression figurée, « pousser des cris d’orfraie » գժի պես գոռալ, բղավել, սուր ճիչեր արձակել pour décrire quelqu’un qui pousse des cris stridents ou qui exprime un mécontentement fort.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Effraie",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հավապատիր",
+        "definition": "Une effraie est une chouette appartenant à la famille des rapaces nocturnes. Contrairement à l’orfraie, l’effraie est active la nuit et chasse principalement de petits rongeurs.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "pastiche-postiche",
+    "title": "Pastiche & Postiche",
+    "letter": "P",
+    "summary": "Distinguer Pastiche et Postiche.",
+    "words": [
+      {
+        "headword": "Pastiche",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "նմանակում, ծարանմանակում, պարոդիա",
+        "definition": "Un pastiche est une œuvre qui imite le style ou la manière d’un artiste, d’un",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Postiche",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "դնովի, կեղծ, արհեստական // կեղծ, շինծու, թվացյալ",
+        "definition": "Un postiche est un accessoire, un élément de costume ou un ajout artificiel utilisé pour modifier l’apparence d’une personne, souvent dans un contexte théâtral ou de déguisement. Cela peut inclure des perruques, des barbes, des moustaches, des faux cils, etc.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "persuader-dissuader",
+    "title": "Percepteur & Précepteur",
+    "letter": "P",
+    "summary": "Percepteur, trice adj. ընկալող s. հարկահավաք, ֆինանսական տեսուչ Définition : Un percepteur est un fonctionnaire chargé de collecter les impôts et les taxes auprès des contribuables pour le compte de l’État ou de l’administration fiscale. C’est un agent des impôts qui est responsable de vérifier les déclarations fiscales et de collecter les fonds dus. Exemples d’utilisation : Le percepteur vérifie les déclarations sur le revenu des contribuables pour s’assurer qu’elles sont conformes à la législation fiscale en vigueur. Les contribuables doivent payer leurs impôts en temps voulu pour éviter les pénalités et les intérêts de retard exigés par le percepteur. Précepteur, trice s. դաստիարակ, դաստիարակչուհի, ուսուցիչ, ուսուցչուհի, խրատատու Définition : Un précepteur est un enseignant particulier, généralement employé par une famille aisée pour éduquer et instruire leurs enfants à domicile. Le précepteur peut enseigner une variété de sujets, y compris les langues, les sciences, les arts et les humanités. Exemples d’utilisation : Les jeunes nobles passent de leur nourrice à leur précepteur pour recevoir une éducation formelle et complète avant d’entrer dans la société. Le précepteur travaille en étroite collaboration avec les parents pour concevoir un programme d’études adapté aux besoins et aux intérêts de l’élève. Bien que les termes « percepteur » et « précepteur » partagent une ressemblance dans leur orthographe, ils représentent des concepts totalement différents dans la langue française. « Percepteur » désigne un agent des impôts chargé de collecter les taxes, tandis que « précepteur » désigne un enseignant particulier employé pour éduquer les enfants à domicile. Comprendre ces distinctions est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale. Perpétuer et Perpétrer Ces termes sont utilisés pour décrire des actions différentes : prolonger pour « perpétuer », et commettre un crime pour « perpétrer ». Perpétuer v. tr. հավերժացնել, հավիտենականացնել, անմահացնել, մշտնջենական՝ հավիտենական դարձնել Définition : Perpétuer signifie prolonger ou maintenir quelque chose dans le temps, souvent dans le but de préserver une tradition, une idée ou une pratique. Ce terme est utilisé pour décrire une action qui vise à garantir la continuité ou la survie de quelque chose au fil du temps. Exemples d’utilisation : Tout être pense à perpétuer son espèce en donnant naissance à une nouvelle génération. La famille a perpétué la tradition de célébrer Noël avec un grand repas familial chaque année. Les historiens s’efforcent de perpétuer la mémoire des événements passés pour les générations futures. Perpétrer v. tr. կատարել, գործել Définition : Perpétrer signifie commettre un acte criminel, souvent avec l’intention de causer des dommages, de l’injustice ou du mal à autrui. Ce terme est utilisé pour décrire une action illégale ou immorale, telle qu’un crime ou un délit, qui viole les normes sociales ou les lois établies. Exemples d’utilisation : Il a perpétré ses forfaits puis s’est enfui à l’étranger, échappant ainsi à la justice pendant des années. Les terroristes ont perpétré un attentat à la bombe dans le centre-ville, causant la panique et la destruction. Les enquêteurs ont identifié le criminel qui a perpétré le vol à main armée grâce à des preuves ADN trouvées sur les lieux du crime. Bien que les termes « perpétuer » et « perpétrer » partagent une certaine similarité dans leur sonorité, ils décrivent des actions très différentes en français. « Perpétuer » se réfère à prolonger ou à maintenir quelque chose dans le temps, tandis que « perpétrer » se réfère à commettre un acte criminel. Comprendre ces distinctions est essentiel pour une communication précise en français, notamment dans les discussions sur la tradition et la justice. Persuader et Dissuader",
+    "words": [
+      {
+        "headword": "Persuader",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "համոզել",
+        "definition": "Persuader signifie convaincre quelqu’un d’adopter une certaine opinion, attitude ou action en utilisant des arguments ou des raisons convaincantes. Il s’agit de faire en sorte que quelqu’un soit en accord avec une idée ou accepte une proposition.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Dissuader",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "տարհամոզել, միտքը փոխել տալ, խորհուրդ չտալ",
+        "definition": "Dissuader signifie convaincre quelqu’un de ne pas faire quelque chose en présentant des arguments ou des raisons qui montrent les dangers ou les inconvénients de cette action. Il s’agit d’éloigner quelqu’un de l’idée de réaliser une action spécifique.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "populaire-populiste",
+    "title": "Poindre & Pointer",
+    "letter": "P",
+    "summary": "Ces termes sont utilisés pour décrire des actions différentes : apparaître pour « poindre », et marquer d’un point ou viser pour « pointer ». Poindre v. intr. բացվել, ծագել // բսբ․ծլել, բողբոջել // փխբ․սկիզբ առնել, երևան գալ Définition : Poindre signifie apparaître ou commencer à être visible, souvent dans le contexte de l’aube ou du lever du jour. Ce terme est utilisé pour décrire le moment où quelque chose commence à émerger ou à devenir perceptible, que ce soit la lumière du jour, une idée ou un événement. Exemples d’utilisation : Je vois le jour poindre par la fenêtre, annonçant le début d’une nouvelle journée. Les premiers signes du printemps commencent à poindre avec l’apparition des premières fleurs dans le jardin. L’espoir a commencé à poindre dans les cœurs des survivants après la catastrophe, alors qu’ils voyaient des signes de secours arriver. Pointer v. tr. նշել կետերով, կետանշել // ռազմ․նշան բռնել Définition : Pointer signifie marquer d’un point ou viser avec précision quelque chose, souvent dans le contexte de l’utilisation d’un outil ou d’une arme. Ce terme est utilisé pour décrire l’action de désigner ou d’indiquer quelque chose en le montrant du doigt ou en l’alignant avec un objet pointu. Exemples d’utilisation : Il ne sert à rien de pointer les étoiles, car elles sont trop loin pour être atteintes avec un doigt. Le professeur a utilisé un bâton pour pointer les différentes parties de la carte pendant la leçon de géographie. Le chasseur a pointé son fusil vers la cible avec précision avant de tirer. Bien que les termes « poindre » et « pointer » partagent une certaine similarité dans leur sonorité, ils décrivent des actions très différentes en français. « Poindre » se réfère à apparaître ou à commencer à être visible, tandis que « pointer » se réfère à marquer d’un point ou à viser avec précision. Comprendre ces distinctions est essentiel pour une communication précise en français, notamment dans les discussions sur le temps et la précision. Populeux, Populaire, Populiste & Populacier Quatre termes en français partagent une racine commune mais ils ont des significations distinctes : « populeux », « populaire », « populiste » et « populacier ». Bien qu’ils soient liés à l’idée de peuple, ces mots sont utilisés dans des contextes différents pour décrire des concepts spécifiques. Populeux, euse adj. խիտ բնակեցված, բազմամարդ Définition : Le terme « populeux » qualifie quelque chose qui est très peuplé, densément habité ou où il y a une grande concentration de personnes. Il est souvent utilisé pour décrire des endroits tels que des quartiers, des villes ou des régions où la population est nombreuse. Exemples d’utilisation : J’aime ce quartier populeux et vivant, où l’on trouve toujours de l’animation et une grande diversité de personnes. Les centres-villes des grandes métropoles sont souvent populeux, avec des rues bondées de piétons et une multitude de commerces. Les marchés de rue sont populaires dans les quartiers populeux, offrant une variété de produits et une ambiance animée.",
+    "words": [
+      {
+        "headword": "Populaire",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "ժողովրդական․ ժողովրդականություն վայելող, հանրաճանաչ",
+        "definition": "Le mot « populaire » qualifie quelque chose qui est connu, apprécié ou adopté",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Populiste",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "կեղծ ժողովրդական գրող",
+        "definition": "Le mot « populacier » qualifie quelque chose qui est propre au peuple, mais souvent de manière péjorative, en faisant référence à quelque chose de vulgaire, de bas ou de dégradant. Il est utilisé pour décrire des comportements, des discours ou des divertissements considérés comme de mauvais goût ou comme relevant d’une culture populaire basse.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "predication-prediction",
+    "title": "Prédication & Prédiction",
+    "letter": "P",
+    "summary": "Distinguer Prédication et Prédiction.",
+    "words": [
+      {
+        "headword": "Prédication",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "եկեղ․քարոզում, քարոզ // քրկն․ ստորոգում",
+        "definition": "Une prédication désigne un discours religieux ou moral prononcé par un prédicateur, généralement dans le cadre d’une cérémonie religieuse ou d’un service religieux. C’est un sermon ou un enseignement destiné à édifier ou à enseigner une audience sur des sujets de foi ou de morale.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Prédiction",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "գուշակում, նախագուշակում, կանխագուշակում, մարգարեություն",
+        "definition": "Une prédiction est une déclaration anticipée sur un événement futur, souvent basée sur des informations, des observations ou des croyances. C’est une prophétie ou une prévision concernant ce qui pourrait se produire à un moment ultérieur.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "preposition-proposition",
+    "title": "Prééminent & Proéminent",
+    "letter": "P",
+    "summary": "Dans cette leçon, nous allons explorer deux termes en français qui partagent une racine commune mais qui ont des significations distinctes : « prééminent » et « proéminent ». Bien qu’ils soient liés à l’idée de quelque chose qui se distingue ou qui ressort, ces mots sont utilisés dans des contextes différents pour décrire des concepts spécifiques. Prééminent, ente adj. գերազանցող, գերակշիռ, գերադասելի․ նշանավոր, աչքի ընկնող Définition : Le terme « prééminent » qualifie quelque chose qui est surélevé par rapport à son environnement, qui occupe une position élevée ou supérieure par rapport aux autres. Il est souvent utilisé pour décrire une personne, une position ou une entité qui est considérée comme la plus importante, la plus influente ou la plus remarquable dans un domaine particulier. Exemples d’utilisation : Son rang prééminent lui a valu des jalousies parmi ses collègues, qui étaient envieux de sa position de leader. La tour prééminente de la ville offre une vue panoramique sur le paysage urbain, la distinguant des autres structures environnantes. En tant que chef d’entreprise prééminent dans son secteur, il est souvent sollicité pour donner des conseils et des conférences sur le leadership et l’entrepreneuriat. Proéminent, ente adj. ուռուցիկ, ցցուն, դուրս ցցված // փխբ․աչքի ընկնող, ցայտուն Définition : Le mot « proéminent » qualifie quelque chose qui est saillant, qui se distingue par sa projection ou son relief par rapport à son environnement. Il est souvent utilisé pour décrire des caractéristiques physiques, telles que des parties du corps, des objets ou des éléments architecturaux, qui ressortent ou qui sont particulièrement visibles. Exemples d’utilisation : Un nez proéminent déformait son visage, attirant l’attention sur cette caractéristique physique particulière. La statue était ornée de détails proéminents, mettant en valeur les muscles et les contours du sujet représenté. Les boutons proéminents sur le clavier de la machine étaient conçus pour être facilement repérables et utilisables par les opérateurs. Bien que les termes « prééminent » et « proéminent » partagent une racine similaire, ils ont des significations distinctes en français. « Prééminent » qualifie quelque chose qui est surélevé ou qui occupe une position supérieure, tandis que « proéminent » qualifie quelque chose qui est saillant ou qui se distingue par son relief. En comprenant cette distinction, vous pouvez utiliser ces termes avec précision pour décrire des concepts spécifiques dans divers contextes liés à la position et à la visibilité. Préposition et Proposition",
+    "words": [
+      {
+        "headword": "Préposition",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "քրկն․ նախդիր, նախադրություն",
+        "definition": "Une préposition est un mot invariable qui relie deux éléments d’une phrase et indique la relation entre eux. Les prépositions sont utilisées pour exprimer des notions de lieu, de temps, de direction, de manière, etc. Elles sont souvent placées avant un nom, un pronom ou une proposition pour indiquer son rapport avec d’autres éléments de la phrase.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Proposition",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "առաջարկություն, առաջարկ // հայտարարություն // առաջադրում",
+        "definition": "Une proposition peut avoir plusieurs significations. Dans un sens général, une proposition est une offre, une suggestion ou une proposition de faire quelque chose. Dans un contexte grammatical, une proposition est une unité syntaxique qui contient un sujet et un prédicat, formant une phrase complète qui exprime une idée complète et autonome.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "rabattre-rebattre",
+    "title": "Prolongation & Prolongement",
+    "letter": "R",
+    "summary": "Prolongation f. : երկարաձգում, ժամանակի հավելում Définition : Une prolongation désigne le fait de prolonger dans le temps. Cela implique l’extension de la durée prévue ou initiale d’un événement, d’une activité ou d’une période. Les prolongations peuvent être planifiées ou imprévues et surviennent souvent pour diverses raisons. Exemples d’utilisation : Après deux prolongations, les Bleus ont remporté le match de football, ce qui signifie que le jeu a duré plus longtemps que prévu initialement. La prolongation du délai de livraison a permis à l’entreprise de finaliser les préparatifs pour l’expédition des marchandises. Prolongement m. շարունուկաթյուն, փխբ․ արդյունք, հետևանք Définition : Un prolongement se réfère au fait de prolonger dans l’espace. Cela signifie l’extension ou la continuation d’une chose dans une direction spatiale. Les prolongements peuvent concerner des objets physiques, des structures ou des emplacements géographiques. Exemples d’utilisation : La boutique se trouve dans le prolongement de la rue principale, ce qui signifie qu’elle est située dans le prolongement linéaire de cette rue. L’architecte a conçu une extension de la maison qui constitue un prolongement naturel de l’espace de vie existant. Bien que les termes « prolongation » et « prolongement » partagent une racine commune, ils représentent des concepts différents dans la langue française. « Prolongation » se rapporte à l’extension dans le temps, tandis que « prolongement » se rapporte à l’extension dans l’espace. Comprendre ces nuances est essentiel pour une utilisation précise de ces termes dans la communication écrite ou orale. R Rabattre et Rebattre",
+    "words": [
+      {
+        "headword": "Rabattre",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "բաց անել, հետ ծալել․ փակել, իջեցնել //  կորացնել, կողածռել //փխբ․ կոտրել, մեղմել",
+        "definition": "Rabattre signifie abaisser ou appliquer une chose sur une autre, souvent dans le contexte de replier ou de presser quelque chose vers le bas. Ce terme est utilisé pour décrire une action qui consiste à ramener quelque chose à une position inférieure ou à la fixer en appuyant dessus.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Rebattre",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "նորից խփել, նորից զարկել // նույն բանը անընդհատ կրկնել,",
+        "definition": "Rebattre signifie battre de nouveau ou frapper à plusieurs reprises, souvent dans le contexte de répéter une action déjà effectuée. Ce terme est utilisé pour décrire une action qui consiste à frapper ou à marteler quelque chose à plusieurs reprises, généralement pour obtenir un résultat ou une réponse différente.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "rancune-ranimer-reanimer",
+    "title": "Rancune & Rancœur",
+    "letter": "R",
+    "summary": "Deux termes en français, « rancune » et « rancœur », partagent une certaine similarité dans leur sonorité, ont des significations distinctes mais proches. Ces termes sont utilisés pour décrire des sentiments négatifs envers quelqu’un : la rancune pour une mémoire persistante d’une offense et la rancœur pour un sentiment d’amertume ou de ressentiment.",
+    "words": [
+      {
+        "headword": "Rancune",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հիշաչարություն, նախանձախնդրություն, վիրավորանք",
+        "definition": "La rancœur est un sentiment d’amertume et de ressentiment résultant d’une déception ou d’une injustice. Ce terme est utilisé pour décrire une émotion négative plus diffuse et moins active que la rancune.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Ranimer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "վերակենդանացնել փխբ, աշխուժացնել, ամրացնել, ակտիվացնել,",
+        "definition": "Ranimer signifie redonner de la vie, de l’énergie ou de l’enthousiasme à quelque chose qui est en train de s’affaiblir ou de s’éteindre. Ce terme est utilisé pour décrire une action qui vise à raviver ou à stimuler quelque chose qui est en déclin ou en perte de vitalité.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Réanimer",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "վերակենդանացնել // վերածնել, վերակենդանացնել",
+        "definition": "Réanimer signifie ramener une personne à la vie ou à un état de conscience après un évanouissement, un arrêt cardiaque ou un autre événement mettant sa vie en danger. Ce terme est utilisé principalement dans le contexte médical pour décrire une action visant à ranimer une personne en état de mort apparente.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "renoncement-renonciation",
+    "title": "Renoncement & Renonciation",
+    "letter": "R",
+    "summary": "Distinguer Renoncement et Renonciation.",
+    "words": [
+      {
+        "headword": "Renoncement",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "հրաժարում, մերժում (aux plaisir de la vie). Renoncement à soi-",
+        "definition": "Le renoncement est l’abandon volontaire ou l’abstention de quelque chose,",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Renonciation",
+        "category": "f.",
+        "posClass": "NOM_F",
+        "translationHy": "հրաժարվելը, հրաժարում (à un droit, à une charge, à une opinion, au",
+        "definition": "La renonciation est l’acte formel d’abandonner un droit, une réclamation ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "teindre-teinter",
+    "title": "Teindre & Teinter",
+    "letter": "T",
+    "summary": "Deux termes en français, « teindre » et « teinter », partagent une certaine similarité dans leur sonorité, mais ils ont des significations distinctes. Ces termes sont utilisés pour décrire des actions différentes : changer la couleur d’un objet pour « teindre », et poser une teinte légère pour « teinter ».",
+    "words": [
+      {
+        "headword": "Teindre",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "ներկել",
+        "definition": "Teindre signifie changer la couleur d’un objet en appliquant un colorant ou une substance colorante. Ce terme est utilisé pour décrire une action qui consiste à transformer la couleur d’un matériau ou d’une surface de manière permanente.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Teinter",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "երանգ տալ",
+        "definition": "Teinter signifie poser une teinte légère sur quelque chose, généralement pour",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "tromper-tremper",
+    "title": "Tromper & Tremper",
+    "letter": "T",
+    "summary": "Les termes « tromper » et « tremper » peuvent sembler similaires en raison de leur sonorité, mais ils ont des significations bien distinctes.",
+    "words": [
+      {
+        "headword": "Tromper",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "խաբել, մոլորության մեջ գցել // դավաճանել //հուսախաբել",
+        "definition": "Le verbe « tromper » signifie faire croire à quelqu’un quelque chose qui est faux, le duper ou l’induire en erreur. Il peut également exprimer l’idée d’infidélité dans un contexte sentimental ou conjugal.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Tremper",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "թրջել, խոնավացնել // խհրր․ թաթախել // փխբր․ թրծել, կոփել",
+        "definition": "Le mot « usé », quant à lui, signifie abîmé ou détérioré par l’usage ou par le temps. Il est utilisé pour décrire des objets, des vêtements ou des surfaces qui présentent des signes d’usure, de fatigue ou de dégradation dus à une utilisation prolongée.",
+        "examples": [
+          "d’utilisation :",
+          "d’utilisation :",
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "vegetarisme-vegetalisme",
+    "title": "Végétarisme & Végétalisme",
+    "letter": "V",
+    "summary": "Deux termes liés au régime alimentaire, le « végétarisme » et le « végétalisme » partagent une base commune en évitant la consommation de viande, ils présentent des différences importantes dans leur approche des produits d’origine animale.",
+    "words": [
+      {
+        "headword": "Végétarisme",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "բուսակերություն",
+        "definition": "Le végétarisme est un régime alimentaire qui exclut la consommation de viande",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Végétalisme",
+        "category": "m.",
+        "posClass": "NOM_M",
+        "translationHy": "խիստ բուսակերություն, վեգանություն",
+        "definition": "Le végétalisme est un régime alimentaire qui va au-delà du végétarisme en excluant non seulement la viande, mais aussi tous les produits d’origine animale, y compris les produits laitiers, les œufs, le miel et même les produits dérivés comme la gélatine. Les végétaliens adoptent souvent ce régime pour des raisons éthiques liées à la protection des animaux et de l’environnement.",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "vernir-vernisser",
+    "title": "Vernir & Vernisser",
+    "letter": "V",
+    "summary": "Distinguer Vernir et Vernisser.",
+    "words": [
+      {
+        "headword": "Vernir",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "լաքել, լաքով ծածկել․ ջնարակել, վերնիճել",
+        "definition": "Vernir signifie poser un revêtement de vernis sur une surface, généralement en",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Vernisser",
+        "category": "v.tr.",
+        "posClass": "VERBE",
+        "translationHy": "փայլեցնել, ջնարակել, վերնիճել",
+        "definition": "Vernisser se dit spécifiquement pour l’application d’un vernis sur des poteries ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
+  },
+  {
+    "slug": "viable-vivable",
+    "title": "Viable & Vivable",
+    "letter": "V",
+    "summary": "Distinguer Viable et Vivable.",
+    "words": [
+      {
+        "headword": "Viable",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "կենսունակ // փխբր․ իրականանալի, իրագործելի",
+        "definition": "Le terme « viable » qualifie quelque chose qui a les qualités nécessaires pour",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      },
+      {
+        "headword": "Vivable",
+        "category": "adj.",
+        "posClass": "ADJECTIF",
+        "translationHy": "կյանքի՝ ապրելու համարնշ պիտանի // տանելի, հանդուրժելի",
+        "definition": "Le mot « vivable », quant à lui, qualifie quelque chose qui est apte à être vécu ou",
+        "examples": [
+          "d’utilisation :"
+        ],
+        "reviewNeeded": true,
+        "autoFilled": false
+      }
+    ]
   }
 ]

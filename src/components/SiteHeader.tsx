@@ -7,8 +7,9 @@ import { useState, useEffect } from "react";
 import { AuthButton } from "./AuthButton";
 
 const LINKS = [
-  { href: "/manuel", key: "manuel" as const },
   { href: "/exercices", key: "exercices" as const },
+  { href: "/manuel", key: "manuel" as const },
+  { href: "/paronymie", key: "paronymie" as const },
   { href: "/revision", key: "revision" as const },
   { href: "/tableau-de-bord", key: "tableauDeBord" as const },
 ];

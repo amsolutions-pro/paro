@@ -22,6 +22,10 @@ model User {
   emailVerified DateTime?
   image         String?
   createdAt     DateTime      @default(now())
+  country       String?
+  city          String?
+  deviceType    String?
+  lastSeenAt    DateTime?
   attempts         Attempt[]
   reviews          ReviewState[]
   accounts         Account[]
