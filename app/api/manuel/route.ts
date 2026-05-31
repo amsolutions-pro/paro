@@ -34,8 +34,9 @@ export async function GET(req: NextRequest) {
       FROM "ParonymGroup" g
       LEFT JOIN "Word" w ON w."groupId" = g.id
       WHERE (
-          unaccent(lower(g.title))         LIKE '%' || unaccent(lower(${search})) || '%'
-          OR unaccent(lower(w."headword")) LIKE '%' || unaccent(lower(${search})) || '%'
+          unaccent(lower(g.title))              LIKE '%' || unaccent(lower(${search})) || '%'
+          OR unaccent(lower(w."headword"))     LIKE '%' || unaccent(lower(${search})) || '%'
+          OR w."translationHy" LIKE '%' || ${search} || '%'
         )
     `;
 
