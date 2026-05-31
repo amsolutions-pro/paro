@@ -156,6 +156,7 @@ export function ExerciseSessionClient({
         if (!cancelled) {
           setItems(d.items);
           setExhausted(d.exhausted ?? false);
+          setPendingResume(false);
           setLoading(false);
         }
       } catch {
