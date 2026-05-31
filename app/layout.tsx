@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "/logo-partage.jpg",
+        url: "https://paro-xi.vercel.app/logo-partage.png",
         width: 1200,
         height: 630,
         alt: "Paronymes FR–HY · niveau B2",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     title: "Paronymes FR–HY · niveau B2",
     description:
       "Manuel raisonné et exercices bilingues français–arménien sur les paronymes. Niveau B2.",
-    images: ["/logo-partage.jpg"],
+    images: ["https://paro-xi.vercel.app/logo-partage.png"],
   },
 };
 

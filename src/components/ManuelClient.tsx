@@ -74,6 +74,29 @@ function buildLetterBuckets(counts: Record<string, number>): { label: string; le
   return buckets;
 }
 
+const EXPAND_THRESHOLD = 200;
+
+function ExpandableText({ text, className }: { text: string; className?: string }) {
+  const [expanded, setExpanded] = useState(false);
+  const isLong = text.length > EXPAND_THRESHOLD;
+  return (
+    <span>
+      <span className={!expanded && isLong ? "line-clamp-5" : className}>
+        {text}
+      </span>
+      {isLong && (
+        <button
+          type="button"
+          onClick={() => setExpanded((e) => !e)}
+          className="block text-lavande-600 hover:underline text-xs mt-0.5"
+        >
+          {expanded ? "Voir moins ▲" : "Voir plus ▼"}
+        </button>
+      )}
+    </span>
+  );
+}
+
 /** Separe "[IPA] · etymologie" → { ipa, etymology } */
 function parseOrigin(origin: string): { ipa: string; etymology: string } {
   const m = origin.match(/^(\[.+?\])\s*·\s*(.+)$/);
@@ -174,7 +197,7 @@ function MiseEnRegard({ words }: { words: Word[] }) {
               </th>
               <th className="px-3 py-2 text-left font-medium">
                 <span lang="hy" className="hy text-armenien">
-                  Հայerën
+                  Հայերեն
                 </span>
               </th>
             </tr>
@@ -191,7 +214,7 @@ function MiseEnRegard({ words }: { words: Word[] }) {
                   )}
                 </td>
                 <td className="px-3 py-2 text-encre-soft align-top hidden sm:table-cell">
-                  {w.definition.split(/[.;]/)[0].trim()}
+                  <ExpandableText text={w.definition} />
                 </td>
                 <td className="px-3 py-2 align-top">
                   {w.translationHy ? (
@@ -445,9 +468,9 @@ export function ManuelClient() {
                       <p className="text-lavande-700 text-xs font-semibold uppercase tracking-wide">
                         Le bon usage
                       </p>
-                      <p className="text-encre mt-1 text-sm leading-relaxed">
-                        {g.summary}
-                      </p>
+                      <div className="text-encre mt-1 text-sm leading-relaxed">
+                        <ExpandableText text={g.summary} />
+                      </div>
                     </div>
                   </div>
                 )}
