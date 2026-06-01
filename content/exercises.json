@@ -2697,8 +2697,8 @@
     "prompt": "Le château se dresse sur une ……….",
     "payload": {
       "bank": [
-        "éminence",
-        "imminence"
+        "imminence",
+        "éminence"
       ],
       "blanksCount": 1
     },
@@ -4385,8 +4385,8 @@
     "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
     "payload": {
       "pair": [
-        "conjecture",
-        "conjoncture"
+        "conjoncture",
+        "conjecture"
       ],
       "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples ………s."
     },
@@ -5731,8 +5731,8 @@
         {
           "n": 1,
           "options": [
-            "éminent",
-            "imminent"
+            "imminent",
+            "éminent"
           ]
         },
         {
@@ -5784,8 +5784,8 @@
         {
           "n": 2,
           "options": [
-            "prodigue",
-            "prodige"
+            "prodige",
+            "prodigue"
           ]
         },
         {
@@ -5830,8 +5830,8 @@
         {
           "n": 2,
           "options": [
-            "médical",
-            "médicinal"
+            "médicinal",
+            "médical"
           ]
         },
         {
@@ -5869,15 +5869,15 @@
         {
           "n": 1,
           "options": [
-            "importun",
-            "opportun"
+            "opportun",
+            "importun"
           ]
         },
         {
           "n": 2,
           "options": [
-            "infraction",
-            "effraction"
+            "effraction",
+            "infraction"
           ]
         },
         {
@@ -5915,8 +5915,8 @@
         {
           "n": 1,
           "options": [
-            "anoblir",
-            "ennoblir"
+            "ennoblir",
+            "anoblir"
           ]
         },
         {
@@ -5968,8 +5968,8 @@
         {
           "n": 2,
           "options": [
-            "adjurer",
-            "abjurer"
+            "abjurer",
+            "adjurer"
           ]
         },
         {
@@ -6014,15 +6014,15 @@
         {
           "n": 2,
           "options": [
-            "précepteur",
-            "percepteur"
+            "percepteur",
+            "précepteur"
           ]
         },
         {
           "n": 3,
           "options": [
-            "sceptique",
-            "septique"
+            "septique",
+            "sceptique"
           ]
         }
       ]
@@ -6053,8 +6053,8 @@
         {
           "n": 1,
           "options": [
-            "émigrer",
-            "immigrer"
+            "immigrer",
+            "émigrer"
           ]
         },
         {
@@ -6067,8 +6067,8 @@
         {
           "n": 3,
           "options": [
-            "repartir",
-            "répartir"
+            "répartir",
+            "repartir"
           ]
         }
       ]
@@ -6099,8 +6099,8 @@
         {
           "n": 1,
           "options": [
-            "allusion",
-            "illusion"
+            "illusion",
+            "allusion"
           ]
         },
         {
