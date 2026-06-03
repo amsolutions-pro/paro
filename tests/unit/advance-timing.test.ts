@@ -6,8 +6,6 @@ import {
   computeIncorrectDelayFromSamples,
   CORRECT_MAX_SAMPLES,
   INCORRECT_MAX_SAMPLES,
-  CORRECT_DEFAULT_MS,
-  INCORRECT_DEFAULT_MS,
   MAX_SAMPLES,
 } from "@/src/lib/advance-timing";
 

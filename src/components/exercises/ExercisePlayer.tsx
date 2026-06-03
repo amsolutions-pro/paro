@@ -51,10 +51,22 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
   const [result, setResult] = useState<AttemptResult | null>(null);
   const [submitting, setSubmitting] = useState(false);
   const [countdown, setCountdown] = useState<number | null>(null);
+  const [accordionOpen, setAccordionOpen] = useState(false);
+  const [activeDelay, setActiveDelay] = useState<number | null>(null);
   const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   const resultShownAt = useRef<number | null>(null);
+  const countdownJustExpired = useRef(false);
 
   const userId = getUserId();
+
+  function handleNext() {
+    if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+    setCountdown(null);
+    setResult(null);
+    setAccordionOpen(false);
+    resultShownAt.current = null;
+    onNext();
+  }
 
   // Demarre le compte a rebours apres une reponse.
   useEffect(() => {
@@ -65,8 +77,10 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     } else {
       delay = isAuthed ? computeIncorrectAutoDelay(userId) : 6;
     }
+    // Démarrage volontaire du compte à rebours en réponse à un nouveau résultat.
     if (isAuthed) {
       resultShownAt.current = Date.now();
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setActiveDelay(delay);
     }
     setCountdown(delay);
@@ -80,10 +94,9 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
       });
     }, 1000);
     return () => { if (timerRef.current) clearInterval(timerRef.current); };
-  }, [result, noAutoAdvance]);
+  }, [result, noAutoAdvance, isAuthed, userId]);
 
   // Passage automatique quand le compte atteint null — désactivé en mode révision.
-  const countdownJustExpired = useRef(false);
   useEffect(() => {
     if (!noAutoAdvance && result && countdown === null && countdownJustExpired.current) {
       countdownJustExpired.current = false;
@@ -112,15 +125,6 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     }
   }
 
-  function handleNext() {
-    if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
-    setCountdown(null);
-    setResult(null);
-    setAccordionOpen(false);
-    resultShownAt.current = null;
-    onNext();
-  }
-
   // Appel explicite par le bouton (jamais par le timer) — enregistre le timing.
   function handleManualNext() {
     if (isAuthed && !noAutoAdvance && resultShownAt.current !== null) {
@@ -130,9 +134,6 @@ export function ExercisePlayer({ item, onResult, onNext, onBack, canGoBack, noAu
     }
     handleNext();
   }
-
-  const [accordionOpen, setAccordionOpen] = useState(false);
-  const [activeDelay, setActiveDelay] = useState<number | null>(null);
 
   const type = item.type;
   const isOpen = item.gradingMode === "OPEN";

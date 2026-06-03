@@ -32,6 +32,9 @@ export function OnboardingNudge({ isAuthed }: { isAuthed: boolean }) {
   }, [isAuthed]);
 
   useEffect(() => {
+    // computeNextNudge lit localStorage : exécution client uniquement, déclenchée au
+    // montage et sur l'événement « paro:ob-update ». Le setState initial est voulu.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     refresh();
     window.addEventListener("paro:ob-update", refresh);
     return () => window.removeEventListener("paro:ob-update", refresh);

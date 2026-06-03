@@ -52,7 +52,7 @@ export function SuggestionForm() {
       ) : status === "sent" ? (
         <div className="rounded-xl border-l-4 border-green-500 bg-green-50 p-4 flex flex-col gap-3">
           <p className="font-semibold text-green-800">✓ Merci pour votre proposition !</p>
-          <p className="text-sm text-encre-soft">Nous l'examinerons prochainement.</p>
+          <p className="text-sm text-encre-soft">Nous l&apos;examinerons prochainement.</p>
           <button
             type="button"
             onClick={reset}

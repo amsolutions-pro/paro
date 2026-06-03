@@ -77,7 +77,7 @@ function extractWordHeader(raw: string): WordHeader | null {
   const catMatch = CAT_RE.exec(before);
   if (catMatch) {
     const catStart = catMatch.index;
-    let headword = before.slice(0, catStart)
+    const headword = before.slice(0, catStart)
       .replace(/[,\s]+$/, "")           // supprime virgule+espace finale (féminin)
       .replace(/\s*[\(\[][^\)\]]*[\)\]]$/, "") // supprime "(ve)", "(e)", etc.
       .trim();

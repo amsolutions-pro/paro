@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BuildInfo } from "@/src/components/ui/BuildInfo";
 import { ParonymieAccordion } from "@/src/components/ParonymieAccordion";
 
@@ -99,18 +100,18 @@ export default function ParonymiePage() {
           typologies d&apos;exercices vous attendent.
         </p>
         <div className="flex gap-3 flex-wrap">
-          <a
+          <Link
             href="/exercices"
             className="bg-lavande-500 hover:bg-lavande-700 rounded-lg px-4 py-2 text-sm font-medium text-white transition-colors"
           >
             Commencer les exercices →
-          </a>
-          <a
+          </Link>
+          <Link
             href="/manuel"
             className="border-lavande-300 text-lavande-700 hover:bg-lavande-100 rounded-lg border px-4 py-2 text-sm font-medium transition-colors"
           >
             Ouvrir le dictionnaire
-          </a>
+          </Link>
         </div>
       </section>
     </div>

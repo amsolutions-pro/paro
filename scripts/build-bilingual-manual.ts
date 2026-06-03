@@ -68,7 +68,7 @@ for (let i = 0; i < lines.length; i++) {
 
   // Collect definition from following lines
   let definition = "";
-  let examples: string[] = [];
+  const examples: string[] = [];
   let inDef = false;
   let inEx = false;
   for (let j = i + 1; j < Math.min(i + 25, lines.length); j++) {

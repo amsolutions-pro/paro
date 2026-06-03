@@ -40,7 +40,7 @@ for (let i = 0; i < lines.length; i++) {
     if (containsArmenian(rest)) {
       // Collect definition from subsequent lines
       let definition = "";
-      let examples: string[] = [];
+      const examples: string[] = [];
       let j = i + 1;
       let inDef = false;
       let inEx = false;

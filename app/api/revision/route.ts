@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { prisma } from "@/src/server/db";
-import { isDue, sortByPriority } from "@/src/domain/srs";
+import { isDue } from "@/src/domain/srs";
 import { reviewQueueQuerySchema } from "@/src/lib/api-schemas";
 import { getEffectiveUserId } from "@/src/server/identity";
 

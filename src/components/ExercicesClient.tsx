@@ -46,6 +46,9 @@ export function ExercicesClient() {
   >([]);
 
   useEffect(() => {
+    // Lecture localStorage réservée au client : impossible en SSR ou en init paresseuse
+    // (provoquerait un décalage d'hydratation). Le setState au montage est donc voulu.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setSavedSessions(detectSavedSessions());
   }, []);
 

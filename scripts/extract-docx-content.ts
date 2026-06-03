@@ -11,11 +11,6 @@ const ROOT = process.cwd();
 const TEXT = readFileSync(path.join(ROOT, "content/_extracted/manuel.txt"), "utf-8");
 const lines = TEXT.split("\n");
 
-interface WordEntry {
-  headword: string;
-  definition: string;
-}
-
 interface GroupEntry {
   headwords: string[];
   definitions: Record<string, string>;  // headword → definition

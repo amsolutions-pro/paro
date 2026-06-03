@@ -26,7 +26,11 @@ export function SiteHeader({ user, signInAction, signOutAction }: SiteHeaderProp
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  useEffect(() => { setOpen(false); }, [pathname]);
+  // Ferme le menu mobile à chaque navigation : effet de bord volontaire sur changement de route.
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setOpen(false);
+  }, [pathname]);
 
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "";

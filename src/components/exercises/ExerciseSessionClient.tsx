@@ -301,7 +301,7 @@ export function ExerciseSessionClient({
 
       {exhausted && (
         <p className="text-xs text-lavande-600 bg-lavande-50 border border-lavande-200 rounded px-3 py-1.5">
-          Vous avez déjà vu tous les exercices de ce type — sélection aléatoire depuis l'ensemble du catalogue.
+          Vous avez déjà vu tous les exercices de ce type — sélection aléatoire depuis l&apos;ensemble du catalogue.
         </p>
       )}
 

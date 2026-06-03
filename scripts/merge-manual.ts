@@ -84,11 +84,6 @@ for (const group of existingManual) {
 const existingSlugs = new Set(existingManual.map(g => g.slug));
 const existingWords = new Set(existingManual.flatMap(g => g.words.map(w => w.headword.toLowerCase())));
 
-// Slugify helper
-function slugify(s: string) {
-  return s.toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z]/g, "-").replace(/-+/g, "-").replace(/^-|-$/g, "");
-}
-
 function inferPosClass(cat: string): string {
   if (/\bv\b/.test(cat)) return "VERBE";
   if (/\bf\b/.test(cat)) return "NOM_F";
