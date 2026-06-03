@@ -31,6 +31,7 @@ async function main() {
   const exercises = [
     ...exercisesFileSchema.parse(await readJson("exercises.json")),
     ...exercisesFileSchema.parse(await readJson("exercises-quiz.json")),
+    ...exercisesFileSchema.parse(await readJson("exercises-extra.json")),
   ];
 
   // 1. Groupes + mots vedettes.
@@ -61,6 +62,24 @@ async function main() {
     });
   }
   console.log(`✅ ${manual.length} fiches, ${manual.reduce((n, g) => n + g.words.length, 0)} mots.`);
+
+  // 1bis. Purge des groupes retirés du contenu (dédup, fusion de familles…).
+  // La base doit refléter exactement content/manual.json (seule source de vérité) :
+  // sans ça, un groupe supprimé du JSON reste affiché sur le site (upsert ne supprime jamais).
+  // Garde-fou : on ne purge QUE si le manuel a une taille plausible, pour éviter un
+  // effacement massif si le JSON est tronqué/corrompu au moment du seed.
+  const MIN_GROUPS = 100;
+  if (manual.length >= MIN_GROUPS) {
+    const keep = [...slugToId.keys()];
+    const removed = await prisma.paronymGroup.deleteMany({ where: { slug: { notIn: keep } } });
+    if (removed.count > 0) {
+      // Cascade Prisma : mots supprimés ; exercices liés → groupId = NULL (onDelete: SetNull) ;
+      // états de révision (ReviewState) de ces groupes supprimés.
+      console.log(`🧹 ${removed.count} groupe(s) obsolète(s) supprimé(s) (absents du contenu).`);
+    }
+  } else {
+    console.warn(`⚠️  Purge des groupes ignorée : seulement ${manual.length} chargés (< ${MIN_GROUPS}, garde-fou).`);
+  }
 
   // 2. Items d'exercices.
   let count = 0;

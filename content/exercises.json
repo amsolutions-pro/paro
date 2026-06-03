@@ -923,7 +923,7 @@
       "model": "é- « hors de » (celui qui quitte son pays) ; im- « dans, vers » (celui qui y entre). Même personne, point de vue inverse."
     },
     "commentary": "émigrant / immigrant — é- « hors de » ; im- « dans, vers ». Même personne, point de vue inverse.",
-    "groupSlug": "emigrer-immigrer",
+    "groupSlug": "emigrer-immigrer-emigrant-immigrant-emigration-immigration",
     "source": "manuel",
     "reviewNeeded": false,
     "orderIndex": 1
@@ -1346,7 +1346,7 @@
       "justification": "C'est immigrer ; émigrer, c'est quitter son pays."
     },
     "commentary": "Faux — c'est immigrer ; émigrer, c'est quitter son pays.",
-    "groupSlug": "emigrer-immigrer",
+    "groupSlug": "emigrer-immigrer-emigrant-immigrant-emigration-immigration",
     "posClass": "VERBE",
     "source": "manuel",
     "reviewNeeded": false,
@@ -1443,147 +1443,6 @@
     "commentary": "Vrai — verser suppose la maîtrise du geste ; renverser est accidentel.",
     "groupSlug": "verser-renverser",
     "posClass": "VERBE",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 7
-  },
-  {
-    "slug": "transformation-1",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « affecter » : l'adjectif signifiant « relatif aux émotions ».",
-    "payload": {
-      "from": "affecter"
-    },
-    "solution": {
-      "answer": "affectif",
-      "accentSensitive": false
-    },
-    "commentary": "affectif — relatif aux émotions.",
-    "groupSlug": "affectif-affectueux",
-    "posClass": "ADJECTIF",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 1
-  },
-  {
-    "slug": "transformation-2",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « affecter » : l'adjectif signifiant « qui témoigne de la tendresse ».",
-    "payload": {
-      "from": "affecter"
-    },
-    "solution": {
-      "answer": "affectueux",
-      "accentSensitive": false
-    },
-    "commentary": "affectueux — qui manifeste de la tendresse.",
-    "groupSlug": "affectif-affectueux",
-    "posClass": "ADJECTIF",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 2
-  },
-  {
-    "slug": "transformation-3",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « répartir » : le nom d'action correspondant.",
-    "payload": {
-      "from": "répartir"
-    },
-    "solution": {
-      "answer": "répartition",
-      "accentSensitive": false
-    },
-    "commentary": "répartition — action de répartir.",
-    "groupSlug": "repartir-repartir-accent",
-    "posClass": "NOM_F",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 3
-  },
-  {
-    "slug": "transformation-4",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « proscrire » : le nom d'action correspondant.",
-    "payload": {
-      "from": "proscrire"
-    },
-    "solution": {
-      "answer": "proscription",
-      "accentSensitive": false
-    },
-    "commentary": "proscription — action de proscrire.",
-    "groupSlug": "prescription-proscription",
-    "posClass": "NOM_F",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 4
-  },
-  {
-    "slug": "transformation-5",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « prescrire » : le nom d'action correspondant.",
-    "payload": {
-      "from": "prescrire"
-    },
-    "solution": {
-      "answer": "prescription",
-      "accentSensitive": false
-    },
-    "commentary": "prescription — action de prescrire.",
-    "groupSlug": "prescription-proscription",
-    "posClass": "NOM_F",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 5
-  },
-  {
-    "slug": "transformation-6",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « émigrer » : le nom désignant la personne.",
-    "payload": {
-      "from": "émigrer"
-    },
-    "solution": {
-      "answer": "émigrant",
-      "accept": [
-        "émigrant",
-        "émigré"
-      ],
-      "accentSensitive": false
-    },
-    "commentary": "émigrant (ou émigré) — celui qui émigre.",
-    "groupSlug": "emigrer-immigrer",
-    "posClass": "NOM_M",
-    "source": "manuel",
-    "reviewNeeded": false,
-    "orderIndex": 6
-  },
-  {
-    "slug": "transformation-7",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "De « immigrer » : le nom désignant la personne.",
-    "payload": {
-      "from": "immigrer"
-    },
-    "solution": {
-      "answer": "immigrant",
-      "accept": [
-        "immigrant",
-        "immigré"
-      ],
-      "accentSensitive": false
-    },
-    "commentary": "immigrant (ou immigré) — celui qui immigre.",
-    "groupSlug": "emigrer-immigrer",
-    "posClass": "NOM_M",
     "source": "manuel",
     "reviewNeeded": false,
     "orderIndex": 7
@@ -1868,7 +1727,7 @@
       "accentSensitive": true
     },
     "commentary": "session — période de travail d'une assemblée.",
-    "groupSlug": "session-cession",
+    "groupSlug": "cession-session-scission",
     "posClass": "NOM_F",
     "source": "manuel",
     "reviewNeeded": false,
@@ -1888,7 +1747,7 @@
       "accentSensitive": true
     },
     "commentary": "cession — action de céder, transfert.",
-    "groupSlug": "session-cession",
+    "groupSlug": "cession-session-scission",
     "posClass": "NOM_F",
     "source": "manuel",
     "reviewNeeded": false,
@@ -2606,7 +2465,7 @@
       "accentSensitive": false
     },
     "commentary": "session (réunion) / cession (transfert) ; sceptique (qui doute) / septique (contaminé) ; imminence (proximité d'un événement) / éminence (haut rang) ; différer (remettre à plus tard) / déférer (transmettre à une autorité).",
-    "groupSlug": "session-cession",
+    "groupSlug": "cession-session-scission",
     "source": "manuel",
     "reviewNeeded": false,
     "orderIndex": 1
@@ -2697,8 +2556,8 @@
     "prompt": "Le château se dresse sur une ……….",
     "payload": {
       "bank": [
-        "imminence",
-        "éminence"
+        "éminence",
+        "imminence"
       ],
       "blanksCount": 1
     },
@@ -3614,63 +3473,6 @@
     "orderIndex": 10
   },
   {
-    "slug": "transformation-gen-1",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "Donnez le paronyme de « éminent » (Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.).",
-    "payload": {
-      "from": "éminent"
-    },
-    "solution": {
-      "answer": "imminent",
-      "accentSensitive": false
-    },
-    "commentary": "imminent — Imminent qualifie une chose qui est sur le point de se produire dans un avenir rapproché, qui est proche de se réaliser ou qui menace de se produire très bientôt. Ce terme est souvent utilisé pour décrire des événements ou des situations qui sont imminents ou qui pourraient survenir à tout moment.",
-    "groupSlug": "eminent-imminent",
-    "posClass": "ADJECTIF",
-    "source": "generated",
-    "reviewNeeded": true,
-    "orderIndex": 8
-  },
-  {
-    "slug": "transformation-gen-2",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "Donnez le paronyme de « éminence » (Caractère de ce qui est imminent ; proximité immédiate d'un événement.).",
-    "payload": {
-      "from": "éminence"
-    },
-    "solution": {
-      "answer": "imminence",
-      "accentSensitive": false
-    },
-    "commentary": "imminence — Caractère de ce qui est imminent ; proximité immédiate d'un événement.",
-    "groupSlug": "eminence-imminence",
-    "posClass": "NOM_F",
-    "source": "generated",
-    "reviewNeeded": true,
-    "orderIndex": 9
-  },
-  {
-    "slug": "transformation-gen-3",
-    "type": "TRANSFORMATION",
-    "gradingMode": "AUTO",
-    "prompt": "Donnez le paronyme de « conjecture » (La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux.).",
-    "payload": {
-      "from": "conjecture"
-    },
-    "solution": {
-      "answer": "conjoncture",
-      "accentSensitive": false
-    },
-    "commentary": "conjoncture — La conjoncture se réfère à l’état ou à la situation actuelle, en particulier lorsque plusieurs circonstances se rencontrent pour influencer une situation donnée. Cela peut inclure des facteurs économiques, politiques ou sociaux.",
-    "groupSlug": "conjecture-conjoncture",
-    "posClass": "NOM_F",
-    "source": "generated",
-    "reviewNeeded": true,
-    "orderIndex": 10
-  },
-  {
     "slug": "correction-gen-1",
     "type": "CORRECTION",
     "gradingMode": "AUTO",
@@ -4339,8 +4141,8 @@
     "prompt": "Un ……… spécialiste de la langue française.",
     "payload": {
       "pair": [
-        "éminent",
-        "imminent"
+        "imminent",
+        "éminent"
       ],
       "sentence": "Un ……… spécialiste de la langue française."
     },
@@ -4362,8 +4164,8 @@
     "prompt": "Le château se dresse sur une ……….",
     "payload": {
       "pair": [
-        "éminence",
-        "imminence"
+        "imminence",
+        "éminence"
       ],
       "sentence": "Le château se dresse sur une ………."
     },
@@ -4385,8 +4187,8 @@
     "prompt": "Faute de preuves, l'enquêteur en était réduit à de simples ………s.",
     "payload": {
       "pair": [
-        "conjoncture",
-        "conjecture"
+        "conjecture",
+        "conjoncture"
       ],
       "sentence": "Faute de preuves, l'enquêteur en était réduit à de simples ………s."
     },
@@ -5731,22 +5533,22 @@
         {
           "n": 1,
           "options": [
-            "imminent",
-            "éminent"
+            "éminent",
+            "imminent"
           ]
         },
         {
           "n": 2,
           "options": [
-            "éminence",
-            "imminence"
+            "imminence",
+            "éminence"
           ]
         },
         {
           "n": 3,
           "options": [
-            "conjoncture",
-            "conjecture"
+            "conjecture",
+            "conjoncture"
           ]
         }
       ]
@@ -5777,8 +5579,8 @@
         {
           "n": 1,
           "options": [
-            "collusion",
-            "collision"
+            "collision",
+            "collusion"
           ]
         },
         {
@@ -5791,8 +5593,8 @@
         {
           "n": 3,
           "options": [
-            "éruption",
-            "irruption"
+            "irruption",
+            "éruption"
           ]
         }
       ]
@@ -5823,8 +5625,8 @@
         {
           "n": 1,
           "options": [
-            "inculper",
-            "inculquer"
+            "inculquer",
+            "inculper"
           ]
         },
         {
@@ -5869,8 +5671,8 @@
         {
           "n": 1,
           "options": [
-            "opportun",
-            "importun"
+            "importun",
+            "opportun"
           ]
         },
         {
@@ -5883,8 +5685,8 @@
         {
           "n": 3,
           "options": [
-            "adsorber",
-            "absorber"
+            "absorber",
+            "adsorber"
           ]
         }
       ]
@@ -5915,15 +5717,15 @@
         {
           "n": 1,
           "options": [
-            "ennoblir",
-            "anoblir"
+            "anoblir",
+            "ennoblir"
           ]
         },
         {
           "n": 2,
           "options": [
-            "consommer",
-            "consumer"
+            "consumer",
+            "consommer"
           ]
         },
         {
@@ -5961,8 +5763,8 @@
         {
           "n": 1,
           "options": [
-            "desceller",
-            "déceler"
+            "déceler",
+            "desceller"
           ]
         },
         {
@@ -6021,8 +5823,8 @@
         {
           "n": 3,
           "options": [
-            "septique",
-            "sceptique"
+            "sceptique",
+            "septique"
           ]
         }
       ]
@@ -6053,15 +5855,15 @@
         {
           "n": 1,
           "options": [
-            "immigrer",
-            "émigrer"
+            "émigrer",
+            "immigrer"
           ]
         },
         {
           "n": 2,
           "options": [
-            "affectueux",
-            "affectif"
+            "affectif",
+            "affectueux"
           ]
         },
         {
@@ -6082,7 +5884,7 @@
       "accentSensitive": false
     },
     "commentary": "Texte lacunaire (items générés depuis le manuel).",
-    "groupSlug": "emigrer-immigrer",
+    "groupSlug": "emigrer-immigrer-emigrant-immigrant-emigration-immigration",
     "posClass": null,
     "source": "generated",
     "reviewNeeded": true,
@@ -6106,8 +5908,8 @@
         {
           "n": 2,
           "options": [
-            "décade",
-            "décennie"
+            "décennie",
+            "décade"
           ]
         },
         {
@@ -6132,6 +5934,63 @@
     "posClass": null,
     "source": "generated",
     "reviewNeeded": true,
+    "orderIndex": 10
+  },
+  {
+    "slug": "tran-8",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « éminent » : son paronyme signifiant « sur le point de se produire ».",
+    "payload": {
+      "from": "éminent"
+    },
+    "solution": {
+      "answer": "imminent",
+      "accentSensitive": false
+    },
+    "commentary": "imminent — sur le point de se produire ; à ne pas confondre avec éminent (remarquable).",
+    "groupSlug": "eminent-imminent",
+    "posClass": "ADJECTIF",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 8
+  },
+  {
+    "slug": "tran-9",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « éminence » : son paronyme signifiant « caractère de ce qui est sur le point de se produire ».",
+    "payload": {
+      "from": "éminence"
+    },
+    "solution": {
+      "answer": "imminence",
+      "accentSensitive": false
+    },
+    "commentary": "imminence — proximité immédiate d'un événement ; à ne pas confondre avec éminence (haut rang).",
+    "groupSlug": "eminence-imminence",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
+    "orderIndex": 9
+  },
+  {
+    "slug": "tran-10",
+    "type": "TRANSFORMATION",
+    "gradingMode": "AUTO",
+    "prompt": "De « conjecture » : son paronyme signifiant « situation économique ou politique du moment ».",
+    "payload": {
+      "from": "conjecture"
+    },
+    "solution": {
+      "answer": "conjoncture",
+      "accentSensitive": false
+    },
+    "commentary": "conjoncture — situation présente ; à ne pas confondre avec conjecture (supposition).",
+    "groupSlug": "conjecture-conjoncture",
+    "posClass": "NOM_F",
+    "source": "manuel",
+    "reviewNeeded": false,
     "orderIndex": 10
   }
 ]

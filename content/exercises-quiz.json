@@ -124,7 +124,7 @@
       "correctKey": "a"
     },
     "commentary": "affectif. Affectif : Se rapporte aux sentiments, aux émotions ou à la sensibilité (son état affectif). Affectueux : Qui montre de l'affection, de la tendresse (un enfant affectueux). Voici la transcription du texte présent dans l'image : toutlefrancais.com",
-    "groupSlug": "affectif-affectueux",
+    "groupSlug": "affectif-affectueux-effectif",
     "posClass": "ADJECTIF",
     "source": "manuel",
     "reviewNeeded": false,
@@ -149,7 +149,7 @@
       "accentSensitive": false
     },
     "commentary": "affectif. Affectif : Se rapporte aux sentiments, aux émotions ou à la sensibilité (son état affectif). Affectueux : Qui montre de l'affection, de la tendresse (un enfant affectueux). Voici la transcription du texte présent dans l'image : toutlefrancais.com",
-    "groupSlug": "affectif-affectueux",
+    "groupSlug": "affectif-affectueux-effectif",
     "posClass": "ADJECTIF",
     "source": "manuel",
     "reviewNeeded": false,
@@ -176,7 +176,7 @@
       "correctKey": "b"
     },
     "commentary": "effective. Présence effective : Signifie une présence réelle, concrète et physique. Affective : Se rapporte aux sentiments ou aux émotions (par exemple, \"un lien affectif\").",
-    "groupSlug": "affectif-affectueux",
+    "groupSlug": "affectif-affectueux-effectif",
     "posClass": "ADJECTIF",
     "source": "manuel",
     "reviewNeeded": false,
@@ -201,7 +201,7 @@
       "accentSensitive": false
     },
     "commentary": "effective. Présence effective : Signifie une présence réelle, concrète et physique. Affective : Se rapporte aux sentiments ou aux émotions (par exemple, \"un lien affectif\").",
-    "groupSlug": "affectif-affectueux",
+    "groupSlug": "affectif-affectueux-effectif",
     "posClass": "ADJECTIF",
     "source": "manuel",
     "reviewNeeded": false,
@@ -8435,7 +8435,7 @@
       }
     },
     "commentary": "Exercice bilingue — correspondances fr ↔ հայerën.",
-    "groupSlug": "affectif-affectueux",
+    "groupSlug": "affectif-affectueux-effectif",
     "posClass": null,
     "source": "manuel",
     "reviewNeeded": false,
@@ -9189,7 +9189,7 @@
       }
     },
     "commentary": "Exercice bilingue — correspondances fr ↔ հայerën.",
-    "groupSlug": "completage-complement-complementationetcompletude",
+    "groupSlug": "completage-complement-complementation-completude",
     "posClass": null,
     "source": "manuel",
     "reviewNeeded": false,
@@ -10233,7 +10233,7 @@
       }
     },
     "commentary": "Exercice bilingue — correspondances fr ↔ հայerën.",
-    "groupSlug": "emigrer-immigrer",
+    "groupSlug": "emigrer-immigrer-emigrant-immigrant-emigration-immigration",
     "posClass": null,
     "source": "manuel",
     "reviewNeeded": false,
@@ -10697,7 +10697,7 @@
       }
     },
     "commentary": "Exercice bilingue — correspondances fr ↔ հայerën.",
-    "groupSlug": "immigration-emigration",
+    "groupSlug": "emigrer-immigrer-emigrant-immigrant-emigration-immigration",
     "posClass": null,
     "source": "manuel",
     "reviewNeeded": false,
@@ -11683,7 +11683,7 @@
       }
     },
     "commentary": "Exercice bilingue — correspondances fr ↔ հայerën.",
-    "groupSlug": "rancune-rancur",
+    "groupSlug": "rancune-rancoeur",
     "posClass": null,
     "source": "manuel",
     "reviewNeeded": false,

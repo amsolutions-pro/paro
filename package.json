@@ -1,6 +1,6 @@
 {
   "name": "paro",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -41,6 +41,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "docx": "^9.7.1",
     "eslint": "^9",
     "eslint-config-next": "16.2.6",
     "eslint-config-prettier": "10.1.8",
